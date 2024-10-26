@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/ingot/graphite"
+    "tfc_metallurgy:metal/ingot/graphite"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:tuyeres/tungsten"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/tungsten",
+    "amount": 400
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

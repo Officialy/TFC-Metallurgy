@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/helmet/mithril"
+  },
+  "heat_capacity": 17.143,
+  "forging_temperature": 564,
+  "welding_temperature": 752
+}

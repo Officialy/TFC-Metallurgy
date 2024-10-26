@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/cobalt",
-    "tfc_metallum:metal/flowing_cobalt"
+    "tfc_metallurgy:metal/cobalt",
+    "tfc_metallurgy:metal/flowing_cobalt"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/ingot/florentine_bronze"
+    "tfc_metallurgy:metal/ingot/florentine_bronze"
   ]
 }

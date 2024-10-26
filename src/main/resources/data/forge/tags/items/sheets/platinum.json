@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/sheet/platinum"
+    "tfc_metallurgy:metal/sheet/platinum"
   ]
 }

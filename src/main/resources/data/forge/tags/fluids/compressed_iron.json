@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/compressed_iron",
-    "tfc_metallum:metal/flowing_compressed_iron"
+    "tfc_metallurgy:metal/compressed_iron",
+    "tfc_metallurgy:metal/flowing_compressed_iron"
   ]
 }

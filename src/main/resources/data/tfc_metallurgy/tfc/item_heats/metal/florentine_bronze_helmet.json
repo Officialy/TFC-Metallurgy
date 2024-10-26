@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/helmet/florentine_bronze"
+  },
+  "heat_capacity": 17.143,
+  "forging_temperature": 240,
+  "welding_temperature": 320
+}

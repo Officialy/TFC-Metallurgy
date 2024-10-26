@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/iron_bars_post_ends",
+  "textures": {
+    "particle": "tfc_metallurgy:block/tungsten_bars",
+    "bars": "tfc_metallurgy:block/tungsten_bars",
+    "edge": "tfc_metallurgy:block/tungsten_bars"
+  }
+}

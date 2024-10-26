@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/enderium",
-    "tfc_metallum:metal/flowing_enderium"
+    "tfc_metallurgy:metal/enderium",
+    "tfc_metallurgy:metal/flowing_enderium"
   ]
 }

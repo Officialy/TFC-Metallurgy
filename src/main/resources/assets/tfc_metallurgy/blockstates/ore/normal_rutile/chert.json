@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tfc_metallurgy:block/ore/normal_rutile/chert"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/shears/boron"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/boron",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

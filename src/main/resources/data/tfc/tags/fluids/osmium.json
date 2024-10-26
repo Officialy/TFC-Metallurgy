@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/osmium",
-    "tfc_metallum:metal/flowing_osmium"
+    "tfc_metallurgy:metal/osmium",
+    "tfc_metallurgy:metal/flowing_osmium"
   ]
 }

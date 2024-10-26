@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:sheets/invar"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/fish_hook/invar"
+  },
+  "tier": 3,
+  "rules": [
+    "draw_not_last",
+    "bend_any",
+    "hit_any"
+  ],
+  "apply_forging_bonus": true
+}

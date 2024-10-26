@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/fishing_rod/titanium"
+    "tfc_metallurgy:metal/fishing_rod/titanium"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/saw_blade/ferroboron"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/ferroboron",
+    "amount": 100
+  },
+  "temperature": 1535
+}

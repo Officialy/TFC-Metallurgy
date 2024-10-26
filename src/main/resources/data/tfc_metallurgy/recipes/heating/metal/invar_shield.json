@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/shield/invar"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/invar",
+    "amount": 400
+  },
+  "temperature": 1450,
+  "use_durability": true
+}

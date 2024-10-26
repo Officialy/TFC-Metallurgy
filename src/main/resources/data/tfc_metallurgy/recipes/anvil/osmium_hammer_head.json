@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/osmium"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/hammer_head/osmium"
+  },
+  "tier": 3,
+  "rules": [
+    "punch_last",
+    "shrink_not_last"
+  ],
+  "apply_forging_bonus": true
+}

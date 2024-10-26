@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/shovel/mithril"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/mithril",
+    "amount": 100
+  },
+  "temperature": 940,
+  "use_durability": true
+}

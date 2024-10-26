@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/chain",
+  "textures": {
+    "all": "tfc_metallurgy:block/metal/chain/cobalt",
+    "particle": "tfc_metallurgy:block/metal/full/cobalt"
+  }
+}

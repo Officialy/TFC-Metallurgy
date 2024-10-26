@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/refined_glowstone"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/saw_blade/refined_glowstone"
+  },
+  "tier": 4,
+  "rules": [
+    "hit_last",
+    "hit_second_last"
+  ],
+  "apply_forging_bonus": true
+}

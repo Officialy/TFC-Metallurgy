@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/boots/boron"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/boron",
+    "amount": 400
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

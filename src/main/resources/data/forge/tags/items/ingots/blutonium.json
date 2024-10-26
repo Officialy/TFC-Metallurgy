@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/ingot/blutonium"
+    "tfc_metallurgy:metal/ingot/blutonium"
   ]
 }

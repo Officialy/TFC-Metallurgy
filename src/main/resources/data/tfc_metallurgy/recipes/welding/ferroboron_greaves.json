@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc_metallurgy:metal/unfinished_greaves/ferroboron"
+  },
+  "second_input": {
+    "tag": "forge:sheets/ferroboron"
+  },
+  "tier": 5,
+  "result": {
+    "item": "tfc_metallurgy:metal/greaves/ferroboron"
+  }
+}

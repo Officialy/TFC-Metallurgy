@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_sheets/nickel_silver"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/unfinished_greaves/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "bend_any",
+    "draw_any",
+    "hit_any"
+  ]
+}

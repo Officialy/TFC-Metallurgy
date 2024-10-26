@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/sheet/alnico"
+    "tfc_metallurgy:metal/sheet/alnico"
   ]
 }

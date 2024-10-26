@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/thorium",
-    "tfc_metallum:metal/flowing_thorium"
+    "tfc_metallurgy:metal/thorium",
+    "tfc_metallurgy:metal/flowing_thorium"
   ]
 }

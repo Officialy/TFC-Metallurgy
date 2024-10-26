@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/shears/aluminum"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/aluminum",
+    "amount": 200
+  },
+  "temperature": 660,
+  "use_durability": true
+}

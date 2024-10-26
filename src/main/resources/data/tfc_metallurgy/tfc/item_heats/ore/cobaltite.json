@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_metallurgy:ore/small_cobaltite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/normal_cobaltite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/poor_cobaltite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/rich_cobaltite"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 900,
+  "welding_temperature": 1200
+}

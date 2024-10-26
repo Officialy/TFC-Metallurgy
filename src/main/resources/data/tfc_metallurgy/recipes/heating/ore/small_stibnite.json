@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:ore/small_stibnite"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/antimony",
+    "amount": 10
+  },
+  "temperature": 630
+}

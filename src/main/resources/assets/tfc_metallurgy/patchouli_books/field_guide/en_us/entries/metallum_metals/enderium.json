@@ -1,0 +1,17 @@
+{
+    "name": "Enderium",
+    "category": "tfc_metallurgy:metallum_metals",
+    "icon": "tfc_metallurgy:metal/ingot/enderium",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Enderium is a tier 5 metal added by TFC Metallum"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc_metallurgy:metal/ingot/enderium",
+            "title": "Enderium",
+            "link_recipes": false
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/ingot/uranium"
+    "tfc_metallurgy:metal/ingot/uranium"
   ]
 }

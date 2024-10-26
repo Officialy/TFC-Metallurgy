@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/sheet/osmiridium"
+    "tfc_metallurgy:metal/sheet/osmiridium"
   ]
 }

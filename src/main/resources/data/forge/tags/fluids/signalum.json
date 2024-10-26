@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/signalum",
-    "tfc_metallum:metal/flowing_signalum"
+    "tfc_metallurgy:metal/signalum",
+    "tfc_metallurgy:metal/flowing_signalum"
   ]
 }

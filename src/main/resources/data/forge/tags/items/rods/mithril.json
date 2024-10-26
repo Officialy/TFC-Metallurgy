@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/rod/mithril"
+    "tfc_metallurgy:metal/rod/mithril"
   ]
 }

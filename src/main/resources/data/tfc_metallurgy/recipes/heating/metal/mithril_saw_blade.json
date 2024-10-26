@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/saw_blade/mithril"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/mithril",
+    "amount": 100
+  },
+  "temperature": 940
+}

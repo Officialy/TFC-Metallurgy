@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/aluminum",
-    "tfc_metallum:metal/flowing_aluminum"
+    "tfc_metallurgy:metal/aluminum",
+    "tfc_metallurgy:metal/flowing_aluminum"
   ]
 }

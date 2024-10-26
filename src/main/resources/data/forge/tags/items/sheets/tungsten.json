@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/sheet/tungsten"
+    "tfc_metallurgy:metal/sheet/tungsten"
   ]
 }

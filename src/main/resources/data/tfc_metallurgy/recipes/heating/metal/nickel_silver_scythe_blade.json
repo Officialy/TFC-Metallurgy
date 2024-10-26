@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/scythe_blade/nickel_silver"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/nickel_silver",
+    "amount": 100
+  },
+  "temperature": 1450
+}

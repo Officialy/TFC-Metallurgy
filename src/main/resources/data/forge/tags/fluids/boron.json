@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/boron",
-    "tfc_metallum:metal/flowing_boron"
+    "tfc_metallurgy:metal/boron",
+    "tfc_metallurgy:metal/flowing_boron"
   ]
 }

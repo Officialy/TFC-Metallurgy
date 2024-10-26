@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/graphite",
-    "tfc_metallum:metal/flowing_graphite"
+    "tfc_metallurgy:metal/graphite",
+    "tfc_metallurgy:metal/flowing_graphite"
   ]
 }

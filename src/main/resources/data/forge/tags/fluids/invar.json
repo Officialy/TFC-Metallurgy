@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/invar",
-    "tfc_metallum:metal/flowing_invar"
+    "tfc_metallurgy:metal/invar",
+    "tfc_metallurgy:metal/flowing_invar"
   ]
 }

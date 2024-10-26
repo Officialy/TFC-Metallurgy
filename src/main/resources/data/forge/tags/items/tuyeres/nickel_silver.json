@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/tuyere/nickel_silver"
+    "tfc_metallurgy:metal/tuyere/nickel_silver"
   ]
 }

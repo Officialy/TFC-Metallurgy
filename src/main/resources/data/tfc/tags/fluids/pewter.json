@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/pewter",
-    "tfc_metallum:metal/flowing_pewter"
+    "tfc_metallurgy:metal/pewter",
+    "tfc_metallurgy:metal/flowing_pewter"
   ]
 }

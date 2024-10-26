@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:ore/normal_cobaltite"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/cobalt",
+    "amount": 25
+  },
+  "temperature": 1500
+}

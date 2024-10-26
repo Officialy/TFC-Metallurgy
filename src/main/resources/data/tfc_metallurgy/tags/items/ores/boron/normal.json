@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/normal_kernite/granite",
+    "tfc_metallurgy:ore/normal_kernite/diorite",
+    "tfc_metallurgy:ore/normal_kernite/gabbro",
+    "tfc_metallurgy:ore/normal_kernite/shale",
+    "tfc_metallurgy:ore/normal_kernite/claystone",
+    "tfc_metallurgy:ore/normal_kernite/limestone",
+    "tfc_metallurgy:ore/normal_kernite/conglomerate",
+    "tfc_metallurgy:ore/normal_kernite/dolomite",
+    "tfc_metallurgy:ore/normal_kernite/chert",
+    "tfc_metallurgy:ore/normal_kernite/chalk",
+    "tfc_metallurgy:ore/normal_kernite/rhyolite",
+    "tfc_metallurgy:ore/normal_kernite/basalt",
+    "tfc_metallurgy:ore/normal_kernite/andesite",
+    "tfc_metallurgy:ore/normal_kernite/dacite",
+    "tfc_metallurgy:ore/normal_kernite/quartzite",
+    "tfc_metallurgy:ore/normal_kernite/slate",
+    "tfc_metallurgy:ore/normal_kernite/phyllite",
+    "tfc_metallurgy:ore/normal_kernite/schist",
+    "tfc_metallurgy:ore/normal_kernite/gneiss",
+    "tfc_metallurgy:ore/normal_kernite/marble"
+  ]
+}

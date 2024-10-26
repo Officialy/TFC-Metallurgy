@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/tungsten",
-    "tfc_metallum:metal/flowing_tungsten"
+    "tfc_metallurgy:metal/tungsten",
+    "tfc_metallurgy:metal/flowing_tungsten"
   ]
 }

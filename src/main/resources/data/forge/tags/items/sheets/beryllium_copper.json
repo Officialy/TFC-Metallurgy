@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/sheet/beryllium_copper"
+    "tfc_metallurgy:metal/sheet/beryllium_copper"
   ]
 }

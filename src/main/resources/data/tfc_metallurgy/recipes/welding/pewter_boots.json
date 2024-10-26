@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc_metallurgy:metal/unfinished_boots/pewter"
+  },
+  "second_input": {
+    "tag": "forge:sheets/pewter"
+  },
+  "tier": 2,
+  "result": {
+    "item": "tfc_metallurgy:metal/boots/pewter"
+  }
+}

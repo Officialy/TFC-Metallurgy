@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc_metallurgy:block/ore/small_bauxite",
+        "y": 90
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_bauxite"
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_bauxite",
+        "y": 180
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_bauxite",
+        "y": 270
+      }
+    ]
+  }
+}

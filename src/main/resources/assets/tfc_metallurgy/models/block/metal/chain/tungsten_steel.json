@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/chain",
+  "textures": {
+    "all": "tfc_metallurgy:block/metal/chain/tungsten_steel",
+    "particle": "tfc_metallurgy:block/metal/full/tungsten_steel"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/tuyere/titanium"
+    "tfc_metallurgy:metal/tuyere/titanium"
   ]
 }

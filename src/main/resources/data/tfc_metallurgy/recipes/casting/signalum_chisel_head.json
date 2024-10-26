@@ -1,0 +1,14 @@
+{
+  "type": "tfc:casting",
+  "mold": {
+    "item": "tfc:ceramic/chisel_head_mold"
+  },
+  "fluid": {
+    "ingredient": "tfc_metallurgy:metal/signalum",
+    "amount": 100
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/chisel_head/signalum"
+  },
+  "break_chance": 1
+}

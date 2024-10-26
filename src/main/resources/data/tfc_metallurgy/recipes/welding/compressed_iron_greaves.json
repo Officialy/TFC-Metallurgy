@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc_metallurgy:metal/unfinished_greaves/compressed_iron"
+  },
+  "second_input": {
+    "tag": "forge:sheets/compressed_iron"
+  },
+  "tier": 2,
+  "result": {
+    "item": "tfc_metallurgy:metal/greaves/compressed_iron"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/sheet/thorium"
+    "tfc_metallurgy:metal/sheet/thorium"
   ]
 }

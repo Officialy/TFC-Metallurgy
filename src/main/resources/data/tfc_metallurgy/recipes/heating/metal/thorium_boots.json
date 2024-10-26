@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/boots/thorium"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/thorium",
+    "amount": 400
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

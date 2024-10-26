@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/beryllium",
-    "tfc_metallum:metal/flowing_beryllium"
+    "tfc_metallurgy:metal/beryllium",
+    "tfc_metallurgy:metal/flowing_beryllium"
   ]
 }

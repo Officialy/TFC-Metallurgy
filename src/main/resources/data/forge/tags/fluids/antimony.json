@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/antimony",
-    "tfc_metallum:metal/flowing_antimony"
+    "tfc_metallurgy:metal/antimony",
+    "tfc_metallurgy:metal/flowing_antimony"
   ]
 }

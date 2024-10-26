@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/helmet/lumium"
+  },
+  "heat_capacity": 17.143,
+  "forging_temperature": 900,
+  "welding_temperature": 1200
+}

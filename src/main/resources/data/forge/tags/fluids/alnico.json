@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/alnico",
-    "tfc_metallum:metal/flowing_alnico"
+    "tfc_metallurgy:metal/alnico",
+    "tfc_metallurgy:metal/flowing_alnico"
   ]
 }

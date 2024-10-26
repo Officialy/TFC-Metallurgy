@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tfc_metallum:metal/tuyere/compressed_iron"
+    "tfc_metallurgy:metal/tuyere/compressed_iron"
   ]
 }
