@@ -32,25 +32,22 @@ public class MetallumItemGroup {
     public static final TFCCreativeTabs.CreativeTabHolder METAL;
     public static final TFCCreativeTabs.CreativeTabHolder ORES;
 
-    private static void fillMetalTab(CreativeModeTab.ItemDisplayParameters parameters, CreativeModeTab.Output out) {
-        MetallumMetal[] var2 = MetallumMetal.values();
-        for (MetallumMetal metal : var2) {
-            MetallumMetal.BlockType[] var6 = new MetallumMetal.BlockType[]{MetallumMetal.BlockType.ANVIL, /*MetallumMetal.BlockType.BLOCK, MetallumMetal.BlockType.BLOCK_SLAB, MetallumMetal.BlockType.BLOCK_STAIRS, MetallumMetal.BlockType.BARS*/ MetallumMetal.BlockType.CHAIN, MetallumMetal.BlockType.TRAPDOOR, MetallumMetal.BlockType.LAMP};
-            int var7 = var6.length;
+    public static void fillMetalTab(CreativeModeTab.ItemDisplayParameters param, CreativeModeTab.Output out) {
+        for (MetallumMetal metal : MetallumMetal.values()) {
+            processBlockTypes(out, metal);
+            processItemTypes(out, metal);
+        }
+    }
 
-            int var8;
-            for (var8 = 0; var8 < var7; ++var8) {
-                MetallumMetal.BlockType type = var6[var8];
-                accept(out, MetallumBlocks.METALS, metal, type);
-            }
+    private static void processBlockTypes(CreativeModeTab.Output out, MetallumMetal metal) {
+        for (MetallumMetal.BlockType blockType : MetallumMetal.BlockType.values()) {
+            accept(out, MetallumBlocks.METALS, metal, blockType);
+        }
+    }
 
-            MetallumMetal.ItemType[] var10 = new MetallumMetal.ItemType[]{MetallumMetal.ItemType.INGOT, MetallumMetal.ItemType.DOUBLE_INGOT, MetallumMetal.ItemType.SHEET, MetallumMetal.ItemType.DOUBLE_SHEET, MetallumMetal.ItemType.ROD, MetallumMetal.ItemType.TUYERE, MetallumMetal.ItemType.PICKAXE, MetallumMetal.ItemType.PROPICK, MetallumMetal.ItemType.AXE, MetallumMetal.ItemType.SHOVEL, MetallumMetal.ItemType.HOE, MetallumMetal.ItemType.CHISEL, MetallumMetal.ItemType.HAMMER, MetallumMetal.ItemType.SAW, MetallumMetal.ItemType.KNIFE, MetallumMetal.ItemType.SCYTHE, MetallumMetal.ItemType.JAVELIN, MetallumMetal.ItemType.SWORD, MetallumMetal.ItemType.MACE, MetallumMetal.ItemType.FISHING_ROD, MetallumMetal.ItemType.SHEARS, MetallumMetal.ItemType.HELMET, MetallumMetal.ItemType.CHESTPLATE, MetallumMetal.ItemType.GREAVES, MetallumMetal.ItemType.BOOTS, MetallumMetal.ItemType.SHIELD, MetallumMetal.ItemType.PICKAXE_HEAD, MetallumMetal.ItemType.PROPICK_HEAD, MetallumMetal.ItemType.AXE_HEAD, MetallumMetal.ItemType.SHOVEL_HEAD, MetallumMetal.ItemType.HOE_HEAD, MetallumMetal.ItemType.CHISEL_HEAD, MetallumMetal.ItemType.HAMMER_HEAD, MetallumMetal.ItemType.SAW_BLADE, MetallumMetal.ItemType.KNIFE_BLADE, MetallumMetal.ItemType.SCYTHE_BLADE, MetallumMetal.ItemType.JAVELIN_HEAD, MetallumMetal.ItemType.SWORD_BLADE, MetallumMetal.ItemType.MACE_HEAD, MetallumMetal.ItemType.FISH_HOOK, MetallumMetal.ItemType.UNFINISHED_HELMET, MetallumMetal.ItemType.UNFINISHED_CHESTPLATE, MetallumMetal.ItemType.UNFINISHED_GREAVES, MetallumMetal.ItemType.UNFINISHED_BOOTS};
-            var7 = var10.length;
-
-            for (var8 = 0; var8 < var7; ++var8) {
-                MetallumMetal.ItemType itemType = var10[var8];
-                accept(out, MetallumItems.METAL_ITEMS, metal, itemType);
-            }
+    private static void processItemTypes(CreativeModeTab.Output out, MetallumMetal metal) {
+        for (MetallumMetal.ItemType itemType : MetallumMetal.ItemType.values()) {
+            accept(out, MetallumItems.METAL_ITEMS, metal, itemType);
         }
     }
 

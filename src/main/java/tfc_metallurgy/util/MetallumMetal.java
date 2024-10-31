@@ -227,6 +227,7 @@ public enum MetallumMetal implements RegistryMetal {
         UNFINISHED_GREAVES(Type.ARMOR, false),
         GREAVES(Type.ARMOR, (metal) -> new ArmorItem(metal.armorTier(), ArmorItem.Type.LEGGINGS, properties())),
         UNFINISHED_BOOTS(Type.ARMOR, false),
+        UNFINISHED_LAMP(Type.UTILITY, false),
         BOOTS(Type.ARMOR, (metal) -> new ArmorItem(metal.armorTier(), ArmorItem.Type.BOOTS, properties())),
         SHIELD(Type.TOOL, (metal) -> new TFCShieldItem(metal.toolTier(), properties()));
 
@@ -270,6 +271,9 @@ public enum MetallumMetal implements RegistryMetal {
         CHAIN(Type.UTILITY, (metal) -> new TFCChainBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.CHAIN))),
         LAMP(Type.UTILITY, (metal) -> new LampBlock(ExtendedProperties.of(MapColor.METAL).noOcclusion().sound(SoundType.LANTERN).strength(4.0F, 10.0F).randomTicks().lightLevel((state) -> (Boolean)state.getValue(LampBlock.LIT) ? 15 : 0).blockEntity(TFCBlockEntities.LAMP)), LampBlockItem::new),
         TRAPDOOR(Type.UTILITY, (metal) -> new TrapDoorBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).requiresCorrectToolForDrops().strength(5.0F).sound(SoundType.METAL).noOcclusion().isValidSpawn(TFCBlocks::never), BlockSetType.IRON));
+
+        // MetallumMetal.BlockType.BLOCK, MetallumMetal.BlockType.BLOCK_SLAB,
+        // MetallumMetal.BlockType.BLOCK_STAIRS, MetallumMetal.BlockType.BARS,
 
         private final Function<RegistryMetal, Block> blockFactory;
         private final BiFunction<Block, Item.Properties, ? extends BlockItem> blockItemFactory;
