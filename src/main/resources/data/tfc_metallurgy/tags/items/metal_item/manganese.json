@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/manganese",
+    "#forge:double_ingots/manganese",
+    "#forge:sheets/manganese",
+    "#forge:double_sheets/manganese",
+    "#forge:rods/manganese"
+  ]
+}

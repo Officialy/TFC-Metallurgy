@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:ore/poor_zircon"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/zirconium",
+    "amount": 15
+  },
+  "temperature": 1850
+}

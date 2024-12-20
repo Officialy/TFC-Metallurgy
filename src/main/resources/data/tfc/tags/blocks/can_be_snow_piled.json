@@ -9,10 +9,14 @@
     "tfc_metallurgy:ore/small_native_iridium",
     "tfc_metallurgy:ore/small_native_platinum",
     "tfc_metallurgy:ore/small_native_osmium",
+    "tfc_metallurgy:ore/small_magnesite",
     "tfc_metallurgy:ore/small_monazite",
+    "tfc_metallurgy:ore/small_pyrolusite",
     "tfc_metallurgy:ore/small_rutile",
+    "tfc_metallurgy:ore/small_spodumene",
     "tfc_metallurgy:ore/small_stibnite",
     "tfc_metallurgy:ore/small_uraninite",
-    "tfc_metallurgy:ore/small_wolframite"
+    "tfc_metallurgy:ore/small_wolframite",
+    "tfc_metallurgy:ore/small_zircon"
   ]
 }

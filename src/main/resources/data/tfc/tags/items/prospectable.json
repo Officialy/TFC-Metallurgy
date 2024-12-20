@@ -6,6 +6,9 @@
     "#forge:ores/certus_quartz",
     "#forge:ores/cobalt",
     "#forge:ores/lead",
+    "#forge:ores/lithium",
+    "#forge:ores/magnesium",
+    "#forge:ores/manganese",
     "#forge:ores/boron",
     "#forge:ores/iridium",
     "#forge:ores/platinum",
@@ -14,6 +17,7 @@
     "#forge:ores/titanium",
     "#forge:ores/antimony",
     "#forge:ores/uranium",
-    "#forge:ores/tungsten"
+    "#forge:ores/tungsten",
+    "#forge:ores/zirconium"
   ]
 }

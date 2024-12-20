@@ -51,7 +51,10 @@ public enum MetallumMetal implements RegistryMetal {
     INVAR(0xdbdcc, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.INVAR, MetallumArmorMaterials.INVAR, true, true, true),
     IRIDIUM(0xe8f9f, Rarity.UNCOMMON, Metal.Tier.TIER_III, true, false, false),
     LEAD(0x72798, Rarity.COMMON, Metal.Tier.TIER_I, true, false, false),
+    LITHIUM(0xC9CBC3, Rarity.RARE, Metal.Tier.TIER_II, true, false, false),
     LUMIUM(0xfff1a, Rarity.RARE, Metal.Tier.TIER_IV, MetallumTiers.LUMIUM, MetallumArmorMaterials.LUMIUM, true, true, true),
+    MAGNESIUM(0xFF978195, Rarity.RARE, Metal.Tier.TIER_III, true, false, false),
+    MANGANESE(0xFF9397A8, Rarity.RARE, Metal.Tier.TIER_III, true, false, false),
     MITHRIL(0x89d9f, Rarity.COMMON, Metal.Tier.TIER_II, MetallumTiers.MITHRIL, MetallumArmorMaterials.MITHRIL, true, true, true),
     NICKEL_SILVER(0xa4a3a, Rarity.COMMON, Metal.Tier.TIER_II, MetallumTiers.NICKEL_SILVER, MetallumArmorMaterials.NICKEL_SILVER, true, true, true),
     OSMIUM(0xddeff, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.OSMIUM, MetallumArmorMaterials.OSMIUM, true, true, true),
@@ -67,7 +70,9 @@ public enum MetallumMetal implements RegistryMetal {
     TUNGSTEN(0x97a3b, Rarity.EPIC, Metal.Tier.TIER_III, MetallumTiers.TUNGSTEN, MetallumArmorMaterials.TUNGSTEN, true, true, true),
     TUNGSTEN_STEEL(0x555e6, Rarity.EPIC, Metal.Tier.TIER_IV, MetallumTiers.TUNGSTEN_STEEL, MetallumArmorMaterials.TUNGSTEN_STEEL, true, true, true),
     URANIUM(0xf0f39, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.URANIUM, MetallumArmorMaterials.URANIUM, true, true, true),
-    HIGH_CARBON_TUNGSTEN_STEEL(0xf0f39, Rarity.UNCOMMON, Metal.Tier.TIER_IV, false, false, false);
+    HIGH_CARBON_TUNGSTEN_STEEL(0xf0f39, Rarity.UNCOMMON, Metal.Tier.TIER_IV, false, false, false),
+    ZIRCALOY(0xFF43423A, Rarity.RARE, Metal.Tier.TIER_VI, true, false, false),
+    ZIRCONIUM(0xFF747527, Rarity.RARE, Metal.Tier.TIER_VI, true, false, false);
 
     private final String serializedName;
     private final boolean parts, armor, utility;

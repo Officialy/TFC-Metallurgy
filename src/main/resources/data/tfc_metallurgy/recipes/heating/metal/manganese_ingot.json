@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:ingots/manganese"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/manganese",
+    "amount": 100
+  },
+  "temperature": 1250,
+  "use_durability": false
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:rods/lithium"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/lithium",
+    "amount": 50
+  },
+  "temperature": 328,
+  "use_durability": false
+}

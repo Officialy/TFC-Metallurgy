@@ -21,7 +21,10 @@
     "tfc_metallurgy:metal/double_ingot/invar",
     "tfc_metallurgy:metal/double_ingot/iridium",
     "tfc_metallurgy:metal/double_ingot/lead",
+    "tfc_metallurgy:metal/double_ingot/lithium",
     "tfc_metallurgy:metal/double_ingot/lumium",
+    "tfc_metallurgy:metal/double_ingot/magnesium",
+    "tfc_metallurgy:metal/double_ingot/manganese",
     "tfc_metallurgy:metal/double_ingot/mithril",
     "tfc_metallurgy:metal/double_ingot/nickel_silver",
     "tfc_metallurgy:metal/double_ingot/osmium",
@@ -36,6 +39,8 @@
     "tfc_metallurgy:metal/double_ingot/titanium",
     "tfc_metallurgy:metal/double_ingot/tungsten",
     "tfc_metallurgy:metal/double_ingot/tungsten_steel",
-    "tfc_metallurgy:metal/double_ingot/uranium"
+    "tfc_metallurgy:metal/double_ingot/uranium",
+    "tfc_metallurgy:metal/double_ingot/zircaloy",
+    "tfc_metallurgy:metal/double_ingot/zirconium"
   ]
 }

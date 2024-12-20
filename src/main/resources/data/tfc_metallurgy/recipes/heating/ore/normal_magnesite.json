@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:ore/normal_magnesite"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/magnesium",
+    "amount": 25
+  },
+  "temperature": 650
+}

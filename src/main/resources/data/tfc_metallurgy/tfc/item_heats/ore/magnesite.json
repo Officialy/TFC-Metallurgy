@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_metallurgy:ore/small_magnesite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/normal_magnesite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/poor_magnesite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/rich_magnesite"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 390,
+  "welding_temperature": 520
+}
