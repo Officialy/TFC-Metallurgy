@@ -1,0 +1,21 @@
+{
+    "name": "Pyrolusite",
+    "category": "tfc_metallurgy:metallum_ores",
+    "icon": "tfc_metallurgy:ore/rich_pyrolusite",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Pyrolusite is an ore found in Shale, Claystone and Quartzite"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc_metallurgy:ore/rich_pyrolusite/claystone",
+            "title": "Pyrolusite",
+            "link_recipes": false
+        },
+        {
+            "type": "patchouli:text",
+            "text": "It melt into $(thing)Manganese()"
+        }
+    ]
+}

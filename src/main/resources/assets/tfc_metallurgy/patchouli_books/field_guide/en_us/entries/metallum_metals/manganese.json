@@ -1,0 +1,18 @@
+{
+    "name": "Manganese",
+    "category": "tfc_metallurgy:metallum_metals",
+    "icon": "tfc_metallurgy:metal/ingot/manganese",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Manganese is a tier 3 metal added by TFC Metallum"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc_metallurgy:metal/ingot/manganese",
+            "title": "Manganese",
+            "link_recipes": false,
+            "text": "$(br)$(bold)Manganese() is obtained by smelting $(thing)Pyrolusite()"
+        }
+    ]
+}
