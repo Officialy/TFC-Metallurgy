@@ -25,10 +25,10 @@ import tfc_metallurgy.util.MetallurgyMetal;
 import java.util.Map;
 import java.util.function.Supplier;
 
-@Mod.EventBusSubscriber(modid = TFCMetallurgy.mod_id, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = TFCMetallurgy.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MetallurgyItemGroup {
 
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TFCMetallurgy.mod_id);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TFCMetallurgy.MOD_ID);
     public static final TFCCreativeTabs.CreativeTabHolder METAL;
     public static final TFCCreativeTabs.CreativeTabHolder ORES;
 

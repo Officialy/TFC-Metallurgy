@@ -24,8 +24,8 @@ import java.util.function.Function;
 
 public class MetallurgyFluids {
 
-    public static final DeferredRegister<FluidType> FLUID_TYPES = DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, TFCMetallurgy.mod_id);
-    public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS, TFCMetallurgy.mod_id);
+    public static final DeferredRegister<FluidType> FLUID_TYPES = DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, TFCMetallurgy.MOD_ID);
+    public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS, TFCMetallurgy.MOD_ID);
 
     private static FluidType.Properties lavaLike() {
         return FluidType.Properties.create().adjacentPathType(BlockPathTypes.LAVA)

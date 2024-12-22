@@ -14,10 +14,10 @@ import tfc_metallurgy.common.blocks.MetallurgyBlocks;
 import tfc_metallurgy.common.fluids.MetallurgyFluids;
 import tfc_metallurgy.common.items.MetallurgyItems;
 
-@Mod(TFCMetallurgy.mod_id)
+@Mod(TFCMetallurgy.MOD_ID)
 public class TFCMetallurgy {
 
-	public static final String mod_id = "tfc_metallurgy";
+	public static final String MOD_ID = "tfc_metallurgy";
 
 	public static final Logger LOGGER = LogUtils.getLogger();
 

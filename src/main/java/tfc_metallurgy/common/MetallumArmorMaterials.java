@@ -55,7 +55,7 @@ public enum MetallumArmorMaterials implements ArmorMaterial, PhysicalDamageType.
     private final float slashingModifier;
 
     MetallumArmorMaterials(int feetDamage, int legDamage, int chestDamage, int headDamage, int feetReduction, int legReduction, int chestReduction, int headReduction, int enchantability, float toughness, float knockbackResistance, float crushingModifier, float piercingModifier, float slashingModifier) {
-        this.serializedName = new ResourceLocation(TFCMetallurgy.mod_id, name().toLowerCase(Locale.ROOT));
+        this.serializedName = new ResourceLocation(TFCMetallurgy.MOD_ID, name().toLowerCase(Locale.ROOT));
         this.feetDamage = feetDamage;
         this.legDamage = legDamage;
         this.chestDamage = chestDamage;

@@ -20,7 +20,7 @@ import java.util.function.Supplier;
 
 public class MetallurgyItems {
 
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TFCMetallurgy.mod_id);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TFCMetallurgy.MOD_ID);
 
     public static final Map<MetallurgyMetal, Map<MetallurgyMetal.ItemType, RegistryObject<Item>>> METAL_ITEMS = Helpers.mapOfKeys(MetallurgyMetal.class, metal ->
             Helpers.mapOfKeys(MetallurgyMetal.ItemType.class, type -> type.has(metal), type ->

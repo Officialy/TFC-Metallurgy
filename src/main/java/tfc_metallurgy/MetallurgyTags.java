@@ -32,7 +32,7 @@ public class MetallurgyTags {
         public static final TagKey<Block> NEEDS_TUNGSTEN_TOOLS = create("needs_tungsten_tools");
 
         private static TagKey<Block> create(String id) {
-            return TagKey.create(Registries.BLOCK, new ResourceLocation(TFCMetallurgy.mod_id, id));
+            return TagKey.create(Registries.BLOCK, new ResourceLocation(TFCMetallurgy.MOD_ID, id));
         }
     }
 }

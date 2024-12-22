@@ -33,7 +33,7 @@ import java.util.function.Supplier;
 
 public class MetallurgyBlocks {
 
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TFCMetallurgy.mod_id);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TFCMetallurgy.MOD_ID);
 
     public static final Map<Rock, Map<MetallurgyOre, RegistryObject<Block>>> ORES = Helpers.mapOfKeys(Rock.class, rock ->
             Helpers.mapOfKeys(MetallurgyOre.class, ore -> !ore.isGraded(), ore ->

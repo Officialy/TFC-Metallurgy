@@ -15,7 +15,7 @@ import java.util.stream.Stream;
 
 public class MetallurgyBlockEntities {
 
-    public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, TFCMetallurgy.mod_id);
+    public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, TFCMetallurgy.MOD_ID);
 
     public static final RegistryObject<BlockEntityType<MetallurgyBellBlockEntity>> BELL = register("bell", MetallurgyBellBlockEntity::new, Stream.of(MetallurgyBlocks.FLORENTINE_BRONZE_BELL, MetallurgyBlocks.BERYLLIUM_COPPER_BELL));
 
