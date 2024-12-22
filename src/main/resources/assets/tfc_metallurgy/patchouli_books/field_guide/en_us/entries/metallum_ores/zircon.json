@@ -1,0 +1,21 @@
+{
+    "name": "Zircon",
+    "category": "tfc_metallurgy:metallum_ores",
+    "icon": "tfc_metallurgy:ore/rich_zircon",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Zircon is an ore found in Granite, Rhyolite and Quartzite"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc_metallurgy:ore/rich_zircon/granite",
+            "title": "Zircon",
+            "link_recipes": false
+        },
+        {
+            "type": "patchouli:text",
+            "text": "It melt into $(thing)Zirconium()"
+        }
+    ]
+}

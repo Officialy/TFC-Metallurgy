@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/magnesium",
+    "#forge:double_ingots/magnesium",
+    "#forge:sheets/magnesium",
+    "#forge:double_sheets/magnesium",
+    "#forge:rods/magnesium"
+  ]
+}

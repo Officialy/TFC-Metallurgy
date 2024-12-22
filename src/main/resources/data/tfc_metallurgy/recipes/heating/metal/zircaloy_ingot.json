@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:ingots/zircaloy"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/zircaloy",
+    "amount": 100
+  },
+  "temperature": 1850,
+  "use_durability": false
+}

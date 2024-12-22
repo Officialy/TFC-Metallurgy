@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:ingots/lithium"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/lithium",
+    "amount": 100
+  },
+  "temperature": 328,
+  "use_durability": false
+}

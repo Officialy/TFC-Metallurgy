@@ -1,0 +1,12 @@
+{
+  "tier": 2,
+  "fluid": "tfc_metallurgy:metal/lithium",
+  "melt_temperature": 180,
+  "specific_heat_capacity": 0.01,
+  "ingots": {
+    "tag": "forge:ingots/lithium"
+  },
+  "sheets": {
+    "tag": "forge:sheets/lithium"
+  }
+}

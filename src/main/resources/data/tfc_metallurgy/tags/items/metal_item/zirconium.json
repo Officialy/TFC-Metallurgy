@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/zirconium",
+    "#forge:double_ingots/zirconium",
+    "#forge:sheets/zirconium",
+    "#forge:double_sheets/zirconium",
+    "#forge:rods/zirconium"
+  ]
+}

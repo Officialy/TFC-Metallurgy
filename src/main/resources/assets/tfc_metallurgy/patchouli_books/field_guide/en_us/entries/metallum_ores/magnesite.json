@@ -1,0 +1,21 @@
+{
+    "name": "Magnesite",
+    "category": "tfc_metallurgy:metallum_ores",
+    "icon": "tfc_metallurgy:ore/rich_magnesite",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Magnesite is an ore found in Dolomite, Limestone and Marble"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc_metallurgy:ore/rich_magnesite/dolomite",
+            "title": "Magnesite",
+            "link_recipes": false
+        },
+        {
+            "type": "patchouli:text",
+            "text": "It melt into $(thing)Magnesium()"
+        }
+    ]
+}

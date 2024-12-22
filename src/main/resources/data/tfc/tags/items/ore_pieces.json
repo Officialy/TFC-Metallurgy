@@ -40,6 +40,18 @@
     "tfc_metallurgy:ore/poor_uraninite",
     "tfc_metallurgy:ore/rich_wolframite",
     "tfc_metallurgy:ore/normal_wolframite",
-    "tfc_metallurgy:ore/poor_wolframite"
+    "tfc_metallurgy:ore/poor_wolframite",
+    "tfc_metallurgy:ore/rich_magnesite",
+    "tfc_metallurgy:ore/normal_magnesite",
+    "tfc_metallurgy:ore/poor_magnesite",
+    "tfc_metallurgy:ore/rich_pyrolusite",
+    "tfc_metallurgy:ore/normal_pyrolusite",
+    "tfc_metallurgy:ore/poor_pyrolusite",
+    "tfc_metallurgy:ore/rich_spodumene",
+    "tfc_metallurgy:ore/normal_spodumene",
+    "tfc_metallurgy:ore/poor_spodumene",
+    "tfc_metallurgy:ore/rich_zircon",
+    "tfc_metallurgy:ore/normal_zircon",
+    "tfc_metallurgy:ore/poor_zircon"
   ]
 }

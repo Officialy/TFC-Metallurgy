@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "forge:sheets/lithium"
+  },
+  "second_input": {
+    "tag": "forge:sheets/lithium"
+  },
+  "tier": 2,
+  "result": {
+    "item": "tfc_metallurgy:metal/double_sheet/lithium"
+  }
+}

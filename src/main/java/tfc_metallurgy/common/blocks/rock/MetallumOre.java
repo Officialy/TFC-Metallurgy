@@ -11,14 +11,18 @@ public enum MetallumOre {
     COBALTITE(true),
     KERNITE(true),
     GALENA(true),
+    MAGNESITE(true),
     MONAZITE(true),
     NATIVE_OSMIUM(true),
     NATIVE_IRIDIUM(true),
     NATIVE_PLATINUM(true),
     RUTILE(true),
+    PYROLUSITE(true),
+    SPODUMENE(true),
     STIBNITE(true),
     URANINITE(true),
     WOLFRAMITE(true),
+    ZIRCON(true),
     CERTUS_QUARTZ(false);
 
     private final boolean grade;

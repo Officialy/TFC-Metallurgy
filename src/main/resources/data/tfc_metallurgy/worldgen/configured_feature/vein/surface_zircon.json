@@ -1,0 +1,81 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 40,
+    "min_y": 70,
+    "max_y": 90,
+    "size": 10,
+    "density": 0.25,
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/granite"
+        ],
+        "with": [
+          {
+            "weight": 80,
+            "block": "tfc_metallurgy:ore/poor_zircon/granite"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/normal_zircon/granite"
+          },
+          {
+            "weight": 5,
+            "block": "tfc_metallurgy:ore/rich_zircon/granite"
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/rhyolite"
+        ],
+        "with": [
+          {
+            "weight": 80,
+            "block": "tfc_metallurgy:ore/poor_zircon/rhyolite"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/normal_zircon/rhyolite"
+          },
+          {
+            "weight": 5,
+            "block": "tfc_metallurgy:ore/rich_zircon/rhyolite"
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/quartzite"
+        ],
+        "with": [
+          {
+            "weight": 80,
+            "block": "tfc_metallurgy:ore/poor_zircon/quartzite"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/normal_zircon/quartzite"
+          },
+          {
+            "weight": 5,
+            "block": "tfc_metallurgy:ore/rich_zircon/quartzite"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 6,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_zircon"
+        }
+      ]
+    },
+    "random_name": "normal_zircon"
+  }
+}

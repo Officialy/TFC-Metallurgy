@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/zircaloy"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/rod/zircaloy"
+  },
+  "tier": 3,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

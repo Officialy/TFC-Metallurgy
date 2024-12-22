@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/rich_zircon/granite",
+    "tfc_metallurgy:ore/rich_zircon/diorite",
+    "tfc_metallurgy:ore/rich_zircon/gabbro",
+    "tfc_metallurgy:ore/rich_zircon/shale",
+    "tfc_metallurgy:ore/rich_zircon/claystone",
+    "tfc_metallurgy:ore/rich_zircon/limestone",
+    "tfc_metallurgy:ore/rich_zircon/conglomerate",
+    "tfc_metallurgy:ore/rich_zircon/dolomite",
+    "tfc_metallurgy:ore/rich_zircon/chert",
+    "tfc_metallurgy:ore/rich_zircon/chalk",
+    "tfc_metallurgy:ore/rich_zircon/rhyolite",
+    "tfc_metallurgy:ore/rich_zircon/basalt",
+    "tfc_metallurgy:ore/rich_zircon/andesite",
+    "tfc_metallurgy:ore/rich_zircon/dacite",
+    "tfc_metallurgy:ore/rich_zircon/quartzite",
+    "tfc_metallurgy:ore/rich_zircon/slate",
+    "tfc_metallurgy:ore/rich_zircon/phyllite",
+    "tfc_metallurgy:ore/rich_zircon/schist",
+    "tfc_metallurgy:ore/rich_zircon/gneiss",
+    "tfc_metallurgy:ore/rich_zircon/marble"
+  ]
+}

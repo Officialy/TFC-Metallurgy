@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_metallurgy:ore/small_zircon"
+    },
+    {
+      "item": "tfc_metallurgy:ore/normal_zircon"
+    },
+    {
+      "item": "tfc_metallurgy:ore/poor_zircon"
+    },
+    {
+      "item": "tfc_metallurgy:ore/rich_zircon"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 1110,
+  "welding_temperature": 1480
+}
