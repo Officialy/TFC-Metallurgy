@@ -24,7 +24,7 @@ apply from: 'https://raw.githubusercontent.com/SizableShrimp/Forge-Class-Remappe
 
 version = mod_version
 group = 'tfc_metallurgy'
-archivesBaseName = 'TFC Metallum 1.20.1'
+archivesBaseName = 'TFC Metallurgy 1.20.1'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -127,8 +127,8 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "TFC Metallum",
-            "Specification-Vendor": "Mrthomas20121",
+            "Specification-Title": "TFC Metallurgy",
+            "Specification-Vendor": "OfficialyMax",
             "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": project.version,

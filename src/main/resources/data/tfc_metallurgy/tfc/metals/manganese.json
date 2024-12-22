@@ -1,0 +1,12 @@
+{
+  "tier": 3,
+  "fluid": "tfc_metallurgy:metal/manganese",
+  "melt_temperature": 1250,
+  "specific_heat_capacity": 0.01,
+  "ingots": {
+    "tag": "forge:ingots/manganese"
+  },
+  "sheets": {
+    "tag": "forge:sheets/manganese"
+  }
+}

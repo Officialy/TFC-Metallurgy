@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:ingots/zirconium"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/zirconium",
+    "amount": 100
+  },
+  "temperature": 1850,
+  "use_durability": false
+}

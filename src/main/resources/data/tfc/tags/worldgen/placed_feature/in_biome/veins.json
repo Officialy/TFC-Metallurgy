@@ -26,6 +26,14 @@
 	  "tfc_metallurgy:vein/normal_wolframite",
 	  "tfc_metallurgy:vein/deep_wolframite",
 	  "tfc_metallurgy:vein/surface_bauxite",
-	  "tfc_metallurgy:vein/normal_bauxite"
-	]
+	  "tfc_metallurgy:vein/normal_bauxite",
+	  "tfc_metallurgy:vein/normal_magnesite",
+	  "tfc_metallurgy:vein/normal_pyrolusite",
+	  "tfc_metallurgy:vein/deep_spodumene",
+	  "tfc_metallurgy:vein/deep_zircon",
+	  "tfc_metallurgy:vein/surface_magnesite",
+	  "tfc_metallurgy:vein/surface_pyrolusite",
+	  "tfc_metallurgy:vein/surface_spodumene",
+	  "tfc_metallurgy:vein/surface_zircon"
+  ]
 }

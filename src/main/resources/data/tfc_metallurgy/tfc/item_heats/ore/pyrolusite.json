@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_metallurgy:ore/small_pyrolusite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/normal_pyrolusite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/poor_pyrolusite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/rich_pyrolusite"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 750,
+  "welding_temperature": 1000
+}

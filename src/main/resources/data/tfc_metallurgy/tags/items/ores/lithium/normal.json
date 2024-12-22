@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/normal_spodumene/granite",
+    "tfc_metallurgy:ore/normal_spodumene/diorite",
+    "tfc_metallurgy:ore/normal_spodumene/gabbro",
+    "tfc_metallurgy:ore/normal_spodumene/shale",
+    "tfc_metallurgy:ore/normal_spodumene/claystone",
+    "tfc_metallurgy:ore/normal_spodumene/limestone",
+    "tfc_metallurgy:ore/normal_spodumene/conglomerate",
+    "tfc_metallurgy:ore/normal_spodumene/dolomite",
+    "tfc_metallurgy:ore/normal_spodumene/chert",
+    "tfc_metallurgy:ore/normal_spodumene/chalk",
+    "tfc_metallurgy:ore/normal_spodumene/rhyolite",
+    "tfc_metallurgy:ore/normal_spodumene/basalt",
+    "tfc_metallurgy:ore/normal_spodumene/andesite",
+    "tfc_metallurgy:ore/normal_spodumene/dacite",
+    "tfc_metallurgy:ore/normal_spodumene/quartzite",
+    "tfc_metallurgy:ore/normal_spodumene/slate",
+    "tfc_metallurgy:ore/normal_spodumene/phyllite",
+    "tfc_metallurgy:ore/normal_spodumene/schist",
+    "tfc_metallurgy:ore/normal_spodumene/gneiss",
+    "tfc_metallurgy:ore/normal_spodumene/marble"
+  ]
+}

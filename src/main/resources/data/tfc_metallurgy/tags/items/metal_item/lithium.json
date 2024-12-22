@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/lithium",
+    "#forge:double_ingots/lithium",
+    "#forge:sheets/lithium",
+    "#forge:double_sheets/lithium",
+    "#forge:rods/lithium"
+  ]
+}

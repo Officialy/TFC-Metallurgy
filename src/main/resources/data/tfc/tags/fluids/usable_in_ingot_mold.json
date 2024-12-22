@@ -21,7 +21,10 @@
     "tfc_metallurgy:metal/invar",
     "tfc_metallurgy:metal/iridium",
     "tfc_metallurgy:metal/lead",
+    "tfc_metallurgy:metal/lihium",
     "tfc_metallurgy:metal/lumium",
+    "tfc_metallurgy:metal/magnesium",
+    "tfc_metallurgy:metal/manganese",
     "tfc_metallurgy:metal/mithril",
     "tfc_metallurgy:metal/nickel_silver",
     "tfc_metallurgy:metal/osmium",
@@ -36,6 +39,8 @@
     "tfc_metallurgy:metal/titanium",
     "tfc_metallurgy:metal/tungsten",
     "tfc_metallurgy:metal/tungsten_steel",
-    "tfc_metallurgy:metal/uranium"
+    "tfc_metallurgy:metal/uranium",
+    "tfc_metallurgy:metal/zircaloy",
+    "tfc_metallurgy:metal/zirconium"
   ]
 }

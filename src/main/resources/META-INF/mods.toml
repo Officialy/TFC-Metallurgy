@@ -5,12 +5,12 @@ issueTrackerURL="https://github.com/Officialy/TFC-Metallurgy/issues"
 
 [[mods]]
 modId="tfc_metallurgy"
-version="1.0.8"
+version="1.0.2"
 displayName="TFC Metallurgy"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/tfc_metallurgy"
-authors="OfficialyMax, Mrthomas20121"
+authors="OfficialyMax (Current), Hyperbaton (Added some metals), Mrthomas20121 (1.18 version)"
 description='''
-Add metals and ores from other mods to TFC.
+Add metals and ores from other mods and science itself to TFC.
 '''
 
 [[dependencies.tfc_metallurgy]] #optional

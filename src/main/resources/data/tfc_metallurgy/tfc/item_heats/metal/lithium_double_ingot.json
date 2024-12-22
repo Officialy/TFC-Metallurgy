@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "forge:double_ingots/lithium"
+  },
+  "heat_capacity": 5.714,
+  "forging_temperature": 108,
+  "welding_temperature": 144
+}
