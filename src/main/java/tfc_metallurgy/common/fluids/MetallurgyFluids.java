@@ -14,15 +14,15 @@ import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import tfc_metallurgy.TFCMetallurgy;
-import tfc_metallurgy.common.blocks.MetallumBlocks;
-import tfc_metallurgy.common.items.MetallumItems;
-import tfc_metallurgy.util.MetallumMetal;
+import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.items.MetallurgyItems;
+import tfc_metallurgy.util.MetallurgyMetal;
 
 import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-public class MetallumFluids {
+public class MetallurgyFluids {
 
     public static final DeferredRegister<FluidType> FLUID_TYPES = DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, TFCMetallurgy.mod_id);
     public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS, TFCMetallurgy.mod_id);
@@ -36,9 +36,9 @@ public class MetallumFluids {
                 .canHydrate(false).canPushEntity(false).canSwim(false).supportsBoating(false);
     }
 
-    public static final Map<MetallumMetal, FluidRegistryObject<ForgeFlowingFluid>> METALS = Helpers.mapOfKeys(MetallumMetal.class, metal -> register(
+    public static final Map<MetallurgyMetal, FluidRegistryObject<ForgeFlowingFluid>> METALS = Helpers.mapOfKeys(MetallurgyMetal.class, metal -> register(
             "metal/" + metal.getSerializedName(),
-            properties -> properties.block(MetallumBlocks.METAL_FLUIDS.get(metal)).bucket(MetallumItems.METAL_FLUID_BUCKETS.get(FluidId.asType(metal))).explosionResistance(100.0F),
+            properties -> properties.block(MetallurgyBlocks.METAL_FLUIDS.get(metal)).bucket(MetallurgyItems.METAL_FLUID_BUCKETS.get(FluidId.asType(metal))).explosionResistance(100.0F),
             lavaLike().descriptionId("fluid.tfc.metal." + metal.getSerializedName()).rarity(metal.getRarity()),
             new FluidTypeClientProperties(-16777216 | metal.getColor(), new ResourceLocation("tfc_metallurgy:block/metal/fluid/" + metal.getSerializedName() + "_still"),
                     new ResourceLocation("tfc_metallurgy:block/metal/fluid/" + metal.getSerializedName() + "_flow"), null, null),

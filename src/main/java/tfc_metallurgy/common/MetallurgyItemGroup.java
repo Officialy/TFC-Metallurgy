@@ -16,65 +16,65 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import tfc_metallurgy.TFCMetallurgy;
-import tfc_metallurgy.common.blocks.MetallumBlocks;
-import tfc_metallurgy.common.blocks.rock.MetallumOre;
-import tfc_metallurgy.common.items.MetallumItems;
+import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.blocks.rock.MetallurgyOre;
+import tfc_metallurgy.common.items.MetallurgyItems;
 import tfc_metallurgy.util.BloomMetal;
-import tfc_metallurgy.util.MetallumMetal;
+import tfc_metallurgy.util.MetallurgyMetal;
 
 import java.util.Map;
 import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(modid = TFCMetallurgy.mod_id, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class MetallumItemGroup {
+public class MetallurgyItemGroup {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TFCMetallurgy.mod_id);
     public static final TFCCreativeTabs.CreativeTabHolder METAL;
     public static final TFCCreativeTabs.CreativeTabHolder ORES;
 
     public static void fillMetalTab(CreativeModeTab.ItemDisplayParameters param, CreativeModeTab.Output out) {
-        for (MetallumMetal metal : MetallumMetal.values()) {
+        for (MetallurgyMetal metal : MetallurgyMetal.values()) {
             processBlockTypes(out, metal);
             processItemTypes(out, metal);
         }
     }
 
-    private static void processBlockTypes(CreativeModeTab.Output out, MetallumMetal metal) {
-        for (MetallumMetal.BlockType blockType : MetallumMetal.BlockType.values()) {
-            accept(out, MetallumBlocks.METALS, metal, blockType);
+    private static void processBlockTypes(CreativeModeTab.Output out, MetallurgyMetal metal) {
+        for (MetallurgyMetal.BlockType blockType : MetallurgyMetal.BlockType.values()) {
+            accept(out, MetallurgyBlocks.METALS, metal, blockType);
         }
     }
 
-    private static void processItemTypes(CreativeModeTab.Output out, MetallumMetal metal) {
-        for (MetallumMetal.ItemType itemType : MetallumMetal.ItemType.values()) {
-            accept(out, MetallumItems.METAL_ITEMS, metal, itemType);
+    private static void processItemTypes(CreativeModeTab.Output out, MetallurgyMetal metal) {
+        for (MetallurgyMetal.ItemType itemType : MetallurgyMetal.ItemType.values()) {
+            accept(out, MetallurgyItems.METAL_ITEMS, metal, itemType);
         }
     }
 
     //Essentially the same as TFC but for our metals
     private static void fillOresTab(CreativeModeTab.ItemDisplayParameters parameters, CreativeModeTab.Output out) {
-        MetallumOre[] var2 = MetallumOre.values();
+        MetallurgyOre[] var2 = MetallurgyOre.values();
         int var3 = var2.length;
 
         int var4;
-        MetallumOre ore;
+        MetallurgyOre ore;
         for(var4 = 0; var4 < var3; ++var4) {
             ore = var2[var4];
             if (ore.isGraded()) {
-                accept(out, MetallumItems.GRADED_ORES, ore, Ore.Grade.POOR);
-                accept(out, MetallumBlocks.SMALL_ORES, ore);
-                accept(out, MetallumItems.GRADED_ORES, ore, Ore.Grade.NORMAL);
-                accept(out, MetallumItems.GRADED_ORES, ore, Ore.Grade.RICH);
+                accept(out, MetallurgyItems.GRADED_ORES, ore, Ore.Grade.POOR);
+                accept(out, MetallurgyBlocks.SMALL_ORES, ore);
+                accept(out, MetallurgyItems.GRADED_ORES, ore, Ore.Grade.NORMAL);
+                accept(out, MetallurgyItems.GRADED_ORES, ore, Ore.Grade.RICH);
             }
         }
 
-        var2 = MetallumOre.values();
+        var2 = MetallurgyOre.values();
         var3 = var2.length;
 
         for(var4 = 0; var4 < var3; ++var4) {
             ore = var2[var4];
             if (!ore.isGraded()) {
-                accept(out, MetallumItems.ORES, ore);
+                accept(out, MetallurgyItems.ORES, ore);
             }
         }
 
@@ -87,35 +87,35 @@ public class MetallumItemGroup {
             accept(out, MetallumItems.GEM_DUST, gem);
         }*/
 
-        var2 = MetallumOre.values();
+        var2 = MetallurgyOre.values();
         var3 = var2.length;
 
         for(var4 = 0; var4 < var3; ++var4) {
             ore = var2[var4];
             if (ore.isGraded()) {
-                MetallumOre finalOre = ore;
-                MetallumBlocks.GRADED_ORES.values().forEach((map) -> {
+                MetallurgyOre finalOre = ore;
+                MetallurgyBlocks.GRADED_ORES.values().forEach((map) -> {
                     ((Map)map.get(finalOre)).values().forEach((reg) -> {
                         accept(out, (Supplier)reg);
                     });
                 });
             } else {
-                MetallumOre finalOre1 = ore;
-                MetallumBlocks.ORES.values().forEach((map) -> {
+                MetallurgyOre finalOre1 = ore;
+                MetallurgyBlocks.ORES.values().forEach((map) -> {
                     accept(out, map, finalOre1);
                 });
             }
         }
 
         for (BloomMetal metal : BloomMetal.values()) {
-            out.accept(new ItemStack((MetallumItems.RAW_BLOOM.get(metal)).get()));
-            out.accept(new ItemStack((MetallumItems.REFINED_BLOOM.get(metal)).get()));
+            out.accept(new ItemStack((MetallurgyItems.RAW_BLOOM.get(metal)).get()));
+            out.accept(new ItemStack((MetallurgyItems.REFINED_BLOOM.get(metal)).get()));
         }
     }
 
     static {
-        METAL = register("metals", () -> new ItemStack((ItemLike)((RegistryObject)((Map) MetallumItems.METAL_ITEMS.get(MetallumMetal.ALUMINUM)).get(MetallumMetal.ItemType.INGOT)).get()), MetallumItemGroup::fillMetalTab);
-        ORES = register("ores", () -> new ItemStack((ItemLike)((RegistryObject)((Map) MetallumItems.GRADED_ORES.get(MetallumOre.BAUXITE)).get(Ore.Grade.NORMAL)).get()), MetallumItemGroup::fillOresTab);
+        METAL = register("metals", () -> new ItemStack((ItemLike)((RegistryObject)((Map) MetallurgyItems.METAL_ITEMS.get(MetallurgyMetal.ALUMINUM)).get(MetallurgyMetal.ItemType.INGOT)).get()), MetallurgyItemGroup::fillMetalTab);
+        ORES = register("ores", () -> new ItemStack((ItemLike)((RegistryObject)((Map) MetallurgyItems.GRADED_ORES.get(MetallurgyOre.BAUXITE)).get(Ore.Grade.NORMAL)).get()), MetallurgyItemGroup::fillOresTab);
 
     }
 
@@ -135,17 +135,17 @@ public class MetallumItemGroup {
     @SubscribeEvent
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == TFCCreativeTabs.MISC.tab().getKey()) {
-            for (MetallumMetal metal : MetallumMetal.values()) {
-                event.accept(MetallumItems.METAL_FLUID_BUCKETS.get(metal).get());
+            for (MetallurgyMetal metal : MetallurgyMetal.values()) {
+                event.accept(MetallurgyItems.METAL_FLUID_BUCKETS.get(metal).get());
             }
         }
         if (event.getTabKey() == TFCCreativeTabs.DECORATIONS.tab().getKey()) {
-            event.accept(MetallumBlocks.BERYLLIUM_COPPER_BELL.get());
-            event.accept(MetallumBlocks.FLORENTINE_BRONZE_BELL.get());
-            event.accept(MetallumBlocks.ENDERIUM_BARS.get());
-            event.accept(MetallumBlocks.TITANIUM_BARS.get());
-            event.accept(MetallumBlocks.TUNGSTEN_BARS.get());
-            event.accept(MetallumBlocks.TUNGSTEN_STEEL_BARS.get());
+            event.accept(MetallurgyBlocks.BERYLLIUM_COPPER_BELL.get());
+            event.accept(MetallurgyBlocks.FLORENTINE_BRONZE_BELL.get());
+            event.accept(MetallurgyBlocks.ENDERIUM_BARS.get());
+            event.accept(MetallurgyBlocks.TITANIUM_BARS.get());
+            event.accept(MetallurgyBlocks.TUNGSTEN_BARS.get());
+            event.accept(MetallurgyBlocks.TUNGSTEN_STEEL_BARS.get());
         }
     }
 

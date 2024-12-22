@@ -5,7 +5,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 
-public class MetallumTags {
+public class MetallurgyTags {
 
     public static final class Blocks {
 

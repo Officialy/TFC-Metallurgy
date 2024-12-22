@@ -5,7 +5,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
-public enum MetallumOre {
+public enum MetallurgyOre {
     BAUXITE(true),
     BERTRANDITE(true),
     COBALTITE(true),
@@ -27,7 +27,7 @@ public enum MetallumOre {
 
     private final boolean grade;
 
-    MetallumOre(boolean grade) {
+    MetallurgyOre(boolean grade) {
         this.grade = grade;
     }
 

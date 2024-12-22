@@ -4,13 +4,13 @@ import net.dries007.tfc.common.blocks.ExtendedProperties;
 import net.dries007.tfc.common.blocks.TFCBellBlock;
 import net.minecraft.resources.ResourceLocation;
 
-public class MetallumBellBlock extends TFCBellBlock {
+public class MetallurgyBellBlock extends TFCBellBlock {
 
-    public MetallumBellBlock(ExtendedProperties properties, float pitch, String textureLocation) {
+    public MetallurgyBellBlock(ExtendedProperties properties, float pitch, String textureLocation) {
         super(properties, pitch, textureLocation);
     }
 
-    public MetallumBellBlock(ExtendedProperties properties, float pitch, ResourceLocation textureLocation) {
+    public MetallurgyBellBlock(ExtendedProperties properties, float pitch, ResourceLocation textureLocation) {
         super(properties, pitch, textureLocation);
     }
 }

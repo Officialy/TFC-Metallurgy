@@ -8,11 +8,11 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import org.slf4j.Logger;
 import tfc_metallurgy.common.ClientEvents;
-import tfc_metallurgy.common.MetallumItemGroup;
-import tfc_metallurgy.common.block_entities.MetallumBlockEntities;
-import tfc_metallurgy.common.blocks.MetallumBlocks;
-import tfc_metallurgy.common.fluids.MetallumFluids;
-import tfc_metallurgy.common.items.MetallumItems;
+import tfc_metallurgy.common.MetallurgyItemGroup;
+import tfc_metallurgy.common.block_entities.MetallurgyBlockEntities;
+import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.fluids.MetallurgyFluids;
+import tfc_metallurgy.common.items.MetallurgyItems;
 
 @Mod(TFCMetallurgy.mod_id)
 public class TFCMetallurgy {
@@ -23,12 +23,12 @@ public class TFCMetallurgy {
 
 	public TFCMetallurgy(FMLJavaModLoadingContext i) {
 		final IEventBus bus = i.getModEventBus();
-		MetallumItems.ITEMS.register(bus);
-		MetallumBlocks.BLOCKS.register(bus);
-		MetallumFluids.FLUID_TYPES.register(bus);
-		MetallumFluids.FLUIDS.register(bus);
-		MetallumBlockEntities.BLOCK_ENTITIES.register(bus);
-		MetallumItemGroup.CREATIVE_TABS.register(bus);
+		MetallurgyItems.ITEMS.register(bus);
+		MetallurgyBlocks.BLOCKS.register(bus);
+		MetallurgyFluids.FLUID_TYPES.register(bus);
+		MetallurgyFluids.FLUIDS.register(bus);
+		MetallurgyBlockEntities.BLOCK_ENTITIES.register(bus);
+		MetallurgyItemGroup.CREATIVE_TABS.register(bus);
 		if (FMLEnvironment.dist == Dist.CLIENT) {
 			ClientEvents.init();
 		}

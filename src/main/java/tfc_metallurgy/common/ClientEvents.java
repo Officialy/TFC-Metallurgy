@@ -16,10 +16,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.dries007.tfc.client.render.blockentity.TFCBellBlockEntityRenderer;
-import tfc_metallurgy.common.block_entities.MetallumBlockEntities;
-import tfc_metallurgy.common.blocks.MetallumBlocks;
-import tfc_metallurgy.common.items.MetallumItems;
-import tfc_metallurgy.util.MetallumMetal;
+import tfc_metallurgy.common.block_entities.MetallurgyBlockEntities;
+import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.items.MetallurgyItems;
+import tfc_metallurgy.util.MetallurgyMetal;
 
 public class ClientEvents {
 
@@ -47,31 +47,31 @@ public class ClientEvents {
 
         final RenderType cutout = RenderType.cutout();
 
-        MetallumBlocks.SMALL_ORES.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout));
+        MetallurgyBlocks.SMALL_ORES.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout));
 
-        MetallumBlocks.ORES.values().forEach(inner -> inner.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout)));
+        MetallurgyBlocks.ORES.values().forEach(inner -> inner.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout)));
 
-        MetallumBlocks.GRADED_ORES.values().forEach(map -> map.values().forEach(inner -> inner.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout))));
-        for(MetallumMetal metal: MetallumMetal.values()) {
-            for(MetallumMetal.BlockType type: MetallumMetal.BlockType.values()) {
+        MetallurgyBlocks.GRADED_ORES.values().forEach(map -> map.values().forEach(inner -> inner.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout))));
+        for(MetallurgyMetal metal: MetallurgyMetal.values()) {
+            for(MetallurgyMetal.BlockType type: MetallurgyMetal.BlockType.values()) {
                 if(type.has(metal)) {
-                    ItemBlockRenderTypes.setRenderLayer(MetallumBlocks.METALS.get(metal).get(type).get(), cutout);
+                    ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.METALS.get(metal).get(type).get(), cutout);
                 }
             }
         }
 
-        ItemBlockRenderTypes.setRenderLayer(MetallumBlocks.ENDERIUM_BARS.get(), cutout);
-        ItemBlockRenderTypes.setRenderLayer(MetallumBlocks.TITANIUM_BARS.get(), cutout);
-        ItemBlockRenderTypes.setRenderLayer(MetallumBlocks.TUNGSTEN_BARS.get(), cutout);
-        ItemBlockRenderTypes.setRenderLayer(MetallumBlocks.TUNGSTEN_STEEL_BARS.get(), cutout);
+        ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.ENDERIUM_BARS.get(), cutout);
+        ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.TITANIUM_BARS.get(), cutout);
+        ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.TUNGSTEN_BARS.get(), cutout);
+        ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.TUNGSTEN_STEEL_BARS.get(), cutout);
 
         event.enqueueWork(() -> {
 
-            for (MetallumMetal metal : MetallumMetal.values())
+            for (MetallurgyMetal metal : MetallurgyMetal.values())
             {
                 if (metal.hasTools())
                 {
-                    Item rod = MetallumItems.METAL_ITEMS.get(metal).get(MetallumMetal.ItemType.FISHING_ROD).get();
+                    Item rod = MetallurgyItems.METAL_ITEMS.get(metal).get(MetallurgyMetal.ItemType.FISHING_ROD).get();
                     ItemProperties.register(rod, Helpers.identifier("cast"), (stack, level, entity, unused) -> {
                         if (entity == null)
                         {
@@ -83,7 +83,7 @@ public class ClientEvents {
                         }
                     });
 
-                    Item shield = MetallumItems.METAL_ITEMS.get(metal).get(MetallumMetal.ItemType.SHIELD).get();
+                    Item shield = MetallurgyItems.METAL_ITEMS.get(metal).get(MetallurgyMetal.ItemType.SHIELD).get();
                     ItemProperties.register(shield, new ResourceLocation("blocking"), (stack, level, entity, unused) -> {
                         if (entity == null)
                         {
@@ -95,7 +95,7 @@ public class ClientEvents {
                         }
                     });
 
-                    Item javelin = MetallumItems.METAL_ITEMS.get(metal).get(MetallumMetal.ItemType.JAVELIN).get();
+                    Item javelin = MetallurgyItems.METAL_ITEMS.get(metal).get(MetallurgyMetal.ItemType.JAVELIN).get();
                     ItemProperties.register(javelin, Helpers.identifier("throwing"), (stack, level, entity, unused) ->
                             entity != null && ((entity.isUsingItem() && entity.getUseItem() == stack) || (entity instanceof Monster monster && monster.isAggressive())) ? 1.0F : 0.0F
                     );
@@ -105,7 +105,7 @@ public class ClientEvents {
     }
 
     public static void registerEntitiesRenderer(EntityRenderersEvent.RegisterRenderers event) {
-        event.registerBlockEntityRenderer(MetallumBlockEntities.BELL.get(), TFCBellBlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(MetallurgyBlockEntities.BELL.get(), TFCBellBlockEntityRenderer::new);
     }
 
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {

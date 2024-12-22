@@ -17,7 +17,7 @@ import net.minecraft.world.level.block.TrapDoorBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.material.MapColor;
-import tfc_metallurgy.common.MetallumTiers;
+import tfc_metallurgy.common.MetallurgyTiers;
 import tfc_metallurgy.common.MetallumArmorMaterials;
 
 import javax.annotation.Nonnull;
@@ -29,47 +29,47 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public enum MetallumMetal implements RegistryMetal {
+public enum MetallurgyMetal implements RegistryMetal {
 
     ANDESITE_ALLOY(0xC9CABA, Rarity.COMMON, Metal.Tier.TIER_II, true, false, false),
     ANTIMONY(0xf4f4f, Rarity.COMMON, Metal.Tier.TIER_I, true, false, false),
     ALNICO(0xD87F36, Rarity.UNCOMMON, Metal.Tier.TIER_III, true, false, false),
-    ALUMINUM(0xe3f7f, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.ALUMINUM, MetallumArmorMaterials.ALUMINUM, true, true, true),
-    BORON(0x5c545, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.BORON, MetallumArmorMaterials.BORON, true, true, true),
+    ALUMINUM(0xe3f7f, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.ALUMINUM, MetallumArmorMaterials.ALUMINUM, true, true, true),
+    BORON(0x5c545, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.BORON, MetallumArmorMaterials.BORON, true, true, true),
     BERYLLIUM(0xf6ffc, Rarity.UNCOMMON, Metal.Tier.TIER_III, true, false, false),
-    BERYLLIUM_COPPER(0xffa67, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.BERYLLIUM_COPPER, MetallumArmorMaterials.BERYLLIUM_COPPER, true, true, true),
+    BERYLLIUM_COPPER(0xffa67, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.BERYLLIUM_COPPER, MetallumArmorMaterials.BERYLLIUM_COPPER, true, true, true),
     BLUTONIUM(0x58a1c, Rarity.EPIC, Metal.Tier.TIER_VI, true, false, false),
     CONSTANTAN(0xfce7b, Rarity.COMMON, Metal.Tier.TIER_II, true, false, false),
-    COBALT(0x59a6e, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.COBALT, MetallumArmorMaterials.COBALT, true, true, true),
-    COMPRESSED_IRON(0xbdbdb, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.COMPRESSED_IRON, MetallumArmorMaterials.COMPRESSED_IRON, true, true, true),
+    COBALT(0x59a6e, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.COBALT, MetallumArmorMaterials.COBALT, true, true, true),
+    COMPRESSED_IRON(0xbdbdb, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.COMPRESSED_IRON, MetallumArmorMaterials.COMPRESSED_IRON, true, true, true),
     ELECTRUM(0xfbfbb, Rarity.COMMON, Metal.Tier.TIER_II, true, false, false),
     PLATINUM(0x9CB8BF, Rarity.RARE, Metal.Tier.TIER_III, true, false, false),
-    ENDERIUM(0x76f0e, Rarity.RARE, Metal.Tier.TIER_V, MetallumTiers.ENDERIUM, MetallumArmorMaterials.ENDERIUM, true, true, true),
-    FERROBORON(0x6f737, Rarity.EPIC, Metal.Tier.TIER_VI, MetallumTiers.FERROBORON, MetallumArmorMaterials.FERROBORON, true, true, true),
-    FLORENTINE_BRONZE(0xAA924C, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.FLORENTINE_BRONZE, MetallumArmorMaterials.FLORENTINE_BRONZE, true, true, true),
+    ENDERIUM(0x76f0e, Rarity.RARE, Metal.Tier.TIER_V, MetallurgyTiers.ENDERIUM, MetallumArmorMaterials.ENDERIUM, true, true, true),
+    FERROBORON(0x6f737, Rarity.EPIC, Metal.Tier.TIER_VI, MetallurgyTiers.FERROBORON, MetallumArmorMaterials.FERROBORON, true, true, true),
+    FLORENTINE_BRONZE(0xAA924C, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.FLORENTINE_BRONZE, MetallumArmorMaterials.FLORENTINE_BRONZE, true, true, true),
     GRAPHITE(0x81808, Rarity.UNCOMMON, Metal.Tier.TIER_III, true, false, false),
-    INVAR(0xdbdcc, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.INVAR, MetallumArmorMaterials.INVAR, true, true, true),
+    INVAR(0xdbdcc, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.INVAR, MetallumArmorMaterials.INVAR, true, true, true),
     IRIDIUM(0xe8f9f, Rarity.UNCOMMON, Metal.Tier.TIER_III, true, false, false),
     LEAD(0x72798, Rarity.COMMON, Metal.Tier.TIER_I, true, false, false),
     LITHIUM(0xC9CBC3, Rarity.RARE, Metal.Tier.TIER_II, true, false, false),
-    LUMIUM(0xfff1a, Rarity.RARE, Metal.Tier.TIER_IV, MetallumTiers.LUMIUM, MetallumArmorMaterials.LUMIUM, true, true, true),
+    LUMIUM(0xfff1a, Rarity.RARE, Metal.Tier.TIER_IV, MetallurgyTiers.LUMIUM, MetallumArmorMaterials.LUMIUM, true, true, true),
     MAGNESIUM(0xFF978195, Rarity.RARE, Metal.Tier.TIER_III, true, false, false),
     MANGANESE(0xFF9397A8, Rarity.RARE, Metal.Tier.TIER_III, true, false, false),
-    MITHRIL(0x89d9f, Rarity.COMMON, Metal.Tier.TIER_II, MetallumTiers.MITHRIL, MetallumArmorMaterials.MITHRIL, true, true, true),
-    NICKEL_SILVER(0xa4a3a, Rarity.COMMON, Metal.Tier.TIER_II, MetallumTiers.NICKEL_SILVER, MetallumArmorMaterials.NICKEL_SILVER, true, true, true),
-    OSMIUM(0xddeff, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.OSMIUM, MetallumArmorMaterials.OSMIUM, true, true, true),
-    OSMIRIDIUM(0xb2c1c, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.OSMIRIDIUM, MetallumArmorMaterials.OSMIRIDIUM, true, true, true),
-    PEWTER(0xb0aba, Rarity.UNCOMMON, Metal.Tier.TIER_II, MetallumTiers.PEWTER, MetallumArmorMaterials.PEWTER, true, true, true),
+    MITHRIL(0x89d9f, Rarity.COMMON, Metal.Tier.TIER_II, MetallurgyTiers.MITHRIL, MetallumArmorMaterials.MITHRIL, true, true, true),
+    NICKEL_SILVER(0xa4a3a, Rarity.COMMON, Metal.Tier.TIER_II, MetallurgyTiers.NICKEL_SILVER, MetallumArmorMaterials.NICKEL_SILVER, true, true, true),
+    OSMIUM(0xddeff, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.OSMIUM, MetallumArmorMaterials.OSMIUM, true, true, true),
+    OSMIRIDIUM(0xb2c1c, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.OSMIRIDIUM, MetallumArmorMaterials.OSMIRIDIUM, true, true, true),
+    PEWTER(0xb0aba, Rarity.UNCOMMON, Metal.Tier.TIER_II, MetallurgyTiers.PEWTER, MetallumArmorMaterials.PEWTER, true, true, true),
     PINK_SLIME(0xC279B6, Rarity.UNCOMMON, Metal.Tier.TIER_III, true, false, false),
-    REFINED_GLOWSTONE(0xfffdc, Rarity.RARE, Metal.Tier.TIER_IV, MetallumTiers.REFINED_GLOWSTONE, MetallumArmorMaterials.REFINED_GLOWSTONE, true, true, true),
-    REFINED_OBSIDIAN(0xbc92d, Rarity.RARE, Metal.Tier.TIER_IV, MetallumTiers.REFINED_OBSIDIAN, MetallumArmorMaterials.REFINED_OBSIDIAN, true, true, true),
-    SIGNALUM(0xffc78, Rarity.RARE, Metal.Tier.TIER_IV, MetallumTiers.SIGNALUM, MetallumArmorMaterials.SIGNALUM, true, true, true),
+    REFINED_GLOWSTONE(0xfffdc, Rarity.RARE, Metal.Tier.TIER_IV, MetallurgyTiers.REFINED_GLOWSTONE, MetallumArmorMaterials.REFINED_GLOWSTONE, true, true, true),
+    REFINED_OBSIDIAN(0xbc92d, Rarity.RARE, Metal.Tier.TIER_IV, MetallurgyTiers.REFINED_OBSIDIAN, MetallumArmorMaterials.REFINED_OBSIDIAN, true, true, true),
+    SIGNALUM(0xffc78, Rarity.RARE, Metal.Tier.TIER_IV, MetallurgyTiers.SIGNALUM, MetallumArmorMaterials.SIGNALUM, true, true, true),
     SOLDER(0x888888, Rarity.UNCOMMON, Metal.Tier.TIER_II, true, false, false),
-    THORIUM(0x787b7, Rarity.EPIC, Metal.Tier.TIER_VI, MetallumTiers.THORIUM, MetallumArmorMaterials.THORIUM, true, true, true),
-    TITANIUM(0xd8dae, Rarity.EPIC, Metal.Tier.TIER_III, MetallumTiers.TITANIUM, MetallumArmorMaterials.TITANIUM, true, true, true),
-    TUNGSTEN(0x97a3b, Rarity.EPIC, Metal.Tier.TIER_III, MetallumTiers.TUNGSTEN, MetallumArmorMaterials.TUNGSTEN, true, true, true),
-    TUNGSTEN_STEEL(0x555e6, Rarity.EPIC, Metal.Tier.TIER_IV, MetallumTiers.TUNGSTEN_STEEL, MetallumArmorMaterials.TUNGSTEN_STEEL, true, true, true),
-    URANIUM(0xf0f39, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallumTiers.URANIUM, MetallumArmorMaterials.URANIUM, true, true, true),
+    THORIUM(0x787b7, Rarity.EPIC, Metal.Tier.TIER_VI, MetallurgyTiers.THORIUM, MetallumArmorMaterials.THORIUM, true, true, true),
+    TITANIUM(0xd8dae, Rarity.EPIC, Metal.Tier.TIER_III, MetallurgyTiers.TITANIUM, MetallumArmorMaterials.TITANIUM, true, true, true),
+    TUNGSTEN(0x97a3b, Rarity.EPIC, Metal.Tier.TIER_III, MetallurgyTiers.TUNGSTEN, MetallumArmorMaterials.TUNGSTEN, true, true, true),
+    TUNGSTEN_STEEL(0x555e6, Rarity.EPIC, Metal.Tier.TIER_IV, MetallurgyTiers.TUNGSTEN_STEEL, MetallumArmorMaterials.TUNGSTEN_STEEL, true, true, true),
+    URANIUM(0xf0f39, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.URANIUM, MetallumArmorMaterials.URANIUM, true, true, true),
     HIGH_CARBON_TUNGSTEN_STEEL(0xf0f39, Rarity.UNCOMMON, Metal.Tier.TIER_IV, false, false, false),
     ZIRCALOY(0xFF43423A, Rarity.RARE, Metal.Tier.TIER_VI, true, false, false),
     ZIRCONIUM(0xFF747527, Rarity.RARE, Metal.Tier.TIER_VI, true, false, false);
@@ -84,12 +84,12 @@ public enum MetallumMetal implements RegistryMetal {
     private final Rarity rarity;
     private final int color;
 
-    MetallumMetal(int color, Rarity rarity, Metal.Tier tier, boolean parts, boolean armor, boolean utility)
+    MetallurgyMetal(int color, Rarity rarity, Metal.Tier tier, boolean parts, boolean armor, boolean utility)
     {
         this(color, rarity, tier, null, null, parts, armor, utility);
     }
 
-    MetallumMetal(int color, Rarity rarity, Metal.Tier metalTier, @Nullable net.minecraft.world.item.Tier toolTier, @Nullable ArmorMaterial armorTier, boolean parts, boolean armor, boolean utility)
+    MetallurgyMetal(int color, Rarity rarity, Metal.Tier metalTier, @Nullable net.minecraft.world.item.Tier toolTier, @Nullable ArmorMaterial armorTier, boolean parts, boolean armor, boolean utility)
     {
         this.serializedName = name().toLowerCase(Locale.ROOT);
         this.metalTier = metalTier;
@@ -173,18 +173,18 @@ public enum MetallumMetal implements RegistryMetal {
 
     private enum Type {
         DEFAULT((metal) -> true),
-        PART(MetallumMetal::hasParts),
-        TOOL(MetallumMetal::hasTools),
-        ARMOR(MetallumMetal::hasArmor),
-        UTILITY(MetallumMetal::hasUtilities);
+        PART(MetallurgyMetal::hasParts),
+        TOOL(MetallurgyMetal::hasTools),
+        ARMOR(MetallurgyMetal::hasArmor),
+        UTILITY(MetallurgyMetal::hasUtilities);
 
-        private final Predicate<MetallumMetal> predicate;
+        private final Predicate<MetallurgyMetal> predicate;
 
-        Type(Predicate<MetallumMetal> predicate) {
+        Type(Predicate<MetallurgyMetal> predicate) {
             this.predicate = predicate;
         }
 
-        boolean hasType(MetallumMetal metal) {
+        boolean hasType(MetallurgyMetal metal) {
             return this.predicate.test(metal);
         }
     }
@@ -262,7 +262,7 @@ public enum MetallumMetal implements RegistryMetal {
             return this.itemFactory.apply(metal);
         }
 
-        public boolean has(MetallumMetal metal) {
+        public boolean has(MetallurgyMetal metal) {
             return this.type.hasType(metal);
         }
 
@@ -302,7 +302,7 @@ public enum MetallumMetal implements RegistryMetal {
             return (block) -> (BlockItem)this.blockItemFactory.apply(block, properties);
         }
 
-        public boolean has(MetallumMetal metal) {
+        public boolean has(MetallurgyMetal metal) {
             return this.type.hasType(metal);
         }
     }
