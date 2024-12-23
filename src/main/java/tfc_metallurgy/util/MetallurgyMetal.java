@@ -277,8 +277,10 @@ public enum MetallurgyMetal implements RegistryMetal {
         LAMP(Type.UTILITY, (metal) -> new LampBlock(ExtendedProperties.of(MapColor.METAL).noOcclusion().sound(SoundType.LANTERN).strength(4.0F, 10.0F).randomTicks().lightLevel((state) -> (Boolean)state.getValue(LampBlock.LIT) ? 15 : 0).blockEntity(TFCBlockEntities.LAMP)), LampBlockItem::new),
         TRAPDOOR(Type.UTILITY, (metal) -> new TrapDoorBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).requiresCorrectToolForDrops().strength(5.0F).sound(SoundType.METAL).noOcclusion().isValidSpawn(TFCBlocks::never), BlockSetType.IRON));
 
-        // MetallumMetal.BlockType.BLOCK, MetallumMetal.BlockType.BLOCK_SLAB,
-        // MetallumMetal.BlockType.BLOCK_STAIRS, MetallumMetal.BlockType.BARS,
+        // MetallumMetal.BlockType.BLOCK,
+        // MetallumMetal.BlockType.BLOCK_SLAB,
+        // MetallumMetal.BlockType.BLOCK_STAIRS,
+        // MetallumMetal.BlockType.BARS,
 
         private final Function<RegistryMetal, Block> blockFactory;
         private final BiFunction<Block, Item.Properties, ? extends BlockItem> blockItemFactory;

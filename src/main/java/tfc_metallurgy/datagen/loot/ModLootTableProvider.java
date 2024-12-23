@@ -30,23 +30,4 @@ public class ModLootTableProvider extends LootTableProvider {
         ));
     }
 
-    @Override
-    protected void validate(Map<ResourceLocation, LootTable> map, ValidationContext validationcontext) {
-        super.validate(map, validationcontext);
-        final var modLootTableIds = BuiltInLootTables
-                .all()
-                .stream()
-                .filter(lootTable -> lootTable.getNamespace().equals(TFCMetallurgy.MOD_ID))
-                .collect(Collectors.toSet());
-
-        for (final var id : Sets.difference(modLootTableIds, map.keySet())) {
-            validationcontext.reportProblem("Missing mod loot table: " + id);
-        }
-
-        map.forEach((lootTable) -> lootTable.validate(
-                validationcontext
-                        .setParams(lootTable.getParamSet())
-                        .enterElement("{" + lootTable.getLootTableId() + "}", LootDataType.TABLE.registryKey()))
-        );
-    }
 }

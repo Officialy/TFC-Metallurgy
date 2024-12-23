@@ -13,7 +13,6 @@ public class ModGenericLootProvider implements LootTableSubProvider {
 
     }
 
-
     @Override
     public void generate(BiConsumer<ResourceLocation, LootTable.Builder> p_249643_) {
 

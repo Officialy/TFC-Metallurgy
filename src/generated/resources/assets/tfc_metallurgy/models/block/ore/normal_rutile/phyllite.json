@@ -1,0 +1,8 @@
+{
+  "parent": "tfc:block/ore",
+  "textures": {
+    "all": "tfc:block/rock/raw/phyllite",
+    "overlay": "tfc_metallurgy:block/ore/normal_rutile",
+    "particle": "tfc:block/rock/raw/phyllite"
+  }
+}
