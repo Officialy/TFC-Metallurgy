@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/refined_glowstone"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/refined_glowstone_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/refined_glowstone_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/refined_glowstone_open"
     }
   }
 }

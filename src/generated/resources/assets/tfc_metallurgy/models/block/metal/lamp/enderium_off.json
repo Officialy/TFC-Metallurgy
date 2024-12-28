@@ -1,0 +1,7 @@
+{
+  "parent": "tfc:block/lamp",
+  "textures": {
+    "lamp": "tfc:block/lamp_off",
+    "metal": "tfc_metallurgy:block/metal/smooth/enderium"
+  }
+}

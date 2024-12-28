@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/lamp/osmiridium"
+    "hanging=false,lit=false": {
+      "model": "tfc_metallurgy:block/metal/lamp/osmiridium_off"
+    },
+    "hanging=false,lit=true": {
+      "model": "tfc_metallurgy:block/metal/lamp/osmiridium_on"
+    },
+    "hanging=true,lit=false": {
+      "model": "tfc_metallurgy:block/metal/lamp/osmiridium_hanging_off"
+    },
+    "hanging=true,lit=true": {
+      "model": "tfc_metallurgy:block/metal/lamp/osmiridium_hanging_on"
     }
   }
 }

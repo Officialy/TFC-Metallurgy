@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/lamp/cobalt"
+    "hanging=false,lit=false": {
+      "model": "tfc_metallurgy:block/metal/lamp/cobalt_off"
+    },
+    "hanging=false,lit=true": {
+      "model": "tfc_metallurgy:block/metal/lamp/cobalt_on"
+    },
+    "hanging=true,lit=false": {
+      "model": "tfc_metallurgy:block/metal/lamp/cobalt_hanging_off"
+    },
+    "hanging=true,lit=true": {
+      "model": "tfc_metallurgy:block/metal/lamp/cobalt_hanging_on"
     }
   }
 }

@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/mithril"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/mithril_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/mithril_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/mithril_open"
     }
   }
 }

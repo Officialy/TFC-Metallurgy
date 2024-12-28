@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/pewter"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/pewter_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/pewter_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/pewter_open"
     }
   }
 }

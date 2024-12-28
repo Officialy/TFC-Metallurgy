@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/osmium"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/osmium_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/osmium_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/osmium_open"
     }
   }
 }

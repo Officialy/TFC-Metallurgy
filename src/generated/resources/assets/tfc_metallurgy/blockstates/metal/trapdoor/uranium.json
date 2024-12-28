@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/uranium"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/uranium_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/uranium_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/uranium_open"
     }
   }
 }

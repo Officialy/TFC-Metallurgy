@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/chain",
   "textures": {
-    "all": "tfc_metallurgy:block/metal/chain/pewter"
+    "particle": "tfc_metallurgy:block/metal/chain/pewter"
   }
 }

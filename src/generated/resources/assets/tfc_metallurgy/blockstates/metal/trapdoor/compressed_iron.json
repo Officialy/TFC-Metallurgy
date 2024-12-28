@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/compressed_iron"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/compressed_iron_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/compressed_iron_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/compressed_iron_open"
     }
   }
 }

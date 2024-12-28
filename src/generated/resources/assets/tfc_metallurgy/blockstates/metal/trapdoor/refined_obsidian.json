@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/refined_obsidian"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/refined_obsidian_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/refined_obsidian_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/refined_obsidian_open"
     }
   }
 }

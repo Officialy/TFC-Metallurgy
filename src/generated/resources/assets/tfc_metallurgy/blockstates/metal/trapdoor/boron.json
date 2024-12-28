@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/boron"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/boron_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/boron_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/boron_open"
     }
   }
 }

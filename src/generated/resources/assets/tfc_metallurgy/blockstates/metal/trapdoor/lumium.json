@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/lumium"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/lumium_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/lumium_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/lumium_open"
     }
   }
 }

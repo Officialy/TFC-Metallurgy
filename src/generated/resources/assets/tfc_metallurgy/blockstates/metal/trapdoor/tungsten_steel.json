@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/trapdoor/tungsten_steel"
+    "half=bottom,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/tungsten_steel_bottom"
+    },
+    "half=top,open=false": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/tungsten_steel_top"
+    },
+    "open=true": {
+      "model": "tfc_metallurgy:block/metal/trapdoor/tungsten_steel_open"
     }
   }
 }
