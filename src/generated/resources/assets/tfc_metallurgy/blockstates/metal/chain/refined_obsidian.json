@@ -1,7 +1,40 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/chain/refined_obsidian"
+    "axis=x,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=x,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=x,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=x,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=y,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=y,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=y,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=y,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=z,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=z,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=z,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
+    },
+    "axis=z,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/refined_obsidian"
     }
   }
 }

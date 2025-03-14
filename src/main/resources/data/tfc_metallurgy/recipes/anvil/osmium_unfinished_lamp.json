@@ -1,15 +1,15 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/osmium"
+    "tag": "forge:ingots/osmium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_boots/osmium"
+    "item": "tfc_metallurgy:metal/unfinished_lamp/osmium"
   },
   "tier": 3,
   "rules": [
     "bend_last",
     "bend_second_last",
-    "shrink_third_last"
+    "draw_third_last"
   ]
 }

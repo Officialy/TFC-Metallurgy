@@ -1,7 +1,40 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/chain/enderium"
+    "axis=x,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=x,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=x,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=x,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=y,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=y,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=y,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=y,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=z,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=z,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=z,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
+    },
+    "axis=z,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/enderium"
     }
   }
 }

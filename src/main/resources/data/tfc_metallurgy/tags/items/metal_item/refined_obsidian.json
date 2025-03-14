@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/refined_obsidian",
     "tfc_metallurgy:metal/unfinished_boots/refined_obsidian",
     "tfc_metallurgy:metal/boots/refined_obsidian",
-    "tfc_metallurgy:metal/shield/refined_obsidian"
+    "tfc_metallurgy:metal/shield/refined_obsidian",
+    "tfc_metallurgy:metal/unfinished_lamp/refined_obsidian",
+    "tfc_metallurgy:metal/lamp/refined_obsidian"
   ]
 }

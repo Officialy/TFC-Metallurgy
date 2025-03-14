@@ -1,16 +1,10 @@
 {
   "variants": {
-    "hanging=false,lit=false": {
+    "lit=false": {
       "model": "tfc_metallurgy:block/metal/lamp/aluminum_off"
     },
-    "hanging=false,lit=true": {
+    "lit=true": {
       "model": "tfc_metallurgy:block/metal/lamp/aluminum_on"
-    },
-    "hanging=true,lit=false": {
-      "model": "tfc_metallurgy:block/metal/lamp/aluminum_hanging_off"
-    },
-    "hanging=true,lit=true": {
-      "model": "tfc_metallurgy:block/metal/lamp/aluminum_hanging_on"
     }
   }
 }

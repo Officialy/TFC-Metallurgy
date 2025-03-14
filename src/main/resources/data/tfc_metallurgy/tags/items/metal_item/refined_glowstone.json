@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/refined_glowstone",
     "tfc_metallurgy:metal/unfinished_boots/refined_glowstone",
     "tfc_metallurgy:metal/boots/refined_glowstone",
-    "tfc_metallurgy:metal/shield/refined_glowstone"
+    "tfc_metallurgy:metal/shield/refined_glowstone",
+    "tfc_metallurgy:metal/unfinished_lamp/refined_glowstone",
+    "tfc_metallurgy:metal/lamp/refined_glowstone"
   ]
 }

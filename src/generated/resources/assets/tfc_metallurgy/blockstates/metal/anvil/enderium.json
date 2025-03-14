@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/anvil/enderium"
+    "facing=east": {
+      "model": "tfc_metallurgy:block/metal/anvil/enderium",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tfc_metallurgy:block/metal/anvil/enderium"
+    },
+    "facing=south": {
+      "model": "tfc_metallurgy:block/metal/anvil/enderium",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tfc_metallurgy:block/metal/anvil/enderium",
+      "y": 270
     }
   }
 }

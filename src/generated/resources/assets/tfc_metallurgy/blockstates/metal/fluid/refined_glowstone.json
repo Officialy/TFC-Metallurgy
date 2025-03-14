@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/refined_glowstone"
+    }
+  }
+}

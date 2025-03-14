@@ -1,7 +1,40 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/chain/titanium"
+    "axis=x,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=x,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=x,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=x,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=y,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=y,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=y,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=y,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=z,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=z,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=z,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
+    },
+    "axis=z,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/titanium"
     }
   }
 }

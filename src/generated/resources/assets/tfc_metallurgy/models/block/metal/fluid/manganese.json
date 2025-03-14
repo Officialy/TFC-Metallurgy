@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/water",
+  "textures": {
+    "flowing": "tfc_metallurgy:block/metal/fluid/manganese_flow",
+    "still": "tfc_metallurgy:block/metal/fluid/manganese_still"
+  }
+}

@@ -1,7 +1,40 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/chain/compressed_iron"
+    "axis=x,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=x,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=x,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=x,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=y,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=y,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=y,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=y,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=z,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=z,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=z,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
+    },
+    "axis=z,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/compressed_iron"
     }
   }
 }

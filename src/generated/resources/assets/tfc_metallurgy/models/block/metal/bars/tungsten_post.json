@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/iron_bars_post",
+  "textures": {
+    "texture": "tfc_metallurgy:block/metal/smooth/tungsten"
+  }
+}

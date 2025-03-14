@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/enderium",
     "tfc_metallurgy:metal/unfinished_boots/enderium",
     "tfc_metallurgy:metal/boots/enderium",
-    "tfc_metallurgy:metal/shield/enderium"
+    "tfc_metallurgy:metal/shield/enderium",
+    "tfc_metallurgy:metal/unfinished_lamp/enderium",
+    "tfc_metallurgy:metal/lamp/enderium"
   ]
 }

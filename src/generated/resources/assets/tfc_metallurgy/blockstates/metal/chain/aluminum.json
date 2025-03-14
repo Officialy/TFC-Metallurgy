@@ -1,7 +1,40 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/chain/aluminum"
+    "axis=x,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=x,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=x,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=x,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=y,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=y,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=y,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=y,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=z,fluid=empty": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=z,fluid=lava": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=z,fluid=salt_water": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
+    },
+    "axis=z,fluid=water": {
+      "model": "tfc_metallurgy:block/metal/chain/aluminum"
     }
   }
 }

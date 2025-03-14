@@ -1,0 +1,14 @@
+{
+    "type":"tfc:extra_products_shapeless_crafting",
+    "extra_products":[
+        {"item":"tfc:lamp_glass"}
+    ],
+    "recipe":{
+        "type":"minecraft:crafting_shapeless",
+        "ingredients":[
+            {"item":"tfc_metallurgy:metal/lamp/beryllium_copper"}
+        ],
+        "result":
+        {"item":"tfc_metallurgy:metal/unfinished_lamp/beryllium_copper"}
+    }
+}

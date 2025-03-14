@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/smooth/tungsten",
+    "side": "tfc_metallurgy:block/metal/smooth/tungsten",
+    "top": "tfc_metallurgy:block/metal/smooth/tungsten"
+  }
+}

@@ -1,162 +1,227 @@
 package tfc_metallurgy.datagen;
 
 import net.dries007.tfc.common.blocks.devices.LampBlock;
-import net.dries007.tfc.common.blocks.rock.Rock;
+import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.packs.PackType;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.TrapDoorBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.properties.Half;
-import net.minecraftforge.client.model.generators.BlockStateProvider;
-import net.minecraftforge.client.model.generators.ModelFile;
-import net.minecraftforge.client.model.generators.ModelProvider;
+import net.minecraft.world.level.block.state.properties.SlabType;
+import net.minecraftforge.client.model.generators.*;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import tfc_metallurgy.TFCMetallurgy;
 import net.minecraft.data.PackOutput;
-import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.blocks.TFCMBlocks;
 import tfc_metallurgy.util.MetallurgyMetal;
 
 import java.util.Arrays;
+import static net.minecraftforge.client.model.generators.ModelProvider.BLOCK_FOLDER;
 
 public class ModBlockStateProvider extends BlockStateProvider {
 
-    ExistingFileHelper existingFileHelper;
-
     public ModBlockStateProvider(final PackOutput packOutput, final ExistingFileHelper existingFileHelper) {
         super(packOutput, TFCMetallurgy.MOD_ID, existingFileHelper);
-        this.existingFileHelper = existingFileHelper;
     }
 
     @Override
     protected void registerStatesAndModels() {
-        // Register METALS
-        MetallurgyBlocks.METALS.forEach((metal, metalMap) ->
+        TFCMBlocks.METALS.forEach((metal, metalMap) ->
                 Arrays.stream(MetallurgyMetal.BlockType.values())
-                        .filter(metalMap::containsKey) // Ensure the block type exists
+                        .filter(metalMap::containsKey)
                         .forEach(type -> {
                             RegistryObject<Block> block = metalMap.get(type);
                             if (block != null) {
                                 switch (type) {
-                                    case LAMP:
-                                        // Define base paths
-                                        String basePath = "block/metal/lamp/" + metal.name().toLowerCase();
-                                        String fullMetalTexture = "tfc_metallurgy:block/metal/smooth/" + metal.name().toLowerCase();
-                                        String chainTexture = "tfc_metallurgy:block/metal/chain/" + metal.name().toLowerCase();
-                                        String lampOnTexture = "tfc:block/lamp";
-                                        String lampOffTexture = "tfc:block/lamp_off";
-
-                                        // Generate models
-                                        ModelFile lampOn = models().withExistingParent(basePath + "_on", new ResourceLocation("tfc", "block/lamp"))
-                                                .texture("metal", fullMetalTexture)
-                                                .texture("lamp", lampOnTexture);
-
-                                        ModelFile lampOff = models().withExistingParent(basePath + "_off", new ResourceLocation("tfc", "block/lamp"))
-                                                .texture("metal", fullMetalTexture)
-                                                .texture("lamp", lampOffTexture);
-
-                                        ModelFile hangingOn = models().withExistingParent(basePath + "_hanging_on", new ResourceLocation("tfc", "block/lamp_hanging"))
-                                                .texture("metal", fullMetalTexture)
-                                                .texture("chain", chainTexture)
-                                                .texture("lamp", lampOnTexture);
-
-                                        ModelFile hangingOff = models().withExistingParent(basePath + "_hanging_off", new ResourceLocation("tfc", "block/lamp_hanging"))
-                                                .texture("metal", fullMetalTexture)
-                                                .texture("chain", chainTexture)
-                                                .texture("lamp", lampOffTexture);
-
-                                        // Generate block state
-                                        getVariantBuilder(block.get())
-                                                .partialState().with(LampBlock.LIT, true).with(LampBlock.HANGING, false)
-                                                .modelForState().modelFile(lampOn).addModel()
-                                                .partialState().with(LampBlock.LIT, false).with(LampBlock.HANGING, false)
-                                                .modelForState().modelFile(lampOff).addModel()
-                                                .partialState().with(LampBlock.LIT, true).with(LampBlock.HANGING, true)
-                                                .modelForState().modelFile(hangingOn).addModel()
-                                                .partialState().with(LampBlock.LIT, false).with(LampBlock.HANGING, true)
-                                                .modelForState().modelFile(hangingOff).addModel();
-                                        break;
-                                    case ANVIL:
-                                        ModelFile anvilModel = models().withExistingParent(
-                                                block.getId().getPath(), new ResourceLocation("tfc", "block/anvil")
-                                        ).texture("base", modLoc("block/metal/anvil/" + metal.name().toLowerCase()));
-                                        simpleBlock(block.get(), anvilModel);
-                                        break;
-                                    case CHAIN:
-                                        ModelFile chainModel = models().withExistingParent(
-                                                block.getId().getPath(), mcLoc("block/chain")
-                                        ).texture("particle", modLoc("block/metal/chain/" + metal.name().toLowerCase()));
-                                        simpleBlock(block.get(), chainModel);
-                                        break;
-                                    case TRAPDOOR:
-                                        // Define base path and texture
-                                        ResourceLocation basePath1 = modLoc("block/metal/trapdoor/" + metal.name().toLowerCase());
-                                        ResourceLocation fullMetalTexture1 = modLoc("block/metal/smooth/" + metal.name().toLowerCase());
-
-                                        // Generate models
-                                        ModelFile bottom = models().withExistingParent(basePath1 + "_bottom", new ResourceLocation("minecraft", "block/template_orientable_trapdoor_bottom"))
-                                                .texture("texture", fullMetalTexture1);
-
-                                        ModelFile top = models().withExistingParent(basePath1 + "_top", new ResourceLocation("minecraft", "block/template_orientable_trapdoor_top"))
-                                                .texture("texture", fullMetalTexture1);
-
-                                        ModelFile open = models().withExistingParent(basePath1 + "_open", new ResourceLocation("minecraft", "block/template_orientable_trapdoor_open"))
-                                                .texture("texture", fullMetalTexture1);
-
-                                        // Generate block state
-                                        getVariantBuilder(block.get())
-                                                .partialState().with(TrapDoorBlock.OPEN, false).with(TrapDoorBlock.HALF, Half.BOTTOM)
-                                                .modelForState().modelFile(bottom).addModel()
-                                                .partialState().with(TrapDoorBlock.OPEN, false).with(TrapDoorBlock.HALF, Half.TOP)
-                                                .modelForState().modelFile(top).addModel()
-                                                .partialState().with(TrapDoorBlock.OPEN, true)
-                                                .modelForState().modelFile(open).addModel();
-
-                                        break;
+                                    case LAMP -> registerLamp(block, metal);
+                                    case ANVIL -> registerAnvil(block, metal);
+                                    case CHAIN -> registerChain(block, metal);
+                                    case TRAPDOOR -> registerTrapdoor(block, metal);
+                                    case BLOCK_STAIRS -> registerStairs(block, metal);
+                                    case BLOCK_SLAB -> registerSlab(block, metal);
+                                    case BLOCK -> registerBlock(block, metal);
+                                    case BARS -> registerBars(block, metal);
                                 }
                             }
                         })
         );
 
-
-        // Register SMALL_ORES
-        MetallurgyBlocks.SMALL_ORES.values().forEach(block -> {
-            ModelFile smallOreModel = models().withExistingParent(block.getId().getPath(), mcLoc("block/cube_all"))
+        TFCMBlocks.SMALL_ORES.values().forEach(block -> {
+            ModelFile smallOreModel = models().withExistingParent("block/" + block.getId().getPath(), mcLoc("block/cube_all"))
                     .texture("all", modLoc("item/ore/" + block.getId().getPath().substring(block.getId().getPath().lastIndexOf('/') + 1)));
             simpleBlock(block.get(), smallOreModel);
         });
 
-
-        // Register ORES
-        MetallurgyBlocks.ORES.forEach((rockType, oreMap) ->
+        TFCMBlocks.ORES.forEach((rockType, oreMap) ->
                 oreMap.forEach((oreType, block) -> {
-                    String modelName = oreType.name().toLowerCase();
+                    String modelName = "block/ore/" + oreType.name().toLowerCase() + "/" + rockType.name().toLowerCase();
                     ResourceLocation baseTexture = new ResourceLocation("tfc", "block/rock/raw/" + rockType.name().toLowerCase());
+                    ResourceLocation overlayTexture = modLoc("block/ore/" + oreType.name().toLowerCase());
 
-                    models().withExistingParent(
-                                    "block/ore/" + modelName + "/" + rockType.name().toLowerCase(),
-                                    new ResourceLocation("tfc", "block/ore") // Ensure this parent model exists
-                            ).texture("all", baseTexture)
+                    ModelFile oreModel = models().withExistingParent(modelName, "tfc:block/ore")
+                            .texture("all", baseTexture)
                             .texture("particle", baseTexture)
-                            .texture("overlay", modLoc("block/ore/" + modelName));
+                            .texture("overlay", overlayTexture);
+
+                    simpleBlock(block.get(), oreModel);
                 })
         );
 
-        // Register GRADED_ORES
-        MetallurgyBlocks.GRADED_ORES.forEach((rockType, oreMap) ->
-                oreMap.forEach((oreType, block) -> {
-                    Arrays.asList("poor", "normal", "rich").forEach(grade -> {
-                        String modelName = grade + "_" + oreType.name().toLowerCase();
-                        ResourceLocation baseTexture = new ResourceLocation("tfc", "block/rock/raw/" + rockType.name().toLowerCase());
+        TFCMBlocks.GRADED_ORES.forEach((rockType, oreMap) ->
+                oreMap.forEach((oreType, gradeMap) ->
+                        gradeMap.forEach((grade, block) -> {
+                            String modelName = "block/ore/" + grade.name().toLowerCase() + "_" + oreType.name().toLowerCase() + "/" + rockType.name().toLowerCase();
+                            ResourceLocation baseTexture = new ResourceLocation("tfc", "block/rock/raw/" + rockType.name().toLowerCase());
+                            ResourceLocation overlayTexture = modLoc("block/ore/" + grade.name().toLowerCase() + "_" + oreType.name().toLowerCase());
 
-                        models().withExistingParent(
-                                        "block/ore/" + modelName + "/" + rockType.name().toLowerCase(),
-                                        new ResourceLocation("tfc", "block/ore")
-                                ).texture("all", baseTexture)
-                                .texture("particle", baseTexture)
-                                .texture("overlay", modLoc("block/ore/" + modelName));
-                    });
-                }));
+                            ModelFile gradedOreModel = models().withExistingParent(modelName, "tfc:block/ore")
+                                    .texture("all", baseTexture)
+                                    .texture("particle", baseTexture)
+                                    .texture("overlay", overlayTexture);
+
+                            simpleBlock(block.get(), gradedOreModel);
+                        })
+                )
+        );
+        TFCMBlocks.METAL_FLUIDS.forEach((metal, block) -> {
+            String fluidModelPath = "block/metal/fluid/" + metal.name().toLowerCase();
+            ResourceLocation fluidStill = modLoc("block/metal/fluid/" + metal.name().toLowerCase() + "_still");
+            ResourceLocation fluidFlowing = modLoc("block/metal/fluid/" + metal.name().toLowerCase() + "_flow");
+
+            getVariantBuilder(block.get()).forAllStates(state -> {
+                int level = state.getValue(LiquidBlock.LEVEL);
+                return ConfiguredModel.builder()
+                        .modelFile(models().withExistingParent(fluidModelPath, "minecraft:block/water")
+                                .texture("still", fluidStill)
+                                .texture("flowing", fluidFlowing))
+                        .build();
+            });
+
+            models().withExistingParent(fluidModelPath, "minecraft:block/water")
+                    .texture("still", fluidStill)
+                    .texture("flowing", fluidFlowing);
+        });
 
     }
+
+    private void registerLamp(RegistryObject<Block> block, MetallurgyMetal metal) {
+        String basePath = "block/metal/lamp/" + metal.name().toLowerCase();
+        String fullMetalTexture = "tfc_metallurgy:block/metal/smooth/" + metal.name().toLowerCase();
+        String chainTexture = "tfc_metallurgy:block/metal/chain/" + metal.name().toLowerCase();
+        String lampOnTexture = "tfc:block/lamp";
+        String lampOffTexture = "tfc:block/lamp_off";
+
+        ModelFile lampOn = models().withExistingParent(basePath + "_on", "tfc:block/lamp")
+                .texture("metal", fullMetalTexture)
+                .texture("lamp", lampOnTexture);
+
+        ModelFile lampOff = models().withExistingParent(basePath + "_off", "tfc:block/lamp")
+                .texture("metal", fullMetalTexture)
+                .texture("lamp", lampOffTexture);
+
+        getVariantBuilder(block.get())
+                .partialState().with(LampBlock.LIT, true).modelForState().modelFile(lampOn).addModel()
+                .partialState().with(LampBlock.LIT, false).modelForState().modelFile(lampOff).addModel();
+    }
+
+    private void registerAnvil(RegistryObject<Block> block, MetallurgyMetal metal) {
+        String anvilModelPath = "block/metal/anvil/" + metal.name().toLowerCase();
+        ResourceLocation anvilTexture = modLoc("block/metal/anvil/" + metal.name().toLowerCase());
+
+        // Generate the anvil model with correct parent and texture
+        ModelFile anvilModel = models().withExistingParent(anvilModelPath, "tfc:block/anvil")
+                .texture("all", anvilTexture)
+                .texture("particle", anvilTexture);
+
+        // Blockstate rotation for facing directions
+        getVariantBuilder(block.get())
+                .partialState().with(HorizontalDirectionalBlock.FACING, Direction.NORTH)
+                .modelForState().modelFile(anvilModel).addModel()
+                .partialState().with(HorizontalDirectionalBlock.FACING, Direction.EAST)
+                .modelForState().modelFile(anvilModel).rotationY(90).addModel()
+                .partialState().with(HorizontalDirectionalBlock.FACING, Direction.SOUTH)
+                .modelForState().modelFile(anvilModel).rotationY(180).addModel()
+                .partialState().with(HorizontalDirectionalBlock.FACING, Direction.WEST)
+                .modelForState().modelFile(anvilModel).rotationY(270).addModel();
+    }
+
+
+    private void registerChain(RegistryObject<Block> block, MetallurgyMetal metal) {
+        ModelFile chainModel = models().withExistingParent(
+                        "block/metal/chain/" + metal.name().toLowerCase(), mcLoc("block/chain"))
+                .texture("particle", modLoc("block/metal/chain/" + metal.name().toLowerCase()));
+
+        getVariantBuilder(block.get()).forAllStates(state ->
+                ConfiguredModel.builder().modelFile(chainModel).build()
+        );
+    }
+
+    private void registerTrapdoor(RegistryObject<Block> block, MetallurgyMetal metal) {
+        String basePath = "block/metal/trapdoor/" + metal.name().toLowerCase();
+        ResourceLocation fullMetalTexture = modLoc("block/metal/smooth/" + metal.name().toLowerCase());
+
+        models().withExistingParent(basePath + "_bottom", "minecraft:block/template_orientable_trapdoor_bottom")
+                .texture("texture", fullMetalTexture);
+
+        models().withExistingParent(basePath + "_top", "minecraft:block/template_orientable_trapdoor_top")
+                .texture("texture", fullMetalTexture);
+
+        models().withExistingParent(basePath + "_open", "minecraft:block/template_orientable_trapdoor_open")
+                .texture("texture", fullMetalTexture);
+    }
+
+    private void registerStairs(RegistryObject<Block> block, MetallurgyMetal metal) {
+        String stairsPath = "block/metal/block_stairs/" + metal.name().toLowerCase();
+        ResourceLocation texture = modLoc("block/metal/smooth/" + metal.name().toLowerCase());
+
+        models().stairs(stairsPath, texture, texture, texture);
+    }
+
+    private void registerSlab(RegistryObject<Block> block, MetallurgyMetal metal) {
+        String slabModelPath = "block/metal/block_slab/" + metal.name().toLowerCase();
+        ResourceLocation slabTexture = modLoc("block/metal/smooth/" + metal.name().toLowerCase());
+
+        models().slab(slabModelPath, slabTexture, slabTexture, slabTexture);
+    }
+
+    private void registerBlock(RegistryObject<Block> block, MetallurgyMetal metal) {
+        models().cubeAll("block/metal/block/" + metal.name().toLowerCase(), modLoc("block/metal/smooth/" + metal.name().toLowerCase()));
+    }
+
+    private void registerBars(RegistryObject<Block> block, MetallurgyMetal metal) {
+        String barsModelPath = "block/metal/bars/" + metal.name().toLowerCase();
+        ResourceLocation texture = modLoc("block/metal/smooth/" + metal.name().toLowerCase());
+
+        // Generate the bar models (post, side, and normal bars)
+        ModelFile post = models().withExistingParent(barsModelPath + "_post", mcLoc("block/iron_bars_post"))
+                .texture("texture", texture);
+
+        ModelFile side = models().withExistingParent(barsModelPath + "_side", mcLoc("block/iron_bars_side"))
+                .texture("texture", texture);
+
+        // Use multipartBlock to avoid partial match conflicts
+        MultiPartBlockStateBuilder builder = getMultipartBuilder(block.get());
+
+        // North-facing bars
+        builder.part().modelFile(side).addModel().condition(IronBarsBlock.NORTH, true);
+
+        // South-facing bars (rotated 180 degrees)
+        builder.part().modelFile(side).rotationY(180).addModel().condition(IronBarsBlock.SOUTH, true);
+
+        // East-facing bars (rotated 90 degrees)
+        builder.part().modelFile(side).rotationY(90).addModel().condition(IronBarsBlock.EAST, true);
+
+        // West-facing bars (rotated 270 degrees)
+        builder.part().modelFile(side).rotationY(270).addModel().condition(IronBarsBlock.WEST, true);
+
+        // Post model (only when no connections exist)
+        builder.part().modelFile(post)
+                .addModel()
+                .condition(IronBarsBlock.NORTH, false)
+                .condition(IronBarsBlock.SOUTH, false)
+                .condition(IronBarsBlock.EAST, false)
+                .condition(IronBarsBlock.WEST, false);
+    }
+
+
+
 }

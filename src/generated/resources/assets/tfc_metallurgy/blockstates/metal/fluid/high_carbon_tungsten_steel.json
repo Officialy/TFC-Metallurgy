@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel"
+    }
+  }
+}

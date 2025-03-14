@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/osmiridium",
     "tfc_metallurgy:metal/unfinished_boots/osmiridium",
     "tfc_metallurgy:metal/boots/osmiridium",
-    "tfc_metallurgy:metal/shield/osmiridium"
+    "tfc_metallurgy:metal/shield/osmiridium",
+    "tfc_metallurgy:metal/unfinished_lamp/osmiridium",
+    "tfc_metallurgy:metal/lamp/osmiridium"
   ]
 }

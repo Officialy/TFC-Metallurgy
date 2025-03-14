@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/magnesium"
+    }
+  }
+}

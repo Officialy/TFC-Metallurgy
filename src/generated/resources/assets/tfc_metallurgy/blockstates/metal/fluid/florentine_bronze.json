@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/florentine_bronze"
+    }
+  }
+}

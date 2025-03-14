@@ -1,15 +1,15 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/refined_glowstone"
+    "tag": "forge:ingots/refined_glowstone"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_boots/refined_glowstone"
+    "item": "tfc_metallurgy:metal/unfinished_lamp/refined_glowstone"
   },
   "tier": 4,
   "rules": [
     "bend_last",
     "bend_second_last",
-    "shrink_third_last"
+    "draw_third_last"
   ]
 }

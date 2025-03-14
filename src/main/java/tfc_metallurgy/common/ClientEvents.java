@@ -17,7 +17,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.dries007.tfc.client.render.blockentity.TFCBellBlockEntityRenderer;
 import tfc_metallurgy.common.block_entities.MetallurgyBlockEntities;
-import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.blocks.TFCMBlocks;
 import tfc_metallurgy.common.items.MetallurgyItems;
 import tfc_metallurgy.util.MetallurgyMetal;
 
@@ -36,7 +36,7 @@ public class ClientEvents {
         if (sheet.equals(RenderHelpers.BLOCKS_ATLAS)) {
             for (MetallumMetal metal : MetallumMetal.values())
             {
-                event.addSprite(new ResourceLocation("tfc_metallurgy:block/metal/full/" + metal.getSerializedName()));
+                event.addSprite(new ResourceLocation("tfc_metallurgy:block/metal/smooth/" + metal.getSerializedName()));
             }
             event.addSprite(Helpers.identifier("entity/bell/beryllium_copper"));
             event.addSprite(Helpers.identifier("entity/bell/florentine_bronze"));
@@ -47,23 +47,23 @@ public class ClientEvents {
 
         final RenderType cutout = RenderType.cutout();
 
-        MetallurgyBlocks.SMALL_ORES.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout));
+        TFCMBlocks.SMALL_ORES.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout));
 
-        MetallurgyBlocks.ORES.values().forEach(inner -> inner.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout)));
+        TFCMBlocks.ORES.values().forEach(inner -> inner.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout)));
 
-        MetallurgyBlocks.GRADED_ORES.values().forEach(map -> map.values().forEach(inner -> inner.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout))));
+        TFCMBlocks.GRADED_ORES.values().forEach(map -> map.values().forEach(inner -> inner.values().forEach(reg -> ItemBlockRenderTypes.setRenderLayer(reg.get(), cutout))));
         for(MetallurgyMetal metal: MetallurgyMetal.values()) {
             for(MetallurgyMetal.BlockType type: MetallurgyMetal.BlockType.values()) {
                 if(type.has(metal)) {
-                    ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.METALS.get(metal).get(type).get(), cutout);
+                    ItemBlockRenderTypes.setRenderLayer(TFCMBlocks.METALS.get(metal).get(type).get(), cutout);
                 }
             }
         }
 
-        ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.ENDERIUM_BARS.get(), cutout);
-        ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.TITANIUM_BARS.get(), cutout);
-        ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.TUNGSTEN_BARS.get(), cutout);
-        ItemBlockRenderTypes.setRenderLayer(MetallurgyBlocks.TUNGSTEN_STEEL_BARS.get(), cutout);
+//        ItemBlockRenderTypes.setRenderLayer(TFCMBlocks.ENDERIUM_BARS.get(), cutout);
+//        ItemBlockRenderTypes.setRenderLayer(TFCMBlocks.TITANIUM_BARS.get(), cutout);
+//        ItemBlockRenderTypes.setRenderLayer(TFCMBlocks.TUNGSTEN_BARS.get(), cutout);
+//        ItemBlockRenderTypes.setRenderLayer(TFCMBlocks.TUNGSTEN_STEEL_BARS.get(), cutout);
 
         event.enqueueWork(() -> {
 

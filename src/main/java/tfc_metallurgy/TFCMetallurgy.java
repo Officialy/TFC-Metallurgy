@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 import tfc_metallurgy.common.ClientEvents;
 import tfc_metallurgy.common.MetallurgyItemGroup;
 import tfc_metallurgy.common.block_entities.MetallurgyBlockEntities;
-import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.blocks.TFCMBlocks;
 import tfc_metallurgy.common.fluids.MetallurgyFluids;
 import tfc_metallurgy.common.items.MetallurgyItems;
 
@@ -24,7 +24,7 @@ public class TFCMetallurgy {
 	public TFCMetallurgy(FMLJavaModLoadingContext i) {
 		final IEventBus bus = i.getModEventBus();
 		MetallurgyItems.ITEMS.register(bus);
-		MetallurgyBlocks.BLOCKS.register(bus);
+		TFCMBlocks.BLOCKS.register(bus);
 		MetallurgyFluids.FLUID_TYPES.register(bus);
 		MetallurgyFluids.FLUIDS.register(bus);
 		MetallurgyBlockEntities.BLOCK_ENTITIES.register(bus);

@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/constantan"
+    }
+  }
+}

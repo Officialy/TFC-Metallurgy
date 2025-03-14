@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/ferroboron",
     "tfc_metallurgy:metal/unfinished_boots/ferroboron",
     "tfc_metallurgy:metal/boots/ferroboron",
-    "tfc_metallurgy:metal/shield/ferroboron"
+    "tfc_metallurgy:metal/shield/ferroboron",
+    "tfc_metallurgy:metal/unfinished_lamp/ferroboron",
+    "tfc_metallurgy:metal/lamp/ferroboron"
   ]
 }

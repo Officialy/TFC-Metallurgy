@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/nickel_silver",
     "tfc_metallurgy:metal/unfinished_boots/nickel_silver",
     "tfc_metallurgy:metal/boots/nickel_silver",
-    "tfc_metallurgy:metal/shield/nickel_silver"
+    "tfc_metallurgy:metal/shield/nickel_silver",
+    "tfc_metallurgy:metal/unfinished_lamp/nickel_silver",
+    "tfc_metallurgy:metal/lamp/nickel_silver"
   ]
 }

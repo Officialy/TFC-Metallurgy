@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/anvil/compressed_iron"
+    "facing=east": {
+      "model": "tfc_metallurgy:block/metal/anvil/compressed_iron",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tfc_metallurgy:block/metal/anvil/compressed_iron"
+    },
+    "facing=south": {
+      "model": "tfc_metallurgy:block/metal/anvil/compressed_iron",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tfc_metallurgy:block/metal/anvil/compressed_iron",
+      "y": 270
     }
   }
 }

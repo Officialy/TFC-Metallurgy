@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import tfc_metallurgy.TFCMetallurgy;
-import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.blocks.TFCMBlocks;
 
 import java.util.function.Supplier;
 import java.util.stream.Stream;
@@ -17,7 +17,7 @@ public class MetallurgyBlockEntities {
 
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, TFCMetallurgy.MOD_ID);
 
-    public static final RegistryObject<BlockEntityType<MetallurgyBellBlockEntity>> BELL = register("bell", MetallurgyBellBlockEntity::new, Stream.of(MetallurgyBlocks.FLORENTINE_BRONZE_BELL, MetallurgyBlocks.BERYLLIUM_COPPER_BELL));
+    public static final RegistryObject<BlockEntityType<MetallurgyBellBlockEntity>> BELL = register("bell", MetallurgyBellBlockEntity::new, Stream.of(TFCMBlocks.FLORENTINE_BRONZE_BELL, TFCMBlocks.BERYLLIUM_COPPER_BELL));
 
     private static <T extends BlockEntity> RegistryObject<BlockEntityType<T>> register(String name, BlockEntityType.BlockEntitySupplier<T> factory, Supplier<? extends Block> block)
     {

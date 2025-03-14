@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/water",
+  "textures": {
+    "flowing": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel_flow",
+    "still": "tfc_metallurgy:block/metal/fluid/high_carbon_tungsten_steel_still"
+  }
+}

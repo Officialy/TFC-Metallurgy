@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/boron",
     "tfc_metallurgy:metal/unfinished_boots/boron",
     "tfc_metallurgy:metal/boots/boron",
-    "tfc_metallurgy:metal/shield/boron"
+    "tfc_metallurgy:metal/shield/boron",
+    "tfc_metallurgy:metal/unfinished_lamp/boron",
+    "tfc_metallurgy:metal/lamp/boron"
   ]
 }

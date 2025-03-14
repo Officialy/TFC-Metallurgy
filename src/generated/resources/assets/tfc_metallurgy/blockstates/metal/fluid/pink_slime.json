@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/pink_slime"
+    }
+  }
+}

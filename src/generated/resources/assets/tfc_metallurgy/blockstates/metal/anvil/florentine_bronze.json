@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/anvil/florentine_bronze"
+    "facing=east": {
+      "model": "tfc_metallurgy:block/metal/anvil/florentine_bronze",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tfc_metallurgy:block/metal/anvil/florentine_bronze"
+    },
+    "facing=south": {
+      "model": "tfc_metallurgy:block/metal/anvil/florentine_bronze",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tfc_metallurgy:block/metal/anvil/florentine_bronze",
+      "y": 270
     }
   }
 }

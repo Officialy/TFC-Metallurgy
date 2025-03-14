@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/smooth/refined_obsidian",
+    "side": "tfc_metallurgy:block/metal/smooth/refined_obsidian",
+    "top": "tfc_metallurgy:block/metal/smooth/refined_obsidian"
+  }
+}

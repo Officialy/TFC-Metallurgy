@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/compressed_iron"
+    }
+  }
+}

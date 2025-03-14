@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/beryllium_copper",
     "tfc_metallurgy:metal/unfinished_boots/beryllium_copper",
     "tfc_metallurgy:metal/boots/beryllium_copper",
-    "tfc_metallurgy:metal/shield/beryllium_copper"
+    "tfc_metallurgy:metal/shield/beryllium_copper",
+    "tfc_metallurgy:metal/unfinished_lamp/beryllium_copper",
+    "tfc_metallurgy:metal/lamp/beryllium_copper"
   ]
 }

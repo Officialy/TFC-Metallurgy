@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/shield",
+  "textures": {
+    "back": "tfc_metallurgy:item/metal/shield/refined_obsidian_back",
+    "front": "tfc_metallurgy:item/metal/shield/refined_obsidian_front",
+    "particle": "tfc_metallurgy:item/metal/shield/refined_obsidian_front"
+  }
+}

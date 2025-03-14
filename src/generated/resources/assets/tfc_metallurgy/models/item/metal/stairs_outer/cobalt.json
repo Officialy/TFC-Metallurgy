@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/smooth/cobalt",
+    "side": "tfc_metallurgy:block/metal/smooth/cobalt",
+    "top": "tfc_metallurgy:block/metal/smooth/cobalt"
+  }
+}

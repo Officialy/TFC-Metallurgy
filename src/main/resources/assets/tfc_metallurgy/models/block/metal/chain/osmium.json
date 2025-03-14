@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/chain",
-  "textures": {
-    "all": "tfc_metallurgy:block/metal/chain/osmium",
-    "particle": "tfc_metallurgy:block/metal/full/osmium"
-  }
-}

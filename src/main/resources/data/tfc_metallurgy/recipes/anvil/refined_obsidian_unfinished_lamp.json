@@ -1,15 +1,15 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/refined_obsidian"
+    "tag": "forge:ingots/refined_obsidian"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_boots/refined_obsidian"
+    "item": "tfc_metallurgy:metal/unfinished_lamp/refined_obsidian"
   },
   "tier": 4,
   "rules": [
     "bend_last",
     "bend_second_last",
-    "shrink_third_last"
+    "draw_third_last"
   ]
 }

@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/florentine_bronze",
     "tfc_metallurgy:metal/unfinished_boots/florentine_bronze",
     "tfc_metallurgy:metal/boots/florentine_bronze",
-    "tfc_metallurgy:metal/shield/florentine_bronze"
+    "tfc_metallurgy:metal/shield/florentine_bronze",
+    "tfc_metallurgy:metal/unfinished_lamp/florentine_bronze",
+    "tfc_metallurgy:metal/lamp/florentine_bronze"
   ]
 }

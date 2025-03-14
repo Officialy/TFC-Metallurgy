@@ -30,24 +30,22 @@ public class ModDataProviders {
         final var dataGenerator = event.getGenerator();
         final var output = dataGenerator.getPackOutput();
         final var existingFileHelper = event.getExistingFileHelper();
-
-        final ExistingFileHelper.ResourceType MODEL = new ExistingFileHelper.ResourceType(PackType.CLIENT_RESOURCES, ".json", "models");
-        final ExistingFileHelper.ResourceType TEXTURE = new ExistingFileHelper.ResourceType(PackType.CLIENT_RESOURCES, ".json", "textures");
-        existingFileHelper.trackGenerated(new ResourceLocation("tfc", "block/ore"), MODEL);
-        existingFileHelper.trackGenerated(new ResourceLocation("tfc", "block/rock/raw/marble"), TEXTURE);
-
+        CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 //        dataGenerator.addProvider(event.includeClient(), new ModLanguageProvider(output));
 
-//        final var itemModelProvider = new ModItemModelProvider(output, existingFileHelper);
-//        dataGenerator.addProvider(event.includeClient(), itemModelProvider);
-
         dataGenerator.addProvider(event.includeClient(), new ModBlockStateProvider(output, existingFileHelper));
+
+        final var itemModelProvider = new ModItemModelProvider(output, existingFileHelper);
+        dataGenerator.addProvider(event.includeClient(), itemModelProvider);
+
+
 
 //        dataGenerator.addProvider(event.includeServer(), new ModCraftingProvider(output));
 //        dataGenerator.addProvider(event.includeServer(), ModLootTableProvider.create(output));
 
-//        final var blockTagsProvider = new ModBlockTagsProvider(output, lookupProvider, existingFileHelper);
-//        dataGenerator.addProvider(event.includeServer(), blockTagsProvider);
+
+        final var blockTagsProvider = new ModBlockTagsProvider(output, lookupProvider, existingFileHelper);
+        dataGenerator.addProvider(event.includeServer(), blockTagsProvider);
 //        dataGenerator.addProvider(event.includeServer(), new ModItemTagsProvider(output, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
 //        dataGenerator.addProvider(event.includeServer(), new ModBiomeTagsProvider(output, lookupProvider, existingFileHelper));
 //        dataGenerator.addProvider(event.includeServer(), new ModFluidTagsProvider(output, lookupProvider, existingFileHelper));

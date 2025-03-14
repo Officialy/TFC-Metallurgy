@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/anvil/refined_glowstone"
+    "facing=east": {
+      "model": "tfc_metallurgy:block/metal/anvil/refined_glowstone",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tfc_metallurgy:block/metal/anvil/refined_glowstone"
+    },
+    "facing=south": {
+      "model": "tfc_metallurgy:block/metal/anvil/refined_glowstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tfc_metallurgy:block/metal/anvil/refined_glowstone",
+      "y": 270
     }
   }
 }

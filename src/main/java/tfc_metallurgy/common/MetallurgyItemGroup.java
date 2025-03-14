@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import tfc_metallurgy.TFCMetallurgy;
-import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.blocks.TFCMBlocks;
 import tfc_metallurgy.common.blocks.rock.MetallurgyOre;
 import tfc_metallurgy.common.items.MetallurgyItems;
 import tfc_metallurgy.util.BloomMetal;
@@ -41,7 +41,7 @@ public class MetallurgyItemGroup {
 
     private static void processBlockTypes(CreativeModeTab.Output out, MetallurgyMetal metal) {
         for (MetallurgyMetal.BlockType blockType : MetallurgyMetal.BlockType.values()) {
-            accept(out, MetallurgyBlocks.METALS, metal, blockType);
+            accept(out, TFCMBlocks.METALS, metal, blockType);
         }
     }
 
@@ -62,7 +62,7 @@ public class MetallurgyItemGroup {
             ore = var2[var4];
             if (ore.isGraded()) {
                 accept(out, MetallurgyItems.GRADED_ORES, ore, Ore.Grade.POOR);
-                accept(out, MetallurgyBlocks.SMALL_ORES, ore);
+                accept(out, TFCMBlocks.SMALL_ORES, ore);
                 accept(out, MetallurgyItems.GRADED_ORES, ore, Ore.Grade.NORMAL);
                 accept(out, MetallurgyItems.GRADED_ORES, ore, Ore.Grade.RICH);
             }
@@ -94,14 +94,14 @@ public class MetallurgyItemGroup {
             ore = var2[var4];
             if (ore.isGraded()) {
                 MetallurgyOre finalOre = ore;
-                MetallurgyBlocks.GRADED_ORES.values().forEach((map) -> {
+                TFCMBlocks.GRADED_ORES.values().forEach((map) -> {
                     ((Map)map.get(finalOre)).values().forEach((reg) -> {
                         accept(out, (Supplier)reg);
                     });
                 });
             } else {
                 MetallurgyOre finalOre1 = ore;
-                MetallurgyBlocks.ORES.values().forEach((map) -> {
+                TFCMBlocks.ORES.values().forEach((map) -> {
                     accept(out, map, finalOre1);
                 });
             }
@@ -140,12 +140,12 @@ public class MetallurgyItemGroup {
             }
         }
         if (event.getTabKey() == TFCCreativeTabs.DECORATIONS.tab().getKey()) {
-            event.accept(MetallurgyBlocks.BERYLLIUM_COPPER_BELL.get());
-            event.accept(MetallurgyBlocks.FLORENTINE_BRONZE_BELL.get());
-            event.accept(MetallurgyBlocks.ENDERIUM_BARS.get());
-            event.accept(MetallurgyBlocks.TITANIUM_BARS.get());
-            event.accept(MetallurgyBlocks.TUNGSTEN_BARS.get());
-            event.accept(MetallurgyBlocks.TUNGSTEN_STEEL_BARS.get());
+            event.accept(TFCMBlocks.BERYLLIUM_COPPER_BELL.get());
+            event.accept(TFCMBlocks.FLORENTINE_BRONZE_BELL.get());
+//            event.accept(TFCMBlocks.ENDERIUM_BARS.get());
+//            event.accept(TFCMBlocks.TITANIUM_BARS.get());
+//            event.accept(TFCMBlocks.TUNGSTEN_BARS.get());
+//            event.accept(TFCMBlocks.TUNGSTEN_STEEL_BARS.get());
         }
     }
 

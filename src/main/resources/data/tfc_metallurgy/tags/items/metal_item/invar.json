@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/invar",
     "tfc_metallurgy:metal/unfinished_boots/invar",
     "tfc_metallurgy:metal/boots/invar",
-    "tfc_metallurgy:metal/shield/invar"
+    "tfc_metallurgy:metal/shield/invar",
+    "tfc_metallurgy:metal/unfinished_lamp/invar",
+    "tfc_metallurgy:metal/lamp/invar"
   ]
 }

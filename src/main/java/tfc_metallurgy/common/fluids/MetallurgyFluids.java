@@ -14,7 +14,7 @@ import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import tfc_metallurgy.TFCMetallurgy;
-import tfc_metallurgy.common.blocks.MetallurgyBlocks;
+import tfc_metallurgy.common.blocks.TFCMBlocks;
 import tfc_metallurgy.common.items.MetallurgyItems;
 import tfc_metallurgy.util.MetallurgyMetal;
 
@@ -38,7 +38,7 @@ public class MetallurgyFluids {
 
     public static final Map<MetallurgyMetal, FluidRegistryObject<ForgeFlowingFluid>> METALS = Helpers.mapOfKeys(MetallurgyMetal.class, metal -> register(
             "metal/" + metal.getSerializedName(),
-            properties -> properties.block(MetallurgyBlocks.METAL_FLUIDS.get(metal)).bucket(MetallurgyItems.METAL_FLUID_BUCKETS.get(FluidId.asType(metal))).explosionResistance(100.0F),
+            properties -> properties.block(TFCMBlocks.METAL_FLUIDS.get(metal)).bucket(MetallurgyItems.METAL_FLUID_BUCKETS.get(FluidId.asType(metal))).explosionResistance(100.0F),
             lavaLike().descriptionId("fluid.tfc.metal." + metal.getSerializedName()).rarity(metal.getRarity()),
             new FluidTypeClientProperties(-16777216 | metal.getColor(), new ResourceLocation("tfc_metallurgy:block/metal/fluid/" + metal.getSerializedName() + "_still"),
                     new ResourceLocation("tfc_metallurgy:block/metal/fluid/" + metal.getSerializedName() + "_flow"), null, null),

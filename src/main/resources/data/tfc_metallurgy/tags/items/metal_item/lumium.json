@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/lumium",
     "tfc_metallurgy:metal/unfinished_boots/lumium",
     "tfc_metallurgy:metal/boots/lumium",
-    "tfc_metallurgy:metal/shield/lumium"
+    "tfc_metallurgy:metal/shield/lumium",
+    "tfc_metallurgy:metal/unfinished_lamp/lumium",
+    "tfc_metallurgy:metal/lamp/lumium"
   ]
 }

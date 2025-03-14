@@ -44,6 +44,9 @@
     "tfc_metallurgy:metal/greaves/tungsten_steel",
     "tfc_metallurgy:metal/unfinished_boots/tungsten_steel",
     "tfc_metallurgy:metal/boots/tungsten_steel",
-    "tfc_metallurgy:metal/shield/tungsten_steel"
+    "tfc_metallurgy:metal/shield/tungsten_steel",
+    "tfc_metallurgy:metal/unfinished_lamp/tungsten_steel",
+    "tfc_metallurgy:metal/lamp/tungsten_steel"
+    
   ]
 }

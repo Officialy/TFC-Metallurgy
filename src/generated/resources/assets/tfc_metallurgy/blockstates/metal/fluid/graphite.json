@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/graphite"
+    }
+  }
+}

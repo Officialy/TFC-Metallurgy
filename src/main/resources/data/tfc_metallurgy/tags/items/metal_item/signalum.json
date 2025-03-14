@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/signalum",
     "tfc_metallurgy:metal/unfinished_boots/signalum",
     "tfc_metallurgy:metal/boots/signalum",
-    "tfc_metallurgy:metal/shield/signalum"
+    "tfc_metallurgy:metal/shield/signalum",
+    "tfc_metallurgy:metal/unfinished_lamp/signalum",
+    "tfc_metallurgy:metal/lamp/signalum"
   ]
 }

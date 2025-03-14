@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/compressed_iron",
     "tfc_metallurgy:metal/unfinished_boots/compressed_iron",
     "tfc_metallurgy:metal/boots/compressed_iron",
-    "tfc_metallurgy:metal/shield/compressed_iron"
+    "tfc_metallurgy:metal/shield/compressed_iron",
+    "tfc_metallurgy:metal/unfinished_lamp/compressed_iron",
+    "tfc_metallurgy:metal/lamp/compressed_iron"
   ]
 }

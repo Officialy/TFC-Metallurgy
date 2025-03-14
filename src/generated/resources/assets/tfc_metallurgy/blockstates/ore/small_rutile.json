@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tfc_metallurgy:ore/small_rutile"
+      "model": "tfc_metallurgy:block/ore/small_rutile"
     }
   }
 }

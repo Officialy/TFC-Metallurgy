@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/titanium",
     "tfc_metallurgy:metal/unfinished_boots/titanium",
     "tfc_metallurgy:metal/boots/titanium",
-    "tfc_metallurgy:metal/shield/titanium"
+    "tfc_metallurgy:metal/shield/titanium",
+    "tfc_metallurgy:metal/unfinished_lamp/titanium",
+    "tfc_metallurgy:metal/lamp/titanium"
   ]
 }

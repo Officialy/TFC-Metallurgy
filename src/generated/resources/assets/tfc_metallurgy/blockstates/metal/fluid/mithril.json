@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/mithril"
+    }
+  }
+}

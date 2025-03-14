@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/anvil/osmium"
+    "facing=east": {
+      "model": "tfc_metallurgy:block/metal/anvil/osmium",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tfc_metallurgy:block/metal/anvil/osmium"
+    },
+    "facing=south": {
+      "model": "tfc_metallurgy:block/metal/anvil/osmium",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tfc_metallurgy:block/metal/anvil/osmium",
+      "y": 270
     }
   }
 }

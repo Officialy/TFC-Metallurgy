@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/thorium",
     "tfc_metallurgy:metal/unfinished_boots/thorium",
     "tfc_metallurgy:metal/boots/thorium",
-    "tfc_metallurgy:metal/shield/thorium"
+    "tfc_metallurgy:metal/shield/thorium",
+    "tfc_metallurgy:metal/unfinished_lamp/thorium",
+    "tfc_metallurgy:metal/lamp/thorium"
   ]
 }

@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/uranium",
     "tfc_metallurgy:metal/unfinished_boots/uranium",
     "tfc_metallurgy:metal/boots/uranium",
-    "tfc_metallurgy:metal/shield/uranium"
+    "tfc_metallurgy:metal/shield/uranium",
+    "tfc_metallurgy:metal/unfinished_lamp/uranium",
+    "tfc_metallurgy:metal/lamp/uranium"
   ]
 }

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/iron_bars_cap",
-  "textures": {
-    "particle": "tfc_metallurgy:block/tungsten_steel_bars",
-    "bars": "tfc_metallurgy:block/tungsten_steel_bars",
-    "edge": "tfc_metallurgy:block/tungsten_steel_bars"
-  }
-}

@@ -44,6 +44,8 @@
     "tfc_metallurgy:metal/greaves/aluminum",
     "tfc_metallurgy:metal/unfinished_boots/aluminum",
     "tfc_metallurgy:metal/boots/aluminum",
-    "tfc_metallurgy:metal/shield/aluminum"
+    "tfc_metallurgy:metal/shield/aluminum",
+    "tfc_metallurgy:metal/unfinished_lamp/aluminum",
+    "tfc_metallurgy:metal/lamp/aluminum"
   ]
 }

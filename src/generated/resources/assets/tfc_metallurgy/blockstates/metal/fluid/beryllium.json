@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/beryllium"
+    }
+  }
+}

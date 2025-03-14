@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/smooth/beryllium_copper",
+    "side": "tfc_metallurgy:block/metal/smooth/beryllium_copper",
+    "top": "tfc_metallurgy:block/metal/smooth/beryllium_copper"
+  }
+}

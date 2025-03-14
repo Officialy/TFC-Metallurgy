@@ -1,11 +1,15 @@
 {
-  "type": "tfc:heating",
-  "ingredient": {
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/thorium"
+  },
+  "result": {
     "item": "tfc_metallurgy:metal/unfinished_lamp/thorium"
   },
-  "result_fluid": {
-    "fluid": "tfc_metallurgy:metal/thorium",
-    "amount": 200
-  },
-  "temperature": 1535
+  "tier": 6,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "draw_third_last"
+  ]
 }

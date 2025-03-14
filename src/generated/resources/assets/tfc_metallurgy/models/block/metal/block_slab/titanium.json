@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/smooth/titanium",
+    "side": "tfc_metallurgy:block/metal/smooth/titanium",
+    "top": "tfc_metallurgy:block/metal/smooth/titanium"
+  }
+}

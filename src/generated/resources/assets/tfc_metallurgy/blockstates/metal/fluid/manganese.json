@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/manganese"
+    }
+  }
+}

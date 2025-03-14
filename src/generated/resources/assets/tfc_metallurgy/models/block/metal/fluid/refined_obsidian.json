@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/water",
+  "textures": {
+    "flowing": "tfc_metallurgy:block/metal/fluid/refined_obsidian_flow",
+    "still": "tfc_metallurgy:block/metal/fluid/refined_obsidian_still"
+  }
+}

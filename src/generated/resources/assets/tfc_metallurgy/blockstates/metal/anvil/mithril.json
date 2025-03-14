@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
-      "model": "tfc_metallurgy:metal/anvil/mithril"
+    "facing=east": {
+      "model": "tfc_metallurgy:block/metal/anvil/mithril",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tfc_metallurgy:block/metal/anvil/mithril"
+    },
+    "facing=south": {
+      "model": "tfc_metallurgy:block/metal/anvil/mithril",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tfc_metallurgy:block/metal/anvil/mithril",
+      "y": 270
     }
   }
 }

@@ -25,14 +25,14 @@ public enum MetallurgyOre {
     ZIRCON(true),
     CERTUS_QUARTZ(false);
 
-    private final boolean grade;
+    private final boolean isGraded;
 
     MetallurgyOre(boolean grade) {
-        this.grade = grade;
+        this.isGraded = grade;
     }
 
     public boolean isGraded() {
-        return grade;
+        return isGraded;
     }
 
     public Block create(RegistryRock rock) {

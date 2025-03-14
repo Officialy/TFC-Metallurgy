@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=1": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=10": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=11": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=12": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=13": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=14": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=15": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=2": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=3": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=4": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=5": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=6": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=7": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=8": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    },
+    "level=9": {
+      "model": "tfc_metallurgy:block/metal/fluid/pewter"
+    }
+  }
+}

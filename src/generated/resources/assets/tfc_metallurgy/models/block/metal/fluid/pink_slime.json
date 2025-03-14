@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/water",
+  "textures": {
+    "flowing": "tfc_metallurgy:block/metal/fluid/pink_slime_flow",
+    "still": "tfc_metallurgy:block/metal/fluid/pink_slime_still"
+  }
+}
