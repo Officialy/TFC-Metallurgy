@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc_metallurgy:metal/unfinished_chestplate/titanium"
+  },
+  "second_input": {
+    "tag": "forge:sheets/titanium"
+  },
+  "tier": 3,
+  "result": {
+    "item": "tfc_metallurgy:metal/chestplate/titanium"
+  }
+}

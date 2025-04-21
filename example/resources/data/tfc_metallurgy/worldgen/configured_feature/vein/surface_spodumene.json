@@ -1,0 +1,81 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 25,
+    "min_y": 70,
+    "max_y": 90,
+    "size": 10,
+    "density": 0.25,
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/granite"
+        ],
+        "with": [
+          {
+            "weight": 80,
+            "block": "tfc_metallurgy:ore/poor_spodumene/granite"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/normal_spodumene/granite"
+          },
+          {
+            "weight": 5,
+            "block": "tfc_metallurgy:ore/rich_spodumene/granite"
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/schist"
+        ],
+        "with": [
+          {
+            "weight": 80,
+            "block": "tfc_metallurgy:ore/poor_spodumene/schist"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/normal_spodumene/schist"
+          },
+          {
+            "weight": 5,
+            "block": "tfc_metallurgy:ore/rich_spodumene/schist"
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/gneiss"
+        ],
+        "with": [
+          {
+            "weight": 80,
+            "block": "tfc_metallurgy:ore/poor_spodumene/gneiss"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/normal_spodumene/gneiss"
+          },
+          {
+            "weight": 5,
+            "block": "tfc_metallurgy:ore/rich_spodumene/gneiss"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 6,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_spodumene"
+        }
+      ]
+    },
+    "random_name": "normal_spodumene"
+  }
+}

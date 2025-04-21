@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:fishing_rods/lumium"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/lumium",
+    "amount": 200
+  },
+  "temperature": 1500,
+  "use_durability": true
+}

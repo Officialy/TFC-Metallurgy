@@ -1,0 +1,8 @@
+{
+  "parent": "tfc:block/lamp_hanging",
+  "textures": {
+    "metal": "tfc_metallurgy:block/metal/full/signalum",
+    "chain": "tfc_metallurgy:block/metal/chain/signalum",
+    "lamp": "tfc:block/lamp"
+  }
+}

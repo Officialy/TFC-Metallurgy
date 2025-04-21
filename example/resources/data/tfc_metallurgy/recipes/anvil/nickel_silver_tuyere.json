@@ -1,0 +1,14 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_sheets/nickel_silver"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/tuyere/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "bend_second_last"
+  ]
+}

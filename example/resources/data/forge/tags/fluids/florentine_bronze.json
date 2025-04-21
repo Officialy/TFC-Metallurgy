@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/florentine_bronze",
+    "tfc_metallurgy:metal/flowing_florentine_bronze"
+  ]
+}

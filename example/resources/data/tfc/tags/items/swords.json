@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/sword/aluminum",
+    "tfc_metallurgy:metal/sword/boron",
+    "tfc_metallurgy:metal/sword/beryllium_copper",
+    "tfc_metallurgy:metal/sword/cobalt",
+    "tfc_metallurgy:metal/sword/compressed_iron",
+    "tfc_metallurgy:metal/sword/enderium",
+    "tfc_metallurgy:metal/sword/ferroboron",
+    "tfc_metallurgy:metal/sword/florentine_bronze",
+    "tfc_metallurgy:metal/sword/invar",
+    "tfc_metallurgy:metal/sword/lumium",
+    "tfc_metallurgy:metal/sword/mithril",
+    "tfc_metallurgy:metal/sword/nickel_silver",
+    "tfc_metallurgy:metal/sword/osmium",
+    "tfc_metallurgy:metal/sword/osmiridium",
+    "tfc_metallurgy:metal/sword/pewter",
+    "tfc_metallurgy:metal/sword/refined_glowstone",
+    "tfc_metallurgy:metal/sword/refined_obsidian",
+    "tfc_metallurgy:metal/sword/signalum",
+    "tfc_metallurgy:metal/sword/thorium",
+    "tfc_metallurgy:metal/sword/titanium",
+    "tfc_metallurgy:metal/sword/tungsten",
+    "tfc_metallurgy:metal/sword/tungsten_steel",
+    "tfc_metallurgy:metal/sword/uranium"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/rich_bauxite/granite",
+    "tfc_metallurgy:ore/rich_bauxite/diorite",
+    "tfc_metallurgy:ore/rich_bauxite/gabbro",
+    "tfc_metallurgy:ore/rich_bauxite/shale",
+    "tfc_metallurgy:ore/rich_bauxite/claystone",
+    "tfc_metallurgy:ore/rich_bauxite/limestone",
+    "tfc_metallurgy:ore/rich_bauxite/conglomerate",
+    "tfc_metallurgy:ore/rich_bauxite/dolomite",
+    "tfc_metallurgy:ore/rich_bauxite/chert",
+    "tfc_metallurgy:ore/rich_bauxite/chalk",
+    "tfc_metallurgy:ore/rich_bauxite/rhyolite",
+    "tfc_metallurgy:ore/rich_bauxite/basalt",
+    "tfc_metallurgy:ore/rich_bauxite/andesite",
+    "tfc_metallurgy:ore/rich_bauxite/dacite",
+    "tfc_metallurgy:ore/rich_bauxite/quartzite",
+    "tfc_metallurgy:ore/rich_bauxite/slate",
+    "tfc_metallurgy:ore/rich_bauxite/phyllite",
+    "tfc_metallurgy:ore/rich_bauxite/schist",
+    "tfc_metallurgy:ore/rich_bauxite/gneiss",
+    "tfc_metallurgy:ore/rich_bauxite/marble"
+  ]
+}

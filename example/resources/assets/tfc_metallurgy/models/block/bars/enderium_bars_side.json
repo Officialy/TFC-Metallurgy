@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/iron_bars_side",
+  "textures": {
+    "particle": "tfc_metallurgy:block/enderium_bars",
+    "bars": "tfc_metallurgy:block/enderium_bars",
+    "edge": "tfc_metallurgy:block/enderium_bars"
+  }
+}

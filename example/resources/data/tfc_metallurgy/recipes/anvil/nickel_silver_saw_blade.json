@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/nickel_silver"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/saw_blade/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "hit_second_last"
+  ],
+  "apply_forging_bonus": true
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/mace/aluminum",
+    "tfc_metallurgy:metal/mace/boron",
+    "tfc_metallurgy:metal/mace/beryllium_copper",
+    "tfc_metallurgy:metal/mace/cobalt",
+    "tfc_metallurgy:metal/mace/compressed_iron",
+    "tfc_metallurgy:metal/mace/enderium",
+    "tfc_metallurgy:metal/mace/ferroboron",
+    "tfc_metallurgy:metal/mace/florentine_bronze",
+    "tfc_metallurgy:metal/mace/invar",
+    "tfc_metallurgy:metal/mace/lumium",
+    "tfc_metallurgy:metal/mace/mithril",
+    "tfc_metallurgy:metal/mace/nickel_silver",
+    "tfc_metallurgy:metal/mace/osmium",
+    "tfc_metallurgy:metal/mace/osmiridium",
+    "tfc_metallurgy:metal/mace/pewter",
+    "tfc_metallurgy:metal/mace/refined_glowstone",
+    "tfc_metallurgy:metal/mace/refined_obsidian",
+    "tfc_metallurgy:metal/mace/signalum",
+    "tfc_metallurgy:metal/mace/thorium",
+    "tfc_metallurgy:metal/mace/titanium",
+    "tfc_metallurgy:metal/mace/tungsten",
+    "tfc_metallurgy:metal/mace/tungsten_steel",
+    "tfc_metallurgy:metal/mace/uranium"
+  ]
+}

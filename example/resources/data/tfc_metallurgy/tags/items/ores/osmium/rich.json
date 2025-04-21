@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/rich_native_osmium/granite",
+    "tfc_metallurgy:ore/rich_native_osmium/diorite",
+    "tfc_metallurgy:ore/rich_native_osmium/gabbro",
+    "tfc_metallurgy:ore/rich_native_osmium/shale",
+    "tfc_metallurgy:ore/rich_native_osmium/claystone",
+    "tfc_metallurgy:ore/rich_native_osmium/limestone",
+    "tfc_metallurgy:ore/rich_native_osmium/conglomerate",
+    "tfc_metallurgy:ore/rich_native_osmium/dolomite",
+    "tfc_metallurgy:ore/rich_native_osmium/chert",
+    "tfc_metallurgy:ore/rich_native_osmium/chalk",
+    "tfc_metallurgy:ore/rich_native_osmium/rhyolite",
+    "tfc_metallurgy:ore/rich_native_osmium/basalt",
+    "tfc_metallurgy:ore/rich_native_osmium/andesite",
+    "tfc_metallurgy:ore/rich_native_osmium/dacite",
+    "tfc_metallurgy:ore/rich_native_osmium/quartzite",
+    "tfc_metallurgy:ore/rich_native_osmium/slate",
+    "tfc_metallurgy:ore/rich_native_osmium/phyllite",
+    "tfc_metallurgy:ore/rich_native_osmium/schist",
+    "tfc_metallurgy:ore/rich_native_osmium/gneiss",
+    "tfc_metallurgy:ore/rich_native_osmium/marble"
+  ]
+}

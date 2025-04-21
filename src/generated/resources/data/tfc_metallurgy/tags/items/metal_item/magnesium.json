@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/magnesium",
+    "tfc_metallurgy:metal/double_ingot/magnesium",
+    "tfc_metallurgy:metal/sheet/magnesium",
+    "tfc_metallurgy:metal/double_sheet/magnesium",
+    "tfc_metallurgy:metal/rod/magnesium",
+    "tfc_metallurgy:bucket/metal/magnesium",
+    "tfc_metallurgy:metal/fluid/magnesium"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/constantan",
+    "tfc_metallurgy:metal/double_ingot/constantan",
+    "tfc_metallurgy:metal/sheet/constantan",
+    "tfc_metallurgy:metal/double_sheet/constantan",
+    "tfc_metallurgy:metal/rod/constantan",
+    "tfc_metallurgy:bucket/metal/constantan",
+    "tfc_metallurgy:metal/fluid/constantan"
+  ]
+}

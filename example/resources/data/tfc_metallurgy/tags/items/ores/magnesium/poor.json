@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/poor_magnesite/granite",
+    "tfc_metallurgy:ore/poor_magnesite/diorite",
+    "tfc_metallurgy:ore/poor_magnesite/gabbro",
+    "tfc_metallurgy:ore/poor_magnesite/shale",
+    "tfc_metallurgy:ore/poor_magnesite/claystone",
+    "tfc_metallurgy:ore/poor_magnesite/limestone",
+    "tfc_metallurgy:ore/poor_magnesite/conglomerate",
+    "tfc_metallurgy:ore/poor_magnesite/dolomite",
+    "tfc_metallurgy:ore/poor_magnesite/chert",
+    "tfc_metallurgy:ore/poor_magnesite/chalk",
+    "tfc_metallurgy:ore/poor_magnesite/rhyolite",
+    "tfc_metallurgy:ore/poor_magnesite/basalt",
+    "tfc_metallurgy:ore/poor_magnesite/andesite",
+    "tfc_metallurgy:ore/poor_magnesite/dacite",
+    "tfc_metallurgy:ore/poor_magnesite/quartzite",
+    "tfc_metallurgy:ore/poor_magnesite/slate",
+    "tfc_metallurgy:ore/poor_magnesite/phyllite",
+    "tfc_metallurgy:ore/poor_magnesite/schist",
+    "tfc_metallurgy:ore/poor_magnesite/gneiss",
+    "tfc_metallurgy:ore/poor_magnesite/marble"
+  ]
+}

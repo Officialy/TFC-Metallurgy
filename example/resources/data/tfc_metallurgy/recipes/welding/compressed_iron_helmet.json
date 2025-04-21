@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc_metallurgy:metal/unfinished_helmet/compressed_iron"
+  },
+  "second_input": {
+    "tag": "forge:sheets/compressed_iron"
+  },
+  "tier": 2,
+  "result": {
+    "item": "tfc_metallurgy:metal/helmet/compressed_iron"
+  }
+}

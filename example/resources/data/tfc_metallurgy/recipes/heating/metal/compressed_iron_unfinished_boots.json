@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/unfinished_boots/compressed_iron"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/compressed_iron",
+    "amount": 200
+  },
+  "temperature": 1535
+}

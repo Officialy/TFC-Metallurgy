@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/lumium"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/lamp/lumium"
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "draw_third_last"
+  ]
+}

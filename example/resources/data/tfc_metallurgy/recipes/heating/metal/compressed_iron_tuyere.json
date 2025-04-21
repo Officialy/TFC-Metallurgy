@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:tuyeres/compressed_iron"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/compressed_iron",
+    "amount": 400
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

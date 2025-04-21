@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/javelin/aluminum",
+    "tfc_metallurgy:metal/javelin/boron",
+    "tfc_metallurgy:metal/javelin/beryllium_copper",
+    "tfc_metallurgy:metal/javelin/cobalt",
+    "tfc_metallurgy:metal/javelin/compressed_iron",
+    "tfc_metallurgy:metal/javelin/enderium",
+    "tfc_metallurgy:metal/javelin/ferroboron",
+    "tfc_metallurgy:metal/javelin/florentine_bronze",
+    "tfc_metallurgy:metal/javelin/invar",
+    "tfc_metallurgy:metal/javelin/lumium",
+    "tfc_metallurgy:metal/javelin/mithril",
+    "tfc_metallurgy:metal/javelin/nickel_silver",
+    "tfc_metallurgy:metal/javelin/osmium",
+    "tfc_metallurgy:metal/javelin/osmiridium",
+    "tfc_metallurgy:metal/javelin/pewter",
+    "tfc_metallurgy:metal/javelin/refined_glowstone",
+    "tfc_metallurgy:metal/javelin/refined_obsidian",
+    "tfc_metallurgy:metal/javelin/signalum",
+    "tfc_metallurgy:metal/javelin/thorium",
+    "tfc_metallurgy:metal/javelin/titanium",
+    "tfc_metallurgy:metal/javelin/tungsten",
+    "tfc_metallurgy:metal/javelin/tungsten_steel",
+    "tfc_metallurgy:metal/javelin/uranium"
+  ]
+}

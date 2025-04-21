@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_metallurgy:ore/small_bertrandite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/normal_bertrandite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/poor_bertrandite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/rich_bertrandite"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 720,
+  "welding_temperature": 960
+}

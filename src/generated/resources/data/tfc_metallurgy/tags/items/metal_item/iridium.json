@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/iridium",
+    "tfc_metallurgy:metal/double_ingot/iridium",
+    "tfc_metallurgy:metal/sheet/iridium",
+    "tfc_metallurgy:metal/double_sheet/iridium",
+    "tfc_metallurgy:metal/rod/iridium",
+    "tfc_metallurgy:bucket/metal/iridium",
+    "tfc_metallurgy:metal/fluid/iridium"
+  ]
+}

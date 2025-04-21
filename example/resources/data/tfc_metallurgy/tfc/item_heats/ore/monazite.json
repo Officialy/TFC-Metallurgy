@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_metallurgy:ore/small_monazite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/normal_monazite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/poor_monazite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/rich_monazite"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

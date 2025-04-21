@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/graphite",
+    "tfc_metallurgy:metal/double_ingot/graphite",
+    "tfc_metallurgy:metal/sheet/graphite",
+    "tfc_metallurgy:metal/double_sheet/graphite",
+    "tfc_metallurgy:metal/rod/graphite",
+    "tfc_metallurgy:bucket/metal/graphite",
+    "tfc_metallurgy:metal/fluid/graphite"
+  ]
+}

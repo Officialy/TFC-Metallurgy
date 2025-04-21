@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/platinum",
+    "tfc_metallurgy:metal/double_ingot/platinum",
+    "tfc_metallurgy:metal/sheet/platinum",
+    "tfc_metallurgy:metal/double_sheet/platinum",
+    "tfc_metallurgy:metal/rod/platinum",
+    "tfc_metallurgy:bucket/metal/platinum",
+    "tfc_metallurgy:metal/fluid/platinum"
+  ]
+}

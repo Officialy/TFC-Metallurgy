@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/fishing_rod/aluminum",
+    "tfc_metallurgy:metal/fishing_rod/boron",
+    "tfc_metallurgy:metal/fishing_rod/beryllium_copper",
+    "tfc_metallurgy:metal/fishing_rod/cobalt",
+    "tfc_metallurgy:metal/fishing_rod/compressed_iron",
+    "tfc_metallurgy:metal/fishing_rod/enderium",
+    "tfc_metallurgy:metal/fishing_rod/ferroboron",
+    "tfc_metallurgy:metal/fishing_rod/florentine_bronze",
+    "tfc_metallurgy:metal/fishing_rod/invar",
+    "tfc_metallurgy:metal/fishing_rod/lumium",
+    "tfc_metallurgy:metal/fishing_rod/mithril",
+    "tfc_metallurgy:metal/fishing_rod/nickel_silver",
+    "tfc_metallurgy:metal/fishing_rod/osmium",
+    "tfc_metallurgy:metal/fishing_rod/osmiridium",
+    "tfc_metallurgy:metal/fishing_rod/pewter",
+    "tfc_metallurgy:metal/fishing_rod/refined_glowstone",
+    "tfc_metallurgy:metal/fishing_rod/refined_obsidian",
+    "tfc_metallurgy:metal/fishing_rod/signalum",
+    "tfc_metallurgy:metal/fishing_rod/thorium",
+    "tfc_metallurgy:metal/fishing_rod/titanium",
+    "tfc_metallurgy:metal/fishing_rod/tungsten",
+    "tfc_metallurgy:metal/fishing_rod/tungsten_steel",
+    "tfc_metallurgy:metal/fishing_rod/uranium"
+  ]
+}

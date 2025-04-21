@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc_metallurgy:block/ore/small_pyrolusite",
+        "y": 90
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_pyrolusite"
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_pyrolusite",
+        "y": 180
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_pyrolusite",
+        "y": 270
+      }
+    ]
+  }
+}

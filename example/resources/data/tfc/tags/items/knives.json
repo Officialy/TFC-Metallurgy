@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/knife/aluminum",
+    "tfc_metallurgy:metal/knife/boron",
+    "tfc_metallurgy:metal/knife/beryllium_copper",
+    "tfc_metallurgy:metal/knife/cobalt",
+    "tfc_metallurgy:metal/knife/compressed_iron",
+    "tfc_metallurgy:metal/knife/enderium",
+    "tfc_metallurgy:metal/knife/ferroboron",
+    "tfc_metallurgy:metal/knife/florentine_bronze",
+    "tfc_metallurgy:metal/knife/invar",
+    "tfc_metallurgy:metal/knife/lumium",
+    "tfc_metallurgy:metal/knife/mithril",
+    "tfc_metallurgy:metal/knife/nickel_silver",
+    "tfc_metallurgy:metal/knife/osmium",
+    "tfc_metallurgy:metal/knife/osmiridium",
+    "tfc_metallurgy:metal/knife/pewter",
+    "tfc_metallurgy:metal/knife/refined_glowstone",
+    "tfc_metallurgy:metal/knife/refined_obsidian",
+    "tfc_metallurgy:metal/knife/signalum",
+    "tfc_metallurgy:metal/knife/thorium",
+    "tfc_metallurgy:metal/knife/titanium",
+    "tfc_metallurgy:metal/knife/tungsten",
+    "tfc_metallurgy:metal/knife/tungsten_steel",
+    "tfc_metallurgy:metal/knife/uranium"
+  ]
+}

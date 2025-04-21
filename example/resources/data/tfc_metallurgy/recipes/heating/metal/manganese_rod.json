@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:rods/manganese"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/manganese",
+    "amount": 50
+  },
+  "temperature": 1250,
+  "use_durability": false
+}

@@ -77,7 +77,7 @@ public class ModItemModelProvider extends ItemModelProvider {
                 oreMap.forEach((oreType, block) -> {
                     withExistingParent("item/" + block.getId().getPath(),
                             new ResourceLocation("minecraft", "item/generated"))
-                            .texture("layer0", new ResourceLocation(TFCMetallurgy.MOD_ID, "block/ore/" + oreType.name().toLowerCase()));
+                            .texture("layer0", new ResourceLocation(TFCMetallurgy.MOD_ID, "item/ore/" + oreType.name().toLowerCase()));
                 })
         );
 

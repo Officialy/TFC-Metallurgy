@@ -1,0 +1,14 @@
+{
+  "type": "tfc:casting",
+  "mold": {
+    "item": "tfc:ceramic/saw_blade_mold"
+  },
+  "fluid": {
+    "ingredient": "tfc_metallurgy:metal/compressed_iron",
+    "amount": 100
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/saw_blade/compressed_iron"
+  },
+  "break_chance": 1
+}

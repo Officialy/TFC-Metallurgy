@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/axe/lumium"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/lumium",
+    "amount": 100
+  },
+  "temperature": 1500,
+  "use_durability": true
+}

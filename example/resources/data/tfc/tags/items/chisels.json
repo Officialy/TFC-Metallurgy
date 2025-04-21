@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/chisel/aluminum",
+    "tfc_metallurgy:metal/chisel/boron",
+    "tfc_metallurgy:metal/chisel/beryllium_copper",
+    "tfc_metallurgy:metal/chisel/cobalt",
+    "tfc_metallurgy:metal/chisel/compressed_iron",
+    "tfc_metallurgy:metal/chisel/enderium",
+    "tfc_metallurgy:metal/chisel/ferroboron",
+    "tfc_metallurgy:metal/chisel/florentine_bronze",
+    "tfc_metallurgy:metal/chisel/invar",
+    "tfc_metallurgy:metal/chisel/lumium",
+    "tfc_metallurgy:metal/chisel/mithril",
+    "tfc_metallurgy:metal/chisel/nickel_silver",
+    "tfc_metallurgy:metal/chisel/osmium",
+    "tfc_metallurgy:metal/chisel/osmiridium",
+    "tfc_metallurgy:metal/chisel/pewter",
+    "tfc_metallurgy:metal/chisel/refined_glowstone",
+    "tfc_metallurgy:metal/chisel/refined_obsidian",
+    "tfc_metallurgy:metal/chisel/signalum",
+    "tfc_metallurgy:metal/chisel/thorium",
+    "tfc_metallurgy:metal/chisel/titanium",
+    "tfc_metallurgy:metal/chisel/tungsten",
+    "tfc_metallurgy:metal/chisel/tungsten_steel",
+    "tfc_metallurgy:metal/chisel/uranium"
+  ]
+}

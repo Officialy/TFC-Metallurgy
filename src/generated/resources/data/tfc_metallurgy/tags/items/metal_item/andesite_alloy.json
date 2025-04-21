@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/andesite_alloy",
+    "tfc_metallurgy:metal/double_ingot/andesite_alloy",
+    "tfc_metallurgy:metal/sheet/andesite_alloy",
+    "tfc_metallurgy:metal/double_sheet/andesite_alloy",
+    "tfc_metallurgy:metal/rod/andesite_alloy",
+    "tfc_metallurgy:bucket/metal/andesite_alloy",
+    "tfc_metallurgy:metal/fluid/andesite_alloy"
+  ]
+}

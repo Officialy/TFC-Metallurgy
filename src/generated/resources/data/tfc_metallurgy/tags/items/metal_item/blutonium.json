@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/blutonium",
+    "tfc_metallurgy:metal/double_ingot/blutonium",
+    "tfc_metallurgy:metal/sheet/blutonium",
+    "tfc_metallurgy:metal/double_sheet/blutonium",
+    "tfc_metallurgy:metal/rod/blutonium",
+    "tfc_metallurgy:bucket/metal/blutonium",
+    "tfc_metallurgy:metal/fluid/blutonium"
+  ]
+}

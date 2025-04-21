@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/tuyere/aluminum",
+    "tfc_metallurgy:metal/tuyere/boron",
+    "tfc_metallurgy:metal/tuyere/beryllium_copper",
+    "tfc_metallurgy:metal/tuyere/cobalt",
+    "tfc_metallurgy:metal/tuyere/compressed_iron",
+    "tfc_metallurgy:metal/tuyere/enderium",
+    "tfc_metallurgy:metal/tuyere/ferroboron",
+    "tfc_metallurgy:metal/tuyere/florentine_bronze",
+    "tfc_metallurgy:metal/tuyere/invar",
+    "tfc_metallurgy:metal/tuyere/lumium",
+    "tfc_metallurgy:metal/tuyere/mithril",
+    "tfc_metallurgy:metal/tuyere/nickel_silver",
+    "tfc_metallurgy:metal/tuyere/osmium",
+    "tfc_metallurgy:metal/tuyere/osmiridium",
+    "tfc_metallurgy:metal/tuyere/pewter",
+    "tfc_metallurgy:metal/tuyere/refined_glowstone",
+    "tfc_metallurgy:metal/tuyere/refined_obsidian",
+    "tfc_metallurgy:metal/tuyere/signalum",
+    "tfc_metallurgy:metal/tuyere/thorium",
+    "tfc_metallurgy:metal/tuyere/titanium",
+    "tfc_metallurgy:metal/tuyere/tungsten",
+    "tfc_metallurgy:metal/tuyere/tungsten_steel",
+    "tfc_metallurgy:metal/tuyere/uranium"
+  ]
+}

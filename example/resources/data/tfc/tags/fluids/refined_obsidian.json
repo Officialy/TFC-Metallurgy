@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/refined_obsidian",
+    "tfc_metallurgy:metal/flowing_refined_obsidian"
+  ]
+}

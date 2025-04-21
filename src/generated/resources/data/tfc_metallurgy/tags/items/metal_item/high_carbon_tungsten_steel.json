@@ -1,0 +1,7 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/high_carbon_tungsten_steel",
+    "tfc_metallurgy:bucket/metal/high_carbon_tungsten_steel",
+    "tfc_metallurgy:metal/fluid/high_carbon_tungsten_steel"
+  ]
+}

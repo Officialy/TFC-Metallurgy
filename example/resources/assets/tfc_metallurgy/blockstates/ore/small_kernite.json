@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc_metallurgy:block/ore/small_kernite",
+        "y": 90
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_kernite"
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_kernite",
+        "y": 180
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_kernite",
+        "y": 270
+      }
+    ]
+  }
+}

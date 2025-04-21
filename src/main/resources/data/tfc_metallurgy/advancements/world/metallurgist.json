@@ -1,0 +1,92 @@
+{
+  "parent": "tfc:world/root",
+  "criteria": {
+    "has_metal_specimen": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tfc_metallurgy:metal_item/aluminum"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/beryllium"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/beryllium_copper"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/boron"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/cobalt"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/compressed_iron"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/enderium"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/ferroboron"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/florentine_bronze"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/invar"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/lumium"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/mithril"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/nickel_silver"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/osmiridium"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/osmium"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/pewter"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/refined_glowstone"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/refined_obsidian"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/signalum"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/thorium"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/titanium"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/tungsten"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/tungsten_steel"
+          },
+          {
+            "tag": "tfc_metallurgy:metal_item/uranium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_metal_specimen"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+} 

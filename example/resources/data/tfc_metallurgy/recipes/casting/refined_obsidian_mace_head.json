@@ -1,0 +1,14 @@
+{
+  "type": "tfc:casting",
+  "mold": {
+    "item": "tfc:ceramic/mace_head_mold"
+  },
+  "fluid": {
+    "ingredient": "tfc_metallurgy:metal/refined_obsidian",
+    "amount": 200
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/mace_head/refined_obsidian"
+  },
+  "break_chance": 1
+}

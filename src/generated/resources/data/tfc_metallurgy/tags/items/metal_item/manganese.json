@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/manganese",
+    "tfc_metallurgy:metal/double_ingot/manganese",
+    "tfc_metallurgy:metal/sheet/manganese",
+    "tfc_metallurgy:metal/double_sheet/manganese",
+    "tfc_metallurgy:metal/rod/manganese",
+    "tfc_metallurgy:bucket/metal/manganese",
+    "tfc_metallurgy:metal/fluid/manganese"
+  ]
+}

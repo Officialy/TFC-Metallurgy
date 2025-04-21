@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/antimony",
+    "tfc_metallurgy:metal/double_ingot/antimony",
+    "tfc_metallurgy:metal/sheet/antimony",
+    "tfc_metallurgy:metal/double_sheet/antimony",
+    "tfc_metallurgy:metal/rod/antimony",
+    "tfc_metallurgy:bucket/metal/antimony",
+    "tfc_metallurgy:metal/fluid/antimony"
+  ]
+}

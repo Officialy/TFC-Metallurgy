@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/solder",
+    "tfc_metallurgy:metal/double_ingot/solder",
+    "tfc_metallurgy:metal/sheet/solder",
+    "tfc_metallurgy:metal/double_sheet/solder",
+    "tfc_metallurgy:metal/rod/solder",
+    "tfc_metallurgy:bucket/metal/solder",
+    "tfc_metallurgy:metal/fluid/solder"
+  ]
+}

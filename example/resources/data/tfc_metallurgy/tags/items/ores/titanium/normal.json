@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/normal_rutile/granite",
+    "tfc_metallurgy:ore/normal_rutile/diorite",
+    "tfc_metallurgy:ore/normal_rutile/gabbro",
+    "tfc_metallurgy:ore/normal_rutile/shale",
+    "tfc_metallurgy:ore/normal_rutile/claystone",
+    "tfc_metallurgy:ore/normal_rutile/limestone",
+    "tfc_metallurgy:ore/normal_rutile/conglomerate",
+    "tfc_metallurgy:ore/normal_rutile/dolomite",
+    "tfc_metallurgy:ore/normal_rutile/chert",
+    "tfc_metallurgy:ore/normal_rutile/chalk",
+    "tfc_metallurgy:ore/normal_rutile/rhyolite",
+    "tfc_metallurgy:ore/normal_rutile/basalt",
+    "tfc_metallurgy:ore/normal_rutile/andesite",
+    "tfc_metallurgy:ore/normal_rutile/dacite",
+    "tfc_metallurgy:ore/normal_rutile/quartzite",
+    "tfc_metallurgy:ore/normal_rutile/slate",
+    "tfc_metallurgy:ore/normal_rutile/phyllite",
+    "tfc_metallurgy:ore/normal_rutile/schist",
+    "tfc_metallurgy:ore/normal_rutile/gneiss",
+    "tfc_metallurgy:ore/normal_rutile/marble"
+  ]
+}

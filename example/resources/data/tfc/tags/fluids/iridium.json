@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/iridium",
+    "tfc_metallurgy:metal/flowing_iridium"
+  ]
+}

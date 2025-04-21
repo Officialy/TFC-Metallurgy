@@ -1,0 +1,6 @@
+{
+  "parent": "tfc:item/handheld_flipped",
+  "textures": {
+    "layer0": "tfc_metallurgy:item/metal/chisel/mithril"
+  }
+}

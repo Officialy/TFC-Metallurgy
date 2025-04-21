@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/electrum",
+    "tfc_metallurgy:metal/double_ingot/electrum",
+    "tfc_metallurgy:metal/sheet/electrum",
+    "tfc_metallurgy:metal/double_sheet/electrum",
+    "tfc_metallurgy:metal/rod/electrum",
+    "tfc_metallurgy:bucket/metal/electrum",
+    "tfc_metallurgy:metal/fluid/electrum"
+  ]
+}

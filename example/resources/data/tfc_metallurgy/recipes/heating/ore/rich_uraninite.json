@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:ore/rich_uraninite"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/uranium",
+    "amount": 35
+  },
+  "temperature": 1100
+}

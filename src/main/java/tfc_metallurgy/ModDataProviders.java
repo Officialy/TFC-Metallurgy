@@ -15,6 +15,7 @@ import tfc_metallurgy.datagen.loot.ModLootTableProvider;
 import tfc_metallurgy.datagen.recipe.ModCraftingProvider;
 
 import java.util.concurrent.CompletableFuture;
+import java.util.Set;
 
 /**
  * Registers all data providers for TFCMetallurgy.
@@ -31,27 +32,23 @@ public class ModDataProviders {
         final var output = dataGenerator.getPackOutput();
         final var existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
-//        dataGenerator.addProvider(event.includeClient(), new ModLanguageProvider(output));
 
+        // Client-side providers
+        dataGenerator.addProvider(event.includeClient(), new ModLanguageProvider(output));
         dataGenerator.addProvider(event.includeClient(), new ModBlockStateProvider(output, existingFileHelper));
+        dataGenerator.addProvider(event.includeClient(), new ModItemModelProvider(output, existingFileHelper));
 
-        final var itemModelProvider = new ModItemModelProvider(output, existingFileHelper);
-        dataGenerator.addProvider(event.includeClient(), itemModelProvider);
-
-
-
-//        dataGenerator.addProvider(event.includeServer(), new ModCraftingProvider(output));
-//        dataGenerator.addProvider(event.includeServer(), ModLootTableProvider.create(output));
-
+        // Server-side providers
+        dataGenerator.addProvider(event.includeServer(), new ModCraftingProvider(output));
+        dataGenerator.addProvider(event.includeServer(), ModLootTableProvider.create(output));
 
         final var blockTagsProvider = new ModBlockTagsProvider(output, lookupProvider, existingFileHelper);
         dataGenerator.addProvider(event.includeServer(), blockTagsProvider);
-//        dataGenerator.addProvider(event.includeServer(), new ModItemTagsProvider(output, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-//        dataGenerator.addProvider(event.includeServer(), new ModBiomeTagsProvider(output, lookupProvider, existingFileHelper));
-//        dataGenerator.addProvider(event.includeServer(), new ModFluidTagsProvider(output, lookupProvider, existingFileHelper));
-//        dataGenerator.addProvider(event.includeServer(), new ChromaEntityTypeTagsProvider(output, lookupProvider, existingFileHelper));
+        dataGenerator.addProvider(event.includeServer(), new ModItemTagsProvider(output, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        dataGenerator.addProvider(event.includeServer(), new ModBiomeTagsProvider(output, lookupProvider, existingFileHelper));
+        dataGenerator.addProvider(event.includeServer(), new ModFluidTagsProvider(output, lookupProvider, existingFileHelper));
 
-//        dataGenerator.addProvider(event.includeServer(), new DatapackBuiltinEntriesProvider(output, lookupProvider, Set.of(TFCMetallurgy.MOD_ID)));
+        dataGenerator.addProvider(event.includeServer(), new DatapackBuiltinEntriesProvider(output, lookupProvider, Set.of(TFCMetallurgy.MOD_ID)));
     }
 
 }

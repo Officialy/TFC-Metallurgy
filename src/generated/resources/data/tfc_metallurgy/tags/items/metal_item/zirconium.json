@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/zirconium",
+    "tfc_metallurgy:metal/double_ingot/zirconium",
+    "tfc_metallurgy:metal/sheet/zirconium",
+    "tfc_metallurgy:metal/double_sheet/zirconium",
+    "tfc_metallurgy:metal/rod/zirconium",
+    "tfc_metallurgy:bucket/metal/zirconium",
+    "tfc_metallurgy:metal/fluid/zirconium"
+  ]
+}

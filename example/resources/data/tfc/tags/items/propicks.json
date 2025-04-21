@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/propick/aluminum",
+    "tfc_metallurgy:metal/propick/boron",
+    "tfc_metallurgy:metal/propick/beryllium_copper",
+    "tfc_metallurgy:metal/propick/cobalt",
+    "tfc_metallurgy:metal/propick/compressed_iron",
+    "tfc_metallurgy:metal/propick/enderium",
+    "tfc_metallurgy:metal/propick/ferroboron",
+    "tfc_metallurgy:metal/propick/florentine_bronze",
+    "tfc_metallurgy:metal/propick/invar",
+    "tfc_metallurgy:metal/propick/lumium",
+    "tfc_metallurgy:metal/propick/mithril",
+    "tfc_metallurgy:metal/propick/nickel_silver",
+    "tfc_metallurgy:metal/propick/osmium",
+    "tfc_metallurgy:metal/propick/osmiridium",
+    "tfc_metallurgy:metal/propick/pewter",
+    "tfc_metallurgy:metal/propick/refined_glowstone",
+    "tfc_metallurgy:metal/propick/refined_obsidian",
+    "tfc_metallurgy:metal/propick/signalum",
+    "tfc_metallurgy:metal/propick/thorium",
+    "tfc_metallurgy:metal/propick/titanium",
+    "tfc_metallurgy:metal/propick/tungsten",
+    "tfc_metallurgy:metal/propick/tungsten_steel",
+    "tfc_metallurgy:metal/propick/uranium"
+  ]
+}

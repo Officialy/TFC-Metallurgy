@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/axe_head/uranium"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/uranium",
+    "amount": 100
+  },
+  "temperature": 1100
+}

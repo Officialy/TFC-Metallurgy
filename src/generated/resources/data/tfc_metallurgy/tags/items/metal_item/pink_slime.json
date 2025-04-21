@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/pink_slime",
+    "tfc_metallurgy:metal/double_ingot/pink_slime",
+    "tfc_metallurgy:metal/sheet/pink_slime",
+    "tfc_metallurgy:metal/double_sheet/pink_slime",
+    "tfc_metallurgy:metal/rod/pink_slime",
+    "tfc_metallurgy:bucket/metal/pink_slime",
+    "tfc_metallurgy:metal/fluid/pink_slime"
+  ]
+}

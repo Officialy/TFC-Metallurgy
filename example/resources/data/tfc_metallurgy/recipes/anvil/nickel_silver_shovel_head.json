@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/nickel_silver"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/shovel_head/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "hit_not_last"
+  ],
+  "apply_forging_bonus": true
+}

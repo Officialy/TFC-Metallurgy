@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/zircaloy",
+    "tfc_metallurgy:metal/double_ingot/zircaloy",
+    "tfc_metallurgy:metal/sheet/zircaloy",
+    "tfc_metallurgy:metal/double_sheet/zircaloy",
+    "tfc_metallurgy:metal/rod/zircaloy",
+    "tfc_metallurgy:bucket/metal/zircaloy",
+    "tfc_metallurgy:metal/fluid/zircaloy"
+  ]
+}

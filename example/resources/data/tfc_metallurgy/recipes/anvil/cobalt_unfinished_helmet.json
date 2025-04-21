@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_sheets/cobalt"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/unfinished_helmet/cobalt"
+  },
+  "tier": 3,
+  "rules": [
+    "hit_last",
+    "bend_second_last",
+    "bend_third_last"
+  ]
+}

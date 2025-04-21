@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/poor_stibnite/granite",
+    "tfc_metallurgy:ore/poor_stibnite/diorite",
+    "tfc_metallurgy:ore/poor_stibnite/gabbro",
+    "tfc_metallurgy:ore/poor_stibnite/shale",
+    "tfc_metallurgy:ore/poor_stibnite/claystone",
+    "tfc_metallurgy:ore/poor_stibnite/limestone",
+    "tfc_metallurgy:ore/poor_stibnite/conglomerate",
+    "tfc_metallurgy:ore/poor_stibnite/dolomite",
+    "tfc_metallurgy:ore/poor_stibnite/chert",
+    "tfc_metallurgy:ore/poor_stibnite/chalk",
+    "tfc_metallurgy:ore/poor_stibnite/rhyolite",
+    "tfc_metallurgy:ore/poor_stibnite/basalt",
+    "tfc_metallurgy:ore/poor_stibnite/andesite",
+    "tfc_metallurgy:ore/poor_stibnite/dacite",
+    "tfc_metallurgy:ore/poor_stibnite/quartzite",
+    "tfc_metallurgy:ore/poor_stibnite/slate",
+    "tfc_metallurgy:ore/poor_stibnite/phyllite",
+    "tfc_metallurgy:ore/poor_stibnite/schist",
+    "tfc_metallurgy:ore/poor_stibnite/gneiss",
+    "tfc_metallurgy:ore/poor_stibnite/marble"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "forge:ingots/lithium"
+  },
+  "second_input": {
+    "tag": "forge:ingots/lithium"
+  },
+  "tier": 2,
+  "result": {
+    "item": "tfc_metallurgy:metal/double_ingot/lithium"
+  }
+}

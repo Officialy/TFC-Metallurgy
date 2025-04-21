@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/lead",
+    "tfc_metallurgy:metal/double_ingot/lead",
+    "tfc_metallurgy:metal/sheet/lead",
+    "tfc_metallurgy:metal/double_sheet/lead",
+    "tfc_metallurgy:metal/rod/lead",
+    "tfc_metallurgy:bucket/metal/lead",
+    "tfc_metallurgy:metal/fluid/lead"
+  ]
+}

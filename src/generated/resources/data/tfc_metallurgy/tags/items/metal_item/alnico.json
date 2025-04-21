@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/alnico",
+    "tfc_metallurgy:metal/double_ingot/alnico",
+    "tfc_metallurgy:metal/sheet/alnico",
+    "tfc_metallurgy:metal/double_sheet/alnico",
+    "tfc_metallurgy:metal/rod/alnico",
+    "tfc_metallurgy:bucket/metal/alnico",
+    "tfc_metallurgy:metal/fluid/alnico"
+  ]
+}

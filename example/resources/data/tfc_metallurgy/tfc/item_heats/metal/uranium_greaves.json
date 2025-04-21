@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/greaves/uranium"
+  },
+  "heat_capacity": 17.143,
+  "forging_temperature": 660,
+  "welding_temperature": 880
+}

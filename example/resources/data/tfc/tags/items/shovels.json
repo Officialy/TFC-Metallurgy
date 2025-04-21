@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/shovel/aluminum",
+    "tfc_metallurgy:metal/shovel/boron",
+    "tfc_metallurgy:metal/shovel/beryllium_copper",
+    "tfc_metallurgy:metal/shovel/cobalt",
+    "tfc_metallurgy:metal/shovel/compressed_iron",
+    "tfc_metallurgy:metal/shovel/enderium",
+    "tfc_metallurgy:metal/shovel/ferroboron",
+    "tfc_metallurgy:metal/shovel/florentine_bronze",
+    "tfc_metallurgy:metal/shovel/invar",
+    "tfc_metallurgy:metal/shovel/lumium",
+    "tfc_metallurgy:metal/shovel/mithril",
+    "tfc_metallurgy:metal/shovel/nickel_silver",
+    "tfc_metallurgy:metal/shovel/osmium",
+    "tfc_metallurgy:metal/shovel/osmiridium",
+    "tfc_metallurgy:metal/shovel/pewter",
+    "tfc_metallurgy:metal/shovel/refined_glowstone",
+    "tfc_metallurgy:metal/shovel/refined_obsidian",
+    "tfc_metallurgy:metal/shovel/signalum",
+    "tfc_metallurgy:metal/shovel/thorium",
+    "tfc_metallurgy:metal/shovel/titanium",
+    "tfc_metallurgy:metal/shovel/tungsten",
+    "tfc_metallurgy:metal/shovel/tungsten_steel",
+    "tfc_metallurgy:metal/shovel/uranium"
+  ]
+}

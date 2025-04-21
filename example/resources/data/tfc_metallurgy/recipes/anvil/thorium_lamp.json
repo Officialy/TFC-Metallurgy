@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/thorium"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/lamp/thorium"
+  },
+  "tier": 6,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "draw_third_last"
+  ]
+}

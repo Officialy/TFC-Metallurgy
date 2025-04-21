@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/small_bauxite",
+    "tfc_metallurgy:ore/small_bertrandite",
+    "tfc_metallurgy:ore/small_cobaltite",
+    "tfc_metallurgy:ore/small_galena",
+    "tfc_metallurgy:ore/small_kernite",
+    "tfc_metallurgy:ore/small_native_iridium",
+    "tfc_metallurgy:ore/small_native_platinum",
+    "tfc_metallurgy:ore/small_native_osmium",
+    "tfc_metallurgy:ore/small_magnesite",
+    "tfc_metallurgy:ore/small_monazite",
+    "tfc_metallurgy:ore/small_pyrolusite",
+    "tfc_metallurgy:ore/small_rutile",
+    "tfc_metallurgy:ore/small_spodumene",
+    "tfc_metallurgy:ore/small_stibnite",
+    "tfc_metallurgy:ore/small_uraninite",
+    "tfc_metallurgy:ore/small_wolframite",
+    "tfc_metallurgy:ore/small_zircon"
+  ]
+}

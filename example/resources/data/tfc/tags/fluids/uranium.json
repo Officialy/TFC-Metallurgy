@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/uranium",
+    "tfc_metallurgy:metal/flowing_uranium"
+  ]
+}

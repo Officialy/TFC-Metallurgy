@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tfc_metallurgy:metal/ingot/beryllium",
+    "tfc_metallurgy:metal/double_ingot/beryllium",
+    "tfc_metallurgy:metal/sheet/beryllium",
+    "tfc_metallurgy:metal/double_sheet/beryllium",
+    "tfc_metallurgy:metal/rod/beryllium",
+    "tfc_metallurgy:bucket/metal/beryllium",
+    "tfc_metallurgy:metal/fluid/beryllium"
+  ]
+}

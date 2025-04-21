@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/hammer/aluminum",
+    "tfc_metallurgy:metal/hammer/boron",
+    "tfc_metallurgy:metal/hammer/beryllium_copper",
+    "tfc_metallurgy:metal/hammer/cobalt",
+    "tfc_metallurgy:metal/hammer/compressed_iron",
+    "tfc_metallurgy:metal/hammer/enderium",
+    "tfc_metallurgy:metal/hammer/ferroboron",
+    "tfc_metallurgy:metal/hammer/florentine_bronze",
+    "tfc_metallurgy:metal/hammer/invar",
+    "tfc_metallurgy:metal/hammer/lumium",
+    "tfc_metallurgy:metal/hammer/mithril",
+    "tfc_metallurgy:metal/hammer/nickel_silver",
+    "tfc_metallurgy:metal/hammer/osmium",
+    "tfc_metallurgy:metal/hammer/osmiridium",
+    "tfc_metallurgy:metal/hammer/pewter",
+    "tfc_metallurgy:metal/hammer/refined_glowstone",
+    "tfc_metallurgy:metal/hammer/refined_obsidian",
+    "tfc_metallurgy:metal/hammer/signalum",
+    "tfc_metallurgy:metal/hammer/thorium",
+    "tfc_metallurgy:metal/hammer/titanium",
+    "tfc_metallurgy:metal/hammer/tungsten",
+    "tfc_metallurgy:metal/hammer/tungsten_steel",
+    "tfc_metallurgy:metal/hammer/uranium"
+  ]
+}

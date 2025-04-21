@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/mace/ferroboron"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/ferroboron",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

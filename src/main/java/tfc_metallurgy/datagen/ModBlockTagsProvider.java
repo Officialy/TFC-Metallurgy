@@ -3,6 +3,8 @@ package tfc_metallurgy.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -12,6 +14,7 @@ import tfc_metallurgy.common.blocks.rock.MetallurgyOre;
 import net.dries007.tfc.common.blocks.rock.Rock;
 import tfc_metallurgy.util.MetallurgyMetal;
 import net.dries007.tfc.common.blocks.rock.Ore;
+import net.minecraft.resources.ResourceLocation;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -26,6 +29,12 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(final HolderLookup.Provider lookupProvider) {
+        // Add tool requirement tags
+        addToolRequirementTags();
+        
+        // Add other block tags
+        addOtherBlockTags();
+
         // === ORES (Unclassified) ===
         TFCMBlocks.ORES.forEach((rockType, oreMap) ->
                 oreMap.forEach((oreType, block) -> {
@@ -89,5 +98,28 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
 //                TFCMBlocks.BERYLLIUM_COPPER_BELL.get(),
 //                TFCMBlocks.FLORENTINE_BRONZE_BELL.get()
 //        );
+    }
+
+    private void addToolRequirementTags() {
+        // Add needs_*_tool tags for each metal
+        TFCMBlocks.BLOCKS.getEntries().stream()
+                .filter(block -> block.getId().getPath().contains("ore"))
+                .forEach(block -> {
+                    String metal = block.getId().getPath().split("_")[0];
+                    tag(TagKey.create(net.minecraft.core.registries.Registries.BLOCK, 
+                            new ResourceLocation(TFCMetallurgy.MOD_ID, "needs_" + metal + "_tool")))
+                            .add(block.get());
+                });
+    }
+
+    private void addOtherBlockTags() {
+        // Add blocks to mineable tags
+        TFCMBlocks.BLOCKS.getEntries().stream()
+                .filter(block -> block.getId().getPath().contains("ore"))
+                .forEach(block -> {
+                    tag(BlockTags.MINEABLE_WITH_PICKAXE).add(block.get());
+                    tag(BlockTags.NEEDS_IRON_TOOL).add(block.get());
+                    tag(Tags.Blocks.ORES).add(block.get());
+                });
     }
 }
