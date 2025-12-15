@@ -72,7 +72,8 @@ public enum MetallurgyMetal implements RegistryMetal {
     URANIUM(0xf0f39, Rarity.UNCOMMON, Metal.Tier.TIER_III, MetallurgyTiers.URANIUM, MetallumArmorMaterials.URANIUM, true, true, true),
     HIGH_CARBON_TUNGSTEN_STEEL(0xf0f39, Rarity.UNCOMMON, Metal.Tier.TIER_IV, false, false, false),
     ZIRCALOY(0xFF43423A, Rarity.RARE, Metal.Tier.TIER_VI, true, false, false),
-    ZIRCONIUM(0xFF747527, Rarity.RARE, Metal.Tier.TIER_VI, true, false, false);
+    ZIRCONIUM(0xFF747527, Rarity.RARE, Metal.Tier.TIER_VI, true, false, false),
+    NEODYMIUM(0xFFC0C0C0, Rarity.RARE, Metal.Tier.TIER_IV, true, false, true);
 
     private final String serializedName;
     private final boolean parts, armor, utility;
