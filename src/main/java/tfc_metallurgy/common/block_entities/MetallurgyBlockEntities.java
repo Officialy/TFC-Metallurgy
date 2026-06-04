@@ -5,7 +5,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import tfc_metallurgy.TFCMetallurgy;
 import tfc_metallurgy.common.blocks.MetallurgyBlocks;

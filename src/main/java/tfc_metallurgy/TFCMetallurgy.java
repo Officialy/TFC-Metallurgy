@@ -1,11 +1,10 @@
 package tfc_metallurgy;
 
 import com.mojang.logging.LogUtils;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.loading.FMLEnvironment;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.loading.FMLEnvironment;
 import org.slf4j.Logger;
 import tfc_metallurgy.common.ClientEvents;
 import tfc_metallurgy.common.MetallurgyItemGroup;
@@ -21,8 +20,7 @@ public class TFCMetallurgy {
 
 	public static final Logger LOGGER = LogUtils.getLogger();
 
-	public TFCMetallurgy(FMLJavaModLoadingContext i) {
-		final IEventBus bus = i.getModEventBus();
+	public TFCMetallurgy(IEventBus bus) {
 		MetallurgyItems.ITEMS.register(bus);
 		MetallurgyBlocks.BLOCKS.register(bus);
 		MetallurgyFluids.FLUID_TYPES.register(bus);

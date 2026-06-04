@@ -198,7 +198,7 @@ public enum MetallurgyMetal implements RegistryMetal {
         ROD(Type.PART, false),
         TUYERE(Type.TOOL, (metal) -> new TieredItem(metal.toolTier(), properties())),
         FISH_HOOK(Type.TOOL, false),
-        FISHING_ROD(Type.TOOL, (metal) -> new TFCFishingRodItem(properties().defaultDurability(metal.toolTier().getUses()), metal.toolTier())),
+        FISHING_ROD(Type.TOOL, (metal) -> new TFCFishingRodItem(properties().durability(metal.toolTier().getUses()), metal.toolTier())),
         PICKAXE(Type.TOOL, (metal) -> new PickaxeItem(metal.toolTier(), (int) ToolItem.calculateVanillaAttackDamage(0.75F, metal.toolTier()), -2.8F, properties())),
         PICKAXE_HEAD(Type.TOOL, true),
         PROPICK(Type.TOOL, (metal) -> new PropickItem(metal.toolTier(), ToolItem.calculateVanillaAttackDamage(0.5F, metal.toolTier()), -2.8F, properties())),

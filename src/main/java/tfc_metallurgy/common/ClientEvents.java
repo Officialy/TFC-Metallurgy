@@ -12,8 +12,8 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.dries007.tfc.client.render.blockentity.TFCBellBlockEntityRenderer;
 import tfc_metallurgy.common.block_entities.MetallurgyBlockEntities;
@@ -26,22 +26,9 @@ public class ClientEvents {
     public static void init() {
         final IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         bus.addListener(ClientEvents::clientSetup);
-//        bus.addListener(ClientEvents::onTextureStitch);
         bus.addListener(ClientEvents::registerEntitiesRenderer);
         bus.addListener(ClientEvents::registerLayerDefinitions);
     }
-
-/*    public static void onTextureStitch(TextureStitchEvent.Pre event) {
-        final ResourceLocation sheet = event.getAtlas().location();
-        if (sheet.equals(RenderHelpers.BLOCKS_ATLAS)) {
-            for (MetallumMetal metal : MetallumMetal.values())
-            {
-                event.addSprite(new ResourceLocation("tfc_metallurgy:block/metal/full/" + metal.getSerializedName()));
-            }
-            event.addSprite(Helpers.identifier("entity/bell/beryllium_copper"));
-            event.addSprite(Helpers.identifier("entity/bell/florentine_bronze"));
-        }
-    }*/
 
     public static void clientSetup(FMLClientSetupEvent event) {
 
@@ -84,7 +71,7 @@ public class ClientEvents {
                     });
 
                     Item shield = MetallurgyItems.METAL_ITEMS.get(metal).get(MetallurgyMetal.ItemType.SHIELD).get();
-                    ItemProperties.register(shield, new ResourceLocation("blocking"), (stack, level, entity, unused) -> {
+                    ItemProperties.register(shield, ResourceLocation.parse("blocking"), (stack, level, entity, unused) -> {
                         if (entity == null)
                         {
                             return 0.0F;
