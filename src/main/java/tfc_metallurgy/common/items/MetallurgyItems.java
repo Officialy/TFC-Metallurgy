@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 
 public class MetallurgyItems {
 
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.createItems(TFCMetallurgy.mod_id);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TFCMetallurgy.mod_id);
 
     public static final Map<MetallurgyMetal, Map<MetallurgyMetal.ItemType, DeferredItem<Item>>> METAL_ITEMS = Helpers.mapOf(MetallurgyMetal.class, metal ->
             Helpers.mapOf(MetallurgyMetal.ItemType.class, type -> type.has(metal), type ->

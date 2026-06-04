@@ -11,13 +11,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
 import tfc_metallurgy.TFCMetallurgy;
 import tfc_metallurgy.common.blocks.MetallurgyBlocks;
 import tfc_metallurgy.common.blocks.rock.MetallurgyOre;
@@ -28,7 +23,6 @@ import tfc_metallurgy.util.MetallurgyMetal;
 import java.util.Map;
 import java.util.function.Supplier;
 
-@Mod.EventBusSubscriber(modid = TFCMetallurgy.mod_id, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MetallurgyItemGroup {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TFCMetallurgy.mod_id);
@@ -117,8 +111,12 @@ public class MetallurgyItemGroup {
     }
 
     static {
-        METAL = register("metals", () -> new ItemStack((ItemLike)((DeferredItem)((Map) MetallurgyItems.METAL_ITEMS.get(MetallurgyMetal.ALUMINUM)).get(MetallurgyMetal.ItemType.INGOT)).get()), MetallurgyItemGroup::fillMetalTab);
-        ORES = register("ores", () -> new ItemStack((ItemLike)((DeferredItem)((Map) MetallurgyItems.GRADED_ORES.get(MetallurgyOre.BAUXITE)).get(Ore.Grade.NORMAL)).get()), MetallurgyItemGroup::fillOresTab);
+        @SuppressWarnings("unchecked")
+        Supplier<ItemLike> metalIcon = (Supplier<ItemLike>) ((Map<?, ?>) MetallurgyItems.METAL_ITEMS.get(MetallurgyMetal.ALUMINUM)).get(MetallurgyMetal.ItemType.INGOT);
+        METAL = register("metals", () -> new ItemStack(metalIcon.get()), MetallurgyItemGroup::fillMetalTab);
+        @SuppressWarnings("unchecked")
+        Supplier<ItemLike> oreIcon = (Supplier<ItemLike>) ((Map<?, ?>) MetallurgyItems.GRADED_ORES.get(MetallurgyOre.BAUXITE)).get(Ore.Grade.NORMAL);
+        ORES = register("ores", () -> new ItemStack(oreIcon.get()), MetallurgyItemGroup::fillOresTab);
 
     }
 
@@ -135,7 +133,6 @@ public class MetallurgyItemGroup {
         return new TFCCreativeTabs.Id(reg, displayItems);
     }
 
-    @SubscribeEvent
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == TFCCreativeTabs.MISC.tab().getKey()) {
             for (MetallurgyMetal metal : MetallurgyMetal.values()) {
@@ -162,15 +159,15 @@ public class MetallurgyItemGroup {
     }
 
     private static <T extends ItemLike, R extends Supplier<T>, K1, K2> void accept(CreativeModeTab.Output out, Map<K1, Map<K2, R>> map, K1 key1, K2 key2) {
-        if (map.containsKey(key1) && ((Map)map.get(key1)).containsKey(key2)) {
-            out.accept((ItemLike)((Supplier)((Map)map.get(key1)).get(key2)).get());
+        if (map.containsKey(key1) && map.get(key1).containsKey(key2)) {
+            out.accept((ItemLike)((Supplier<?>)((Map<?, ?>)map.get(key1)).get(key2)).get());
         }
 
     }
 
     private static <T extends ItemLike, R extends Supplier<T>, K> void accept(CreativeModeTab.Output out, Map<K, R> map, K key) {
         if (map.containsKey(key)) {
-            out.accept((ItemLike)((Supplier)map.get(key)).get());
+            out.accept((ItemLike)((Supplier<?>)map.get(key)).get());
         }
 
     }

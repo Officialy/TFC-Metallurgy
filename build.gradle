@@ -51,6 +51,10 @@ repositories {
         name = 'crafttweaker'
         url = 'https://maven.blamejared.com'
     }
+    maven {
+        name = 'Illusive Soulworks'
+        url = 'https://maven.theillusivec4.top/'
+    }
 }
 
 dependencies {
@@ -60,9 +64,7 @@ dependencies {
     // compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:19.5.+"
     // runtimeOnly "mezz.jei:jei-${minecraft_version}-neoforge:19.5.+"
 
-    // Patchouli - uncomment when 1.21.1 NeoForge version is available
-    // compileOnly "vazkii.patchouli:Patchouli:${patchouli_version}"
-    // runtimeOnly "vazkii.patchouli:Patchouli:${patchouli_version}"
+    runtimeOnly "vazkii.patchouli:Patchouli:1.21.1-92-NEOFORGE"
 }
 
 jar {
