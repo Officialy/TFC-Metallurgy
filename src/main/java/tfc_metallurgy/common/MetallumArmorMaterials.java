@@ -11,7 +11,7 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import net.dries007.tfc.util.Helpers;
+import net.minecraft.resources.ResourceLocation;
 import tfc_metallurgy.TFCMetallurgy;
 
 public final class MetallumArmorMaterials
@@ -59,7 +59,7 @@ public final class MetallumArmorMaterials
             enchantability,
             SoundEvents.ARMOR_EQUIP_IRON,
             () -> Ingredient.EMPTY,
-            List.of(new ArmorMaterial.Layer(Helpers.identifier(name))),
+            List.of(new ArmorMaterial.Layer(ResourceLocation.fromNamespaceAndPath(TFCMetallurgy.mod_id, name))),
             toughness,
             knockbackResistance
         )), feetDamage, legDamage, chestDamage, headDamage);
