@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/ferroboron"
+    "tag": "c:sheets/ferroboron"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_boots/ferroboron"

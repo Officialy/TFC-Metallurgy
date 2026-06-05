@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_greaves/titanium"
   },
   "second_input": {
-    "tag": "forge:sheets/titanium"
+    "tag": "c:sheets/titanium"
   },
   "tier": 3,
   "result": {

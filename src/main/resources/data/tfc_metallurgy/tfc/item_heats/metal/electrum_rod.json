@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/electrum"
+    "tag": "c:rods/electrum"
   },
   "heat_capacity": 1,
   "forging_temperature": 720,

@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/aluminum",
-    "#forge:double_ingots/aluminum",
-    "#forge:sheets/aluminum",
-    "#forge:double_sheets/aluminum",
-    "#forge:rods/aluminum",
-    "#forge:tuyeres/aluminum",
+    "#c:ingots/aluminum",
+    "#c:double_ingots/aluminum",
+    "#c:sheets/aluminum",
+    "#c:double_sheets/aluminum",
+    "#c:rods/aluminum",
+    "#c:tuyeres/aluminum",
     "tfc_metallurgy:metal/fish_hook/aluminum",
-    "#forge:fishing_rods/aluminum",
+    "#c:fishing_rods/aluminum",
     "tfc_metallurgy:metal/pickaxe/aluminum",
     "tfc_metallurgy:metal/pickaxe_head/aluminum",
     "tfc_metallurgy:metal/shovel/aluminum",

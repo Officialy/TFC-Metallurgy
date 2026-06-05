@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/pewter",
-    "#forge:double_ingots/pewter",
-    "#forge:sheets/pewter",
-    "#forge:double_sheets/pewter",
-    "#forge:rods/pewter",
-    "#forge:tuyeres/pewter",
+    "#c:ingots/pewter",
+    "#c:double_ingots/pewter",
+    "#c:sheets/pewter",
+    "#c:double_sheets/pewter",
+    "#c:rods/pewter",
+    "#c:tuyeres/pewter",
     "tfc_metallurgy:metal/fish_hook/pewter",
-    "#forge:fishing_rods/pewter",
+    "#c:fishing_rods/pewter",
     "tfc_metallurgy:metal/pickaxe/pewter",
     "tfc_metallurgy:metal/pickaxe_head/pewter",
     "tfc_metallurgy:metal/shovel/pewter",

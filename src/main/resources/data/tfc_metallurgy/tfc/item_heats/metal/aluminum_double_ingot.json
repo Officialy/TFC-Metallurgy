@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/aluminum"
+    "tag": "c:double_ingots/aluminum"
   },
   "heat_capacity": 6.667,
   "forging_temperature": 396,

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/ferroboron"
+    "tag": "c:ingots/ferroboron"
   },
   "result": {
     "item": "tfc_metallurgy:metal/knife_blade/ferroboron"

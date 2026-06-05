@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/magnesite"
+    "tag": "c:ingots/magnesite"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/magnesite"

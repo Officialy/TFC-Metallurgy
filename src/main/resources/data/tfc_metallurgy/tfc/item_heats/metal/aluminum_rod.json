@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/aluminum"
+    "tag": "c:rods/aluminum"
   },
   "heat_capacity": 1.667,
   "forging_temperature": 396,

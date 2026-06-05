@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/electrum"
+    "tag": "c:double_sheets/electrum"
   },
   "heat_capacity": 8,
   "forging_temperature": 720,

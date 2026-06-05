@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:rods/pink_slime"
+    "tag": "c:rods/pink_slime"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/pink_slime",

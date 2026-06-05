@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/refined_obsidian"
+    "tag": "c:ingots/refined_obsidian"
   },
   "result": {
     "item": "tfc_metallurgy:metal/hammer_head/refined_obsidian"

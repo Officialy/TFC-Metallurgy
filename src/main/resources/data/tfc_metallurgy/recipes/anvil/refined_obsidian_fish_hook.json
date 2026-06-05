@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/refined_obsidian"
+    "tag": "c:sheets/refined_obsidian"
   },
   "result": {
     "item": "tfc_metallurgy:metal/fish_hook/refined_obsidian"

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/osmiridium"
+    "tag": "c:double_ingots/osmiridium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/mace_head/osmiridium"

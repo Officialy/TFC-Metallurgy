@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/tungsten",
-    "#forge:double_ingots/tungsten",
-    "#forge:sheets/tungsten",
-    "#forge:double_sheets/tungsten",
-    "#forge:rods/tungsten",
-    "#forge:tuyeres/tungsten",
+    "#c:ingots/tungsten",
+    "#c:double_ingots/tungsten",
+    "#c:sheets/tungsten",
+    "#c:double_sheets/tungsten",
+    "#c:rods/tungsten",
+    "#c:tuyeres/tungsten",
     "tfc_metallurgy:metal/fish_hook/tungsten",
-    "#forge:fishing_rods/tungsten",
+    "#c:fishing_rods/tungsten",
     "tfc_metallurgy:metal/pickaxe/tungsten",
     "tfc_metallurgy:metal/pickaxe_head/tungsten",
     "tfc_metallurgy:metal/shovel/tungsten",

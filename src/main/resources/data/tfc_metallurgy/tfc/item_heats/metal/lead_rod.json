@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/lead"
+    "tag": "c:rods/lead"
   },
   "heat_capacity": 2.273,
   "forging_temperature": 197,

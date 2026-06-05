@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_boots/florentine_bronze"
   },
   "second_input": {
-    "tag": "forge:sheets/florentine_bronze"
+    "tag": "c:sheets/florentine_bronze"
   },
   "tier": 2,
   "result": {

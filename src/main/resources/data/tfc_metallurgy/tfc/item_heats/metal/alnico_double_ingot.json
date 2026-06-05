@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/alnico"
+    "tag": "c:double_ingots/alnico"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 900,

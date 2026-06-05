@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/florentine_bronze",
-    "#forge:double_ingots/florentine_bronze",
-    "#forge:sheets/florentine_bronze",
-    "#forge:double_sheets/florentine_bronze",
-    "#forge:rods/florentine_bronze",
-    "#forge:tuyeres/florentine_bronze",
+    "#c:ingots/florentine_bronze",
+    "#c:double_ingots/florentine_bronze",
+    "#c:sheets/florentine_bronze",
+    "#c:double_sheets/florentine_bronze",
+    "#c:rods/florentine_bronze",
+    "#c:tuyeres/florentine_bronze",
     "tfc_metallurgy:metal/fish_hook/florentine_bronze",
-    "#forge:fishing_rods/florentine_bronze",
+    "#c:fishing_rods/florentine_bronze",
     "tfc_metallurgy:metal/pickaxe/florentine_bronze",
     "tfc_metallurgy:metal/pickaxe_head/florentine_bronze",
     "tfc_metallurgy:metal/shovel/florentine_bronze",

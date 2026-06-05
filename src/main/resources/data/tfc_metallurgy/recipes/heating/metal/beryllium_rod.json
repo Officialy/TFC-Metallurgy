@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:rods/beryllium"
+    "tag": "c:rods/beryllium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/beryllium",

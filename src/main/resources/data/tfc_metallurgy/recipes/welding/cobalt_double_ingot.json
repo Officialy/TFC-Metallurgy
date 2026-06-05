@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:ingots/cobalt"
+    "tag": "c:ingots/cobalt"
   },
   "second_input": {
-    "tag": "forge:ingots/cobalt"
+    "tag": "c:ingots/cobalt"
   },
   "tier": 2,
   "result": {

@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/thorium"
+    "tag": "c:double_ingots/thorium"
   },
   "heat_capacity": 6.667,
   "forging_temperature": 921,

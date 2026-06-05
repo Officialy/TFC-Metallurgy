@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/manganese"
+    "tag": "c:double_sheets/manganese"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 750,

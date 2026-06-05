@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/andesite_alloy"
+    "tag": "c:rods/andesite_alloy"
   },
   "heat_capacity": 2,
   "forging_temperature": 312,

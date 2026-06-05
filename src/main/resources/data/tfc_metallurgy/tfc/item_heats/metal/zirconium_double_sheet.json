@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/zirconium"
+    "tag": "c:double_sheets/zirconium"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 1110,

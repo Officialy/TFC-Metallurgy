@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/blutonium"
+    "tag": "c:rods/blutonium"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 900,

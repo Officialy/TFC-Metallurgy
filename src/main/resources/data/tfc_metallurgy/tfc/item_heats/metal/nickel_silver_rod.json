@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/nickel_silver"
+    "tag": "c:rods/nickel_silver"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 870,

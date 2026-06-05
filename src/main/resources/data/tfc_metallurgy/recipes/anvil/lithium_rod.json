@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/lithium"
+    "tag": "c:ingots/lithium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/lithium"

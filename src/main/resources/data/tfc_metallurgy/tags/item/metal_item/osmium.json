@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/osmium",
-    "#forge:double_ingots/osmium",
-    "#forge:sheets/osmium",
-    "#forge:double_sheets/osmium",
-    "#forge:rods/osmium",
-    "#forge:tuyeres/osmium",
+    "#c:ingots/osmium",
+    "#c:double_ingots/osmium",
+    "#c:sheets/osmium",
+    "#c:double_sheets/osmium",
+    "#c:rods/osmium",
+    "#c:tuyeres/osmium",
     "tfc_metallurgy:metal/fish_hook/osmium",
-    "#forge:fishing_rods/osmium",
+    "#c:fishing_rods/osmium",
     "tfc_metallurgy:metal/pickaxe/osmium",
     "tfc_metallurgy:metal/pickaxe_head/osmium",
     "tfc_metallurgy:metal/shovel/osmium",

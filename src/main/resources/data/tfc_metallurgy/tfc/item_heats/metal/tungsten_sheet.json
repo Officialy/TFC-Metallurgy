@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:sheets/tungsten"
+    "tag": "c:sheets/tungsten"
   },
   "heat_capacity": 10,
   "forging_temperature": 921,

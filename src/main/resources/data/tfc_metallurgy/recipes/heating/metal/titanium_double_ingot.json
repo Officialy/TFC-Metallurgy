@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:double_ingots/titanium"
+    "tag": "c:double_ingots/titanium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/titanium",

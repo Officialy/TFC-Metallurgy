@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/cobalt"
+    "tag": "c:double_ingots/cobalt"
   },
   "heat_capacity": 8,
   "forging_temperature": 900,

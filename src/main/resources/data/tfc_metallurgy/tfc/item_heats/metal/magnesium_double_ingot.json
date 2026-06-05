@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/magnesium"
+    "tag": "c:double_ingots/magnesium"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 390,

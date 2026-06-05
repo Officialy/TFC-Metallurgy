@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/iridium"
+    "tag": "c:double_ingots/iridium"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 921,

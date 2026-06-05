@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/platinum"
+    "tag": "c:double_sheets/platinum"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 1038,

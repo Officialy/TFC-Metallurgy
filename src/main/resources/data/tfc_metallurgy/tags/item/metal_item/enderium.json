@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/enderium",
-    "#forge:double_ingots/enderium",
-    "#forge:sheets/enderium",
-    "#forge:double_sheets/enderium",
-    "#forge:rods/enderium",
-    "#forge:tuyeres/enderium",
+    "#c:ingots/enderium",
+    "#c:double_ingots/enderium",
+    "#c:sheets/enderium",
+    "#c:double_sheets/enderium",
+    "#c:rods/enderium",
+    "#c:tuyeres/enderium",
     "tfc_metallurgy:metal/fish_hook/enderium",
-    "#forge:fishing_rods/enderium",
+    "#c:fishing_rods/enderium",
     "tfc_metallurgy:metal/pickaxe/enderium",
     "tfc_metallurgy:metal/pickaxe_head/enderium",
     "tfc_metallurgy:metal/shovel/enderium",

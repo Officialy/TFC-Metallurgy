@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:ingots/lithium"
+    "tag": "c:ingots/lithium"
   },
   "second_input": {
-    "tag": "forge:ingots/lithium"
+    "tag": "c:ingots/lithium"
   },
   "tier": 2,
   "result": {

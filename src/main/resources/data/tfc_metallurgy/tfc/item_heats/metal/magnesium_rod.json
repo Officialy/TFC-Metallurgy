@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/magnesium"
+    "tag": "c:rods/magnesium"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 390,

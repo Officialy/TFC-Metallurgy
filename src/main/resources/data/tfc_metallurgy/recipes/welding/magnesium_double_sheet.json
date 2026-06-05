@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/magnesium"
+    "tag": "c:sheets/magnesium"
   },
   "second_input": {
-    "tag": "forge:sheets/magnesium"
+    "tag": "c:sheets/magnesium"
   },
   "tier": 3,
   "result": {

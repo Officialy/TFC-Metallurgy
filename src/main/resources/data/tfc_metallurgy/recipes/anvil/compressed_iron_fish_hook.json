@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/compressed_iron"
+    "tag": "c:sheets/compressed_iron"
   },
   "result": {
     "item": "tfc_metallurgy:metal/fish_hook/compressed_iron"

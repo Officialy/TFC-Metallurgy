@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:double_sheets/lumium"
+    "tag": "c:double_sheets/lumium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/lumium",

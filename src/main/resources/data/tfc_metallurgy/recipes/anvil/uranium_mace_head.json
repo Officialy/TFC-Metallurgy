@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/uranium"
+    "tag": "c:double_ingots/uranium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/mace_head/uranium"

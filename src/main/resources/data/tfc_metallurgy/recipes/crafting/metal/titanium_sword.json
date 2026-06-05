@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "tfc:advanced_shaped_crafting",
   "pattern": [
     "X",
@@ -9,7 +9,7 @@
       "item": "tfc_metallurgy:metal/sword_blade/titanium"
     },
     "Y": {
-      "tag": "forge:rods/wooden"
+      "tag": "c:rods/wooden"
     }
   },
   "result": {

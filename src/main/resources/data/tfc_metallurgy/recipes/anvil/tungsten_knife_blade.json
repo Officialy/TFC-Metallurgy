@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/tungsten"
+    "tag": "c:ingots/tungsten"
   },
   "result": {
     "item": "tfc_metallurgy:metal/knife_blade/tungsten"

@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/signalum",
-    "#forge:double_ingots/signalum",
-    "#forge:sheets/signalum",
-    "#forge:double_sheets/signalum",
-    "#forge:rods/signalum",
-    "#forge:tuyeres/signalum",
+    "#c:ingots/signalum",
+    "#c:double_ingots/signalum",
+    "#c:sheets/signalum",
+    "#c:double_sheets/signalum",
+    "#c:rods/signalum",
+    "#c:tuyeres/signalum",
     "tfc_metallurgy:metal/fish_hook/signalum",
-    "#forge:fishing_rods/signalum",
+    "#c:fishing_rods/signalum",
     "tfc_metallurgy:metal/pickaxe/signalum",
     "tfc_metallurgy:metal/pickaxe_head/signalum",
     "tfc_metallurgy:metal/shovel/signalum",

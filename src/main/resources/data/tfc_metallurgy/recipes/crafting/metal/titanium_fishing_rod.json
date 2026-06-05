@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "tfc:advanced_shaped_crafting",
   "pattern": [
     "  X",
@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "tag": "forge:rods/wooden"
+      "tag": "c:rods/wooden"
     },
     "Y": {
-      "tag": "forge:string"
+      "tag": "c:string"
     },
     "Z": {
       "item": "tfc_metallurgy:metal/fish_hook/titanium"

@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/mithril"
+    "tag": "c:sheets/mithril"
   },
   "second_input": {
-    "tag": "forge:sheets/mithril"
+    "tag": "c:sheets/mithril"
   },
   "tier": 1,
   "result": {

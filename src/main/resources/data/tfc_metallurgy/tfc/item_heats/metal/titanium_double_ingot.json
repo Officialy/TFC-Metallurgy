@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/titanium"
+    "tag": "c:double_ingots/titanium"
   },
   "heat_capacity": 6.667,
   "forging_temperature": 921,

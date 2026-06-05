@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/compressed_iron",
-    "#forge:double_ingots/compressed_iron",
-    "#forge:sheets/compressed_iron",
-    "#forge:double_sheets/compressed_iron",
-    "#forge:rods/compressed_iron",
-    "#forge:tuyeres/compressed_iron",
+    "#c:ingots/compressed_iron",
+    "#c:double_ingots/compressed_iron",
+    "#c:sheets/compressed_iron",
+    "#c:double_sheets/compressed_iron",
+    "#c:rods/compressed_iron",
+    "#c:tuyeres/compressed_iron",
     "tfc_metallurgy:metal/fish_hook/compressed_iron",
-    "#forge:fishing_rods/compressed_iron",
+    "#c:fishing_rods/compressed_iron",
     "tfc_metallurgy:metal/pickaxe/compressed_iron",
     "tfc_metallurgy:metal/pickaxe_head/compressed_iron",
     "tfc_metallurgy:metal/shovel/compressed_iron",

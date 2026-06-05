@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:rods/refined_glowstone"
+    "tag": "c:rods/refined_glowstone"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/refined_glowstone",

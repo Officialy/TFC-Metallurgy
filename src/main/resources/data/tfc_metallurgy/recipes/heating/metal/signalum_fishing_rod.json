@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:fishing_rods/signalum"
+    "tag": "c:fishing_rods/signalum"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/signalum",

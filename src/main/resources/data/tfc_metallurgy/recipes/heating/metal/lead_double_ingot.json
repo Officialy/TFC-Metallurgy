@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:double_ingots/lead"
+    "tag": "c:double_ingots/lead"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/lead",

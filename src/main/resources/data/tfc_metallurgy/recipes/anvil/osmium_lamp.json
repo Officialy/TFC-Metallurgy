@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/osmium"
+    "tag": "c:ingots/osmium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/lamp/osmium"

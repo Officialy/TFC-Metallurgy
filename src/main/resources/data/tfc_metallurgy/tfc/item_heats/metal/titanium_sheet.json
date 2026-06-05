@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:sheets/titanium"
+    "tag": "c:sheets/titanium"
   },
   "heat_capacity": 6.667,
   "forging_temperature": 921,

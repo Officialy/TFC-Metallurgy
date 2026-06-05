@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:double_ingots/constantan"
+    "tag": "c:double_ingots/constantan"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/constantan",

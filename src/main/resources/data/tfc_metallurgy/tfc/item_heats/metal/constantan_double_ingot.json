@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/constantan"
+    "tag": "c:double_ingots/constantan"
   },
   "heat_capacity": 4,
   "forging_temperature": 720,

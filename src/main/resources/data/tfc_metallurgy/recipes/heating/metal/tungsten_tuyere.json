@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:tuyeres/tungsten"
+    "tag": "c:tuyeres/tungsten"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/tungsten",

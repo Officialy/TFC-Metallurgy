@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/platinum"
+    "tag": "c:rods/platinum"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 1038,

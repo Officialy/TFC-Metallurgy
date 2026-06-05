@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/osmiridium"
+    "tag": "c:sheets/osmiridium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_boots/osmiridium"

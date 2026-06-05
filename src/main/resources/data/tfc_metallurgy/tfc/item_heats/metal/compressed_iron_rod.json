@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/compressed_iron"
+    "tag": "c:rods/compressed_iron"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 921,

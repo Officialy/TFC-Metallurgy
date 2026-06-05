@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/signalum"
+    "tag": "c:sheets/signalum"
   },
   "result": {
     "item": "tfc_metallurgy:metal/trapdoor/signalum"

@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/graphite"
+    "tag": "c:double_sheets/graphite"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 300,

@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/solder"
+    "tag": "c:double_sheets/solder"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 240,

@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/mithril",
-    "#forge:double_ingots/mithril",
-    "#forge:sheets/mithril",
-    "#forge:double_sheets/mithril",
-    "#forge:rods/mithril",
-    "#forge:tuyeres/mithril",
+    "#c:ingots/mithril",
+    "#c:double_ingots/mithril",
+    "#c:sheets/mithril",
+    "#c:double_sheets/mithril",
+    "#c:rods/mithril",
+    "#c:tuyeres/mithril",
     "tfc_metallurgy:metal/fish_hook/mithril",
-    "#forge:fishing_rods/mithril",
+    "#c:fishing_rods/mithril",
     "tfc_metallurgy:metal/pickaxe/mithril",
     "tfc_metallurgy:metal/pickaxe_head/mithril",
     "tfc_metallurgy:metal/shovel/mithril",

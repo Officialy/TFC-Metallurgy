@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_sheets/osmium"
+    "tag": "c:double_sheets/osmium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_chestplate/osmium"

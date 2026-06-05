@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/cobalt"
+    "tag": "c:double_sheets/cobalt"
   },
   "heat_capacity": 16,
   "forging_temperature": 900,

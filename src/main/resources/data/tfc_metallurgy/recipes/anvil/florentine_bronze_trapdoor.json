@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/florentine_bronze"
+    "tag": "c:sheets/florentine_bronze"
   },
   "result": {
     "item": "tfc_metallurgy:metal/trapdoor/florentine_bronze"

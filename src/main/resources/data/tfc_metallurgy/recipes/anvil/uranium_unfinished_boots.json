@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/uranium"
+    "tag": "c:sheets/uranium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_boots/uranium"

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/beryllium_copper"
+    "tag": "c:sheets/beryllium_copper"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_boots/beryllium_copper"

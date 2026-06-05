@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/uranium",
-    "#forge:double_ingots/uranium",
-    "#forge:sheets/uranium",
-    "#forge:double_sheets/uranium",
-    "#forge:rods/uranium",
-    "#forge:tuyeres/uranium",
+    "#c:ingots/uranium",
+    "#c:double_ingots/uranium",
+    "#c:sheets/uranium",
+    "#c:double_sheets/uranium",
+    "#c:rods/uranium",
+    "#c:tuyeres/uranium",
     "tfc_metallurgy:metal/fish_hook/uranium",
-    "#forge:fishing_rods/uranium",
+    "#c:fishing_rods/uranium",
     "tfc_metallurgy:metal/pickaxe/uranium",
     "tfc_metallurgy:metal/pickaxe_head/uranium",
     "tfc_metallurgy:metal/shovel/uranium",

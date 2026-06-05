@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/pewter"
+    "tag": "c:rods/pewter"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 900,

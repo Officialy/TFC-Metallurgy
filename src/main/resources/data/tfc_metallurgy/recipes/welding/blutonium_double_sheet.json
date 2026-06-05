@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/blutonium"
+    "tag": "c:sheets/blutonium"
   },
   "second_input": {
-    "tag": "forge:sheets/blutonium"
+    "tag": "c:sheets/blutonium"
   },
   "tier": 5,
   "result": {

@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/cobalt",
-    "#forge:double_ingots/cobalt",
-    "#forge:sheets/cobalt",
-    "#forge:double_sheets/cobalt",
-    "#forge:rods/cobalt",
-    "#forge:tuyeres/cobalt",
+    "#c:ingots/cobalt",
+    "#c:double_ingots/cobalt",
+    "#c:sheets/cobalt",
+    "#c:double_sheets/cobalt",
+    "#c:rods/cobalt",
+    "#c:tuyeres/cobalt",
     "tfc_metallurgy:metal/fish_hook/cobalt",
-    "#forge:fishing_rods/cobalt",
+    "#c:fishing_rods/cobalt",
     "tfc_metallurgy:metal/pickaxe/cobalt",
     "tfc_metallurgy:metal/pickaxe_head/cobalt",
     "tfc_metallurgy:metal/shovel/cobalt",

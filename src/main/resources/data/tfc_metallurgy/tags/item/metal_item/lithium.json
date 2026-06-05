@@ -1,10 +1,10 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/lithium",
-    "#forge:double_ingots/lithium",
-    "#forge:sheets/lithium",
-    "#forge:double_sheets/lithium",
-    "#forge:rods/lithium"
+    "#c:ingots/lithium",
+    "#c:double_ingots/lithium",
+    "#c:sheets/lithium",
+    "#c:double_sheets/lithium",
+    "#c:rods/lithium"
   ]
 }

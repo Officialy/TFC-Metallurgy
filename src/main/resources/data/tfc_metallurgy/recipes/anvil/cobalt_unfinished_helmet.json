@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_sheets/cobalt"
+    "tag": "c:double_sheets/cobalt"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_helmet/cobalt"

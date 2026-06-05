@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_sheets/florentine_bronze"
+    "tag": "c:double_sheets/florentine_bronze"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_greaves/florentine_bronze"

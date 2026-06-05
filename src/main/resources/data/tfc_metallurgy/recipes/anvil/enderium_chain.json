@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/enderium"
+    "tag": "c:ingots/enderium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/chain/enderium",

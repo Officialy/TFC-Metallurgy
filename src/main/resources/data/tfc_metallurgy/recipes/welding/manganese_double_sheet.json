@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/manganese"
+    "tag": "c:sheets/manganese"
   },
   "second_input": {
-    "tag": "forge:sheets/manganese"
+    "tag": "c:sheets/manganese"
   },
   "tier": 3,
   "result": {

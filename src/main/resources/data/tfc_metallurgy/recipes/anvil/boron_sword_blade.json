@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/boron"
+    "tag": "c:double_ingots/boron"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sword_blade/boron"

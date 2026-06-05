@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/blutonium"
+    "tag": "c:ingots/blutonium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/blutonium"

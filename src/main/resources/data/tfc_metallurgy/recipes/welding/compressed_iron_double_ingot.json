@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:ingots/compressed_iron"
+    "tag": "c:ingots/compressed_iron"
   },
   "second_input": {
-    "tag": "forge:ingots/compressed_iron"
+    "tag": "c:ingots/compressed_iron"
   },
   "tier": 2,
   "result": {

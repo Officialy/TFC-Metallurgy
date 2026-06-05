@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/pewter"
+    "tag": "c:sheets/pewter"
   },
   "result": {
     "item": "tfc_metallurgy:metal/trapdoor/pewter"

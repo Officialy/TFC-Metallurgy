@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/zirconium"
+    "tag": "c:ingots/zirconium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/zirconium"

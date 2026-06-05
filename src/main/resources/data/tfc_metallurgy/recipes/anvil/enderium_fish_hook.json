@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/enderium"
+    "tag": "c:sheets/enderium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/fish_hook/enderium"

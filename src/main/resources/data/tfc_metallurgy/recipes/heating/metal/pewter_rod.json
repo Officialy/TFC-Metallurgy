@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:rods/pewter"
+    "tag": "c:rods/pewter"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/pewter",

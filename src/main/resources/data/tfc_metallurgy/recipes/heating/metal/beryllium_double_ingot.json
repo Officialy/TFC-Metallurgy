@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:double_ingots/beryllium"
+    "tag": "c:double_ingots/beryllium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/beryllium",

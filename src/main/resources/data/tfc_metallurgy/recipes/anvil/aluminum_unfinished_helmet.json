@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_sheets/aluminum"
+    "tag": "c:double_sheets/aluminum"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_helmet/aluminum"

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/florentine_bronze"
+    "tag": "c:ingots/florentine_bronze"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/florentine_bronze",

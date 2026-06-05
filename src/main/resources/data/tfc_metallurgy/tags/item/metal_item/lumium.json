@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/lumium",
-    "#forge:double_ingots/lumium",
-    "#forge:sheets/lumium",
-    "#forge:double_sheets/lumium",
-    "#forge:rods/lumium",
-    "#forge:tuyeres/lumium",
+    "#c:ingots/lumium",
+    "#c:double_ingots/lumium",
+    "#c:sheets/lumium",
+    "#c:double_sheets/lumium",
+    "#c:rods/lumium",
+    "#c:tuyeres/lumium",
     "tfc_metallurgy:metal/fish_hook/lumium",
-    "#forge:fishing_rods/lumium",
+    "#c:fishing_rods/lumium",
     "tfc_metallurgy:metal/pickaxe/lumium",
     "tfc_metallurgy:metal/pickaxe_head/lumium",
     "tfc_metallurgy:metal/shovel/lumium",

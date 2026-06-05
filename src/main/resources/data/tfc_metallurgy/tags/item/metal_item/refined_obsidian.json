@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/refined_obsidian",
-    "#forge:double_ingots/refined_obsidian",
-    "#forge:sheets/refined_obsidian",
-    "#forge:double_sheets/refined_obsidian",
-    "#forge:rods/refined_obsidian",
-    "#forge:tuyeres/refined_obsidian",
+    "#c:ingots/refined_obsidian",
+    "#c:double_ingots/refined_obsidian",
+    "#c:sheets/refined_obsidian",
+    "#c:double_sheets/refined_obsidian",
+    "#c:rods/refined_obsidian",
+    "#c:tuyeres/refined_obsidian",
     "tfc_metallurgy:metal/fish_hook/refined_obsidian",
-    "#forge:fishing_rods/refined_obsidian",
+    "#c:fishing_rods/refined_obsidian",
     "tfc_metallurgy:metal/pickaxe/refined_obsidian",
     "tfc_metallurgy:metal/pickaxe_head/refined_obsidian",
     "tfc_metallurgy:metal/shovel/refined_obsidian",

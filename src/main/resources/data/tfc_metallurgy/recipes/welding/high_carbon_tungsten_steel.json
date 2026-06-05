@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:ingots/tungsten"
+    "tag": "c:ingots/tungsten"
   },
   "second_input": {
     "item": "tfc:metal/ingot/weak_steel"

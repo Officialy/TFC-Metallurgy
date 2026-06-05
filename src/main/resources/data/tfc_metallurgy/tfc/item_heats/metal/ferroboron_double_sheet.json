@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/ferroboron"
+    "tag": "c:double_sheets/ferroboron"
   },
   "heat_capacity": 13.333,
   "forging_temperature": 921,

@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/lithium"
+    "tag": "c:double_sheets/lithium"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 108,

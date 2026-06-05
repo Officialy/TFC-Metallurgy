@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/graphite"
+    "tag": "c:rods/graphite"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 300,

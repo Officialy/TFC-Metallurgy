@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/beryllium_copper"
+    "tag": "c:double_ingots/beryllium_copper"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 900,

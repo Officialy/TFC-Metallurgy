@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:sheets/zirconium"
+    "tag": "c:sheets/zirconium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/zirconium",

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/solder"
+    "tag": "c:double_ingots/solder"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sheet/solder"

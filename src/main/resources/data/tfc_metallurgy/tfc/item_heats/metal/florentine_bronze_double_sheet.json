@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/florentine_bronze"
+    "tag": "c:double_sheets/florentine_bronze"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 240,

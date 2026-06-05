@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/pink_slime"
+    "tag": "c:sheets/pink_slime"
   },
   "second_input": {
-    "tag": "forge:sheets/pink_slime"
+    "tag": "c:sheets/pink_slime"
   },
   "tier": 2,
   "result": {

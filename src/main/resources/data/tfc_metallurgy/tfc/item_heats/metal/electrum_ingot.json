@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:ingots/electrum"
+    "tag": "c:ingots/electrum"
   },
   "heat_capacity": 2,
   "forging_temperature": 720,

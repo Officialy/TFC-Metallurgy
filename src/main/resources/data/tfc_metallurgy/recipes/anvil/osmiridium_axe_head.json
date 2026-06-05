@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/osmiridium"
+    "tag": "c:ingots/osmiridium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/axe_head/osmiridium"

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/nickel_silver"
+    "tag": "c:sheets/nickel_silver"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_boots/nickel_silver"

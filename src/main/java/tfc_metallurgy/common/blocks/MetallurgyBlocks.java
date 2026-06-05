@@ -81,11 +81,11 @@ public class MetallurgyBlocks
 
     private static <T extends Block> DeferredHolder<Block, T> register(String name, Supplier<T> blockSupplier, @Nullable Function<T, ? extends BlockItem> blockItemFactory)
     {
-        return RegistrationHelpers.registerBlock(BLOCKS, MetallurgyItems.ITEMS, name, blockSupplier, blockItemFactory);
+        return RegistrationHelpers.registerBlock(BLOCKS, MetallurgyItems.ITEMS, name.toLowerCase(java.util.Locale.ROOT), blockSupplier, blockItemFactory);
     }
 
     private static <T extends Block> DeferredHolder<Block, T> registerNoItem(String name, Supplier<T> blockSupplier)
     {
-        return RegistrationHelpers.registerBlock(BLOCKS, MetallurgyItems.ITEMS, name, blockSupplier, null);
+        return RegistrationHelpers.registerBlock(BLOCKS, MetallurgyItems.ITEMS, name.toLowerCase(java.util.Locale.ROOT), blockSupplier, null);
     }
 }

@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:sheets/antimony"
+    "tag": "c:sheets/antimony"
   },
   "heat_capacity": 8,
   "forging_temperature": 378,

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/andesite_alloy"
+    "tag": "c:ingots/andesite_alloy"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/andesite_alloy"

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/thorium"
+    "tag": "c:ingots/thorium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/saw_blade/thorium"

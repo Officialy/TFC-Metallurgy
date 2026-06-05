@@ -1,10 +1,10 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/platinum",
-    "#forge:double_ingots/platinum",
-    "#forge:sheets/platinum",
-    "#forge:double_sheets/platinum",
-    "#forge:rods/platinum"
+    "#c:ingots/platinum",
+    "#c:double_ingots/platinum",
+    "#c:sheets/platinum",
+    "#c:double_sheets/platinum",
+    "#c:rods/platinum"
   ]
 }

@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/boron",
-    "#forge:double_ingots/boron",
-    "#forge:sheets/boron",
-    "#forge:double_sheets/boron",
-    "#forge:rods/boron",
-    "#forge:tuyeres/boron",
+    "#c:ingots/boron",
+    "#c:double_ingots/boron",
+    "#c:sheets/boron",
+    "#c:double_sheets/boron",
+    "#c:rods/boron",
+    "#c:tuyeres/boron",
     "tfc_metallurgy:metal/fish_hook/boron",
-    "#forge:fishing_rods/boron",
+    "#c:fishing_rods/boron",
     "tfc_metallurgy:metal/pickaxe/boron",
     "tfc_metallurgy:metal/pickaxe_head/boron",
     "tfc_metallurgy:metal/shovel/boron",

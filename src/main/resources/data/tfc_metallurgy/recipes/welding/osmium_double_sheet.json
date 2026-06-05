@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/osmium"
+    "tag": "c:sheets/osmium"
   },
   "second_input": {
-    "tag": "forge:sheets/osmium"
+    "tag": "c:sheets/osmium"
   },
   "tier": 2,
   "result": {

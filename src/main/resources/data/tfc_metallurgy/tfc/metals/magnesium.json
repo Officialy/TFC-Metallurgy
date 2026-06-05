@@ -1,12 +1,12 @@
-{
+﻿{
   "tier": 3,
   "fluid": "tfc_metallurgy:metal/magnesium",
   "melt_temperature": 650,
   "specific_heat_capacity": 0.01,
   "ingots": {
-    "tag": "forge:ingots/magnesium"
+    "tag": "c:ingots/magnesium"
   },
   "sheets": {
-    "tag": "forge:sheets/magnesium"
+    "tag": "c:sheets/magnesium"
   }
 }

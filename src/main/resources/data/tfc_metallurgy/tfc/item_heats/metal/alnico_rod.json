@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/alnico"
+    "tag": "c:rods/alnico"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 900,

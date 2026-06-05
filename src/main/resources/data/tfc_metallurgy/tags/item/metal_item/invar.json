@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/invar",
-    "#forge:double_ingots/invar",
-    "#forge:sheets/invar",
-    "#forge:double_sheets/invar",
-    "#forge:rods/invar",
-    "#forge:tuyeres/invar",
+    "#c:ingots/invar",
+    "#c:double_ingots/invar",
+    "#c:sheets/invar",
+    "#c:double_sheets/invar",
+    "#c:rods/invar",
+    "#c:tuyeres/invar",
     "tfc_metallurgy:metal/fish_hook/invar",
-    "#forge:fishing_rods/invar",
+    "#c:fishing_rods/invar",
     "tfc_metallurgy:metal/pickaxe/invar",
     "tfc_metallurgy:metal/pickaxe_head/invar",
     "tfc_metallurgy:metal/shovel/invar",

@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:ingots/zircaloy"
+    "tag": "c:ingots/zircaloy"
   },
   "heat_capacity": 2.857,
   "forging_temperature": 1110,

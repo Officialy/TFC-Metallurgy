@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_greaves/invar"
   },
   "second_input": {
-    "tag": "forge:sheets/invar"
+    "tag": "c:sheets/invar"
   },
   "tier": 2,
   "result": {

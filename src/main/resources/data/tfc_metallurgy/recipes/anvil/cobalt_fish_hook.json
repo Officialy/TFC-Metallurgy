@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/cobalt"
+    "tag": "c:sheets/cobalt"
   },
   "result": {
     "item": "tfc_metallurgy:metal/fish_hook/cobalt"

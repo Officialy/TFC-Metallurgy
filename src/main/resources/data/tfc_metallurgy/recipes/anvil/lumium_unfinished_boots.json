@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/lumium"
+    "tag": "c:sheets/lumium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_boots/lumium"

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/nickel_silver"
+    "tag": "c:double_ingots/nickel_silver"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sword_blade/nickel_silver"

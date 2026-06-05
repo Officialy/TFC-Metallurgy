@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:sheets/osmium"
+    "tag": "c:sheets/osmium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/osmium",

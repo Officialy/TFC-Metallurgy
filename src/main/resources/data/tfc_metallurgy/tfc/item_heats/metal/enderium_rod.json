@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/enderium"
+    "tag": "c:rods/enderium"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 1020,

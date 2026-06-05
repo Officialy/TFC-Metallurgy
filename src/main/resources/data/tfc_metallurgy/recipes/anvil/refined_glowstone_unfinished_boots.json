@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/refined_glowstone"
+    "tag": "c:sheets/refined_glowstone"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_boots/refined_glowstone"

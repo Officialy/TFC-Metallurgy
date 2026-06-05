@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/beryllium_copper"
+    "tag": "c:rods/beryllium_copper"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 900,

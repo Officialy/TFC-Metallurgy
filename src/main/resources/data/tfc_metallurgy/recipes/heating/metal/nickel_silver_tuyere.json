@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:tuyeres/nickel_silver"
+    "tag": "c:tuyeres/nickel_silver"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/nickel_silver",

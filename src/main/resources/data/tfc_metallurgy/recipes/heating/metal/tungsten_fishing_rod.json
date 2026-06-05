@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:fishing_rods/tungsten"
+    "tag": "c:fishing_rods/tungsten"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/tungsten",

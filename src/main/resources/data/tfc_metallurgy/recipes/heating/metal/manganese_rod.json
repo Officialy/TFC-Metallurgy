@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:rods/manganese"
+    "tag": "c:rods/manganese"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/manganese",

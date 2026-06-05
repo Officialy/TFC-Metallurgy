@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "tfc:advanced_shaped_crafting",
   "pattern": [
     "X",
@@ -9,7 +9,7 @@
       "item": "tfc_metallurgy:metal/saw_blade/florentine_bronze"
     },
     "Y": {
-      "tag": "forge:rods/wooden"
+      "tag": "c:rods/wooden"
     }
   },
   "result": {

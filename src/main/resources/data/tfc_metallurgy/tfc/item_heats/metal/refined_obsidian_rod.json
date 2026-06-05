@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/refined_obsidian"
+    "tag": "c:rods/refined_obsidian"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 900,

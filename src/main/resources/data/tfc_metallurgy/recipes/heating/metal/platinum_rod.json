@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:rods/platinum"
+    "tag": "c:rods/platinum"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/platinum",

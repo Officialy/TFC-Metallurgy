@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/electrum"
+    "tag": "c:double_ingots/electrum"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sheet/electrum"

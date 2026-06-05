@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:double_sheets/beryllium_copper"
+    "tag": "c:double_sheets/beryllium_copper"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/beryllium_copper",

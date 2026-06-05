@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/pink_slime"
+    "tag": "c:rods/pink_slime"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 600,

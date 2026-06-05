@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/osmiridium",
-    "#forge:double_ingots/osmiridium",
-    "#forge:sheets/osmiridium",
-    "#forge:double_sheets/osmiridium",
-    "#forge:rods/osmiridium",
-    "#forge:tuyeres/osmiridium",
+    "#c:ingots/osmiridium",
+    "#c:double_ingots/osmiridium",
+    "#c:sheets/osmiridium",
+    "#c:double_sheets/osmiridium",
+    "#c:rods/osmiridium",
+    "#c:tuyeres/osmiridium",
     "tfc_metallurgy:metal/fish_hook/osmiridium",
-    "#forge:fishing_rods/osmiridium",
+    "#c:fishing_rods/osmiridium",
     "tfc_metallurgy:metal/pickaxe/osmiridium",
     "tfc_metallurgy:metal/pickaxe_head/osmiridium",
     "tfc_metallurgy:metal/shovel/osmiridium",

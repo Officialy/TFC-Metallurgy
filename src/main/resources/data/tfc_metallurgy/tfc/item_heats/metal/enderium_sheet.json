@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:sheets/enderium"
+    "tag": "c:sheets/enderium"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 1020,

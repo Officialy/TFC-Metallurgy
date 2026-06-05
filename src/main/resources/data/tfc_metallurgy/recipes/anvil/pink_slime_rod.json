@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/pink_slime"
+    "tag": "c:ingots/pink_slime"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/pink_slime"

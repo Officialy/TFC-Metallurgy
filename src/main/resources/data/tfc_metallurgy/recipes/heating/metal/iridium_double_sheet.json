@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:double_sheets/iridium"
+    "tag": "c:double_sheets/iridium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/iridium",

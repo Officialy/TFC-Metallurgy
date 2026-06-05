@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:ingots/nickel_silver"
+    "tag": "c:ingots/nickel_silver"
   },
   "second_input": {
-    "tag": "forge:ingots/nickel_silver"
+    "tag": "c:ingots/nickel_silver"
   },
   "tier": 1,
   "result": {

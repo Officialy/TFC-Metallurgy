@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/andesite_alloy"
+    "tag": "c:double_ingots/andesite_alloy"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sheet/andesite_alloy"

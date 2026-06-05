@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/manganese"
+    "tag": "c:double_ingots/manganese"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sheet/manganese"

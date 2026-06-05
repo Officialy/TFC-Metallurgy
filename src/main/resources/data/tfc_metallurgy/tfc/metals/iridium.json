@@ -1,12 +1,12 @@
-{
+﻿{
   "tier": 3,
   "fluid": "tfc_metallurgy:metal/iridium",
   "melt_temperature": 2490,
   "specific_heat_capacity": 0.00857,
   "ingots": {
-    "tag": "forge:ingots/iridium"
+    "tag": "c:ingots/iridium"
   },
   "sheets": {
-    "tag": "forge:sheets/iridium"
+    "tag": "c:sheets/iridium"
   }
 }

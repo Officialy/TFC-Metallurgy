@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:double_sheets/cobalt"
+    "tag": "c:double_sheets/cobalt"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/cobalt",

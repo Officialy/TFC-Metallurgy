@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:ingots/zircaloy"
+    "tag": "c:ingots/zircaloy"
   },
   "second_input": {
-    "tag": "forge:ingots/zircaloy"
+    "tag": "c:ingots/zircaloy"
   },
   "tier": 6,
   "result": {

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:rods/constantan"
+    "tag": "c:rods/constantan"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/constantan",

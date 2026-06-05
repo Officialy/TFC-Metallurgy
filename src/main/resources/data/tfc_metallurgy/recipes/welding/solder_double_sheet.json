@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/solder"
+    "tag": "c:sheets/solder"
   },
   "second_input": {
-    "tag": "forge:sheets/solder"
+    "tag": "c:sheets/solder"
   },
   "tier": 2,
   "result": {

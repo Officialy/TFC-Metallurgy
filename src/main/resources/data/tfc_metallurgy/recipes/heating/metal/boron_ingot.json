@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:ingots/boron"
+    "tag": "c:ingots/boron"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/boron",

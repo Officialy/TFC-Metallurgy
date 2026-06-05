@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/alnico"
+    "tag": "c:ingots/alnico"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/alnico"

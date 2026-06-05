@@ -1,23 +1,23 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ores/aluminum",
-    "#forge:ores/beryllium",
-    "#forge:ores/certus_quartz",
-    "#forge:ores/cobalt",
-    "#forge:ores/lead",
-    "#forge:ores/lithium",
-    "#forge:ores/magnesium",
-    "#forge:ores/manganese",
-    "#forge:ores/boron",
-    "#forge:ores/iridium",
-    "#forge:ores/platinum",
-    "#forge:ores/osmium",
-    "#forge:ores/thorium",
-    "#forge:ores/titanium",
-    "#forge:ores/antimony",
-    "#forge:ores/uranium",
-    "#forge:ores/tungsten",
-    "#forge:ores/zirconium"
+    "#c:ores/aluminum",
+    "#c:ores/beryllium",
+    "#c:ores/certus_quartz",
+    "#c:ores/cobalt",
+    "#c:ores/lead",
+    "#c:ores/lithium",
+    "#c:ores/magnesium",
+    "#c:ores/manganese",
+    "#c:ores/boron",
+    "#c:ores/iridium",
+    "#c:ores/platinum",
+    "#c:ores/osmium",
+    "#c:ores/thorium",
+    "#c:ores/titanium",
+    "#c:ores/antimony",
+    "#c:ores/uranium",
+    "#c:ores/tungsten",
+    "#c:ores/zirconium"
   ]
 }

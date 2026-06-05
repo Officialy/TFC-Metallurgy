@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:sheets/compressed_iron"
+    "tag": "c:sheets/compressed_iron"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/compressed_iron",

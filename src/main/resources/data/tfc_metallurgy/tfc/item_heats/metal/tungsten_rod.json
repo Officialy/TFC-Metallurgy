@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/tungsten"
+    "tag": "c:rods/tungsten"
   },
   "heat_capacity": 2.5,
   "forging_temperature": 921,

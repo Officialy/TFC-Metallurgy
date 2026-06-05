@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/signalum"
+    "tag": "c:ingots/signalum"
   },
   "result": {
     "item": "tfc_metallurgy:metal/saw_blade/signalum"

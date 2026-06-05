@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/blutonium"
+    "tag": "c:double_ingots/blutonium"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 900,

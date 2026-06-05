@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:sheets/nickel_silver"
+    "tag": "c:sheets/nickel_silver"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 870,

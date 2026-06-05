@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/aluminum"
+    "tag": "c:sheets/aluminum"
   },
   "second_input": {
-    "tag": "forge:sheets/aluminum"
+    "tag": "c:sheets/aluminum"
   },
   "tier": 2,
   "result": {

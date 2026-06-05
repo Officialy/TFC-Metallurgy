@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/beryllium_copper",
-    "#forge:double_ingots/beryllium_copper",
-    "#forge:sheets/beryllium_copper",
-    "#forge:double_sheets/beryllium_copper",
-    "#forge:rods/beryllium_copper",
-    "#forge:tuyeres/beryllium_copper",
+    "#c:ingots/beryllium_copper",
+    "#c:double_ingots/beryllium_copper",
+    "#c:sheets/beryllium_copper",
+    "#c:double_sheets/beryllium_copper",
+    "#c:rods/beryllium_copper",
+    "#c:tuyeres/beryllium_copper",
     "tfc_metallurgy:metal/fish_hook/beryllium_copper",
-    "#forge:fishing_rods/beryllium_copper",
+    "#c:fishing_rods/beryllium_copper",
     "tfc_metallurgy:metal/pickaxe/beryllium_copper",
     "tfc_metallurgy:metal/pickaxe_head/beryllium_copper",
     "tfc_metallurgy:metal/shovel/beryllium_copper",

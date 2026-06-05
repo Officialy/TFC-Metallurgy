@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/invar"
+    "tag": "c:rods/invar"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 870,

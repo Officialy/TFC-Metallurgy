@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:sheets/constantan"
+    "tag": "c:sheets/constantan"
   },
   "heat_capacity": 4,
   "forging_temperature": 720,

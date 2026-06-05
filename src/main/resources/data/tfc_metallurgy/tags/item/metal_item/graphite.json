@@ -1,10 +1,10 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/graphite",
-    "#forge:double_ingots/graphite",
-    "#forge:sheets/graphite",
-    "#forge:double_sheets/graphite",
-    "#forge:rods/graphite"
+    "#c:ingots/graphite",
+    "#c:double_ingots/graphite",
+    "#c:sheets/graphite",
+    "#c:double_sheets/graphite",
+    "#c:rods/graphite"
   ]
 }

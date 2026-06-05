@@ -1,10 +1,10 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/electrum",
-    "#forge:double_ingots/electrum",
-    "#forge:sheets/electrum",
-    "#forge:double_sheets/electrum",
-    "#forge:rods/electrum"
+    "#c:ingots/electrum",
+    "#c:double_ingots/electrum",
+    "#c:sheets/electrum",
+    "#c:double_sheets/electrum",
+    "#c:rods/electrum"
   ]
 }

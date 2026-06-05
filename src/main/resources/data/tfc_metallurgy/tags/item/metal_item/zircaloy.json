@@ -1,10 +1,10 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/zircaloy",
-    "#forge:double_ingots/zircaloy",
-    "#forge:sheets/zircaloy",
-    "#forge:double_sheets/zircaloy",
-    "#forge:rods/zircaloy"
+    "#c:ingots/zircaloy",
+    "#c:double_ingots/zircaloy",
+    "#c:sheets/zircaloy",
+    "#c:double_sheets/zircaloy",
+    "#c:rods/zircaloy"
   ]
 }

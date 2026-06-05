@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/electrum"
+    "tag": "c:sheets/electrum"
   },
   "second_input": {
-    "tag": "forge:sheets/electrum"
+    "tag": "c:sheets/electrum"
   },
   "tier": 1,
   "result": {

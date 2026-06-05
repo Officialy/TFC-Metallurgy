@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/refined_glowstone",
-    "#forge:double_ingots/refined_glowstone",
-    "#forge:sheets/refined_glowstone",
-    "#forge:double_sheets/refined_glowstone",
-    "#forge:rods/refined_glowstone",
-    "#forge:tuyeres/refined_glowstone",
+    "#c:ingots/refined_glowstone",
+    "#c:double_ingots/refined_glowstone",
+    "#c:sheets/refined_glowstone",
+    "#c:double_sheets/refined_glowstone",
+    "#c:rods/refined_glowstone",
+    "#c:tuyeres/refined_glowstone",
     "tfc_metallurgy:metal/fish_hook/refined_glowstone",
-    "#forge:fishing_rods/refined_glowstone",
+    "#c:fishing_rods/refined_glowstone",
     "tfc_metallurgy:metal/pickaxe/refined_glowstone",
     "tfc_metallurgy:metal/pickaxe_head/refined_glowstone",
     "tfc_metallurgy:metal/shovel/refined_glowstone",

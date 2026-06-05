@@ -1,10 +1,10 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/blutonium",
-    "#forge:double_ingots/blutonium",
-    "#forge:sheets/blutonium",
-    "#forge:double_sheets/blutonium",
-    "#forge:rods/blutonium"
+    "#c:ingots/blutonium",
+    "#c:double_ingots/blutonium",
+    "#c:sheets/blutonium",
+    "#c:double_sheets/blutonium",
+    "#c:rods/blutonium"
   ]
 }

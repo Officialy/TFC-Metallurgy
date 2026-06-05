@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/thorium"
+    "tag": "c:sheets/thorium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/unfinished_boots/thorium"

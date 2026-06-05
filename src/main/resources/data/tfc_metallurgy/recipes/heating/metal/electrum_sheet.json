@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:sheets/electrum"
+    "tag": "c:sheets/electrum"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/electrum",

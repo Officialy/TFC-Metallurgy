@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/iridium"
+    "tag": "c:double_ingots/iridium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sheet/iridium"

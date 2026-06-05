@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:ingots/zirconium"
+    "tag": "c:ingots/zirconium"
   },
   "second_input": {
-    "tag": "forge:ingots/zirconium"
+    "tag": "c:ingots/zirconium"
   },
   "tier": 6,
   "result": {

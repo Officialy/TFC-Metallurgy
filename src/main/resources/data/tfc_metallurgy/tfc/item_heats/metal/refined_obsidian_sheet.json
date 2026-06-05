@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:sheets/refined_obsidian"
+    "tag": "c:sheets/refined_obsidian"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 900,

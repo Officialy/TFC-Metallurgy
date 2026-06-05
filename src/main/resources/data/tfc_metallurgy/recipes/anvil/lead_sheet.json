@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/lead"
+    "tag": "c:double_ingots/lead"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sheet/lead"

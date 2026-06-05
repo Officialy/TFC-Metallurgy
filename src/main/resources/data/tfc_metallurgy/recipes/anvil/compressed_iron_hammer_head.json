@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/compressed_iron"
+    "tag": "c:ingots/compressed_iron"
   },
   "result": {
     "item": "tfc_metallurgy:metal/hammer_head/compressed_iron"

@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:ingots/manganese"
+    "tag": "c:ingots/manganese"
   },
   "heat_capacity": 2.857,
   "forging_temperature": 750,

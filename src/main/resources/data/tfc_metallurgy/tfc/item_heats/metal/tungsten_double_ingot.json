@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/tungsten"
+    "tag": "c:double_ingots/tungsten"
   },
   "heat_capacity": 10,
   "forging_temperature": 921,

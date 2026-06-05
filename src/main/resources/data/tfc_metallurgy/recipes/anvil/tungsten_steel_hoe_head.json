@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/tungsten_steel"
+    "tag": "c:ingots/tungsten_steel"
   },
   "result": {
     "item": "tfc_metallurgy:metal/hoe_head/tungsten_steel"

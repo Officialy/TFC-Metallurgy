@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/thorium"
+    "tag": "c:rods/thorium"
   },
   "heat_capacity": 1.667,
   "forging_temperature": 921,

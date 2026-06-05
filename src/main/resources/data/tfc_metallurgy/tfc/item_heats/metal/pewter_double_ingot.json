@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/pewter"
+    "tag": "c:double_ingots/pewter"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 900,

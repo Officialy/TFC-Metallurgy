@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/invar"
+    "tag": "c:sheets/invar"
   },
   "result": {
     "item": "tfc_metallurgy:metal/trapdoor/invar"

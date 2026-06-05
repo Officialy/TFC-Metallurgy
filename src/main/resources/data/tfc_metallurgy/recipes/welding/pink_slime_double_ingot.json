@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:ingots/pink_slime"
+    "tag": "c:ingots/pink_slime"
   },
   "second_input": {
-    "tag": "forge:ingots/pink_slime"
+    "tag": "c:ingots/pink_slime"
   },
   "tier": 2,
   "result": {

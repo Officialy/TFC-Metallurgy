@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/lumium"
+    "tag": "c:rods/lumium"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 900,

@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/titanium",
-    "#forge:double_ingots/titanium",
-    "#forge:sheets/titanium",
-    "#forge:double_sheets/titanium",
-    "#forge:rods/titanium",
-    "#forge:tuyeres/titanium",
+    "#c:ingots/titanium",
+    "#c:double_ingots/titanium",
+    "#c:sheets/titanium",
+    "#c:double_sheets/titanium",
+    "#c:rods/titanium",
+    "#c:tuyeres/titanium",
     "tfc_metallurgy:metal/fish_hook/titanium",
-    "#forge:fishing_rods/titanium",
+    "#c:fishing_rods/titanium",
     "tfc_metallurgy:metal/pickaxe/titanium",
     "tfc_metallurgy:metal/pickaxe_head/titanium",
     "tfc_metallurgy:metal/shovel/titanium",

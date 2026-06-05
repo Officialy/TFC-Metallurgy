@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/tungsten"
+    "tag": "c:sheets/tungsten"
   },
   "result": {
     "item": "tfc_metallurgy:metal/fish_hook/tungsten"

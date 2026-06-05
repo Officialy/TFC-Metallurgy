@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/lumium"
+    "tag": "c:double_ingots/lumium"
   },
   "heat_capacity": 5.714,
   "forging_temperature": 900,

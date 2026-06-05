@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/beryllium"
+    "tag": "c:double_ingots/beryllium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sheet/beryllium"

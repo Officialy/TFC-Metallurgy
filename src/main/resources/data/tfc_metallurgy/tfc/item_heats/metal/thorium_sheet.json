@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:sheets/thorium"
+    "tag": "c:sheets/thorium"
   },
   "heat_capacity": 6.667,
   "forging_temperature": 921,

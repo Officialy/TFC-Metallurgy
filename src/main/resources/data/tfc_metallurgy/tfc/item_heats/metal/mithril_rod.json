@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/mithril"
+    "tag": "c:rods/mithril"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 564,

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/iridium"
+    "tag": "c:ingots/iridium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/iridium"

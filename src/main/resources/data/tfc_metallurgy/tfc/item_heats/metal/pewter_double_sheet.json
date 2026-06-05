@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/pewter"
+    "tag": "c:double_sheets/pewter"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 900,

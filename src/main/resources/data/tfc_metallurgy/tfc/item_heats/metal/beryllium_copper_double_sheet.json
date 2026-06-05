@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/beryllium_copper"
+    "tag": "c:double_sheets/beryllium_copper"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 900,

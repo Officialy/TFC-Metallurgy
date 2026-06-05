@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:double_ingots/enderium"
+    "tag": "c:double_ingots/enderium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/enderium",

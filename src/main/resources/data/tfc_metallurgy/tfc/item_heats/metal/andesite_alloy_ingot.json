@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:ingots/andesite_alloy"
+    "tag": "c:ingots/andesite_alloy"
   },
   "heat_capacity": 4,
   "forging_temperature": 312,

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:ingots/mithril"
+    "tag": "c:ingots/mithril"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/mithril",

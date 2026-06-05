@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/aluminum"
+    "tag": "c:double_ingots/aluminum"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sword_blade/aluminum"

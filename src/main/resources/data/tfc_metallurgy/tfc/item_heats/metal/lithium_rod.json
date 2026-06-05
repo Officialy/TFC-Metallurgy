@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/lithium"
+    "tag": "c:rods/lithium"
   },
   "heat_capacity": 1.429,
   "forging_temperature": 108,

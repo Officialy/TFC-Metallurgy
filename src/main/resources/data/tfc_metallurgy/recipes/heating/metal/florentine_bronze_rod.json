@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:rods/florentine_bronze"
+    "tag": "c:rods/florentine_bronze"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/florentine_bronze",

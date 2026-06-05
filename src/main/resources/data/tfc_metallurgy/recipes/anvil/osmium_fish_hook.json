@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:sheets/osmium"
+    "tag": "c:sheets/osmium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/fish_hook/osmium"

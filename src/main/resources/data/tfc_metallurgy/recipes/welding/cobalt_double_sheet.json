@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/cobalt"
+    "tag": "c:sheets/cobalt"
   },
   "second_input": {
-    "tag": "forge:sheets/cobalt"
+    "tag": "c:sheets/cobalt"
   },
   "tier": 2,
   "result": {

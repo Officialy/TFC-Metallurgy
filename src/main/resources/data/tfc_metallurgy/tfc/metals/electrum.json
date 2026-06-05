@@ -1,12 +1,12 @@
-{
+﻿{
   "tier": 2,
   "fluid": "tfc_metallurgy:metal/electrum",
   "melt_temperature": 1200,
   "specific_heat_capacity": 0.006,
   "ingots": {
-    "tag": "forge:ingots/electrum"
+    "tag": "c:ingots/electrum"
   },
   "sheets": {
-    "tag": "forge:sheets/electrum"
+    "tag": "c:sheets/electrum"
   }
 }

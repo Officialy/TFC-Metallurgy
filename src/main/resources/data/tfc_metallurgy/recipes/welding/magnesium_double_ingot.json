@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:ingots/magnesium"
+    "tag": "c:ingots/magnesium"
   },
   "second_input": {
-    "tag": "forge:ingots/magnesium"
+    "tag": "c:ingots/magnesium"
   },
   "tier": 3,
   "result": {

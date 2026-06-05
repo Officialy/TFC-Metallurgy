@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/constantan"
+    "tag": "c:sheets/constantan"
   },
   "second_input": {
-    "tag": "forge:sheets/constantan"
+    "tag": "c:sheets/constantan"
   },
   "tier": 1,
   "result": {

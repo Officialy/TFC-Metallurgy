@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:ingots/lithium"
+    "tag": "c:ingots/lithium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/lithium",

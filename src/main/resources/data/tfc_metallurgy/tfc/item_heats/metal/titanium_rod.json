@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:rods/titanium"
+    "tag": "c:rods/titanium"
   },
   "heat_capacity": 1.667,
   "forging_temperature": 921,

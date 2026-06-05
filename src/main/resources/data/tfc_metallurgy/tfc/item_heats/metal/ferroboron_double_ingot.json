@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_ingots/ferroboron"
+    "tag": "c:double_ingots/ferroboron"
   },
   "heat_capacity": 6.667,
   "forging_temperature": 921,

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:fishing_rods/refined_obsidian"
+    "tag": "c:fishing_rods/refined_obsidian"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/refined_obsidian",

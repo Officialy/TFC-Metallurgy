@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:ingots/osmiridium"
+    "tag": "c:ingots/osmiridium"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/osmiridium",

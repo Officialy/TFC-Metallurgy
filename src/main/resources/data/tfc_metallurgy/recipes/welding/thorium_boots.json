@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_boots/thorium"
   },
   "second_input": {
-    "tag": "forge:sheets/thorium"
+    "tag": "c:sheets/thorium"
   },
   "tier": 5,
   "result": {

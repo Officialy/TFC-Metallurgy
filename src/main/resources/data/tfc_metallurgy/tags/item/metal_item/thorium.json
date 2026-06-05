@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/thorium",
-    "#forge:double_ingots/thorium",
-    "#forge:sheets/thorium",
-    "#forge:double_sheets/thorium",
-    "#forge:rods/thorium",
-    "#forge:tuyeres/thorium",
+    "#c:ingots/thorium",
+    "#c:double_ingots/thorium",
+    "#c:sheets/thorium",
+    "#c:double_sheets/thorium",
+    "#c:rods/thorium",
+    "#c:tuyeres/thorium",
     "tfc_metallurgy:metal/fish_hook/thorium",
-    "#forge:fishing_rods/thorium",
+    "#c:fishing_rods/thorium",
     "tfc_metallurgy:metal/pickaxe/thorium",
     "tfc_metallurgy:metal/pickaxe_head/thorium",
     "tfc_metallurgy:metal/shovel/thorium",

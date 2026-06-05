@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/titanium"
+    "tag": "c:ingots/titanium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/knife_blade/titanium"

@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/refined_glowstone"
+    "tag": "c:ingots/refined_glowstone"
   },
   "result": {
     "item": "tfc_metallurgy:metal/lamp/refined_glowstone"

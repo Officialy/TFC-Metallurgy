@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:heating",
   "ingredient": {
-    "tag": "forge:rods/ferroboron"
+    "tag": "c:rods/ferroboron"
   },
   "result_fluid": {
     "fluid": "tfc_metallurgy:metal/ferroboron",

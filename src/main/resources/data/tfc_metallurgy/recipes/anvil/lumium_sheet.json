@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:double_ingots/lumium"
+    "tag": "c:double_ingots/lumium"
   },
   "result": {
     "item": "tfc_metallurgy:metal/sheet/lumium"

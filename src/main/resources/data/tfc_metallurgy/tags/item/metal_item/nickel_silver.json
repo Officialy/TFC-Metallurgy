@@ -1,14 +1,14 @@
-{
+﻿{
   "replace": false,
   "values": [
-    "#forge:ingots/nickel_silver",
-    "#forge:double_ingots/nickel_silver",
-    "#forge:sheets/nickel_silver",
-    "#forge:double_sheets/nickel_silver",
-    "#forge:rods/nickel_silver",
-    "#forge:tuyeres/nickel_silver",
+    "#c:ingots/nickel_silver",
+    "#c:double_ingots/nickel_silver",
+    "#c:sheets/nickel_silver",
+    "#c:double_sheets/nickel_silver",
+    "#c:rods/nickel_silver",
+    "#c:tuyeres/nickel_silver",
     "tfc_metallurgy:metal/fish_hook/nickel_silver",
-    "#forge:fishing_rods/nickel_silver",
+    "#c:fishing_rods/nickel_silver",
     "tfc_metallurgy:metal/pickaxe/nickel_silver",
     "tfc_metallurgy:metal/pickaxe_head/nickel_silver",
     "tfc_metallurgy:metal/shovel/nickel_silver",

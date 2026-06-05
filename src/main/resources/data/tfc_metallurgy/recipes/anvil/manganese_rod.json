@@ -1,7 +1,7 @@
-{
+﻿{
   "type": "tfc:anvil",
   "input": {
-    "tag": "forge:ingots/manganese"
+    "tag": "c:ingots/manganese"
   },
   "result": {
     "item": "tfc_metallurgy:metal/rod/manganese"

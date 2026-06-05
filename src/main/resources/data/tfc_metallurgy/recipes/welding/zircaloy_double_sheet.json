@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/zircaloy"
+    "tag": "c:sheets/zircaloy"
   },
   "second_input": {
-    "tag": "forge:sheets/zircaloy"
+    "tag": "c:sheets/zircaloy"
   },
   "tier": 6,
   "result": {

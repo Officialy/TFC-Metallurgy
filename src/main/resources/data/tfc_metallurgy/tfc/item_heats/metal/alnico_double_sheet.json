@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/alnico"
+    "tag": "c:double_sheets/alnico"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 900,

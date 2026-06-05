@@ -1,10 +1,10 @@
-{
+﻿{
   "type": "tfc:welding",
   "first_input": {
-    "tag": "forge:sheets/platinum"
+    "tag": "c:sheets/platinum"
   },
   "second_input": {
-    "tag": "forge:sheets/platinum"
+    "tag": "c:sheets/platinum"
   },
   "tier": 3,
   "result": {

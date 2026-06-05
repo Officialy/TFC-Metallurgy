@@ -1,6 +1,6 @@
-{
+﻿{
   "ingredient": {
-    "tag": "forge:double_sheets/mithril"
+    "tag": "c:double_sheets/mithril"
   },
   "heat_capacity": 11.429,
   "forging_temperature": 564,
