@@ -3598,5 +3598,13 @@
   "item.tfc_metallurgy.metal.lamp.titanium": "Titanium Lamp",
   "item.tfc_metallurgy.metal.lamp.antimony": "Antimony Lamp",
   "item.tfc_metallurgy.metal.lamp.uranium": "Uranium Lamp",
-  "item.tfc_metallurgy.metal.lamp.tungsten": "Tungsten Lamp"
+  "item.tfc_metallurgy.metal.lamp.tungsten": "Tungsten Lamp",
+  "metal.tfc_metallurgy.neodymium": "Neodymium",
+  "fluid.tfc.metal.neodymium": "Molten Neodymium",
+  "item.tfc_metallurgy.bucket.metal.neodymium": "Molten Neodymium Bucket",
+  "item.tfc_metallurgy.metal.ingot.neodymium": "Neodymium Ingot",
+  "item.tfc_metallurgy.metal.double_ingot.neodymium": "Neodymium Double Ingot",
+  "item.tfc_metallurgy.metal.sheet.neodymium": "Neodymium Sheet",
+  "item.tfc_metallurgy.metal.double_sheet.neodymium": "Neodymium Double Sheet",
+  "item.tfc_metallurgy.metal.rod.neodymium": "Neodymium Rod"
 }

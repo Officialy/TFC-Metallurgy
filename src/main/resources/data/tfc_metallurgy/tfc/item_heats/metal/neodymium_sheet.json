@@ -1,0 +1,8 @@
+﻿{
+  "ingredient": {
+    "tag": "c:sheets/neodymium"
+  },
+  "heat_capacity": 8,
+  "forging_temperature": 768,
+  "welding_temperature": 1024
+}

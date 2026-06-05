@@ -41,6 +41,7 @@
     "tfc_metallurgy:metal/ingot/tungsten_steel",
     "tfc_metallurgy:metal/ingot/uranium",
     "tfc_metallurgy:metal/ingot/zircaloy",
-    "tfc_metallurgy:metal/ingot/zirconium"
+    "tfc_metallurgy:metal/ingot/zirconium",
+    "tfc_metallurgy:metal/ingot/neodymium"
   ]
 }

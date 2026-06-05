@@ -1,4 +1,4 @@
-{
+﻿{
   "replace": false,
   "values": [
     "tfc_metallurgy:metal/double_sheet/andesite_alloy",
@@ -42,5 +42,7 @@
     "tfc_metallurgy:metal/double_sheet/uranium",
     "tfc_metallurgy:metal/double_sheet/zircaloy",
     "tfc_metallurgy:metal/double_sheet/zirconium"
+  ,
+    "tfc_metallurgy:metal/double_sheet/neodymium"
   ]
 }

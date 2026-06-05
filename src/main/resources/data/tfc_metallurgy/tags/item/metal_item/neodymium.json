@@ -1,0 +1,10 @@
+﻿{
+  "replace": false,
+  "values": [
+    "#c:ingots/neodymium",
+    "#c:double_ingots/neodymium",
+    "#c:sheets/neodymium",
+    "#c:double_sheets/neodymium",
+    "#c:rods/neodymium"
+  ]
+}
