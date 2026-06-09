@@ -59,12 +59,13 @@ repositories {
 
 dependencies {
     implementation "curse.maven:terrafirmacraft-302973:${tfc_version}"
+    implementation "curse.maven:jade-324717:${jade_version}"
 
     // JEI - uncomment and update versions when ready
     // compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:19.5.+"
     // runtimeOnly "mezz.jei:jei-${minecraft_version}-neoforge:19.5.+"
 
-    runtimeOnly "vazkii.patchouli:Patchouli:1.21.1-92-NEOFORGE"
+    runtimeOnly "vazkii.patchouli:Patchouli:1.21.1-93-NEOFORGE"
 }
 
 jar {

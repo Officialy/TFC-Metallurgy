@@ -1,10 +1,10 @@
-﻿{
+{
   "type": "tfc:anvil",
   "input": {
-    "tag": "c:ingots/magnesite"
+    "tag": "c:ingots/magnesium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/rod/magnesite"
+    "item": "tfc_metallurgy:metal/rod/magnesium"
   },
   "tier": 3,
   "rules": [
