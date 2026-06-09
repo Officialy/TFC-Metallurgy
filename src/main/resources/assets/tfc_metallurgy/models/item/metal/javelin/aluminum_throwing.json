@@ -3,7 +3,7 @@
   "loader": "neoforge:separate_transforms",
   "gui_light": "front",
   "base": {
-    "parent": "tfc:item/metal/javelin/aluminum_throwing_base"
+    "parent": "tfc_metallurgy:item/metal/javelin/aluminum_throwing_base"
   },
   "perspectives": {
     "none": {

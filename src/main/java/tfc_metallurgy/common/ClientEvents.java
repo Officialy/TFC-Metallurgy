@@ -2,6 +2,10 @@ package tfc_metallurgy.common;
 
 import net.dries007.tfc.client.RenderHelpers;
 import net.dries007.tfc.client.extensions.FluidRendererExtension;
+import net.dries007.tfc.client.extensions.ItemRendererExtension;
+import net.dries007.tfc.client.render.blockentity.JavelinItemRenderer;
+import net.dries007.tfc.client.render.entity.ThrownJavelinRenderer;
+import net.dries007.tfc.common.items.JavelinItem;
 import net.dries007.tfc.common.items.TFCFishingRodItem;
 import net.dries007.tfc.util.Helpers;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -33,7 +37,7 @@ public class ClientEvents
         modBus.addListener(ClientEvents::clientSetup);
         modBus.addListener(ClientEvents::registerEntitiesRenderer);
         modBus.addListener(ClientEvents::registerLayerDefinitions);
-        modBus.addListener(ClientEvents::registerFluidExtensions);
+        modBus.addListener(ClientEvents::registerClientExtensions);
     }
 
     public static void clientSetup(FMLClientSetupEvent event)
@@ -81,17 +85,38 @@ public class ClientEvents
                     ItemProperties.register(javelin, Helpers.identifier("throwing"), (stack, level, entity, unused) ->
                         entity != null && ((entity.isUsingItem() && entity.getUseItem() == stack) || (entity instanceof Monster monster && monster.isAggressive())) ? 1.0F : 0.0F
                     );
+
+                    // Register javelin entity textures for the thrown projectile renderer
+                    ThrownJavelinRenderer.JAVELIN_TEXTURES.put(javelin, Helpers.identifier("textures/entity/projectiles/" + metal.name().toLowerCase(java.util.Locale.ROOT) + "_javelin.png"));
                 }
             }
         });
     }
 
-    public static void registerFluidExtensions(RegisterClientExtensionsEvent event)
+    public static void registerClientExtensions(RegisterClientExtensionsEvent event)
     {
+        // Register fluid rendering extensions
         MetallurgyFluids.METALS.forEach((metal, holder) -> event.registerFluidType(
             new FluidRendererExtension(MetallurgyFluids.ALPHA_MASK | metal.getColor(), MOLTEN_STILL, MOLTEN_FLOW, null, null),
             holder.getType()
         ));
+
+        // Register javelin BEWLR (BlockEntityWithoutLevelRenderer) for in-hand rendering
+        for (MetallurgyMetal metal : MetallurgyMetal.values())
+        {
+            if (metal.allParts())
+            {
+                var javelinSupplier = MetallurgyItems.METAL_ITEMS.get(metal).get(MetallurgyMetal.ItemType.JAVELIN);
+                if (javelinSupplier != null)
+                {
+                    Item javelinItem = javelinSupplier.get();
+                    event.registerItem(
+                        ItemRendererExtension.cached(() -> new JavelinItemRenderer((JavelinItem) javelinItem)),
+                        javelinItem
+                    );
+                }
+            }
+        }
     }
 
     public static void registerEntitiesRenderer(EntityRenderersEvent.RegisterRenderers event)

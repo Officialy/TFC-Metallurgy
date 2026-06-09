@@ -1,5 +1,8 @@
 ﻿{
   "loader": "neoforge:separate_transforms",
+  "textures": {
+    "particle": "tfc_metallurgy:item/metal/javelin/refined_obsidian"
+  },
   "gui_light": "front",
   "overrides": [
     {
