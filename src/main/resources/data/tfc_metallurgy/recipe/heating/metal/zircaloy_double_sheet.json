@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:double_sheets/zircaloy"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/zircaloy",
+    "amount": 400
+  },
+  "temperature": 1850,
+  "use_durability": false
+}

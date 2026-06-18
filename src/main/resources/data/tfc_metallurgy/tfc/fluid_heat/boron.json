@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/boron",
+  "melt_temperature": 2070,
+  "specific_heat_capacity": 0.01
+}

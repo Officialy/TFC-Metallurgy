@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/alnico",
+  "melt_temperature": 1500,
+  "specific_heat_capacity": 0.00857
+}

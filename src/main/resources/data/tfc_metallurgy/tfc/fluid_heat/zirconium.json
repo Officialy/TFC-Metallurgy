@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/zirconium",
+  "melt_temperature": 1850,
+  "specific_heat_capacity": 0.01
+}

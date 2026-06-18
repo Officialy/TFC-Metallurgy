@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/solder",
+  "melt_temperature": 400,
+  "specific_heat_capacity": 0.00857
+}

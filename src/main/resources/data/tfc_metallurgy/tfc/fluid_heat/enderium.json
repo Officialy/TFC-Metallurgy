@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/enderium",
+  "melt_temperature": 1700,
+  "specific_heat_capacity": 0.00857
+}

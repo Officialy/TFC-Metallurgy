@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:ingots/neodymium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/neodymium",
+    "amount": 100
+  },
+  "temperature": 520,
+  "use_durability": false
+}

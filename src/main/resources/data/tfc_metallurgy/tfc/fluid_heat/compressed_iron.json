@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/compressed_iron",
+  "melt_temperature": 1535,
+  "specific_heat_capacity": 0.00857
+}

@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/neodymium",
+  "melt_temperature": 1024,
+  "specific_heat_capacity": 0.008
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:fishing_rods/tungsten"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/tungsten",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

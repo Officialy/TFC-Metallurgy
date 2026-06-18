@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/florentine_bronze",
+  "melt_temperature": 400,
+  "specific_heat_capacity": 0.00857
+}

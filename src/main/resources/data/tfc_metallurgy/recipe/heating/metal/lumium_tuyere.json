@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:tuyeres/lumium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/lumium",
+    "amount": 400
+  },
+  "temperature": 1500,
+  "use_durability": true
+}

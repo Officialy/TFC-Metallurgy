@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/thorium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/thorium",
+    "amount": 50
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:tuyeres/titanium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/titanium",
+    "amount": 400
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

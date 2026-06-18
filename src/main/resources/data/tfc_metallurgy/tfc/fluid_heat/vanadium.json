@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/vanadium",
+  "melt_temperature": 1250,
+  "specific_heat_capacity": 0.008
+}

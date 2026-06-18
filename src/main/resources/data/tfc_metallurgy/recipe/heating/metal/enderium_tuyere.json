@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:tuyeres/enderium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/enderium",
+    "amount": 400
+  },
+  "temperature": 1700,
+  "use_durability": true
+}

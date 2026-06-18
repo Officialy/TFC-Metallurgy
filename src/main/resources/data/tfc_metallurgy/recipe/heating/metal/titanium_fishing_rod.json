@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:fishing_rods/titanium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/titanium",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

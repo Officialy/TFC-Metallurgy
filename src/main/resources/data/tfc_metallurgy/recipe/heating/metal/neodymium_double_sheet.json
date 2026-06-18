@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:double_sheets/neodymium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/neodymium",
+    "amount": 400
+  },
+  "temperature": 520,
+  "use_durability": false
+}

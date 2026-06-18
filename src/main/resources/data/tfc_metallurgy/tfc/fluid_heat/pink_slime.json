@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/pink_slime",
+  "melt_temperature": 1000,
+  "specific_heat_capacity": 0.00857
+}

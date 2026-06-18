@@ -1,5 +1,1 @@
-﻿{
-  "parent": "forge:item/bucket_drip",
-  "loader": "neoforge:fluid_container",
-  "fluid": "tfc_metallurgy:metal/fluid/pewter"
-}
+{"loader":"neoforge:fluid_container","parent":"neoforge:item/bucket","fluid":"tfc_metallurgy:metal/pewter"}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:double_sheets/iridium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/iridium",
+    "amount": 400
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

@@ -1,0 +1,5 @@
+﻿{
+  "fluid": "tfc_metallurgy:metal/invar",
+  "melt_temperature": 1450,
+  "specific_heat_capacity": 0.00857
+}
