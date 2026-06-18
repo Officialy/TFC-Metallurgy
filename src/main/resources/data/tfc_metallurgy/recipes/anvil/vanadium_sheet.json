@@ -1,0 +1,15 @@
+﻿{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "c:double_ingots/vanadium"
+  },
+  "result": {
+    "item": "tfc_metallurgy:metal/sheet/vanadium"
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "hit_second_last",
+    "hit_third_last"
+  ]
+}

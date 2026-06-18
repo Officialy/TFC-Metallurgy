@@ -1,0 +1,10 @@
+﻿{
+  "replace": false,
+  "values": [
+    "#c:ingots/vanadium",
+    "#c:double_ingots/vanadium",
+    "#c:sheets/vanadium",
+    "#c:double_sheets/vanadium",
+    "#c:rods/vanadium"
+  ]
+}

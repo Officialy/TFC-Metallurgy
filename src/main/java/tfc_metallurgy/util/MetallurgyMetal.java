@@ -94,7 +94,8 @@ public enum MetallurgyMetal implements RegistryMetal
     HIGH_CARBON_TUNGSTEN_STEEL(0xF0F399, MapColor.COLOR_GRAY, Rarity.UNCOMMON, -1, PartType.INGOT),
     ZIRCALOY(0xFF43423A, MapColor.COLOR_BROWN, Rarity.RARE, -1, PartType.DEFAULT),
     ZIRCONIUM(0xFF747527, MapColor.TERRACOTTA_GREEN, Rarity.RARE, -1, PartType.DEFAULT),
-    NEODYMIUM(0xFFC0C0C0, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT);
+    NEODYMIUM(0xFFC0C0C0, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT),
+    VANADIUM(0x9AAF9E, MapColor.COLOR_GREEN, Rarity.UNCOMMON, -1, PartType.DEFAULT);
 
     private final String serializedName;
     private final PartType partType;

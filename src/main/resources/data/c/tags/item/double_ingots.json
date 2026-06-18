@@ -43,6 +43,7 @@
     "tfc_metallurgy:metal/double_ingot/zircaloy",
     "tfc_metallurgy:metal/double_ingot/zirconium"
   ,
-    "tfc_metallurgy:metal/double_ingot/neodymium"
+    "tfc_metallurgy:metal/double_ingot/neodymium",
+    "tfc_metallurgy:metal/double_ingot/vanadium"
   ]
 }

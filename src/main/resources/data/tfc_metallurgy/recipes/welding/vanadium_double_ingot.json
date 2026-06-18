@@ -1,0 +1,13 @@
+﻿{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/vanadium"
+  },
+  "second_input": {
+    "tag": "c:ingots/vanadium"
+  },
+  "tier": 1,
+  "result": {
+    "item": "tfc_metallurgy:metal/double_ingot/vanadium"
+  }
+}

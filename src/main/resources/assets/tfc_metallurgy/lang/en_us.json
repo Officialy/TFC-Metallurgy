@@ -3606,5 +3606,13 @@
   "item.tfc_metallurgy.metal.double_ingot.neodymium": "Neodymium Double Ingot",
   "item.tfc_metallurgy.metal.sheet.neodymium": "Neodymium Sheet",
   "item.tfc_metallurgy.metal.double_sheet.neodymium": "Neodymium Double Sheet",
-  "item.tfc_metallurgy.metal.rod.neodymium": "Neodymium Rod"
+  "item.tfc_metallurgy.metal.rod.neodymium": "Neodymium Rod",
+  "metal.tfc_metallurgy.vanadium": "Vanadium",
+  "fluid.tfc.metal.vanadium": "Molten Vanadium",
+  "item.tfc_metallurgy.bucket.metal.vanadium": "Molten Vanadium Bucket",
+  "item.tfc_metallurgy.metal.ingot.vanadium": "Vanadium Ingot",
+  "item.tfc_metallurgy.metal.double_ingot.vanadium": "Vanadium Double Ingot",
+  "item.tfc_metallurgy.metal.sheet.vanadium": "Vanadium Sheet",
+  "item.tfc_metallurgy.metal.double_sheet.vanadium": "Vanadium Double Sheet",
+  "item.tfc_metallurgy.metal.rod.vanadium": "Vanadium Rod"
 }

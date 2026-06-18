@@ -43,6 +43,7 @@
     "tfc_metallurgy:metal/rod/zircaloy",
     "tfc_metallurgy:metal/rod/zirconium"
   ,
-    "tfc_metallurgy:metal/rod/neodymium"
+    "tfc_metallurgy:metal/rod/neodymium",
+    "tfc_metallurgy:metal/rod/vanadium"
   ]
 }

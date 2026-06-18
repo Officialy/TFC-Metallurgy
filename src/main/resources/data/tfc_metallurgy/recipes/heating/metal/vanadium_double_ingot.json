@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:double_ingots/vanadium"
+  },
+  "result_fluid": {
+    "fluid": "tfc_metallurgy:metal/vanadium",
+    "amount": 200
+  },
+  "temperature": 625,
+  "use_durability": false
+}

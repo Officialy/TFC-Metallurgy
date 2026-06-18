@@ -43,6 +43,7 @@
     "tfc_metallurgy:metal/double_sheet/zircaloy",
     "tfc_metallurgy:metal/double_sheet/zirconium"
   ,
-    "tfc_metallurgy:metal/double_sheet/neodymium"
+    "tfc_metallurgy:metal/double_sheet/neodymium",
+    "tfc_metallurgy:metal/double_sheet/vanadium"
   ]
 }

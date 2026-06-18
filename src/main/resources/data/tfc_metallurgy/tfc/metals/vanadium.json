@@ -1,0 +1,12 @@
+﻿{
+  "tier": 4,
+  "fluid": "tfc_metallurgy:metal/vanadium",
+  "melt_temperature": 1250,
+  "specific_heat_capacity": 0.008,
+  "ingots": {
+    "tag": "c:ingots/vanadium"
+  },
+  "sheets": {
+    "tag": "c:sheets/vanadium"
+  }
+}

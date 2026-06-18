@@ -42,6 +42,7 @@
     "tfc_metallurgy:metal/ingot/uranium",
     "tfc_metallurgy:metal/ingot/zircaloy",
     "tfc_metallurgy:metal/ingot/zirconium",
-    "tfc_metallurgy:metal/ingot/neodymium"
+    "tfc_metallurgy:metal/ingot/neodymium",
+    "tfc_metallurgy:metal/ingot/vanadium"
   ]
 }

@@ -1,0 +1,8 @@
+﻿{
+  "ingredient": {
+    "tag": "c:double_sheets/vanadium"
+  },
+  "heat_capacity": 16,
+  "forging_temperature": 938,
+  "welding_temperature": 1250
+}

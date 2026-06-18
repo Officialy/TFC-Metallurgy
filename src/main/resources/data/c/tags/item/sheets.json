@@ -43,6 +43,7 @@
     "tfc_metallurgy:metal/sheet/zircaloy",
     "tfc_metallurgy:metal/sheet/zirconium"
   ,
-    "tfc_metallurgy:metal/sheet/neodymium"
+    "tfc_metallurgy:metal/sheet/neodymium",
+    "tfc_metallurgy:metal/sheet/vanadium"
   ]
 }
