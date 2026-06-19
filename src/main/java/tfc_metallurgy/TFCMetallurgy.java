@@ -47,5 +47,11 @@ public class TFCMetallurgy {
 			.map(map -> map.get(MetallurgyMetal.BlockType.ANVIL).get())
 			.toArray(Block[]::new);
 		event.modify(TFCBlockEntities.ANVIL.get(), anvilBlocks);
+
+		Block[] lampBlocks = MetallurgyBlocks.METALS.values().stream()
+			.filter(map -> map.containsKey(MetallurgyMetal.BlockType.LAMP))
+			.map(map -> map.get(MetallurgyMetal.BlockType.LAMP).get())
+			.toArray(Block[]::new);
+		event.modify(TFCBlockEntities.LAMP.get(), lampBlocks);
 	}
 }

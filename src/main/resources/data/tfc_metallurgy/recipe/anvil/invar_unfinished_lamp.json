@@ -4,8 +4,8 @@
     "item": "tfc_metallurgy:metal/unfinished_lamp/invar"
   },
   "result_fluid": {
-    "fluid": "tfc_metallurgy:metal/invar",
-    "amount": 200
+    "amount": 200,
+    "id": "tfc_metallurgy:metal/invar"
   },
   "temperature": 1450
 }

@@ -4,8 +4,8 @@
     "item": "tfc_metallurgy:metal/unfinished_lamp/mithril"
   },
   "result_fluid": {
-    "fluid": "tfc_metallurgy:metal/mithril",
-    "amount": 200
+    "amount": 200,
+    "id": "tfc_metallurgy:metal/mithril"
   },
   "temperature": 940
 }

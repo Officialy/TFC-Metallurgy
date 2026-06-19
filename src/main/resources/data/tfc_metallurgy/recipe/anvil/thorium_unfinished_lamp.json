@@ -4,8 +4,8 @@
     "item": "tfc_metallurgy:metal/unfinished_lamp/thorium"
   },
   "result_fluid": {
-    "fluid": "tfc_metallurgy:metal/thorium",
-    "amount": 200
+    "amount": 200,
+    "id": "tfc_metallurgy:metal/thorium"
   },
   "temperature": 1535
 }

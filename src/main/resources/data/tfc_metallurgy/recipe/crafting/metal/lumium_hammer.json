@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:advanced_shaped_crafting",
   "pattern": [
     "X",
@@ -14,10 +14,13 @@
   },
   "result": {
     "stack": {
-      "item": "tfc_metallurgy:metal/hammer/lumium"
+      "id": "tfc_metallurgy:metal/hammer/lumium",
+      "count": 1
     },
     "modifiers": [
-      "tfc:copy_forging_bonus"
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
     ]
   },
   "input_row": 0,

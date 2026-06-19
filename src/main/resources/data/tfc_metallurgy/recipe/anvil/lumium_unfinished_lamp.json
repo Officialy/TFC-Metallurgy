@@ -4,8 +4,8 @@
     "item": "tfc_metallurgy:metal/unfinished_lamp/lumium"
   },
   "result_fluid": {
-    "fluid": "tfc_metallurgy:metal/lumium",
-    "amount": 200
+    "amount": 200,
+    "id": "tfc_metallurgy:metal/lumium"
   },
   "temperature": 1500
 }
