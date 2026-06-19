@@ -1,16 +1,16 @@
 {
   "type": "tfc:alloy",
-  "result": "tfc_metallurgy:mithril",
+  "result": "tfc_metallurgy:metal/mithril",
   "contents": [
     {
-      "metal": "tfc:copper",
       "min": 0.88,
-      "max": 0.92
+      "max": 0.92,
+      "fluid": "tfc:metal/copper"
     },
     {
-      "metal": "tfc_metallurgy:antimony",
       "min": 0.08,
-      "max": 0.12
+      "max": 0.12,
+      "fluid": "tfc_metallurgy:metal/antimony"
     }
   ]
 }

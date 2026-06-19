@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/thorium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/hammer_head/thorium"
+    "id": "tfc_metallurgy:metal/hammer_head/thorium"
   },
   "tier": 6,
   "rules": [
     "punch_last",
     "shrink_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/thorium"
+  },
+  "apply_bonus": true
 }

@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_ingots/aluminum"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/sword_blade/aluminum"
+    "id": "tfc_metallurgy:metal/sword_blade/aluminum"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "bend_second_last",
     "bend_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:double_ingots/aluminum"
+  },
+  "apply_bonus": true
 }

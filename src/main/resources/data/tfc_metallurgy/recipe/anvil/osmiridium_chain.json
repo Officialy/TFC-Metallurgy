@@ -1,11 +1,8 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/osmiridium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/chain/osmiridium",
-    "count": 16
+    "count": 16,
+    "id": "tfc_metallurgy:metal/chain/osmiridium"
   },
   "tier": 3,
   "rules": [
@@ -13,5 +10,8 @@
     "hit_any",
     "draw_last"
   ],
-  "apply_forging_bonus": false
+  "ingredient": {
+    "tag": "c:ingots/osmiridium"
+  },
+  "apply_bonus": false
 }

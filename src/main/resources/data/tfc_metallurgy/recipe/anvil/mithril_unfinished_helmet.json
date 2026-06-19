@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_sheets/mithril"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_helmet/mithril"
+    "id": "tfc_metallurgy:metal/unfinished_helmet/mithril"
   },
   "tier": 2,
   "rules": [
     "hit_last",
     "bend_second_last",
     "bend_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:double_sheets/mithril"
+  }
 }

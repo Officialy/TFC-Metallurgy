@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/titanium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/saw_blade/titanium"
+    "id": "tfc_metallurgy:metal/saw_blade/titanium"
   },
   "tier": 3,
   "rules": [
     "hit_last",
     "hit_second_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/titanium"
+  },
+  "apply_bonus": true
 }

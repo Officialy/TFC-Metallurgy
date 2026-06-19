@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:sheets/boron"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/fish_hook/boron"
+    "id": "tfc_metallurgy:metal/fish_hook/boron"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "bend_any",
     "hit_any"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:sheets/boron"
+  },
+  "apply_bonus": true
 }

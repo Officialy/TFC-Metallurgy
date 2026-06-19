@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/nickel_silver"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/lamp/nickel_silver"
+    "id": "tfc_metallurgy:metal/lamp/nickel_silver"
   },
   "tier": 2,
   "rules": [
     "bend_last",
     "bend_second_last",
     "draw_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:ingots/nickel_silver"
+  }
 }

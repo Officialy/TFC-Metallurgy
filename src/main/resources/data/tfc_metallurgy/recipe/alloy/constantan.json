@@ -1,16 +1,16 @@
 {
   "type": "tfc:alloy",
-  "result": "tfc_metallurgy:constantan",
+  "result": "tfc_metallurgy:metal/constantan",
   "contents": [
     {
-      "metal": "tfc:copper",
       "min": 0.4,
-      "max": 0.6
+      "max": 0.6,
+      "fluid": "tfc:metal/copper"
     },
     {
-      "metal": "tfc:nickel",
       "min": 0.4,
-      "max": 0.6
+      "max": 0.6,
+      "fluid": "tfc:metal/nickel"
     }
   ]
 }

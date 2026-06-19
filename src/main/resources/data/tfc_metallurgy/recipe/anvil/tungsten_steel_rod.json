@@ -1,11 +1,8 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/tungsten_steel"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/rod/tungsten_steel",
-    "count": 2
+    "count": 2,
+    "id": "tfc_metallurgy:metal/rod/tungsten_steel"
   },
   "tier": 3,
   "rules": [
@@ -13,5 +10,8 @@
     "draw_second_last",
     "draw_third_last"
   ],
-  "apply_forging_bonus": false
+  "ingredient": {
+    "tag": "c:ingots/tungsten_steel"
+  },
+  "apply_bonus": false
 }

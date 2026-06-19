@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:sheets/refined_glowstone"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/trapdoor/refined_glowstone"
+    "id": "tfc_metallurgy:metal/trapdoor/refined_glowstone"
   },
   "tier": 4,
   "rules": [
     "bend_last",
     "draw_second_last",
     "draw_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:sheets/refined_glowstone"
+  }
 }

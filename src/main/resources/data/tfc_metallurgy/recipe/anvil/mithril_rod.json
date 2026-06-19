@@ -1,11 +1,8 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/mithril"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/rod/mithril",
-    "count": 2
+    "count": 2,
+    "id": "tfc_metallurgy:metal/rod/mithril"
   },
   "tier": 2,
   "rules": [
@@ -13,5 +10,8 @@
     "draw_second_last",
     "draw_third_last"
   ],
-  "apply_forging_bonus": false
+  "ingredient": {
+    "tag": "c:ingots/mithril"
+  },
+  "apply_bonus": false
 }

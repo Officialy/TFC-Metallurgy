@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/aluminum"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/propick_head/aluminum"
+    "id": "tfc_metallurgy:metal/propick_head/aluminum"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "draw_not_last",
     "bend_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/aluminum"
+  },
+  "apply_bonus": true
 }

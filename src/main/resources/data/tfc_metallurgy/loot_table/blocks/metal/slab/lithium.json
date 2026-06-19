@@ -7,23 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tfc_metallurgy:metal/slab/lithium",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "tfc_metallurgy:metal/slab/lithium",
-                  "properties": {
-                    "type": "double"
-                  }
-                }
-              ],
-              "count": 2,
-              "add": false
-            }
-          ]
+          "name": "tfc_metallurgy:metal/slab/lithium"
         }
       ],
       "conditions": [

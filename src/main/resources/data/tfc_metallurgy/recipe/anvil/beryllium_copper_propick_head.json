@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/beryllium_copper"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/propick_head/beryllium_copper"
+    "id": "tfc_metallurgy:metal/propick_head/beryllium_copper"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "draw_not_last",
     "bend_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/beryllium_copper"
+  },
+  "apply_bonus": true
 }

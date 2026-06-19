@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/pewter"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/lamp/pewter"
+    "id": "tfc_metallurgy:metal/lamp/pewter"
   },
   "tier": 2,
   "rules": [
     "bend_last",
     "bend_second_last",
     "draw_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:ingots/pewter"
+  }
 }

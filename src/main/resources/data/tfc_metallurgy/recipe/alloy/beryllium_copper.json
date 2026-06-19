@@ -1,21 +1,21 @@
 {
   "type": "tfc:alloy",
-  "result": "tfc_metallurgy:beryllium_copper",
+  "result": "tfc_metallurgy:metal/beryllium_copper",
   "contents": [
     {
-      "metal": "tfc:copper",
       "min": 0.3,
-      "max": 0.6
+      "max": 0.6,
+      "fluid": "tfc:metal/copper"
     },
     {
-      "metal": "tfc_metallurgy:beryllium",
       "min": 0.3,
-      "max": 0.6
+      "max": 0.6,
+      "fluid": "tfc_metallurgy:metal/beryllium"
     },
     {
-      "metal": "tfc_metallurgy:aluminum",
       "min": 0.1,
-      "max": 0.3
+      "max": 0.3,
+      "fluid": "tfc_metallurgy:metal/aluminum"
     }
   ]
 }

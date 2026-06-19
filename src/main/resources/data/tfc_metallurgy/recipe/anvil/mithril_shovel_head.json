@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/mithril"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/shovel_head/mithril"
+    "id": "tfc_metallurgy:metal/shovel_head/mithril"
   },
   "tier": 2,
   "rules": [
     "punch_last",
     "hit_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/mithril"
+  },
+  "apply_bonus": true
 }

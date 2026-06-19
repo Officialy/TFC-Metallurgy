@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/compressed_iron"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/hammer_head/compressed_iron"
+    "id": "tfc_metallurgy:metal/hammer_head/compressed_iron"
   },
   "tier": 3,
   "rules": [
     "punch_last",
     "shrink_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "apply_bonus": true
 }

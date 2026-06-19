@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_sheets/osmiridium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_greaves/osmiridium"
+    "id": "tfc_metallurgy:metal/unfinished_greaves/osmiridium"
   },
   "tier": 3,
   "rules": [
     "bend_any",
     "draw_any",
     "hit_any"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:double_sheets/osmiridium"
+  }
 }

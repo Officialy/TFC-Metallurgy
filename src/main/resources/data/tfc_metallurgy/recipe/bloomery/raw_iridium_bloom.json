@@ -1,11 +1,12 @@
 {
   "type": "tfc:bloomery",
   "result": {
-    "item": "tfc_metallurgy:raw_iridium_bloom"
+    "id": "tfc_metallurgy:raw_iridium_bloom",
+    "count": 1
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/iridium",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/iridium"
   },
   "catalyst": {
     "item": "minecraft:charcoal"

@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_ingots/lumium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/sword_blade/lumium"
+    "id": "tfc_metallurgy:metal/sword_blade/lumium"
   },
   "tier": 4,
   "rules": [
@@ -12,5 +9,8 @@
     "bend_second_last",
     "bend_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:double_ingots/lumium"
+  },
+  "apply_bonus": true
 }

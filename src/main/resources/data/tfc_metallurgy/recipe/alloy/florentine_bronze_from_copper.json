@@ -1,16 +1,16 @@
 {
   "type": "tfc:alloy",
-  "result": "tfc_metallurgy:florentine_bronze",
+  "result": "tfc_metallurgy:metal/florentine_bronze",
   "contents": [
     {
-      "metal": "tfc:copper",
       "min": 0.6,
-      "max": 0.8
+      "max": 0.8,
+      "fluid": "tfc:metal/copper"
     },
     {
-      "metal": "tfc_metallurgy:aluminum",
       "min": 0.2,
-      "max": 0.4
+      "max": 0.4,
+      "fluid": "tfc_metallurgy:metal/aluminum"
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
   "type": "tfc:alloy",
-  "result": "tfc_metallurgy:nickel_silver",
+  "result": "tfc_metallurgy:metal/nickel_silver",
   "contents": [
     {
-      "metal": "tfc:copper",
       "min": 0.5,
-      "max": 0.65
+      "max": 0.65,
+      "fluid": "tfc:metal/copper"
     },
     {
-      "metal": "tfc:zinc",
       "min": 0.1,
-      "max": 0.3
+      "max": 0.3,
+      "fluid": "tfc:metal/zinc"
     },
     {
-      "metal": "tfc:nickel",
       "min": 0.1,
-      "max": 0.3
+      "max": 0.3,
+      "fluid": "tfc:metal/nickel"
     }
   ]
 }

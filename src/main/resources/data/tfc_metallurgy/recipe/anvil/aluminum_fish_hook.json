@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:sheets/aluminum"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/fish_hook/aluminum"
+    "id": "tfc_metallurgy:metal/fish_hook/aluminum"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "bend_any",
     "hit_any"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:sheets/aluminum"
+  },
+  "apply_bonus": true
 }

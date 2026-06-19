@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:sheets/osmium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/trapdoor/osmium"
+    "id": "tfc_metallurgy:metal/trapdoor/osmium"
   },
   "tier": 3,
   "rules": [
     "bend_last",
     "draw_second_last",
     "draw_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:sheets/osmium"
+  }
 }

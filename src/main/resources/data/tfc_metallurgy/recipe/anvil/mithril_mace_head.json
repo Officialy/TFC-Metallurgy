@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_ingots/mithril"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/mace_head/mithril"
+    "id": "tfc_metallurgy:metal/mace_head/mithril"
   },
   "tier": 2,
   "rules": [
@@ -12,5 +9,8 @@
     "shrink_not_last",
     "bend_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:double_ingots/mithril"
+  },
+  "apply_bonus": true
 }

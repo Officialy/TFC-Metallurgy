@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/invar"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/scythe_blade/invar"
+    "id": "tfc_metallurgy:metal/scythe_blade/invar"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "draw_second_last",
     "bend_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/invar"
+  },
+  "apply_bonus": true
 }

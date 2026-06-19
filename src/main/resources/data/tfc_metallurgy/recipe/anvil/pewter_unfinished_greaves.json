@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_sheets/pewter"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_greaves/pewter"
+    "id": "tfc_metallurgy:metal/unfinished_greaves/pewter"
   },
   "tier": 2,
   "rules": [
     "bend_any",
     "draw_any",
     "hit_any"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:double_sheets/pewter"
+  }
 }

@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/osmium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/lamp/osmium"
+    "id": "tfc_metallurgy:metal/lamp/osmium"
   },
   "tier": 3,
   "rules": [
     "bend_last",
     "bend_second_last",
     "draw_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:ingots/osmium"
+  }
 }

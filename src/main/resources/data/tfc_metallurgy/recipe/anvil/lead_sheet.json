@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_ingots/lead"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/sheet/lead"
+    "id": "tfc_metallurgy:metal/sheet/lead"
   },
   "tier": 1,
   "rules": [
     "hit_last",
     "hit_second_last",
     "hit_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:double_ingots/lead"
+  }
 }

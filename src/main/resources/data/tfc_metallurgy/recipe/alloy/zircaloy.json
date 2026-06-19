@@ -1,16 +1,16 @@
 {
   "type": "tfc:alloy",
-  "result": "tfc_metallurgy:zircaloy",
+  "result": "tfc_metallurgy:metal/zircaloy",
   "contents": [
     {
-      "metal": "tfc_metallurgy:zirconium",
       "min": 0.7,
-      "max": 0.8
+      "max": 0.8,
+      "fluid": "tfc_metallurgy:metal/zirconium"
     },
     {
-      "metal": "tfc:tin",
       "min": 0.2,
-      "max": 0.3
+      "max": 0.3,
+      "fluid": "tfc:metal/tin"
     }
   ]
 }

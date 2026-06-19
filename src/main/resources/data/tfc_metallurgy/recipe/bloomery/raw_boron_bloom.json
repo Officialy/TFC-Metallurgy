@@ -1,11 +1,12 @@
 {
   "type": "tfc:bloomery",
   "result": {
-    "item": "tfc_metallurgy:raw_boron_bloom"
+    "id": "tfc_metallurgy:raw_boron_bloom",
+    "count": 1
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/boron",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/boron"
   },
   "catalyst": {
     "item": "minecraft:charcoal"

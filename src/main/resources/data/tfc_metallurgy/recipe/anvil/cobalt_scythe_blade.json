@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/cobalt"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/scythe_blade/cobalt"
+    "id": "tfc_metallurgy:metal/scythe_blade/cobalt"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "draw_second_last",
     "bend_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/cobalt"
+  },
+  "apply_bonus": true
 }

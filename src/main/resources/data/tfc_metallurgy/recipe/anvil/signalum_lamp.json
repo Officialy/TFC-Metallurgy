@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/signalum"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/lamp/signalum"
+    "id": "tfc_metallurgy:metal/lamp/signalum"
   },
   "tier": 4,
   "rules": [
     "bend_last",
     "bend_second_last",
     "draw_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:ingots/signalum"
+  }
 }

@@ -1,16 +1,16 @@
 {
   "type": "tfc:alloy",
-  "result": "tfc_metallurgy:ferroboron",
+  "result": "tfc_metallurgy:metal/ferroboron",
   "contents": [
     {
-      "metal": "tfc:steel",
       "min": 0.4,
-      "max": 0.6
+      "max": 0.6,
+      "fluid": "tfc:metal/steel"
     },
     {
-      "metal": "tfc_metallurgy:boron",
       "min": 0.4,
-      "max": 0.6
+      "max": 0.6,
+      "fluid": "tfc_metallurgy:metal/boron"
     }
   ]
 }

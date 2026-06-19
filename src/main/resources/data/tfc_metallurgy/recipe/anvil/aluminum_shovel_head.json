@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/aluminum"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/shovel_head/aluminum"
+    "id": "tfc_metallurgy:metal/shovel_head/aluminum"
   },
   "tier": 3,
   "rules": [
     "punch_last",
     "hit_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/aluminum"
+  },
+  "apply_bonus": true
 }

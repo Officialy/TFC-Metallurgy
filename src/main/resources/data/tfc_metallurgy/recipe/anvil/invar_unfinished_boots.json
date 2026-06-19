@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:sheets/invar"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_boots/invar"
+    "id": "tfc_metallurgy:metal/unfinished_boots/invar"
   },
   "tier": 3,
   "rules": [
     "bend_last",
     "bend_second_last",
     "shrink_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:sheets/invar"
+  }
 }

@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:sheets/aluminum"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/trapdoor/aluminum"
+    "id": "tfc_metallurgy:metal/trapdoor/aluminum"
   },
   "tier": 3,
   "rules": [
     "bend_last",
     "draw_second_last",
     "draw_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:sheets/aluminum"
+  }
 }

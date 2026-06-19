@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_sheets/tungsten"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/shield/tungsten"
+    "id": "tfc_metallurgy:metal/shield/tungsten"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "bend_second_last",
     "bend_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:double_sheets/tungsten"
+  },
+  "apply_bonus": true
 }

@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_sheets/refined_obsidian"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_chestplate/refined_obsidian"
+    "id": "tfc_metallurgy:metal/unfinished_chestplate/refined_obsidian"
   },
   "tier": 4,
   "rules": [
     "hit_last",
     "hit_second_last",
     "upset_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:double_sheets/refined_obsidian"
+  }
 }

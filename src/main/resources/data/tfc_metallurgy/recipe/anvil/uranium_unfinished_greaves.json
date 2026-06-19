@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_sheets/uranium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_greaves/uranium"
+    "id": "tfc_metallurgy:metal/unfinished_greaves/uranium"
   },
   "tier": 3,
   "rules": [
     "bend_any",
     "draw_any",
     "hit_any"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:double_sheets/uranium"
+  }
 }

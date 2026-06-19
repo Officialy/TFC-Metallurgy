@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/titanium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/shovel_head/titanium"
+    "id": "tfc_metallurgy:metal/shovel_head/titanium"
   },
   "tier": 3,
   "rules": [
     "punch_last",
     "hit_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/titanium"
+  },
+  "apply_bonus": true
 }

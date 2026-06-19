@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/mithril"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/chisel_head/mithril"
+    "id": "tfc_metallurgy:metal/chisel_head/mithril"
   },
   "tier": 2,
   "rules": [
@@ -12,5 +9,8 @@
     "hit_not_last",
     "draw_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/mithril"
+  },
+  "apply_bonus": true
 }

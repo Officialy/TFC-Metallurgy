@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:sheets/ferroboron"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/fish_hook/ferroboron"
+    "id": "tfc_metallurgy:metal/fish_hook/ferroboron"
   },
   "tier": 6,
   "rules": [
@@ -12,5 +9,8 @@
     "bend_any",
     "hit_any"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:sheets/ferroboron"
+  },
+  "apply_bonus": true
 }

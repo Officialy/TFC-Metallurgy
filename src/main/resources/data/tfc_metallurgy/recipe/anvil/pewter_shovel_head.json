@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/pewter"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/shovel_head/pewter"
+    "id": "tfc_metallurgy:metal/shovel_head/pewter"
   },
   "tier": 2,
   "rules": [
     "punch_last",
     "hit_not_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/pewter"
+  },
+  "apply_bonus": true
 }

@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/zirconium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/rod/zirconium"
+    "id": "tfc_metallurgy:metal/rod/zirconium"
   },
   "tier": 3,
   "rules": [
     "bend_last",
     "draw_second_last",
     "draw_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:ingots/zirconium"
+  }
 }

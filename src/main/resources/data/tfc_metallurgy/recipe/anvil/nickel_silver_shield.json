@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_sheets/nickel_silver"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/shield/nickel_silver"
+    "id": "tfc_metallurgy:metal/shield/nickel_silver"
   },
   "tier": 2,
   "rules": [
@@ -12,5 +9,8 @@
     "bend_second_last",
     "bend_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:double_sheets/nickel_silver"
+  },
+  "apply_bonus": true
 }

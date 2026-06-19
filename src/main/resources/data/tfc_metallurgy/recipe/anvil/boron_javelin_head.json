@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/boron"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/javelin_head/boron"
+    "id": "tfc_metallurgy:metal/javelin_head/boron"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "hit_second_last",
     "draw_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/boron"
+  },
+  "apply_bonus": true
 }

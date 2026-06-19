@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/graphite"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/rod/graphite"
+    "id": "tfc_metallurgy:metal/rod/graphite"
   },
   "tier": 3,
   "rules": [
     "bend_last",
     "draw_second_last",
     "draw_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:ingots/graphite"
+  }
 }

@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_ingots/mithril"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/sword_blade/mithril"
+    "id": "tfc_metallurgy:metal/sword_blade/mithril"
   },
   "tier": 2,
   "rules": [
@@ -12,5 +9,8 @@
     "bend_second_last",
     "bend_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:double_ingots/mithril"
+  },
+  "apply_bonus": true
 }

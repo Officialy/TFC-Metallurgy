@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:ingots/refined_glowstone"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/scythe_blade/refined_glowstone"
+    "id": "tfc_metallurgy:metal/scythe_blade/refined_glowstone"
   },
   "tier": 4,
   "rules": [
@@ -12,5 +9,8 @@
     "draw_second_last",
     "bend_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:ingots/refined_glowstone"
+  },
+  "apply_bonus": true
 }

@@ -1,15 +1,15 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_sheets/thorium"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/unfinished_helmet/thorium"
+    "id": "tfc_metallurgy:metal/unfinished_helmet/thorium"
   },
   "tier": 6,
   "rules": [
     "hit_last",
     "bend_second_last",
     "bend_third_last"
-  ]
+  ],
+  "ingredient": {
+    "tag": "c:double_sheets/thorium"
+  }
 }

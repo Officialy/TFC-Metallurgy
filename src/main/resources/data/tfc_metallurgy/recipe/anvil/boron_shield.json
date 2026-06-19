@@ -1,10 +1,7 @@
-﻿{
+{
   "type": "tfc:anvil",
-  "input": {
-    "tag": "c:double_sheets/boron"
-  },
   "result": {
-    "item": "tfc_metallurgy:metal/shield/boron"
+    "id": "tfc_metallurgy:metal/shield/boron"
   },
   "tier": 3,
   "rules": [
@@ -12,5 +9,8 @@
     "bend_second_last",
     "bend_third_last"
   ],
-  "apply_forging_bonus": true
+  "ingredient": {
+    "tag": "c:double_sheets/boron"
+  },
+  "apply_bonus": true
 }
