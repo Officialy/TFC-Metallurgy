@@ -4,7 +4,7 @@
     "item": "tfc_metallurgy:ore/normal_pyrolusite"
   },
   "result_fluid": {
-    "id": "tfc_metallurgy:metal/pyrolusite",
+    "id": "tfc_metallurgy:metal/manganese",
     "amount": 25
   },
   "temperature": 1250
