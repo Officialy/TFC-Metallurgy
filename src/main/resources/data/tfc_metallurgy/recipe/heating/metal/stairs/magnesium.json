@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/stairs/magnesium"
+  },
+  "result_fluid": {
+    "amount": 75,
+    "id": "tfc_metallurgy:metal/magnesium"
+  },
+  "temperature": 650.0
+}

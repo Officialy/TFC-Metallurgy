@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/block/andesite_alloy",
+    "top": "tfc_metallurgy:block/metal/block/andesite_alloy",
+    "side": "tfc_metallurgy:block/metal/block/andesite_alloy"
+  }
+}

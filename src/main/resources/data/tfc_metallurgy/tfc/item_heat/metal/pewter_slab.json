@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/pewter"
+  },
+  "heat_capacity": 1.4285715,
+  "forging_temperature": 150,
+  "welding_temperature": 200
+}

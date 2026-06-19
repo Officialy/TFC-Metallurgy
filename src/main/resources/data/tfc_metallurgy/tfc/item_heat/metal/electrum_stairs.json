@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/stairs/electrum"
+  },
+  "heat_capacity": 2.142857,
+  "forging_temperature": 420,
+  "welding_temperature": 560
+}

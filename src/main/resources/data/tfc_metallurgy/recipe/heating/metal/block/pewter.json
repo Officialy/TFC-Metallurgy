@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:storage_blocks/pewter"
+  },
+  "result_fluid": {
+    "amount": 100,
+    "id": "tfc_metallurgy:metal/pewter"
+  },
+  "temperature": 250.0
+}

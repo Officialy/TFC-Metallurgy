@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/stairs/thorium"
+  },
+  "heat_capacity": 2.142857,
+  "forging_temperature": 1050,
+  "welding_temperature": 1400
+}

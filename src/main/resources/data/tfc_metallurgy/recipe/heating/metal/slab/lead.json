@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/lead"
+  },
+  "result_fluid": {
+    "amount": 50,
+    "id": "tfc_metallurgy:metal/lead"
+  },
+  "temperature": 328.0
+}

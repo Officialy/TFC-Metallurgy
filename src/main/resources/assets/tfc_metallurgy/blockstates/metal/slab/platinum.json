@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tfc_metallurgy:block/metal/slab/platinum"
+    },
+    "type=top": {
+      "model": "tfc_metallurgy:block/metal/slab/platinum_top"
+    },
+    "type=double": {
+      "model": "tfc_metallurgy:block/metal/block/platinum"
+    }
+  }
+}

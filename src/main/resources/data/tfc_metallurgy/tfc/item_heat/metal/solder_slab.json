@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/solder"
+  },
+  "heat_capacity": 1.4285715,
+  "forging_temperature": 110,
+  "welding_temperature": 146
+}

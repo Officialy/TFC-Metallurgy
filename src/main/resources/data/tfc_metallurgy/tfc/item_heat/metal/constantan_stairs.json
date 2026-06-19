@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/stairs/constantan"
+  },
+  "heat_capacity": 2.142857,
+  "forging_temperature": 732,
+  "welding_temperature": 976
+}

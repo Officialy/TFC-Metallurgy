@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/stairs/aluminum"
+  },
+  "result_fluid": {
+    "amount": 75,
+    "id": "tfc_metallurgy:metal/aluminum"
+  },
+  "temperature": 660.0
+}

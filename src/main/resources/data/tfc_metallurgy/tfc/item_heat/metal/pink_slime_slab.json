@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/pink_slime"
+  },
+  "heat_capacity": 1.4285715,
+  "forging_temperature": 360,
+  "welding_temperature": 480
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/pink_slime"
+  },
+  "result_fluid": {
+    "amount": 50,
+    "id": "tfc_metallurgy:metal/pink_slime"
+  },
+  "temperature": 600.0
+}

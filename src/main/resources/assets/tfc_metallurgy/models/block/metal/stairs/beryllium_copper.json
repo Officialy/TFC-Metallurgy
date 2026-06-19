@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/block/beryllium_copper",
+    "top": "tfc_metallurgy:block/metal/block/beryllium_copper",
+    "side": "tfc_metallurgy:block/metal/block/beryllium_copper"
+  }
+}

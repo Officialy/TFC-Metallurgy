@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/iridium"
+  },
+  "result_fluid": {
+    "amount": 50,
+    "id": "tfc_metallurgy:metal/iridium"
+  },
+  "temperature": 2447.0
+}

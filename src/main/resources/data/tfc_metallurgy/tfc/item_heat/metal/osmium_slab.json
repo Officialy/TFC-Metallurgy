@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/osmium"
+  },
+  "heat_capacity": 1.4285715,
+  "forging_temperature": 1820,
+  "welding_temperature": 2426
+}

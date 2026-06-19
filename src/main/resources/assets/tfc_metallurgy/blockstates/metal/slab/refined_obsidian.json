@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tfc_metallurgy:block/metal/slab/refined_obsidian"
+    },
+    "type=top": {
+      "model": "tfc_metallurgy:block/metal/slab/refined_obsidian_top"
+    },
+    "type=double": {
+      "model": "tfc_metallurgy:block/metal/block/refined_obsidian"
+    }
+  }
+}

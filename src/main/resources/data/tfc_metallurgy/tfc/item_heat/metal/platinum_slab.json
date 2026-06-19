@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/platinum"
+  },
+  "heat_capacity": 1.4285715,
+  "forging_temperature": 1061,
+  "welding_temperature": 1414
+}

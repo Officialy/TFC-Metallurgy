@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/neodymium"
+  },
+  "heat_capacity": 1.4285715,
+  "forging_temperature": 614,
+  "welding_temperature": 819
+}

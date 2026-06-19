@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/lead"
+  },
+  "heat_capacity": 1.4285715,
+  "forging_temperature": 197,
+  "welding_temperature": 262
+}

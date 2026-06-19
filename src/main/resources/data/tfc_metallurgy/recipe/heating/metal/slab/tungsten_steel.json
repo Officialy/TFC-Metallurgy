@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/tungsten_steel"
+  },
+  "result_fluid": {
+    "amount": 50,
+    "id": "tfc_metallurgy:metal/tungsten_steel"
+  },
+  "temperature": 3000.0
+}

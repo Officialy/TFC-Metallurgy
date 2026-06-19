@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:storage_blocks/invar"
+  },
+  "result_fluid": {
+    "amount": 100,
+    "id": "tfc_metallurgy:metal/invar"
+  },
+  "temperature": 1427.0
+}

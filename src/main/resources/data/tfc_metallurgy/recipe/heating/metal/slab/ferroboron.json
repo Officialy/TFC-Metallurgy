@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/ferroboron"
+  },
+  "result_fluid": {
+    "amount": 50,
+    "id": "tfc_metallurgy:metal/ferroboron"
+  },
+  "temperature": 1850.0
+}

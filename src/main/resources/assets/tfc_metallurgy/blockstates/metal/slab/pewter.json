@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tfc_metallurgy:block/metal/slab/pewter"
+    },
+    "type=top": {
+      "model": "tfc_metallurgy:block/metal/slab/pewter_top"
+    },
+    "type=double": {
+      "model": "tfc_metallurgy:block/metal/block/pewter"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/block/titanium",
+    "top": "tfc_metallurgy:block/metal/block/titanium",
+    "side": "tfc_metallurgy:block/metal/block/titanium"
+  }
+}

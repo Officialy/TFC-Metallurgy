@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tfc_metallurgy:block/metal/slab/florentine_bronze"
+    },
+    "type=top": {
+      "model": "tfc_metallurgy:block/metal/slab/florentine_bronze_top"
+    },
+    "type=double": {
+      "model": "tfc_metallurgy:block/metal/block/florentine_bronze"
+    }
+  }
+}

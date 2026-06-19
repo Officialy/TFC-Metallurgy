@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:storage_blocks/lithium"
+  },
+  "result_fluid": {
+    "amount": 100,
+    "id": "tfc_metallurgy:metal/lithium"
+  },
+  "temperature": 180.0
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/block/thorium",
+    "top": "tfc_metallurgy:block/metal/block/thorium",
+    "side": "tfc_metallurgy:block/metal/block/thorium"
+  }
+}

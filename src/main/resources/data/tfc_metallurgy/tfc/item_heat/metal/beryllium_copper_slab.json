@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/slab/beryllium_copper"
+  },
+  "heat_capacity": 1.4285715,
+  "forging_temperature": 519,
+  "welding_temperature": 692
+}

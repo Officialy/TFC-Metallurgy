@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/stairs/nickel_silver"
+  },
+  "heat_capacity": 2.142857,
+  "forging_temperature": 630,
+  "welding_temperature": 840
+}

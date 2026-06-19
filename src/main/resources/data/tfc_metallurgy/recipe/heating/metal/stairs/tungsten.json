@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/stairs/tungsten"
+  },
+  "result_fluid": {
+    "amount": 75,
+    "id": "tfc_metallurgy:metal/tungsten"
+  },
+  "temperature": 3422.0
+}

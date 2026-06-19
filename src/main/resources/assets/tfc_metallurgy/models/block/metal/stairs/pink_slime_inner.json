@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/block/pink_slime",
+    "top": "tfc_metallurgy:block/metal/block/pink_slime",
+    "side": "tfc_metallurgy:block/metal/block/pink_slime"
+  }
+}

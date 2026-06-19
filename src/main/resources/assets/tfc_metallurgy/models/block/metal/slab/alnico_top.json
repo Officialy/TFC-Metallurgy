@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "tfc_metallurgy:block/metal/block/alnico",
+    "top": "tfc_metallurgy:block/metal/block/alnico",
+    "side": "tfc_metallurgy:block/metal/block/alnico"
+  }
+}

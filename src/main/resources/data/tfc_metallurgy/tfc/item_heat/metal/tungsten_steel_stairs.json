@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/stairs/tungsten_steel"
+  },
+  "heat_capacity": 2.142857,
+  "forging_temperature": 1800,
+  "welding_temperature": 2400
+}

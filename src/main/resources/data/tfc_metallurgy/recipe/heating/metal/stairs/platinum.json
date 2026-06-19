@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/stairs/platinum"
+  },
+  "result_fluid": {
+    "amount": 75,
+    "id": "tfc_metallurgy:metal/platinum"
+  },
+  "temperature": 1768.0
+}
