@@ -29,8 +29,8 @@ import tfc_metallurgy.util.MetallurgyMetal;
 
 public class ClientEvents
 {
-    private static final ResourceLocation MOLTEN_STILL = Helpers.identifier("block/metal/fluid/molten_still");
-    private static final ResourceLocation MOLTEN_FLOW = Helpers.identifier("block/metal/fluid/molten_flow");
+    private static final ResourceLocation MOLTEN_STILL = Helpers.identifier("block/molten_still");
+    private static final ResourceLocation MOLTEN_FLOW = Helpers.identifier("block/molten_flow");
 
     public static void init(IEventBus modBus)
     {
