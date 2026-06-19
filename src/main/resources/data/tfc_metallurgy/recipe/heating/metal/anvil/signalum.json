@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/anvil/signalum"
+  },
+  "result_fluid": {
+    "amount": 1400,
+    "id": "tfc_metallurgy:metal/signalum"
+  },
+  "temperature": 1100.0
+}

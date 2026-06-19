@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/anvil/lumium"
+  },
+  "heat_capacity": 40.0,
+  "forging_temperature": 720,
+  "welding_temperature": 960
+}

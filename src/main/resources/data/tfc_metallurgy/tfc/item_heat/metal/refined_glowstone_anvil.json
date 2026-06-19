@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/anvil/refined_glowstone"
+  },
+  "heat_capacity": 40.0,
+  "forging_temperature": 480,
+  "welding_temperature": 640
+}

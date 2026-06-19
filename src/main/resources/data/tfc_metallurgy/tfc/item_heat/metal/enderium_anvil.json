@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/anvil/enderium"
+  },
+  "heat_capacity": 40.0,
+  "forging_temperature": 780,
+  "welding_temperature": 1040
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/anvil/osmiridium"
+  },
+  "result_fluid": {
+    "amount": 1400,
+    "id": "tfc_metallurgy:metal/osmiridium"
+  },
+  "temperature": 2450.0
+}

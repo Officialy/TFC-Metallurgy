@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/anvil/thorium"
+  },
+  "heat_capacity": 40.0,
+  "forging_temperature": 1050,
+  "welding_temperature": 1400
+}
