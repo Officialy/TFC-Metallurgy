@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/trapdoor/thorium"
+  },
+  "heat_capacity": 5.714286,
+  "forging_temperature": 1050,
+  "welding_temperature": 1400
+}

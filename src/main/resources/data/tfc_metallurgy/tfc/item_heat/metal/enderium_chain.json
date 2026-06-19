@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/chain/enderium"
+  },
+  "heat_capacity": 0.17142858,
+  "forging_temperature": 780,
+  "welding_temperature": 1040
+}

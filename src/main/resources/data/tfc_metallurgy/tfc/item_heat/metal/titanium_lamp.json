@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/lamp/titanium"
+  },
+  "heat_capacity": 2.857143,
+  "forging_temperature": 1001,
+  "welding_temperature": 1334
+}

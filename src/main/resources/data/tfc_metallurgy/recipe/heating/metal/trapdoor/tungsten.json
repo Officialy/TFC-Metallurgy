@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/trapdoor/tungsten"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc_metallurgy:metal/tungsten"
+  },
+  "temperature": 3422.0
+}

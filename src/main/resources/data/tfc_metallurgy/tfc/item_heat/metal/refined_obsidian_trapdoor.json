@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/trapdoor/refined_obsidian"
+  },
+  "heat_capacity": 5.714286,
+  "forging_temperature": 720,
+  "welding_temperature": 960
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/trapdoor/nickel_silver"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc_metallurgy:metal/nickel_silver"
+  },
+  "temperature": 1050.0
+}

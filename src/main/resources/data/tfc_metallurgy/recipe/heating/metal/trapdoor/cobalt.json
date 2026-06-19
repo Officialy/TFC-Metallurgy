@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/trapdoor/cobalt"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc_metallurgy:metal/cobalt"
+  },
+  "temperature": 1495.0
+}

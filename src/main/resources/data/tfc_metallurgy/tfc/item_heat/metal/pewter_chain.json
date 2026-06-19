@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/chain/pewter"
+  },
+  "heat_capacity": 0.17142858,
+  "forging_temperature": 150,
+  "welding_temperature": 200
+}

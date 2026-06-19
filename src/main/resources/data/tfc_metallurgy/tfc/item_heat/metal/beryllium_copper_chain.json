@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/chain/beryllium_copper"
+  },
+  "heat_capacity": 0.17142858,
+  "forging_temperature": 519,
+  "welding_temperature": 692
+}

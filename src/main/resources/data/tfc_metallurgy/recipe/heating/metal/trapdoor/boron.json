@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/trapdoor/boron"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc_metallurgy:metal/boron"
+  },
+  "temperature": 2076.0
+}

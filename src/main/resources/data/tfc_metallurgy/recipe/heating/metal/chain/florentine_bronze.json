@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/chain/florentine_bronze"
+  },
+  "result_fluid": {
+    "amount": 6,
+    "id": "tfc_metallurgy:metal/florentine_bronze"
+  },
+  "temperature": 950.0
+}

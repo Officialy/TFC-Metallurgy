@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/trapdoor/osmium"
+  },
+  "heat_capacity": 5.714286,
+  "forging_temperature": 1820,
+  "welding_temperature": 2426
+}

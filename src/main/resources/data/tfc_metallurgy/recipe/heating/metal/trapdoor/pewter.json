@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/trapdoor/pewter"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc_metallurgy:metal/pewter"
+  },
+  "temperature": 250.0
+}

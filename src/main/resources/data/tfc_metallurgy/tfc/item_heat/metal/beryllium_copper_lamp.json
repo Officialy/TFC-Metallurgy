@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/lamp/beryllium_copper"
+  },
+  "heat_capacity": 2.857143,
+  "forging_temperature": 519,
+  "welding_temperature": 692
+}

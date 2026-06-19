@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/lamp/beryllium_copper"
+  },
+  "result_fluid": {
+    "amount": 100,
+    "id": "tfc_metallurgy:metal/beryllium_copper"
+  },
+  "temperature": 865.0
+}

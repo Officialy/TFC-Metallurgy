@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/trapdoor/nickel_silver"
+  },
+  "heat_capacity": 5.714286,
+  "forging_temperature": 630,
+  "welding_temperature": 840
+}

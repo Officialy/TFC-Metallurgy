@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/chain/refined_glowstone"
+  },
+  "heat_capacity": 0.17142858,
+  "forging_temperature": 480,
+  "welding_temperature": 640
+}
