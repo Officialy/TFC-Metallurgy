@@ -1,13 +1,14 @@
-﻿{
+{
   "type": "tfc:welding",
+  "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_chestplate/osmium"
   },
   "second_input": {
-    "tag": "c:sheets/osmium"
+    "tag": "c:double_sheets/osmium"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/chestplate/osmium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/chestplate/osmium"
   }
 }

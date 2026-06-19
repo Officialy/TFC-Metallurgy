@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/knife_blade_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/refined_glowstone",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/refined_glowstone"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/knife_blade/refined_glowstone"
+    "id": "tfc_metallurgy:metal/knife_blade/refined_glowstone",
+    "count": 1
   },
   "break_chance": 1
 }

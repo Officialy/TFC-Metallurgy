@@ -1,13 +1,14 @@
-﻿{
+{
   "type": "tfc:welding",
+  "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_chestplate/enderium"
   },
   "second_input": {
-    "tag": "c:sheets/enderium"
+    "tag": "c:double_sheets/enderium"
   },
-  "tier": 4,
   "result": {
-    "item": "tfc_metallurgy:metal/chestplate/enderium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/chestplate/enderium"
   }
 }

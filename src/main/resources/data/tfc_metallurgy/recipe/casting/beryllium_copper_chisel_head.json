@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/chisel_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/beryllium_copper",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/beryllium_copper"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/chisel_head/beryllium_copper"
+    "id": "tfc_metallurgy:metal/chisel_head/beryllium_copper",
+    "count": 1
   },
   "break_chance": 1
 }

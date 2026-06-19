@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:ingots/tungsten"
@@ -8,6 +8,7 @@
   },
   "tier": 4,
   "result": {
-    "item": "tfc_metallurgy:metal/ingot/high_carbon_tungsten_steel"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/ingot/high_carbon_tungsten_steel"
   }
 }

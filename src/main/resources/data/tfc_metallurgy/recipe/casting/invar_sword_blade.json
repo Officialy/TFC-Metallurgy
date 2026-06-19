@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/sword_blade_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/invar",
-    "amount": 200
+    "amount": 200,
+    "fluid": "tfc_metallurgy:metal/invar"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/sword_blade/invar"
+    "id": "tfc_metallurgy:metal/sword_blade/invar",
+    "count": 1
   },
   "break_chance": 1
 }

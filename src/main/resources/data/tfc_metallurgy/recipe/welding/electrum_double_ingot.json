@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:ingots/electrum"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:ingots/electrum"
   },
-  "tier": 1,
   "result": {
-    "item": "tfc_metallurgy:metal/double_ingot/electrum"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/electrum"
   }
 }

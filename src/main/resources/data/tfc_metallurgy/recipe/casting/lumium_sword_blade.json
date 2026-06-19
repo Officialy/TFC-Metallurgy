@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/sword_blade_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/lumium",
-    "amount": 200
+    "amount": 200,
+    "fluid": "tfc_metallurgy:metal/lumium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/sword_blade/lumium"
+    "id": "tfc_metallurgy:metal/sword_blade/lumium",
+    "count": 1
   },
   "break_chance": 1
 }

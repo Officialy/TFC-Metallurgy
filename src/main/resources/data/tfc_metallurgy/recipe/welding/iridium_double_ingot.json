@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:ingots/iridium"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:ingots/iridium"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/double_ingot/iridium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/iridium"
   }
 }

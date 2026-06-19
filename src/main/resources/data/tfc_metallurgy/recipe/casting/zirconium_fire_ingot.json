@@ -1,15 +1,15 @@
-
 {
   "type": "tfc:casting",
   "mold": {
     "item": "tfc:ceramic/fire_ingot_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/zirconium",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/zirconium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/ingot/zirconium"
+    "id": "tfc_metallurgy:metal/ingot/zirconium",
+    "count": 1
   },
   "break_chance": 0.01
 }

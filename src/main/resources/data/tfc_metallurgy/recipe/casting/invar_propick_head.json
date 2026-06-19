@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/propick_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/invar",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/invar"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/propick_head/invar"
+    "id": "tfc_metallurgy:metal/propick_head/invar",
+    "count": 1
   },
   "break_chance": 1
 }

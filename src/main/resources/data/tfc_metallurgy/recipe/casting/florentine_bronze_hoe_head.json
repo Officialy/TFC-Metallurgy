@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/hoe_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/florentine_bronze",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/florentine_bronze"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/hoe_head/florentine_bronze"
+    "id": "tfc_metallurgy:metal/hoe_head/florentine_bronze",
+    "count": 1
   },
   "break_chance": 1
 }

@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/pickaxe_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/lumium",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/lumium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/pickaxe_head/lumium"
+    "id": "tfc_metallurgy:metal/pickaxe_head/lumium",
+    "count": 1
   },
   "break_chance": 1
 }

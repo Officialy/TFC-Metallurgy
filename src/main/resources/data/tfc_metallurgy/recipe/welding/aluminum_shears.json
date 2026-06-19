@@ -1,13 +1,14 @@
 {
   "type": "tfc:welding",
+  "bonus": "copy_worst",
   "first_input": {
     "item": "tfc_metallurgy:metal/knife_blade/aluminum"
   },
   "second_input": {
     "item": "tfc_metallurgy:metal/knife_blade/aluminum"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/shears/aluminum"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/shears/aluminum"
   }
 }

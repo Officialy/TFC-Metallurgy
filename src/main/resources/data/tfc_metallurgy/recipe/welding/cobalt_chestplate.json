@@ -1,13 +1,14 @@
-﻿{
+{
   "type": "tfc:welding",
+  "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_chestplate/cobalt"
   },
   "second_input": {
-    "tag": "c:sheets/cobalt"
+    "tag": "c:double_sheets/cobalt"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/chestplate/cobalt"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/chestplate/cobalt"
   }
 }

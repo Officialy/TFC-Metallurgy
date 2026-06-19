@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/mace_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/aluminum",
-    "amount": 200
+    "amount": 200,
+    "fluid": "tfc_metallurgy:metal/aluminum"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/mace_head/aluminum"
+    "id": "tfc_metallurgy:metal/mace_head/aluminum",
+    "count": 1
   },
   "break_chance": 1
 }

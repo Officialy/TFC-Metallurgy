@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/pickaxe_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/nickel_silver",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/nickel_silver"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/pickaxe_head/nickel_silver"
+    "id": "tfc_metallurgy:metal/pickaxe_head/nickel_silver",
+    "count": 1
   },
   "break_chance": 1
 }

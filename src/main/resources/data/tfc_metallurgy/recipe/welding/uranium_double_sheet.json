@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:sheets/uranium"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:sheets/uranium"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/double_sheet/uranium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/uranium"
   }
 }

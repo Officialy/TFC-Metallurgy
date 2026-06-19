@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/saw_blade_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/enderium",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/enderium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/saw_blade/enderium"
+    "id": "tfc_metallurgy:metal/saw_blade/enderium",
+    "count": 1
   },
   "break_chance": 1
 }

@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/sword_blade_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/florentine_bronze",
-    "amount": 200
+    "amount": 200,
+    "fluid": "tfc_metallurgy:metal/florentine_bronze"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/sword_blade/florentine_bronze"
+    "id": "tfc_metallurgy:metal/sword_blade/florentine_bronze",
+    "count": 1
   },
   "break_chance": 1
 }

@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/knife_blade_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/uranium",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/uranium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/knife_blade/uranium"
+    "id": "tfc_metallurgy:metal/knife_blade/uranium",
+    "count": 1
   },
   "break_chance": 1
 }

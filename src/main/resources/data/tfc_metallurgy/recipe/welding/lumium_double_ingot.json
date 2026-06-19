@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:ingots/lumium"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:ingots/lumium"
   },
-  "tier": 3,
   "result": {
-    "item": "tfc_metallurgy:metal/double_ingot/lumium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/lumium"
   }
 }

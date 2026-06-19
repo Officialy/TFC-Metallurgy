@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/propick_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/mithril",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/mithril"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/propick_head/mithril"
+    "id": "tfc_metallurgy:metal/propick_head/mithril",
+    "count": 1
   },
   "break_chance": 1
 }

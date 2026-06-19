@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/shovel_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/compressed_iron",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/compressed_iron"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/shovel_head/compressed_iron"
+    "id": "tfc_metallurgy:metal/shovel_head/compressed_iron",
+    "count": 1
   },
   "break_chance": 1
 }

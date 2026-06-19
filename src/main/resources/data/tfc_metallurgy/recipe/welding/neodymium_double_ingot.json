@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:ingots/neodymium"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:ingots/neodymium"
   },
-  "tier": 1,
   "result": {
-    "item": "tfc_metallurgy:metal/double_ingot/neodymium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/neodymium"
   }
 }

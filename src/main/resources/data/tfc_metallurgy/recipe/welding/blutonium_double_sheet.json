@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:sheets/blutonium"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:sheets/blutonium"
   },
-  "tier": 5,
   "result": {
-    "item": "tfc_metallurgy:metal/double_sheet/blutonium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/blutonium"
   }
 }

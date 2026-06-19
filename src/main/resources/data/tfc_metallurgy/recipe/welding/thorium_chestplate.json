@@ -1,13 +1,14 @@
-﻿{
+{
   "type": "tfc:welding",
+  "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_chestplate/thorium"
   },
   "second_input": {
-    "tag": "c:sheets/thorium"
+    "tag": "c:double_sheets/thorium"
   },
-  "tier": 5,
   "result": {
-    "item": "tfc_metallurgy:metal/chestplate/thorium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/chestplate/thorium"
   }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:sheets/graphite"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:sheets/graphite"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/double_sheet/graphite"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/graphite"
   }
 }

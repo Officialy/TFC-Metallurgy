@@ -1,13 +1,14 @@
 {
   "type": "tfc:welding",
+  "bonus": "copy_worst",
   "first_input": {
     "item": "tfc_metallurgy:metal/knife_blade/tungsten"
   },
   "second_input": {
     "item": "tfc_metallurgy:metal/knife_blade/tungsten"
   },
-  "tier": 3,
   "result": {
-    "item": "tfc_metallurgy:metal/shears/tungsten"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/shears/tungsten"
   }
 }

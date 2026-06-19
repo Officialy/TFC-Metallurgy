@@ -1,13 +1,14 @@
-﻿{
+{
   "type": "tfc:welding",
+  "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_greaves/mithril"
   },
   "second_input": {
     "tag": "c:sheets/mithril"
   },
-  "tier": 1,
   "result": {
-    "item": "tfc_metallurgy:metal/greaves/mithril"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/greaves/mithril"
   }
 }

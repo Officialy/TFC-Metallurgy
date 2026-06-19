@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:ingots/florentine_bronze"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:ingots/florentine_bronze"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/double_ingot/florentine_bronze"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/florentine_bronze"
   }
 }

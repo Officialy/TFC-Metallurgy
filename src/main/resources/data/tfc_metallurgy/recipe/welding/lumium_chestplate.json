@@ -1,13 +1,14 @@
-﻿{
+{
   "type": "tfc:welding",
+  "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_chestplate/lumium"
   },
   "second_input": {
-    "tag": "c:sheets/lumium"
+    "tag": "c:double_sheets/lumium"
   },
-  "tier": 3,
   "result": {
-    "item": "tfc_metallurgy:metal/chestplate/lumium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/chestplate/lumium"
   }
 }

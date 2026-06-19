@@ -1,13 +1,14 @@
 {
   "type": "tfc:welding",
+  "bonus": "copy_worst",
   "first_input": {
     "item": "tfc_metallurgy:metal/knife_blade/refined_glowstone"
   },
   "second_input": {
     "item": "tfc_metallurgy:metal/knife_blade/refined_glowstone"
   },
-  "tier": 3,
   "result": {
-    "item": "tfc_metallurgy:metal/shears/refined_glowstone"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/shears/refined_glowstone"
   }
 }

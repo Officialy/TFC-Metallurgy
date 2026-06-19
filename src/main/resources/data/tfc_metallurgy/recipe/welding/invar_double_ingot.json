@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:ingots/invar"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:ingots/invar"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/double_ingot/invar"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/invar"
   }
 }

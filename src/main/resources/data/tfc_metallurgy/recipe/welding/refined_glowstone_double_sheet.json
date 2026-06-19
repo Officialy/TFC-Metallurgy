@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:sheets/refined_glowstone"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:sheets/refined_glowstone"
   },
-  "tier": 3,
   "result": {
-    "item": "tfc_metallurgy:metal/double_sheet/refined_glowstone"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/refined_glowstone"
   }
 }

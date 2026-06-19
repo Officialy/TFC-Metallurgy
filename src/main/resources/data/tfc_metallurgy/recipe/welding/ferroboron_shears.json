@@ -1,13 +1,14 @@
 {
   "type": "tfc:welding",
+  "bonus": "copy_worst",
   "first_input": {
     "item": "tfc_metallurgy:metal/knife_blade/ferroboron"
   },
   "second_input": {
     "item": "tfc_metallurgy:metal/knife_blade/ferroboron"
   },
-  "tier": 5,
   "result": {
-    "item": "tfc_metallurgy:metal/shears/ferroboron"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/shears/ferroboron"
   }
 }

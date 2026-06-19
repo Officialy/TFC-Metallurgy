@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/hammer_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/titanium",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/titanium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/hammer_head/titanium"
+    "id": "tfc_metallurgy:metal/hammer_head/titanium",
+    "count": 1
   },
   "break_chance": 1
 }

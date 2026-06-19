@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:sheets/antimony"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:sheets/antimony"
   },
-  "tier": 0,
   "result": {
-    "item": "tfc_metallurgy:metal/double_sheet/antimony"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/antimony"
   }
 }

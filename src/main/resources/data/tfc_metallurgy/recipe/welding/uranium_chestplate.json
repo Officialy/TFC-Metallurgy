@@ -1,13 +1,14 @@
-﻿{
+{
   "type": "tfc:welding",
+  "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_chestplate/uranium"
   },
   "second_input": {
-    "tag": "c:sheets/uranium"
+    "tag": "c:double_sheets/uranium"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/chestplate/uranium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/chestplate/uranium"
   }
 }

@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/sword_blade_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/pewter",
-    "amount": 200
+    "amount": 200,
+    "fluid": "tfc_metallurgy:metal/pewter"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/sword_blade/pewter"
+    "id": "tfc_metallurgy:metal/sword_blade/pewter",
+    "count": 1
   },
   "break_chance": 1
 }

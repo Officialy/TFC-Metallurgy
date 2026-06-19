@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/sword_blade_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/tungsten_steel",
-    "amount": 200
+    "amount": 200,
+    "fluid": "tfc_metallurgy:metal/tungsten_steel"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/sword_blade/tungsten_steel"
+    "id": "tfc_metallurgy:metal/sword_blade/tungsten_steel",
+    "count": 1
   },
   "break_chance": 1
 }

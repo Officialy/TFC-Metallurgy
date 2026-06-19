@@ -1,13 +1,14 @@
-﻿{
+{
   "type": "tfc:welding",
+  "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_greaves/titanium"
   },
   "second_input": {
     "tag": "c:sheets/titanium"
   },
-  "tier": 3,
   "result": {
-    "item": "tfc_metallurgy:metal/greaves/titanium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/greaves/titanium"
   }
 }

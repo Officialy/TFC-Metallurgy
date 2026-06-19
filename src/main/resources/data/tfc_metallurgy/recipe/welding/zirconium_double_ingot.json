@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:ingots/zirconium"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:ingots/zirconium"
   },
-  "tier": 6,
   "result": {
-    "item": "tfc_metallurgy:metal/double_ingot/zirconium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/zirconium"
   }
 }

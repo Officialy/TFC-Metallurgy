@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/axe_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/thorium",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/thorium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/axe_head/thorium"
+    "id": "tfc_metallurgy:metal/axe_head/thorium",
+    "count": 1
   },
   "break_chance": 1
 }

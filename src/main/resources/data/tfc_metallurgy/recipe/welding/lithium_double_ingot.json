@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:ingots/lithium"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:ingots/lithium"
   },
-  "tier": 2,
   "result": {
-    "item": "tfc_metallurgy:metal/double_ingot/lithium"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/lithium"
   }
 }

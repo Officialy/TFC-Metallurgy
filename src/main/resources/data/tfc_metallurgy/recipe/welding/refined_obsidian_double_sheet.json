@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "tfc:welding",
   "first_input": {
     "tag": "c:sheets/refined_obsidian"
@@ -6,8 +6,8 @@
   "second_input": {
     "tag": "c:sheets/refined_obsidian"
   },
-  "tier": 3,
   "result": {
-    "item": "tfc_metallurgy:metal/double_sheet/refined_obsidian"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/refined_obsidian"
   }
 }

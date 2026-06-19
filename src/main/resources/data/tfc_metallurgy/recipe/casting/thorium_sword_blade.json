@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/sword_blade_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/thorium",
-    "amount": 200
+    "amount": 200,
+    "fluid": "tfc_metallurgy:metal/thorium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/sword_blade/thorium"
+    "id": "tfc_metallurgy:metal/sword_blade/thorium",
+    "count": 1
   },
   "break_chance": 1
 }

@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/hammer_head_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/aluminum",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/aluminum"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/hammer_head/aluminum"
+    "id": "tfc_metallurgy:metal/hammer_head/aluminum",
+    "count": 1
   },
   "break_chance": 1
 }

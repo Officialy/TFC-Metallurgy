@@ -4,11 +4,12 @@
     "item": "tfc:ceramic/fire_ingot_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/magnesium",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/magnesium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/ingot/magnesium"
+    "id": "tfc_metallurgy:metal/ingot/magnesium",
+    "count": 1
   },
   "break_chance": 0.01
 }

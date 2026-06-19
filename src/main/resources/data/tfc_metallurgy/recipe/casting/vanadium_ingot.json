@@ -1,14 +1,15 @@
-﻿{
+{
   "type": "tfc:casting",
   "mold": {
     "item": "tfc:ceramic/ingot_mold"
   },
   "fluid": {
-    "ingredient": "tfc_metallurgy:metal/vanadium",
-    "amount": 100
+    "amount": 100,
+    "fluid": "tfc_metallurgy:metal/vanadium"
   },
   "result": {
-    "item": "tfc_metallurgy:metal/ingot/vanadium"
+    "id": "tfc_metallurgy:metal/ingot/vanadium",
+    "count": 1
   },
   "break_chance": 0.1
 }

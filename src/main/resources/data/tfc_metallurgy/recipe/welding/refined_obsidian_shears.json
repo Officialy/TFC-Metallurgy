@@ -1,13 +1,14 @@
 {
   "type": "tfc:welding",
+  "bonus": "copy_worst",
   "first_input": {
     "item": "tfc_metallurgy:metal/knife_blade/refined_obsidian"
   },
   "second_input": {
     "item": "tfc_metallurgy:metal/knife_blade/refined_obsidian"
   },
-  "tier": 3,
   "result": {
-    "item": "tfc_metallurgy:metal/shears/refined_obsidian"
+    "count": 1,
+    "id": "tfc_metallurgy:metal/shears/refined_obsidian"
   }
 }
