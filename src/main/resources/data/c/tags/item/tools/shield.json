@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/shield/aluminum",
+    "tfc_metallurgy:metal/shield/beryllium_copper",
+    "tfc_metallurgy:metal/shield/boron",
+    "tfc_metallurgy:metal/shield/cobalt",
+    "tfc_metallurgy:metal/shield/compressed_iron",
+    "tfc_metallurgy:metal/shield/enderium",
+    "tfc_metallurgy:metal/shield/ferroboron",
+    "tfc_metallurgy:metal/shield/florentine_bronze",
+    "tfc_metallurgy:metal/shield/invar",
+    "tfc_metallurgy:metal/shield/lumium",
+    "tfc_metallurgy:metal/shield/mithril",
+    "tfc_metallurgy:metal/shield/nickel_silver",
+    "tfc_metallurgy:metal/shield/osmiridium",
+    "tfc_metallurgy:metal/shield/osmium",
+    "tfc_metallurgy:metal/shield/pewter",
+    "tfc_metallurgy:metal/shield/refined_glowstone",
+    "tfc_metallurgy:metal/shield/refined_obsidian",
+    "tfc_metallurgy:metal/shield/signalum",
+    "tfc_metallurgy:metal/shield/thorium",
+    "tfc_metallurgy:metal/shield/titanium",
+    "tfc_metallurgy:metal/shield/tungsten",
+    "tfc_metallurgy:metal/shield/tungsten_steel",
+    "tfc_metallurgy:metal/shield/uranium"
+  ]
+}
