@@ -11,6 +11,8 @@
     }
   },
   "result": {
-    "item": "tfc_metallurgy:metal/anvil/refined_glowstone"
-  }
+    "count": 1,
+    "id": "tfc_metallurgy:metal/anvil/refined_glowstone"
+  },
+  "category": "misc"
 }

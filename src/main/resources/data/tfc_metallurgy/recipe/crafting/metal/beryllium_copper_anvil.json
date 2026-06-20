@@ -11,6 +11,8 @@
     }
   },
   "result": {
-    "item": "tfc_metallurgy:metal/anvil/beryllium_copper"
-  }
+    "count": 1,
+    "id": "tfc_metallurgy:metal/anvil/beryllium_copper"
+  },
+  "category": "misc"
 }

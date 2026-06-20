@@ -11,6 +11,8 @@
     }
   },
   "result": {
-    "item": "tfc_metallurgy:metal/anvil/osmium"
-  }
+    "count": 1,
+    "id": "tfc_metallurgy:metal/anvil/osmium"
+  },
+  "category": "misc"
 }

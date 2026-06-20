@@ -11,6 +11,8 @@
     }
   },
   "result": {
-    "item": "tfc_metallurgy:metal/anvil/invar"
-  }
+    "count": 1,
+    "id": "tfc_metallurgy:metal/anvil/invar"
+  },
+  "category": "misc"
 }
