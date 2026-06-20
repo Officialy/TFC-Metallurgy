@@ -18,7 +18,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
-import net.dries007.tfc.client.render.blockentity.TFCBellBlockEntityRenderer;
+import tfc_metallurgy.client.MetallurgyBellBlockEntityRenderer;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import tfc_metallurgy.common.block_entities.MetallurgyBlockEntities;
@@ -121,7 +121,7 @@ public class ClientEvents
 
     public static void registerEntitiesRenderer(EntityRenderersEvent.RegisterRenderers event)
     {
-        event.registerBlockEntityRenderer(MetallurgyBlockEntities.BELL.get(), TFCBellBlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(MetallurgyBlockEntities.BELL.get(), MetallurgyBellBlockEntityRenderer::new);
     }
 
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event)
