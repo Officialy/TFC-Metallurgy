@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_metallurgy:raw_cobalt_bloom"
+  },
+  "heat_capacity": 4,
+  "forging_temperature": 900,
+  "welding_temperature": 1200
+}

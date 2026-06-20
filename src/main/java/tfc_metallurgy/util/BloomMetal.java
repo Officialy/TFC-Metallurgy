@@ -7,5 +7,6 @@ public enum BloomMetal {
     osmium,
     platinum,
     thorium,
-    titanium
+    titanium,
+    tungsten
 }
