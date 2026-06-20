@@ -43,7 +43,6 @@
     "tfc_metallurgy:metal/zircaloy",
     "tfc_metallurgy:metal/zirconium",
     "tfc_metallurgy:metal/neodymium",
-    "tfc_metallurgy:metal/vanadium",
-    "tfc_metallurgy:metal/high_carbon_tungsten_steel"
+    "tfc_metallurgy:metal/vanadium"
   ]
 }
