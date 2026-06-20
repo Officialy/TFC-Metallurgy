@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "ingredient": {
+    "tag": "c:double_sheets/tungsten_steel"
+  },
+  "result": {
+    "count": 16,
+    "id": "tfc_metallurgy:tungsten_steel_bars"
+  },
+  "rules": [
+    "upset_last",
+    "punch_second_last",
+    "punch_third_last"
+  ],
+  "tier": 3
+}
