@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:double_sheets/tantalum"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/tantalum",
+    "amount": 400
+  },
+  "temperature": 328,
+  "use_durability": false
+}

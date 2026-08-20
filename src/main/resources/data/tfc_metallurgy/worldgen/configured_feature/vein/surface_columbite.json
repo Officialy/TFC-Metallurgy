@@ -1,0 +1,69 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 30,
+    "min_y": 70,
+    "max_y": 90,
+    "size": 9,
+    "density": 0.2,
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/granite"
+        ],
+        "with": [
+          {
+            "weight": 90,
+            "block": "tfc_metallurgy:ore/poor_columbite/granite"
+          },
+          {
+            "weight": 10,
+            "block": "tfc_metallurgy:ore/normal_columbite/granite"
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/schist"
+        ],
+        "with": [
+          {
+            "weight": 90,
+            "block": "tfc_metallurgy:ore/poor_columbite/schist"
+          },
+          {
+            "weight": 10,
+            "block": "tfc_metallurgy:ore/normal_columbite/schist"
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/gneiss"
+        ],
+        "with": [
+          {
+            "weight": 90,
+            "block": "tfc_metallurgy:ore/poor_columbite/gneiss"
+          },
+          {
+            "weight": 10,
+            "block": "tfc_metallurgy:ore/normal_columbite/gneiss"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 10,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_columbite"
+        }
+      ]
+    },
+    "random_name": "surface_columbite"
+  }
+}

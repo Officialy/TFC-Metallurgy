@@ -41,6 +41,7 @@ public final class MetallumArmorMaterials
     public static final Id THORIUM = register("thorium", 400, 410, 485, 310, 1, 5, 4, 2, 12, 0.5f, 0f);
     public static final Id TUNGSTEN = register("tungsten", 395, 405, 500, 305, 1, 5, 5, 1, 15, 0.5f, 0f);
     public static final Id TUNGSTEN_STEEL = register("tungsten_steel", 904, 1040, 1030, 735, 4, 6, 8, 4, 23, 3f, 0.1f);
+    public static final Id HIGH_ALLOY_STEEL = register("high_alloy_steel", 1120, 1290, 1270, 910, 4, 7, 9, 4, 22, 3.5f, 0.15f);
 
     private static Id register(
         String name,

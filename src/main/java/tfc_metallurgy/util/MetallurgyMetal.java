@@ -98,7 +98,18 @@ public enum MetallurgyMetal implements RegistryMetal
     ZIRCALOY(0xFF43423A, MapColor.COLOR_BROWN, Rarity.RARE, -1, PartType.DEFAULT),
     ZIRCONIUM(0xFF747527, MapColor.TERRACOTTA_GREEN, Rarity.RARE, -1, PartType.DEFAULT),
     NEODYMIUM(0xFFC0C0C0, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT),
-    VANADIUM(0x9AAF9E, MapColor.COLOR_GREEN, Rarity.UNCOMMON, -1, PartType.DEFAULT);
+    VANADIUM(0x9AAF9E, MapColor.COLOR_GREEN, Rarity.UNCOMMON, -1, PartType.DEFAULT),
+
+    // Alloying elements for High Alloy Steel. Kept as DEFAULT (no tools/armor of their own),
+    // matching how other alloy-ingredient-only elements in this enum (antimony, lead, lithium,
+    // platinum) are handled -- their purpose here is to be melted down and combined, not forged.
+    MOLYBDENUM(0xB8B8C8, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT),
+    NIOBIUM(0x4A6FA5, MapColor.COLOR_BLUE, Rarity.RARE, -1, PartType.DEFAULT),
+    TANTALUM(0x5A5568, MapColor.COLOR_PURPLE, Rarity.RARE, -1, PartType.DEFAULT),
+
+    // The pinnacle tool tier -- alloy only, no ore of its own. Made by combining molten weak
+    // steel with chromium, vanadium, manganese, cobalt and the above alloying elements in a vat.
+    HIGH_ALLOY_STEEL(0x322E42, MapColor.QUARTZ, Rarity.EPIC, -1, MetallurgyTiers.HIGH_ALLOY_STEEL, MetallumArmorMaterials.HIGH_ALLOY_STEEL);
 
     private final String serializedName;
     private final PartType partType;

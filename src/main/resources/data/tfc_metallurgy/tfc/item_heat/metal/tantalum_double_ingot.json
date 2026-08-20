@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "c:double_ingots/tantalum"
+  },
+  "heat_capacity": 9.091,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/molybdenum"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/molybdenum",
+    "amount": 50
+  },
+  "temperature": 328,
+  "use_durability": false
+}

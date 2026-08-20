@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:double_sheets/niobium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/niobium",
+    "amount": 400
+  },
+  "temperature": 328,
+  "use_durability": false
+}

@@ -1,0 +1,15 @@
+{
+  "type": "tfc:casting",
+  "mold": {
+    "item": "tfc:ceramic/mace_head_mold"
+  },
+  "fluid": {
+    "amount": 200,
+    "fluid": "tfc_metallurgy:metal/high_alloy_steel"
+  },
+  "result": {
+    "id": "tfc_metallurgy:metal/mace_head/high_alloy_steel",
+    "count": 1
+  },
+  "break_chance": 1
+}

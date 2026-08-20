@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:metal/high_alloy_steel",
+    "tfc_metallurgy:metal/flowing_high_alloy_steel"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/chain/high_alloy_steel"
+  },
+  "result_fluid": {
+    "amount": 6,
+    "id": "tfc_metallurgy:metal/high_alloy_steel"
+  },
+  "temperature": 3000.0
+}

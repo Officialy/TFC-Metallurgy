@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/tantalum"
+  },
+  "second_input": {
+    "tag": "c:ingots/tantalum"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/tantalum"
+  }
+}

@@ -23,6 +23,9 @@ public enum MetallurgyOre {
     URANINITE(true),
     WOLFRAMITE(true),
     ZIRCON(true),
+    MOLYBDENITE(true),
+    COLUMBITE(true),
+    TANTALITE(true),
     CERTUS_QUARTZ(false);
 
     private final boolean grade;

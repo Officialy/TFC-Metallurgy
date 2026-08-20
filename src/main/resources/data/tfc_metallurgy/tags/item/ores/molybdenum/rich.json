@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/rich_molybdenite/andesite",
+    "tfc_metallurgy:ore/rich_molybdenite/basalt",
+    "tfc_metallurgy:ore/rich_molybdenite/chalk",
+    "tfc_metallurgy:ore/rich_molybdenite/chert",
+    "tfc_metallurgy:ore/rich_molybdenite/claystone",
+    "tfc_metallurgy:ore/rich_molybdenite/conglomerate",
+    "tfc_metallurgy:ore/rich_molybdenite/dacite",
+    "tfc_metallurgy:ore/rich_molybdenite/diorite",
+    "tfc_metallurgy:ore/rich_molybdenite/dolomite",
+    "tfc_metallurgy:ore/rich_molybdenite/gabbro",
+    "tfc_metallurgy:ore/rich_molybdenite/gneiss",
+    "tfc_metallurgy:ore/rich_molybdenite/granite",
+    "tfc_metallurgy:ore/rich_molybdenite/limestone",
+    "tfc_metallurgy:ore/rich_molybdenite/marble",
+    "tfc_metallurgy:ore/rich_molybdenite/phyllite",
+    "tfc_metallurgy:ore/rich_molybdenite/quartzite",
+    "tfc_metallurgy:ore/rich_molybdenite/rhyolite",
+    "tfc_metallurgy:ore/rich_molybdenite/schist",
+    "tfc_metallurgy:ore/rich_molybdenite/shale",
+    "tfc_metallurgy:ore/rich_molybdenite/slate",
+    "tfc_metallurgy:ore/rich_molybdenite/tuff"
+  ]
+}

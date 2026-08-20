@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ingots/niobium",
+    "#c:double_ingots/niobium",
+    "#c:sheets/niobium",
+    "#c:double_sheets/niobium",
+    "#c:rods/niobium"
+  ]
+}

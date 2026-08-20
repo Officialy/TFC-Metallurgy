@@ -1,0 +1,5 @@
+{
+  "fluid": "tfc_metallurgy:metal/tantalum",
+  "melt_temperature": 3020,
+  "specific_heat_capacity": 0.009
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:ore/small_columbite"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/niobium",
+    "amount": 10
+  },
+  "temperature": 2470
+}
