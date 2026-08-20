@@ -13,15 +13,27 @@
         ],
         "with": [
           {
-            "weight": 20,
+            "weight": 10,
+            "block": "tfc_metallurgy:ore/poor_columbite/granite"
+          },
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/normal_columbite/granite"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/rich_columbite/granite"
+          },
+          {
+            "weight": 10,
             "block": "tfc_metallurgy:ore/poor_tantalite/granite"
           },
           {
-            "weight": 50,
+            "weight": 25,
             "block": "tfc_metallurgy:ore/normal_tantalite/granite"
           },
           {
-            "weight": 30,
+            "weight": 15,
             "block": "tfc_metallurgy:ore/rich_tantalite/granite"
           }
         ]
@@ -32,15 +44,27 @@
         ],
         "with": [
           {
-            "weight": 20,
+            "weight": 10,
+            "block": "tfc_metallurgy:ore/poor_columbite/schist"
+          },
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/normal_columbite/schist"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/rich_columbite/schist"
+          },
+          {
+            "weight": 10,
             "block": "tfc_metallurgy:ore/poor_tantalite/schist"
           },
           {
-            "weight": 50,
+            "weight": 25,
             "block": "tfc_metallurgy:ore/normal_tantalite/schist"
           },
           {
-            "weight": 30,
+            "weight": 15,
             "block": "tfc_metallurgy:ore/rich_tantalite/schist"
           }
         ]
@@ -51,15 +75,27 @@
         ],
         "with": [
           {
-            "weight": 20,
+            "weight": 10,
+            "block": "tfc_metallurgy:ore/poor_columbite/gneiss"
+          },
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/normal_columbite/gneiss"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/rich_columbite/gneiss"
+          },
+          {
+            "weight": 10,
             "block": "tfc_metallurgy:ore/poor_tantalite/gneiss"
           },
           {
-            "weight": 50,
+            "weight": 25,
             "block": "tfc_metallurgy:ore/normal_tantalite/gneiss"
           },
           {
-            "weight": 30,
+            "weight": 15,
             "block": "tfc_metallurgy:ore/rich_tantalite/gneiss"
           }
         ]
@@ -72,10 +108,13 @@
       "depth": 35,
       "blocks": [
         {
+          "block": "tfc_metallurgy:ore/small_columbite"
+        },
+        {
           "block": "tfc_metallurgy:ore/small_tantalite"
         }
       ]
     },
-    "random_name": "deep_tantalite"
+    "random_name": "deep_coltan"
   }
 }

@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Tantalite is an ore found in pegmatite deposits (granite, schist, gneiss)"
+            "text": "Tantalite is an ore found in pegmatite deposits (granite, schist, gneiss), always alongside $(l:metallum_ores/columbite)Columbite$() -- together the two form what miners call coltan."
         },
         {
             "type": "patchouli:spotlight",

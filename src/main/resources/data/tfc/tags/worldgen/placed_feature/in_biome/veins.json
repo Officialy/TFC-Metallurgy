@@ -38,9 +38,7 @@
     "tfc_metallurgy:vein/normal_molybdenite",
     "tfc_metallurgy:vein/deep_molybdenite",
     "tfc_metallurgy:vein/surface_molybdenite",
-    "tfc_metallurgy:vein/deep_columbite",
-    "tfc_metallurgy:vein/surface_columbite",
-    "tfc_metallurgy:vein/deep_tantalite",
-    "tfc_metallurgy:vein/surface_tantalite"
+    "tfc_metallurgy:vein/deep_coltan",
+    "tfc_metallurgy:vein/surface_coltan"
   ]
 }

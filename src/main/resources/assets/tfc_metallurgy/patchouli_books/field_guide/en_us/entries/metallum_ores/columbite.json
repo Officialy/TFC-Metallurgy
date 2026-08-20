@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Columbite is an ore found in pegmatite deposits (granite, schist, gneiss)"
+            "text": "Columbite is an ore found in pegmatite deposits (granite, schist, gneiss), always alongside $(l:metallum_ores/tantalite)Tantalite$() -- together the two form what miners call coltan."
         },
         {
             "type": "patchouli:spotlight",
