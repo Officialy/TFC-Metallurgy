@@ -55,10 +55,10 @@ import tfc_metallurgy.common.blocks.MetallurgyBlocks;
 
 public enum MetallurgyMetal implements RegistryMetal
 {
-    ANDESITE_ALLOY(0xC9CABA, MapColor.METAL, Rarity.COMMON, -1, PartType.DEFAULT),
-    ANTIMONY(0xF4F4F4, MapColor.METAL, Rarity.COMMON, -1, PartType.DEFAULT),
     ALNICO(0xD87F36, MapColor.COLOR_ORANGE, Rarity.UNCOMMON, -1, PartType.DEFAULT),
     ALUMINUM(0xE3F7FF, MapColor.COLOR_LIGHT_GRAY, Rarity.UNCOMMON, -1, MetallurgyTiers.ALUMINUM, MetallumArmorMaterials.ALUMINUM),
+    ANDESITE_ALLOY(0xC9CABA, MapColor.METAL, Rarity.COMMON, -1, PartType.DEFAULT),
+    ANTIMONY(0xF4F4F4, MapColor.METAL, Rarity.COMMON, -1, PartType.DEFAULT),
     BORON(0x5C5454, MapColor.COLOR_GRAY, Rarity.UNCOMMON, -1, MetallurgyTiers.BORON, MetallumArmorMaterials.BORON),
     BERYLLIUM(0xF6FFCC, MapColor.COLOR_LIGHT_GREEN, Rarity.UNCOMMON, -1, PartType.DEFAULT),
     BERYLLIUM_COPPER(0xFFA677, MapColor.COLOR_ORANGE, Rarity.UNCOMMON, -1, MetallurgyTiers.BERYLLIUM_COPPER, MetallumArmorMaterials.BERYLLIUM_COPPER),
@@ -67,11 +67,12 @@ public enum MetallurgyMetal implements RegistryMetal
     COBALT(0x59A6EE, MapColor.COLOR_BLUE, Rarity.UNCOMMON, -1, MetallurgyTiers.COBALT, MetallumArmorMaterials.COBALT),
     COMPRESSED_IRON(0xBDBDBD, MapColor.METAL, Rarity.UNCOMMON, -1, MetallurgyTiers.COMPRESSED_IRON, MetallumArmorMaterials.COMPRESSED_IRON),
     ELECTRUM(0xFBFBBB, MapColor.GOLD, Rarity.COMMON, -1, PartType.DEFAULT),
-    PLATINUM(0x9CB8BF, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT),
     ENDERIUM(0x76F0EE, MapColor.COLOR_CYAN, Rarity.RARE, -1, MetallurgyTiers.ENDERIUM, MetallumArmorMaterials.ENDERIUM),
     FERROBORON(0x6F7377, MapColor.COLOR_GRAY, Rarity.EPIC, -1, MetallurgyTiers.FERROBORON, MetallumArmorMaterials.FERROBORON),
     FLORENTINE_BRONZE(0xAA924C, MapColor.TERRACOTTA_ORANGE, Rarity.UNCOMMON, -1, MetallurgyTiers.FLORENTINE_BRONZE, MetallumArmorMaterials.FLORENTINE_BRONZE),
     GRAPHITE(0x818088, MapColor.COLOR_GRAY, Rarity.UNCOMMON, -1, PartType.DEFAULT),
+    HIGH_ALLOY_STEEL(0x322E42, MapColor.QUARTZ, Rarity.EPIC, -1, MetallurgyTiers.HIGH_ALLOY_STEEL, MetallumArmorMaterials.HIGH_ALLOY_STEEL),
+    HIGH_CARBON_TUNGSTEN_STEEL(0xF0F399, MapColor.COLOR_GRAY, Rarity.UNCOMMON, -1, PartType.INGOT),
     INVAR(0xDBDCCC, MapColor.COLOR_LIGHT_GRAY, Rarity.UNCOMMON, -1, MetallurgyTiers.INVAR, MetallumArmorMaterials.INVAR),
     IRIDIUM(0xE8F9FF, MapColor.QUARTZ, Rarity.UNCOMMON, -1, PartType.DEFAULT),
     LEAD(0x727988, MapColor.COLOR_GRAY, Rarity.COMMON, -1, PartType.DEFAULT),
@@ -80,36 +81,28 @@ public enum MetallurgyMetal implements RegistryMetal
     MAGNESIUM(0xFF978195, MapColor.COLOR_PINK, Rarity.RARE, -1, PartType.DEFAULT),
     MANGANESE(0xFF9397A8, MapColor.STONE, Rarity.RARE, -1, PartType.DEFAULT),
     MITHRIL(0x89D9FF, MapColor.COLOR_LIGHT_BLUE, Rarity.COMMON, -1, MetallurgyTiers.MITHRIL, MetallumArmorMaterials.MITHRIL),
+    MOLYBDENUM(0xB8B8C8, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT),
+    NEODYMIUM(0xFFC0C0C0, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT),
     NICKEL_SILVER(0xA4A3AA, MapColor.COLOR_LIGHT_GRAY, Rarity.COMMON, -1, MetallurgyTiers.NICKEL_SILVER, MetallumArmorMaterials.NICKEL_SILVER),
+    NIOBIUM(0x4A6FA5, MapColor.COLOR_BLUE, Rarity.RARE, -1, PartType.DEFAULT),
     OSMIUM(0xDDEFFF, MapColor.QUARTZ, Rarity.UNCOMMON, -1, MetallurgyTiers.OSMIUM, MetallumArmorMaterials.OSMIUM),
     OSMIRIDIUM(0xB2C1CC, MapColor.COLOR_LIGHT_GRAY, Rarity.UNCOMMON, -1, MetallurgyTiers.OSMIRIDIUM, MetallumArmorMaterials.OSMIRIDIUM),
     PEWTER(0xB0ABAA, MapColor.STONE, Rarity.UNCOMMON, -1, MetallurgyTiers.PEWTER, MetallumArmorMaterials.PEWTER),
     PINK_SLIME(0xC279B6, MapColor.COLOR_PINK, Rarity.UNCOMMON, -1, PartType.DEFAULT),
+    PLATINUM(0x9CB8BF, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT),
     REFINED_GLOWSTONE(0xFFFDCC, MapColor.COLOR_YELLOW, Rarity.RARE, -1, MetallurgyTiers.REFINED_GLOWSTONE, MetallumArmorMaterials.REFINED_GLOWSTONE),
     REFINED_OBSIDIAN(0xBC92DD, MapColor.COLOR_PURPLE, Rarity.RARE, -1, MetallurgyTiers.REFINED_OBSIDIAN, MetallumArmorMaterials.REFINED_OBSIDIAN),
     SIGNALUM(0xFFC788, MapColor.COLOR_ORANGE, Rarity.RARE, -1, MetallurgyTiers.SIGNALUM, MetallumArmorMaterials.SIGNALUM),
     SOLDER(0x888888, MapColor.STONE, Rarity.UNCOMMON, -1, PartType.DEFAULT),
+    TANTALUM(0x5A5568, MapColor.COLOR_PURPLE, Rarity.RARE, -1, PartType.DEFAULT),
     THORIUM(0x787B77, MapColor.COLOR_GRAY, Rarity.EPIC, -1, MetallurgyTiers.THORIUM, MetallumArmorMaterials.THORIUM),
     TITANIUM(0xD8DAEE, MapColor.QUARTZ, Rarity.EPIC, -1, MetallurgyTiers.TITANIUM, MetallumArmorMaterials.TITANIUM),
     TUNGSTEN(0x97A3BB, MapColor.STONE, Rarity.EPIC, -1, MetallurgyTiers.TUNGSTEN, MetallumArmorMaterials.TUNGSTEN),
     TUNGSTEN_STEEL(0x555E66, MapColor.COLOR_GRAY, Rarity.EPIC, -1, MetallurgyTiers.TUNGSTEN_STEEL, MetallumArmorMaterials.TUNGSTEN_STEEL),
     URANIUM(0xF0F399, MapColor.COLOR_LIGHT_GREEN, Rarity.UNCOMMON, -1, MetallurgyTiers.URANIUM, MetallumArmorMaterials.URANIUM),
-    HIGH_CARBON_TUNGSTEN_STEEL(0xF0F399, MapColor.COLOR_GRAY, Rarity.UNCOMMON, -1, PartType.INGOT),
-    ZIRCALOY(0xFF43423A, MapColor.COLOR_BROWN, Rarity.RARE, -1, PartType.DEFAULT),
-    ZIRCONIUM(0xFF747527, MapColor.TERRACOTTA_GREEN, Rarity.RARE, -1, PartType.DEFAULT),
-    NEODYMIUM(0xFFC0C0C0, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT),
     VANADIUM(0x9AAF9E, MapColor.COLOR_GREEN, Rarity.UNCOMMON, -1, PartType.DEFAULT),
-
-    // Alloying elements for High Alloy Steel. Kept as DEFAULT (no tools/armor of their own),
-    // matching how other alloy-ingredient-only elements in this enum (antimony, lead, lithium,
-    // platinum) are handled -- their purpose here is to be melted down and combined, not forged.
-    MOLYBDENUM(0xB8B8C8, MapColor.COLOR_LIGHT_GRAY, Rarity.RARE, -1, PartType.DEFAULT),
-    NIOBIUM(0x4A6FA5, MapColor.COLOR_BLUE, Rarity.RARE, -1, PartType.DEFAULT),
-    TANTALUM(0x5A5568, MapColor.COLOR_PURPLE, Rarity.RARE, -1, PartType.DEFAULT),
-
-    // The pinnacle tool tier -- alloy only, no ore of its own. Made by combining molten weak
-    // steel with chromium, vanadium, manganese, cobalt and the above alloying elements in a vat.
-    HIGH_ALLOY_STEEL(0x322E42, MapColor.QUARTZ, Rarity.EPIC, -1, MetallurgyTiers.HIGH_ALLOY_STEEL, MetallumArmorMaterials.HIGH_ALLOY_STEEL);
+    ZIRCALOY(0xFF43423A, MapColor.COLOR_BROWN, Rarity.RARE, -1, PartType.DEFAULT),
+    ZIRCONIUM(0xFF747527, MapColor.TERRACOTTA_GREEN, Rarity.RARE, -1, PartType.DEFAULT);
 
     private final String serializedName;
     private final PartType partType;
