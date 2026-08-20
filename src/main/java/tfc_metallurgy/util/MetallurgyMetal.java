@@ -217,6 +217,7 @@ public enum MetallurgyMetal implements RegistryMetal
         SHEET(PartType.DEFAULT, false),
         DOUBLE_SHEET(PartType.DEFAULT, false),
         ROD(PartType.DEFAULT, false),
+        DUST(PartType.DEFAULT, false),
         TUYERE(PartType.ALL, metal -> new TieredItem(metal.toolTier(), base(metal))),
         FISH_HOOK(PartType.ALL, false),
         FISHING_ROD(PartType.ALL, metal -> new TFCFishingRodItem(base(metal).durability(metal.toolTier().getUses()), metal.toolTier())),

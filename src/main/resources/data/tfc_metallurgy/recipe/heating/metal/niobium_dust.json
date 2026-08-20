@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/niobium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/niobium",
+    "amount": 5
+  },
+  "temperature": 1540,
+  "use_durability": false
+}

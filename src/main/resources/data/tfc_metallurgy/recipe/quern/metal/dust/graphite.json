@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "c:ingots/graphite"
+  },
+  "result": {
+    "count": 20,
+    "id": "tfc_metallurgy:metal/dust/graphite"
+  }
+}

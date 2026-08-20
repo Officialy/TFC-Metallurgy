@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "c:ingots/andesite_alloy"
+  },
+  "result": {
+    "count": 20,
+    "id": "tfc_metallurgy:metal/dust/andesite_alloy"
+  }
+}
