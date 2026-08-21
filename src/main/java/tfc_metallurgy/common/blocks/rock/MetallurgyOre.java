@@ -9,9 +9,11 @@ public enum MetallurgyOre {
     BAUXITE(true),
     BERTRANDITE(true),
     COBALTITE(true),
+    COLUMBITE(true),
     KERNITE(true),
     GALENA(true),
     MAGNESITE(true),
+    MOLYBDENITE(true),
     MONAZITE(true),
     NATIVE_OSMIUM(true),
     NATIVE_IRIDIUM(true),
@@ -20,12 +22,10 @@ public enum MetallurgyOre {
     PYROLUSITE(true),
     SPODUMENE(true),
     STIBNITE(true),
+    TANTALITE(true),
     URANINITE(true),
     WOLFRAMITE(true),
     ZIRCON(true),
-    MOLYBDENITE(true),
-    COLUMBITE(true),
-    TANTALITE(true),
     CERTUS_QUARTZ(false);
 
     private final boolean grade;
