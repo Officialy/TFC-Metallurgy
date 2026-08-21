@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:ingots/tantalum"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/tantalum",
+    "amount": 100
+  },
+  "temperature": 1540,
+  "use_durability": false
+}

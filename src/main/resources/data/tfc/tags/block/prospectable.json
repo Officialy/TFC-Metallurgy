@@ -1038,6 +1038,9 @@
     "#c:ores/antimony",
     "#c:ores/uranium",
     "#c:ores/tungsten",
-    "#c:ores/zirconium"
+    "#c:ores/zirconium",
+    "#c:ores/molybdenum",
+    "#c:ores/niobium",
+    "#c:ores/tantalum"
   ]
 }

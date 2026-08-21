@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/lead"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/lead",
+    "amount": 5
+  },
+  "temperature": 328,
+  "use_durability": false
+}

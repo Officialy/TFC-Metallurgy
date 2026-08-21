@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_metallurgy:ore/small_columbite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/normal_columbite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/poor_columbite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/rich_columbite"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 924,
+  "welding_temperature": 1232
+}

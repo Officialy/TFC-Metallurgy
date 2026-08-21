@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "c:dusts/cobalt"
+  },
+  "heat_capacity": 0.2,
+  "forging_temperature": 900,
+  "welding_temperature": 1200
+}

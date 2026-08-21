@@ -1,0 +1,21 @@
+{
+    "name": "Molybdenite",
+    "category": "tfc_metallurgy:metallum_ores",
+    "icon": "tfc_metallurgy:ore/rich_molybdenite",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Molybdenite is an ore found in Igneous Rocks"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc_metallurgy:ore/rich_molybdenite/granite",
+            "title": "Molybdenite",
+            "link_recipes": false
+        },
+        {
+            "type": "patchouli:text",
+            "text": "It melts into $(thing)Molybdenum$()"
+        }
+    ]
+}

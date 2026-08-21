@@ -1,0 +1,12 @@
+{
+  "tier": 5,
+  "fluid": "tfc_metallurgy:metal/molybdenum",
+  "melt_temperature": 1540,
+  "specific_heat_capacity": 0.01,
+  "ingots": {
+    "tag": "c:ingots/molybdenum"
+  },
+  "sheets": {
+    "tag": "c:sheets/molybdenum"
+  }
+}

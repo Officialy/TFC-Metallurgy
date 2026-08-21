@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ingots/tantalum",
+    "#c:double_ingots/tantalum",
+    "#c:sheets/tantalum",
+    "#c:double_sheets/tantalum",
+    "#c:rods/tantalum"
+  ]
+}

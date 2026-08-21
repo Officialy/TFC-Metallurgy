@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/rich_tantalite/andesite",
+    "tfc_metallurgy:ore/rich_tantalite/basalt",
+    "tfc_metallurgy:ore/rich_tantalite/chalk",
+    "tfc_metallurgy:ore/rich_tantalite/chert",
+    "tfc_metallurgy:ore/rich_tantalite/claystone",
+    "tfc_metallurgy:ore/rich_tantalite/conglomerate",
+    "tfc_metallurgy:ore/rich_tantalite/dacite",
+    "tfc_metallurgy:ore/rich_tantalite/diorite",
+    "tfc_metallurgy:ore/rich_tantalite/dolomite",
+    "tfc_metallurgy:ore/rich_tantalite/gabbro",
+    "tfc_metallurgy:ore/rich_tantalite/gneiss",
+    "tfc_metallurgy:ore/rich_tantalite/granite",
+    "tfc_metallurgy:ore/rich_tantalite/limestone",
+    "tfc_metallurgy:ore/rich_tantalite/marble",
+    "tfc_metallurgy:ore/rich_tantalite/phyllite",
+    "tfc_metallurgy:ore/rich_tantalite/quartzite",
+    "tfc_metallurgy:ore/rich_tantalite/rhyolite",
+    "tfc_metallurgy:ore/rich_tantalite/schist",
+    "tfc_metallurgy:ore/rich_tantalite/shale",
+    "tfc_metallurgy:ore/rich_tantalite/slate",
+    "tfc_metallurgy:ore/rich_tantalite/tuff"
+  ]
+}

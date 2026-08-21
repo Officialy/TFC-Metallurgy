@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/axe_head/high_alloy_steel"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/high_alloy_steel",
+    "amount": 100
+  },
+  "temperature": 1535
+}

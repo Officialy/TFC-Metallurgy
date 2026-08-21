@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "c:ingots/nickel_silver"
+  },
+  "result": {
+    "count": 20,
+    "id": "tfc_metallurgy:metal/dust/nickel_silver"
+  }
+}

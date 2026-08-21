@@ -23,6 +23,7 @@
     "tfc_metallurgy:metal/fishing_rod/titanium",
     "tfc_metallurgy:metal/fishing_rod/tungsten",
     "tfc_metallurgy:metal/fishing_rod/tungsten_steel",
-    "tfc_metallurgy:metal/fishing_rod/uranium"
+    "tfc_metallurgy:metal/fishing_rod/uranium",
+    "tfc_metallurgy:metal/fishing_rod/high_alloy_steel"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/niobium"
+  },
+  "second_input": {
+    "tag": "c:ingots/niobium"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/niobium"
+  }
+}
