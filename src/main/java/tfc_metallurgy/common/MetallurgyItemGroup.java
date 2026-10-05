@@ -134,12 +134,12 @@ public class MetallurgyItemGroup {
     }
 
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == TFCCreativeTabs.MISC.tab().getKey()) {
+        if (event.getTabKey() == TFCCreativeTabs.TFC_METALS_INGREDIENTS.tab().getKey()) {
             for (MetallurgyMetal metal : MetallurgyMetal.values()) {
                 event.accept(MetallurgyItems.METAL_FLUID_BUCKETS.get(metal).get());
             }
         }
-        if (event.getTabKey() == TFCCreativeTabs.DECORATIONS.tab().getKey()) {
+        if (event.getTabKey() == TFCCreativeTabs.TFC_BUILDING_BLOCKS.tab().getKey()) {
             event.accept(MetallurgyBlocks.BERYLLIUM_COPPER_BELL.get());
             event.accept(MetallurgyBlocks.FLORENTINE_BRONZE_BELL.get());
             event.accept(MetallurgyBlocks.ENDERIUM_BARS.get());
