@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_metallurgy:ore/normal_columbite/andesite",
+    "tfc_metallurgy:ore/normal_columbite/basalt",
+    "tfc_metallurgy:ore/normal_columbite/chalk",
+    "tfc_metallurgy:ore/normal_columbite/chert",
+    "tfc_metallurgy:ore/normal_columbite/claystone",
+    "tfc_metallurgy:ore/normal_columbite/conglomerate",
+    "tfc_metallurgy:ore/normal_columbite/dacite",
+    "tfc_metallurgy:ore/normal_columbite/diorite",
+    "tfc_metallurgy:ore/normal_columbite/dolomite",
+    "tfc_metallurgy:ore/normal_columbite/gabbro",
+    "tfc_metallurgy:ore/normal_columbite/gneiss",
+    "tfc_metallurgy:ore/normal_columbite/granite",
+    "tfc_metallurgy:ore/normal_columbite/limestone",
+    "tfc_metallurgy:ore/normal_columbite/marble",
+    "tfc_metallurgy:ore/normal_columbite/phyllite",
+    "tfc_metallurgy:ore/normal_columbite/quartzite",
+    "tfc_metallurgy:ore/normal_columbite/rhyolite",
+    "tfc_metallurgy:ore/normal_columbite/schist",
+    "tfc_metallurgy:ore/normal_columbite/shale",
+    "tfc_metallurgy:ore/normal_columbite/slate",
+    "tfc_metallurgy:ore/normal_columbite/tuff"
+  ]
+}

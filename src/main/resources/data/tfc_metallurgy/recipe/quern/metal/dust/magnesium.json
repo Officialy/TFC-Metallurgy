@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "c:ingots/magnesium"
+  },
+  "result": {
+    "count": 20,
+    "id": "tfc_metallurgy:metal/dust/magnesium"
+  }
+}

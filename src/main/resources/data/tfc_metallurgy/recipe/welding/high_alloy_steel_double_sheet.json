@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/high_alloy_steel"
+  },
+  "second_input": {
+    "tag": "c:sheets/high_alloy_steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/high_alloy_steel"
+  }
+}

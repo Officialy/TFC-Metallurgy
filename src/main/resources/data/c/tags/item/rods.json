@@ -1,4 +1,4 @@
-﻿{
+{
   "replace": false,
   "values": [
     "tfc_metallurgy:metal/rod/andesite_alloy",
@@ -41,9 +41,12 @@
     "tfc_metallurgy:metal/rod/tungsten_steel",
     "tfc_metallurgy:metal/rod/uranium",
     "tfc_metallurgy:metal/rod/zircaloy",
-    "tfc_metallurgy:metal/rod/zirconium"
-  ,
+    "tfc_metallurgy:metal/rod/zirconium",
     "tfc_metallurgy:metal/rod/neodymium",
-    "tfc_metallurgy:metal/rod/vanadium"
+    "tfc_metallurgy:metal/rod/vanadium",
+    "tfc_metallurgy:metal/rod/molybdenum",
+    "tfc_metallurgy:metal/rod/niobium",
+    "tfc_metallurgy:metal/rod/tantalum",
+    "tfc_metallurgy:metal/rod/high_alloy_steel"
   ]
 }

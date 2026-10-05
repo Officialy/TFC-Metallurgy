@@ -1,6 +1,7 @@
 {
   "type": "tfc:anvil",
   "result": {
+    "count": 2,
     "id": "tfc_metallurgy:metal/rod/andesite_alloy"
   },
   "tier": 2,

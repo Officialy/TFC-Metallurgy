@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc_metallurgy:block/ore/small_tantalite",
+        "y": 90
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_tantalite"
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_tantalite",
+        "y": 180
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_tantalite",
+        "y": 270
+      }
+    ]
+  }
+}

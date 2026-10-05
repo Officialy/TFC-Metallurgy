@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_metallurgy:ore/small_molybdenite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/normal_molybdenite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/poor_molybdenite"
+    },
+    {
+      "item": "tfc_metallurgy:ore/rich_molybdenite"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 924,
+  "welding_temperature": 1232
+}

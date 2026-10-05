@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc_metallurgy:block/ore/small_molybdenite",
+        "y": 90
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_molybdenite"
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_molybdenite",
+        "y": 180
+      },
+      {
+        "model": "tfc_metallurgy:block/ore/small_molybdenite",
+        "y": 270
+      }
+    ]
+  }
+}

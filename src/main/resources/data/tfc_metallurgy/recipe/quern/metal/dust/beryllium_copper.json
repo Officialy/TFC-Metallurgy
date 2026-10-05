@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "c:ingots/beryllium_copper"
+  },
+  "result": {
+    "count": 20,
+    "id": "tfc_metallurgy:metal/dust/beryllium_copper"
+  }
+}

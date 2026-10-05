@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/iridium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/iridium",
+    "amount": 5
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

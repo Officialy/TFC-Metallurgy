@@ -42,6 +42,7 @@ public final class MetallurgyTiers
 
     // Level 6 (colored steel-equiv)
     public static final LevelTier TUNGSTEN_STEEL = create("tungsten_steel", BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 6, 9200, 18f, 9.1f, 24);
+    public static final LevelTier HIGH_ALLOY_STEEL = create("high_alloy_steel", BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 6, 13000, 35f, 11.5f, 22);
 
     private static LevelTier create(String name, TagKey<Block> tag, int level, int uses, float speed, float damage, int enchantmentValue)
     {

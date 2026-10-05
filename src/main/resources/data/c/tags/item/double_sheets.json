@@ -1,4 +1,4 @@
-﻿{
+{
   "replace": false,
   "values": [
     "tfc_metallurgy:metal/double_sheet/andesite_alloy",
@@ -41,9 +41,12 @@
     "tfc_metallurgy:metal/double_sheet/tungsten_steel",
     "tfc_metallurgy:metal/double_sheet/uranium",
     "tfc_metallurgy:metal/double_sheet/zircaloy",
-    "tfc_metallurgy:metal/double_sheet/zirconium"
-  ,
+    "tfc_metallurgy:metal/double_sheet/zirconium",
     "tfc_metallurgy:metal/double_sheet/neodymium",
-    "tfc_metallurgy:metal/double_sheet/vanadium"
+    "tfc_metallurgy:metal/double_sheet/vanadium",
+    "tfc_metallurgy:metal/double_sheet/molybdenum",
+    "tfc_metallurgy:metal/double_sheet/niobium",
+    "tfc_metallurgy:metal/double_sheet/tantalum",
+    "tfc_metallurgy:metal/double_sheet/high_alloy_steel"
   ]
 }

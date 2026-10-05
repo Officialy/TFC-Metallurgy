@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/andesite_alloy"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/andesite_alloy",
+    "amount": 5
+  },
+  "temperature": 520,
+  "use_durability": false
+}

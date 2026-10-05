@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "c:ingots/refined_obsidian"
+  },
+  "result": {
+    "count": 20,
+    "id": "tfc_metallurgy:metal/dust/refined_obsidian"
+  }
+}

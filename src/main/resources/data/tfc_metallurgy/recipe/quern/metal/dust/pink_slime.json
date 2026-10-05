@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "c:ingots/pink_slime"
+  },
+  "result": {
+    "count": 20,
+    "id": "tfc_metallurgy:metal/dust/pink_slime"
+  }
+}

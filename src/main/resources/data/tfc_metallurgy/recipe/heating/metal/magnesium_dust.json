@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/magnesium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/magnesium",
+    "amount": 5
+  },
+  "temperature": 650,
+  "use_durability": false
+}

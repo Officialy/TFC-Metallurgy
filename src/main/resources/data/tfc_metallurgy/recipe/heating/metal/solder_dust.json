@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/solder"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/solder",
+    "amount": 5
+  },
+  "temperature": 400,
+  "use_durability": false
+}

@@ -1,0 +1,32 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "textures": {
+    "particle": "tfc_metallurgy:item/metal/javelin/high_alloy_steel"
+  },
+  "gui_light": "front",
+  "overrides": [
+    {
+      "predicate": {
+        "tfc:throwing": 1
+      },
+      "model": "tfc_metallurgy:item/metal/javelin/high_alloy_steel_throwing"
+    }
+  ],
+  "base": {
+    "parent": "tfc_metallurgy:item/metal/javelin/high_alloy_steel_in_hand"
+  },
+  "perspectives": {
+    "none": {
+      "parent": "tfc_metallurgy:item/metal/javelin/high_alloy_steel_gui"
+    },
+    "fixed": {
+      "parent": "tfc_metallurgy:item/metal/javelin/high_alloy_steel_gui"
+    },
+    "ground": {
+      "parent": "tfc_metallurgy:item/metal/javelin/high_alloy_steel_gui"
+    },
+    "gui": {
+      "parent": "tfc_metallurgy:item/metal/javelin/high_alloy_steel_gui"
+    }
+  }
+}

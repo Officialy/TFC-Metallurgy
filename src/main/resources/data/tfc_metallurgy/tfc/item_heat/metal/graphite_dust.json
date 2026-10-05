@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "c:dusts/graphite"
+  },
+  "heat_capacity": 0.143,
+  "forging_temperature": 300,
+  "welding_temperature": 400
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Tantalite",
+    "category": "tfc_metallurgy:metallum_ores",
+    "icon": "tfc_metallurgy:ore/rich_tantalite",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Tantalite is an ore found in pegmatite deposits (granite, schist, gneiss), always alongside $(l:metallum_ores/columbite)Columbite$() -- together the two form what miners call coltan."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tfc_metallurgy:ore/rich_tantalite/granite",
+            "title": "Tantalite",
+            "link_recipes": false
+        },
+        {
+            "type": "patchouli:text",
+            "text": "It melts into $(thing)Tantalum$()"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/zirconium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/zirconium",
+    "amount": 5
+  },
+  "temperature": 1850,
+  "use_durability": false
+}

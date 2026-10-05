@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "c:dusts/uranium"
+  },
+  "heat_capacity": 0.143,
+  "forging_temperature": 660,
+  "welding_temperature": 880
+}

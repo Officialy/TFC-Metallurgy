@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/manganese"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/manganese",
+    "amount": 5
+  },
+  "temperature": 1250,
+  "use_durability": false
+}

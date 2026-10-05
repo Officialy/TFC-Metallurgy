@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "c:sheets/tantalum"
+  },
+  "heat_capacity": 9.091,
+  "forging_temperature": 924,
+  "welding_temperature": 1232
+}

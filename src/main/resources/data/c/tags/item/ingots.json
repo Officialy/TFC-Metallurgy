@@ -43,6 +43,10 @@
     "tfc_metallurgy:metal/ingot/zircaloy",
     "tfc_metallurgy:metal/ingot/zirconium",
     "tfc_metallurgy:metal/ingot/neodymium",
-    "tfc_metallurgy:metal/ingot/vanadium"
+    "tfc_metallurgy:metal/ingot/vanadium",
+    "tfc_metallurgy:metal/ingot/molybdenum",
+    "tfc_metallurgy:metal/ingot/niobium",
+    "tfc_metallurgy:metal/ingot/tantalum",
+    "tfc_metallurgy:metal/ingot/high_alloy_steel"
   ]
 }

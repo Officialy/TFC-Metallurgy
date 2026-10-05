@@ -1,0 +1,32 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "  X",
+    " XY",
+    "XZY"
+  ],
+  "key": {
+    "X": {
+      "tag": "c:rods/wooden"
+    },
+    "Y": {
+      "tag": "c:string"
+    },
+    "Z": {
+      "item": "tfc_metallurgy:metal/fish_hook/high_alloy_steel"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "tfc_metallurgy:metal/fishing_rod/high_alloy_steel",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 2,
+  "input_column": 1
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ingots/molybdenum",
+    "#c:double_ingots/molybdenum",
+    "#c:sheets/molybdenum",
+    "#c:double_sheets/molybdenum",
+    "#c:rods/molybdenum"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "result": {
+    "count": 20,
+    "id": "tfc_metallurgy:metal/dust/compressed_iron"
+  }
+}

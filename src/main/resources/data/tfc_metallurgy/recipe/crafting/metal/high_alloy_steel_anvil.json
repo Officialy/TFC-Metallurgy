@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " X ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc_metallurgy:metal/double_ingot/high_alloy_steel"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/anvil/high_alloy_steel"
+  },
+  "category": "misc"
+}

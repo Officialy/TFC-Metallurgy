@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "c:dusts/aluminum"
+  },
+  "heat_capacity": 0.167,
+  "forging_temperature": 396,
+  "welding_temperature": 528
+}

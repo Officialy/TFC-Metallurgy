@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_metallurgy:metal/unfinished_helmet/high_alloy_steel"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/high_alloy_steel",
+    "amount": 400
+  },
+  "temperature": 1535
+}

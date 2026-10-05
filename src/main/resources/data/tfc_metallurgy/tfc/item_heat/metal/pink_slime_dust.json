@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "c:dusts/pink_slime"
+  },
+  "heat_capacity": 0.143,
+  "forging_temperature": 600,
+  "welding_temperature": 800
+}

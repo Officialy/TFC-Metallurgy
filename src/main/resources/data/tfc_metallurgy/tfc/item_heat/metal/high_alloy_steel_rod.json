@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "c:rods/high_alloy_steel"
+  },
+  "heat_capacity": 2.5,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}
