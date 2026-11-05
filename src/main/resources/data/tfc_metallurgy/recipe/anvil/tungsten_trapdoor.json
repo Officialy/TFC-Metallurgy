@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/trapdoor/tungsten"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "bend_last",
     "draw_second_last",

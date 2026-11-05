@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/fish_hook/tungsten_steel"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "draw_not_last",
     "bend_any",

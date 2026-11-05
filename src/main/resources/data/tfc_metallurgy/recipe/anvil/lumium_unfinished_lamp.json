@@ -1,11 +1,15 @@
 {
-  "type": "tfc:heating",
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/unfinished_lamp/lumium"
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "draw_third_last"
+  ],
   "ingredient": {
-    "item": "tfc_metallurgy:metal/unfinished_lamp/lumium"
-  },
-  "result_fluid": {
-    "amount": 200,
-    "id": "tfc_metallurgy:metal/lumium"
-  },
-  "temperature": 1500
+    "tag": "c:ingots/lumium"
+  }
 }

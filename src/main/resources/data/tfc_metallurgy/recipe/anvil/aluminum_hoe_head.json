@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/hoe_head/aluminum"
   },
-  "tier": 3,
+  "tier": 4,
   "rules": [
     "punch_last",
     "hit_not_last",

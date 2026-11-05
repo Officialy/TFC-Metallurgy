@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tfc_metallurgy:metal/unfinished_lamp/thorium"
+    },
+    {
+      "item": "tfc:lamp_glass"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/lamp/thorium"
+  }
+}

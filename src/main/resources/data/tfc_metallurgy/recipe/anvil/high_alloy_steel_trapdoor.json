@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/trapdoor/high_alloy_steel"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "bend_last",
     "draw_second_last",

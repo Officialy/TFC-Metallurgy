@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/pickaxe_head/high_alloy_steel"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "punch_last",
     "bend_not_last",

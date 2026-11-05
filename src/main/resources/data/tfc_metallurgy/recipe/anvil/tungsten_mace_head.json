@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/mace_head/tungsten"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "hit_last",
     "shrink_not_last",

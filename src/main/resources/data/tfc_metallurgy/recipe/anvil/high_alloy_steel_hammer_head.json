@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/hammer_head/high_alloy_steel"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "punch_last",
     "shrink_not_last"

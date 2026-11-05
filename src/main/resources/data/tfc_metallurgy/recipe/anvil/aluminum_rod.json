@@ -4,7 +4,7 @@
     "count": 2,
     "id": "tfc_metallurgy:metal/rod/aluminum"
   },
-  "tier": 3,
+  "tier": 4,
   "rules": [
     "bend_last",
     "draw_second_last",

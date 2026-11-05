@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/sheet/niobium"
   },
-  "tier": 1,
+  "tier": 5,
   "rules": [
     "hit_last",
     "hit_second_last",

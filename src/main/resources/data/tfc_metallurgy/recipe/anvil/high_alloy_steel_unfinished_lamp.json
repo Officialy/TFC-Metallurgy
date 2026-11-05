@@ -1,15 +1,15 @@
 {
   "type": "tfc:anvil",
   "result": {
-    "id": "tfc_metallurgy:metal/unfinished_boots/high_alloy_steel"
+    "id": "tfc_metallurgy:metal/unfinished_lamp/high_alloy_steel"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "bend_last",
     "bend_second_last",
-    "shrink_third_last"
+    "draw_third_last"
   ],
   "ingredient": {
-    "tag": "c:sheets/high_alloy_steel"
+    "tag": "c:ingots/high_alloy_steel"
   }
 }

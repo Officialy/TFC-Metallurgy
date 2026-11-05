@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/mace_head/aluminum"
   },
-  "tier": 3,
+  "tier": 4,
   "rules": [
     "hit_last",
     "shrink_not_last",

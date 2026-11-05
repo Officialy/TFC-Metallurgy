@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/shield/aluminum"
   },
-  "tier": 3,
+  "tier": 4,
   "rules": [
     "upset_last",
     "bend_second_last",

@@ -1,5 +1,6 @@
 {
   "type": "tfc:welding",
+  "tier": 5,
   "first_input": {
     "tag": "c:sheets/tantalum"
   },

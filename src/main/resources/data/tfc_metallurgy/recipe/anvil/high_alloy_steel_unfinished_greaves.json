@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/unfinished_greaves/high_alloy_steel"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "bend_any",
     "draw_any",

@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/hammer_head/tungsten"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "punch_last",
     "shrink_not_last"

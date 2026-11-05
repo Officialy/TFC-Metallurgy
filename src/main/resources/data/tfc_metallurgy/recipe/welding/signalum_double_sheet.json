@@ -1,5 +1,6 @@
 {
   "type": "tfc:welding",
+  "tier": 3,
   "first_input": {
     "tag": "c:sheets/signalum"
   },

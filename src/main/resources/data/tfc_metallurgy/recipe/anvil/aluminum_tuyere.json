@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/tuyere/aluminum"
   },
-  "tier": 3,
+  "tier": 4,
   "rules": [
     "bend_last",
     "bend_second_last"

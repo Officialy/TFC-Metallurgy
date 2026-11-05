@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/knife_blade/pewter"
   },
-  "tier": 2,
+  "tier": 3,
   "rules": [
     "hit_last",
     "draw_second_last",

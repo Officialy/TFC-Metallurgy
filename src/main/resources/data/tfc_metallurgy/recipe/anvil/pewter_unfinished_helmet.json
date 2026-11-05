@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/unfinished_helmet/pewter"
   },
-  "tier": 2,
+  "tier": 3,
   "rules": [
     "hit_last",
     "bend_second_last",

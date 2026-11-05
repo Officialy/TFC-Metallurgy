@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/scythe_blade/high_alloy_steel"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "hit_last",
     "draw_second_last",

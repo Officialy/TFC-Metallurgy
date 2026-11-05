@@ -4,7 +4,7 @@
     "count": 2,
     "id": "tfc_metallurgy:metal/rod/niobium"
   },
-  "tier": 1,
+  "tier": 5,
   "rules": [
     "bend_last",
     "draw_second_last",
