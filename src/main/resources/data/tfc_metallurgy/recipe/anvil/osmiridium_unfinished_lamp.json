@@ -1,11 +1,15 @@
 {
-  "type": "tfc:heating",
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/unfinished_lamp/osmiridium"
+  },
+  "tier": 3,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "draw_third_last"
+  ],
   "ingredient": {
-    "item": "tfc_metallurgy:metal/unfinished_lamp/osmiridium"
-  },
-  "result_fluid": {
-    "amount": 200,
-    "id": "tfc_metallurgy:metal/osmiridium"
-  },
-  "temperature": 1500
+    "tag": "c:ingots/osmiridium"
+  }
 }

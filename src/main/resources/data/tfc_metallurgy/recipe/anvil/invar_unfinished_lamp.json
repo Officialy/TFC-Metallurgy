@@ -1,11 +1,15 @@
 {
-  "type": "tfc:heating",
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/unfinished_lamp/invar"
+  },
+  "tier": 3,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "draw_third_last"
+  ],
   "ingredient": {
-    "item": "tfc_metallurgy:metal/unfinished_lamp/invar"
-  },
-  "result_fluid": {
-    "amount": 200,
-    "id": "tfc_metallurgy:metal/invar"
-  },
-  "temperature": 1450
+    "tag": "c:ingots/invar"
+  }
 }

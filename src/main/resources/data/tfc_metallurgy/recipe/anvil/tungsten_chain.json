@@ -4,7 +4,7 @@
     "count": 16,
     "id": "tfc_metallurgy:metal/chain/tungsten"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "hit_any",
     "hit_any",

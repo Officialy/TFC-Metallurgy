@@ -4,7 +4,7 @@
     "count": 2,
     "id": "tfc_metallurgy:metal/rod/titanium"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "bend_last",
     "draw_second_last",

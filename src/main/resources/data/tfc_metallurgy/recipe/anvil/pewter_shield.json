@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/shield/pewter"
   },
-  "tier": 2,
+  "tier": 3,
   "rules": [
     "upset_last",
     "bend_second_last",

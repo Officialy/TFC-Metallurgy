@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/shovel_head/pewter"
   },
-  "tier": 2,
+  "tier": 3,
   "rules": [
     "punch_last",
     "hit_not_last"

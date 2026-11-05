@@ -1,5 +1,6 @@
 {
   "type": "tfc:welding",
+  "tier": 2,
   "first_input": {
     "tag": "c:ingots/osmium"
   },

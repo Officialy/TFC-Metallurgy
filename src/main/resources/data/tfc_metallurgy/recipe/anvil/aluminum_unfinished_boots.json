@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/unfinished_boots/aluminum"
   },
-  "tier": 3,
+  "tier": 4,
   "rules": [
     "bend_last",
     "bend_second_last",

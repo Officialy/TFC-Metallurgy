@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/tuyere/tungsten"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "bend_last",
     "bend_second_last"

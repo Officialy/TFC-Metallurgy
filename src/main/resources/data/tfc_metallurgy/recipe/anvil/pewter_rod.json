@@ -4,7 +4,7 @@
     "count": 2,
     "id": "tfc_metallurgy:metal/rod/pewter"
   },
-  "tier": 2,
+  "tier": 3,
   "rules": [
     "bend_last",
     "draw_second_last",

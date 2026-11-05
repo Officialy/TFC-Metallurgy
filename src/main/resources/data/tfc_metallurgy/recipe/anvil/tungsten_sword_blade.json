@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/sword_blade/tungsten"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "hit_last",
     "bend_second_last",

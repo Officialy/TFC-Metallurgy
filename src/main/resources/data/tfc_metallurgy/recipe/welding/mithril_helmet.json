@@ -1,5 +1,6 @@
 {
   "type": "tfc:welding",
+  "tier": 1,
   "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_helmet/mithril"

@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/mace_head/pewter"
   },
-  "tier": 2,
+  "tier": 3,
   "rules": [
     "hit_last",
     "shrink_not_last",

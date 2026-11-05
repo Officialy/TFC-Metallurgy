@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/unfinished_helmet/high_alloy_steel"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "hit_last",
     "bend_second_last",

@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/shield/titanium"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "upset_last",
     "bend_second_last",

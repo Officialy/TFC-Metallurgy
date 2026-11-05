@@ -1,5 +1,6 @@
 {
   "type": "tfc:welding",
+  "tier": 5,
   "bonus": "copy_worst",
   "first_input": {
     "item": "tfc_metallurgy:metal/knife_blade/thorium"

@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/tuyere/titanium"
   },
-  "tier": 3,
+  "tier": 6,
   "rules": [
     "bend_last",
     "bend_second_last"

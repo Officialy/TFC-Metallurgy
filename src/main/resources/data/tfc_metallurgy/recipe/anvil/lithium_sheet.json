@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/sheet/lithium"
   },
-  "tier": 3,
+  "tier": 2,
   "rules": [
     "hit_last",
     "hit_second_last",

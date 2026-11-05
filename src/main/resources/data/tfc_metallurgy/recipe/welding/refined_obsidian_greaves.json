@@ -1,5 +1,6 @@
 {
   "type": "tfc:welding",
+  "tier": 3,
   "bonus": "copy_best",
   "first_input": {
     "item": "tfc_metallurgy:metal/unfinished_greaves/refined_obsidian"

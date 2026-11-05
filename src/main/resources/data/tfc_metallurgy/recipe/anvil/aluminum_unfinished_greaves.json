@@ -3,7 +3,7 @@
   "result": {
     "id": "tfc_metallurgy:metal/unfinished_greaves/aluminum"
   },
-  "tier": 3,
+  "tier": 4,
   "rules": [
     "bend_any",
     "draw_any",
